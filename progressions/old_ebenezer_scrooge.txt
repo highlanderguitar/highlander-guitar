@@ -1,0 +1,11 @@
+Title: Old Ebenezer Scrooge
+Key: G
+Spelling: sharps
+
+quality G=maj7 F=maj7 C=maj7 D=7
+
+A section
+G--- | F--- | G--- | D-G-
+
+B section
+G--- | C--- | G--- | D-G-

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Generated outputs
+output/
+parsed_output/
+score_parser/output/
+score_parser/input/
+
+# Temp / scratch inputs
+score_parser/input_txt/
+
+# OS junk
+.DS_Store
+Thumbs.db
