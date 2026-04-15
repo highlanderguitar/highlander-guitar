@@ -1,0 +1,1235 @@
+{
+    "title": "swing_51",
+    "harmonic_stream": [
+        "Dmaj9",
+        "Dm9",
+        "G13",
+        "Fmaj7",
+        "Bb7",
+        "A7",
+        "Bm7",
+        "C6/9",
+        "C#m7",
+        "E9",
+        "A11",
+        "Dmaj9",
+        "Dm9",
+        "G13",
+        "Fmaj7",
+        "Bb7",
+        "Dmaj9",
+        "Dm9",
+        "G13",
+        "A7",
+        "Bm7",
+        "C6/9",
+        "C#m7",
+        "Bm7",
+        "E9",
+        "A7",
+        "A11",
+        "A7"
+    ],
+    "unique_chords": [
+        "Dmaj9",
+        "Dm9",
+        "G13",
+        "Fmaj7",
+        "Bb7",
+        "A7",
+        "Bm7",
+        "C6/9",
+        "C#m7",
+        "E9",
+        "A11"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "Dmaj9",
+                "Dm9",
+                "G13",
+                "Fmaj7",
+                "Bb7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                11
+            ]
+        },
+        {
+            "cell": [
+                "Dmaj9",
+                "Dm9",
+                "G13",
+                "Fmaj7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                11
+            ]
+        },
+        {
+            "cell": [
+                "Dm9",
+                "G13",
+                "Fmaj7",
+                "Bb7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                12
+            ]
+        },
+        {
+            "cell": [
+                "A7",
+                "Bm7",
+                "C6/9",
+                "C#m7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                5,
+                19
+            ]
+        },
+        {
+            "cell": [
+                "Dmaj9",
+                "Dm9",
+                "G13"
+            ],
+            "count": 3,
+            "start_indexes": [
+                0,
+                11,
+                16
+            ]
+        },
+        {
+            "cell": [
+                "Dm9",
+                "G13",
+                "Fmaj7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                12
+            ]
+        },
+        {
+            "cell": [
+                "G13",
+                "Fmaj7",
+                "Bb7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                13
+            ]
+        },
+        {
+            "cell": [
+                "A7",
+                "Bm7",
+                "C6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                5,
+                19
+            ]
+        },
+        {
+            "cell": [
+                "Bm7",
+                "C6/9",
+                "C#m7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                6,
+                20
+            ]
+        },
+        {
+            "cell": [
+                "Dmaj9",
+                "Dm9"
+            ],
+            "count": 3,
+            "start_indexes": [
+                0,
+                11,
+                16
+            ]
+        },
+        {
+            "cell": [
+                "Dm9",
+                "G13"
+            ],
+            "count": 3,
+            "start_indexes": [
+                1,
+                12,
+                17
+            ]
+        },
+        {
+            "cell": [
+                "G13",
+                "Fmaj7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                13
+            ]
+        },
+        {
+            "cell": [
+                "Fmaj7",
+                "Bb7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                3,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "A7",
+                "Bm7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                5,
+                19
+            ]
+        },
+        {
+            "cell": [
+                "Bm7",
+                "C6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                6,
+                20
+            ]
+        },
+        {
+            "cell": [
+                "C6/9",
+                "C#m7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                7,
+                21
+            ]
+        }
+    ],
+    "accepted_records": [
+        {
+            "page_index": 0,
+            "sequence_index": 2,
+            "raw_token": "Dmaj9",
+            "normalized_token": "Dmaj9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 3,
+            "raw_token": "Dm9",
+            "normalized_token": "Dm9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 4,
+            "raw_token": "G13",
+            "normalized_token": "G13",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 5,
+            "raw_token": "Fmaj7",
+            "normalized_token": "Fmaj7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 6,
+            "raw_token": "B\ue2607",
+            "normalized_token": "Bb7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 7,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 9,
+            "raw_token": "Bm7",
+            "normalized_token": "Bm7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 11,
+            "raw_token": "C6/9",
+            "normalized_token": "C6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 13,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 16,
+            "raw_token": "E9",
+            "normalized_token": "E9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 17,
+            "raw_token": "A11",
+            "normalized_token": "A11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 23,
+            "raw_token": "Dmaj9",
+            "normalized_token": "Dmaj9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 24,
+            "raw_token": "Dm9",
+            "normalized_token": "Dm9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 36,
+            "raw_token": "G13",
+            "normalized_token": "G13",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 37,
+            "raw_token": "Fmaj7",
+            "normalized_token": "Fmaj7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 38,
+            "raw_token": "B\ue2607",
+            "normalized_token": "Bb7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 42,
+            "raw_token": "Dmaj9",
+            "normalized_token": "Dmaj9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 43,
+            "raw_token": "Dm9",
+            "normalized_token": "Dm9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 8,
+            "raw_token": "G13",
+            "normalized_token": "G13",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 9,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 11,
+            "raw_token": "Bm7",
+            "normalized_token": "Bm7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 12,
+            "raw_token": "C6/9",
+            "normalized_token": "C6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 13,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 16,
+            "raw_token": "Bm7",
+            "normalized_token": "Bm7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 17,
+            "raw_token": "E9",
+            "normalized_token": "E9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 19,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 20,
+            "raw_token": "A11",
+            "normalized_token": "A11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 21,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "accepted_valid_symbol",
+            "cleaner_reason": "matched valid chord symbol pattern"
+        }
+    ],
+    "review_records": [
+        {
+            "page_index": 0,
+            "sequence_index": 15,
+            "raw_token": "F\ue2629",
+            "normalized_token": "F\ue2629",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "needs_context_review",
+            "cleaner_reason": "did not match valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 22,
+            "raw_token": "A",
+            "normalized_token": "A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "review_singleton_root",
+            "cleaner_reason": "singleton root may be true chord or OCR/title contamination"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 25,
+            "raw_token": "David",
+            "normalized_token": "David",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "needs_context_review",
+            "cleaner_reason": "did not match valid chord symbol pattern"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 26,
+            "raw_token": "Grisman9",
+            "normalized_token": "Grisman9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "needs_context_review",
+            "cleaner_reason": "did not match valid chord symbol pattern"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 10,
+            "raw_token": "B",
+            "normalized_token": "B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "review_singleton_root",
+            "cleaner_reason": "singleton root may be true chord or OCR/title contamination"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 15,
+            "raw_token": "F\ue2629",
+            "normalized_token": "F\ue2629",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true,
+            "cleaner_status": "needs_context_review",
+            "cleaner_reason": "did not match valid chord symbol pattern"
+        }
+    ],
+    "rejected_records": [
+        {
+            "page_index": 0,
+            "sequence_index": 0,
+            "raw_token": "Ardans",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 1,
+            "raw_token": "Griffin",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 8,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 10,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 12,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 14,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 18,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 19,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 20,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 21,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 27,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 28,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 29,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 30,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 31,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 32,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 33,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 34,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 35,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 39,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 40,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 41,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 44,
+            "raw_token": "11",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 45,
+            "raw_token": "13",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 0,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 1,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 2,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 3,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 4,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 5,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 6,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 7,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 14,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 18,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false,
+            "cleaner_status": "discarded_noise",
+            "cleaner_reason": "discarded by repair memory"
+        }
+    ]
+}

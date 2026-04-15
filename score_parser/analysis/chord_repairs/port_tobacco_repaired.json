@@ -1,0 +1,1810 @@
+{
+    "title": "port_tobacco",
+    "page_count": 2,
+    "usable_chords": [
+        "Am7",
+        "D/A",
+        "A6/9",
+        "G\ue262m11",
+        "m11",
+        "C\ue2627",
+        "F#m7",
+        "Em7",
+        "A7",
+        "D6/9",
+        "C#m7",
+        "B9",
+        "E7",
+        "F9",
+        "E9",
+        "Amaj13",
+        "A",
+        "Am7",
+        "D/A",
+        "Am7",
+        "D/A",
+        "B",
+        "A6/9",
+        "G\ue262m11",
+        "m11",
+        "C\ue2627",
+        "F#m7",
+        "Em7",
+        "A7",
+        "D6/9",
+        "C#m7",
+        "F#m7",
+        "B9",
+        "E7",
+        "A6/9",
+        "G\ue262m11",
+        "m11",
+        "C\ue2627",
+        "F#m7",
+        "Em7",
+        "A7",
+        "D6/9",
+        "C#m7",
+        "F#m7",
+        "B9",
+        "F9",
+        "E9",
+        "Amaj13"
+    ],
+    "repaired_records": [
+        {
+            "page_index": 0,
+            "sequence_index": 0,
+            "raw_token": "Ardans",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 1,
+            "raw_token": "Griffin",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 2,
+            "raw_token": "Am7",
+            "normalized_token": "Am7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 3,
+            "raw_token": "D/A",
+            "normalized_token": "D/A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 4,
+            "raw_token": "A6/9",
+            "normalized_token": "A6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 5,
+            "raw_token": "G\ue262m11",
+            "normalized_token": "G\ue262m11",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 6,
+            "raw_token": "m11",
+            "normalized_token": "m11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 7,
+            "raw_token": "C\ue2627",
+            "normalized_token": "C\ue2627",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 8,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 9,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 10,
+            "raw_token": "Em7",
+            "normalized_token": "Em7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 11,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 12,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 13,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 14,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 15,
+            "raw_token": "B9",
+            "normalized_token": "B9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 16,
+            "raw_token": "E7",
+            "normalized_token": "E7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 17,
+            "raw_token": "F9",
+            "normalized_token": "F9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 18,
+            "raw_token": "E9",
+            "normalized_token": "E9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 19,
+            "raw_token": "Amaj13",
+            "normalized_token": "Amaj13",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 20,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 21,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 22,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 23,
+            "raw_token": "A",
+            "normalized_token": "A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 24,
+            "raw_token": "Am7",
+            "normalized_token": "Am7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 25,
+            "raw_token": "D/A",
+            "normalized_token": "D/A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 26,
+            "raw_token": "Am7",
+            "normalized_token": "Am7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 27,
+            "raw_token": "D/A",
+            "normalized_token": "D/A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 28,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 29,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 30,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 31,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 32,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 33,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 34,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 35,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 36,
+            "raw_token": "B",
+            "normalized_token": "B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 37,
+            "raw_token": "A6/9",
+            "normalized_token": "A6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 38,
+            "raw_token": "G\ue262m11",
+            "normalized_token": "G\ue262m11",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 39,
+            "raw_token": "m11",
+            "normalized_token": "m11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 40,
+            "raw_token": "C\ue2627",
+            "normalized_token": "C\ue2627",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 41,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 42,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 43,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 44,
+            "raw_token": "Em7",
+            "normalized_token": "Em7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 45,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 46,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 47,
+            "raw_token": "11",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 48,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 49,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 50,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 51,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 52,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 53,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 54,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 55,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 56,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 57,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 58,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 59,
+            "raw_token": "13",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 0,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 1,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 2,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 3,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 4,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 5,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 6,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 7,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 8,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 9,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 10,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 11,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 12,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 13,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 14,
+            "raw_token": "B9",
+            "normalized_token": "B9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 15,
+            "raw_token": "E7",
+            "normalized_token": "E7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 16,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 17,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 18,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 19,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 20,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 21,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 22,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 23,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 24,
+            "raw_token": "A6/9",
+            "normalized_token": "A6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 25,
+            "raw_token": "G\ue262m11",
+            "normalized_token": "G\ue262m11",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 26,
+            "raw_token": "m11",
+            "normalized_token": "m11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 27,
+            "raw_token": "C\ue2627",
+            "normalized_token": "C\ue2627",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 28,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 29,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 30,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 31,
+            "raw_token": "Em7",
+            "normalized_token": "Em7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 32,
+            "raw_token": "A7",
+            "normalized_token": "A7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 33,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 34,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 35,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 36,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 37,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 38,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 39,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 40,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 41,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 42,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F#m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "repaired_from_memory",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 43,
+            "raw_token": "m7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 44,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 45,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 46,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 47,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 48,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 49,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 50,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 51,
+            "raw_token": "7",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 52,
+            "raw_token": "9",
+            "normalized_token": "",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "discarded_noise",
+            "notes": "",
+            "needs_review": false
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 53,
+            "raw_token": "B9",
+            "normalized_token": "B9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 54,
+            "raw_token": "F9",
+            "normalized_token": "F9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 55,
+            "raw_token": "E9",
+            "normalized_token": "E9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 56,
+            "raw_token": "Amaj13",
+            "normalized_token": "Amaj13",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "needs_manual_review",
+            "notes": "",
+            "needs_review": true
+        }
+    ],
+    "unresolved_tokens": [
+        {
+            "raw_token": "Am7",
+            "page_index": 0,
+            "sequence_index": 2,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D/A",
+            "page_index": 0,
+            "sequence_index": 3,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A6/9",
+            "page_index": 0,
+            "sequence_index": 4,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "G\ue262m11",
+            "page_index": 0,
+            "sequence_index": 5,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "m11",
+            "page_index": 0,
+            "sequence_index": 6,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "C\ue2627",
+            "page_index": 0,
+            "sequence_index": 7,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "Em7",
+            "page_index": 0,
+            "sequence_index": 10,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A7",
+            "page_index": 0,
+            "sequence_index": 11,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D6/9",
+            "page_index": 0,
+            "sequence_index": 12,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "B9",
+            "page_index": 0,
+            "sequence_index": 15,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "E7",
+            "page_index": 0,
+            "sequence_index": 16,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "F9",
+            "page_index": 0,
+            "sequence_index": 17,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "E9",
+            "page_index": 0,
+            "sequence_index": 18,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "Amaj13",
+            "page_index": 0,
+            "sequence_index": 19,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A",
+            "page_index": 0,
+            "sequence_index": 23,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "Am7",
+            "page_index": 0,
+            "sequence_index": 24,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D/A",
+            "page_index": 0,
+            "sequence_index": 25,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "Am7",
+            "page_index": 0,
+            "sequence_index": 26,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D/A",
+            "page_index": 0,
+            "sequence_index": 27,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "B",
+            "page_index": 0,
+            "sequence_index": 36,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A6/9",
+            "page_index": 0,
+            "sequence_index": 37,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "G\ue262m11",
+            "page_index": 0,
+            "sequence_index": 38,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "m11",
+            "page_index": 0,
+            "sequence_index": 39,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "C\ue2627",
+            "page_index": 0,
+            "sequence_index": 40,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "Em7",
+            "page_index": 0,
+            "sequence_index": 44,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A7",
+            "page_index": 0,
+            "sequence_index": 45,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D6/9",
+            "page_index": 0,
+            "sequence_index": 54,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "B9",
+            "page_index": 1,
+            "sequence_index": 14,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "E7",
+            "page_index": 1,
+            "sequence_index": 15,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A6/9",
+            "page_index": 1,
+            "sequence_index": 24,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "G\ue262m11",
+            "page_index": 1,
+            "sequence_index": 25,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "m11",
+            "page_index": 1,
+            "sequence_index": 26,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "C\ue2627",
+            "page_index": 1,
+            "sequence_index": 27,
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ]
+        },
+        {
+            "raw_token": "Em7",
+            "page_index": 1,
+            "sequence_index": 31,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "A7",
+            "page_index": 1,
+            "sequence_index": 32,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "D6/9",
+            "page_index": 1,
+            "sequence_index": 39,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "B9",
+            "page_index": 1,
+            "sequence_index": 53,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "F9",
+            "page_index": 1,
+            "sequence_index": 54,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "E9",
+            "page_index": 1,
+            "sequence_index": 55,
+            "ambiguity_classes": []
+        },
+        {
+            "raw_token": "Amaj13",
+            "page_index": 1,
+            "sequence_index": 56,
+            "ambiguity_classes": []
+        }
+    ]
+}

@@ -1,0 +1,2963 @@
+{
+    "title": "common_ground",
+    "page_count": 2,
+    "page_results": [
+        {
+            "page_index": 0,
+            "harvested_tokens": [
+                "Common",
+                "Ground",
+                "Ardans",
+                "Griffin",
+                "Em",
+                "D",
+                "E\ue2605",
+                "D5",
+                "E6/9",
+                "Badd9/D",
+                "Badd9/D\ue262",
+                "D6/9",
+                "Aadd9/C",
+                "Aadd9/C\ue262",
+                "C6/9",
+                "Gadd9/B",
+                "C\ue262m7",
+                "m7",
+                "G11",
+                "C\ue8739",
+                "F\ue262m7",
+                "m7",
+                "B",
+                "A11",
+                "B11",
+                "Em",
+                "D",
+                "E\ue2605",
+                "D5",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "A",
+                "E6/9",
+                "Badd9/D",
+                "Badd9/D\ue262",
+                "D6/9",
+                "Aadd9/C",
+                "Aadd9/C\ue262",
+                "C6/9",
+                "Gadd9/B",
+                "Em",
+                "D7",
+                "9",
+                "11",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "D",
+                "Em",
+                "E\ue2605",
+                "D5",
+                "Em",
+                "D",
+                "Em",
+                "E\ue260513"
+            ],
+            "records": [
+                {
+                    "page_index": 0,
+                    "sequence_index": 0,
+                    "raw_token": "Common",
+                    "normalized_token": "Common",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 1,
+                    "raw_token": "Ground",
+                    "normalized_token": "Ground",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 2,
+                    "raw_token": "Ardans",
+                    "normalized_token": "Ardans",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 3,
+                    "raw_token": "Griffin",
+                    "normalized_token": "Griffin",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 4,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 5,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 6,
+                    "raw_token": "E\ue2605",
+                    "normalized_token": "E\ue2605",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 7,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 8,
+                    "raw_token": "E6/9",
+                    "normalized_token": "E6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 9,
+                    "raw_token": "Badd9/D",
+                    "normalized_token": "Badd9/D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 10,
+                    "raw_token": "Badd9/D\ue262",
+                    "normalized_token": "Badd9/D\ue262",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 11,
+                    "raw_token": "D6/9",
+                    "normalized_token": "D6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 12,
+                    "raw_token": "Aadd9/C",
+                    "normalized_token": "Aadd9/C",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 13,
+                    "raw_token": "Aadd9/C\ue262",
+                    "normalized_token": "Aadd9/C\ue262",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 14,
+                    "raw_token": "C6/9",
+                    "normalized_token": "C6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 15,
+                    "raw_token": "Gadd9/B",
+                    "normalized_token": "Gadd9/B",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 16,
+                    "raw_token": "C\ue262m7",
+                    "normalized_token": "C\ue262m7",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 17,
+                    "raw_token": "m7",
+                    "normalized_token": "m7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 18,
+                    "raw_token": "G11",
+                    "normalized_token": "G11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 19,
+                    "raw_token": "C\ue8739",
+                    "normalized_token": "C\ue8739",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue873"
+                    ],
+                    "ambiguity_classes": [
+                        "extended_accidental",
+                        "other_accidental",
+                        "sharp"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 20,
+                    "raw_token": "F\ue262m7",
+                    "normalized_token": "F\ue262m7",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 21,
+                    "raw_token": "m7",
+                    "normalized_token": "m7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 22,
+                    "raw_token": "B",
+                    "normalized_token": "B",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 23,
+                    "raw_token": "A11",
+                    "normalized_token": "A11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 24,
+                    "raw_token": "B11",
+                    "normalized_token": "B11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 25,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 26,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 27,
+                    "raw_token": "E\ue2605",
+                    "normalized_token": "E\ue2605",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 28,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 29,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 30,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 31,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 32,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 33,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 34,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 35,
+                    "raw_token": "A",
+                    "normalized_token": "A",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 36,
+                    "raw_token": "E6/9",
+                    "normalized_token": "E6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 37,
+                    "raw_token": "Badd9/D",
+                    "normalized_token": "Badd9/D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 38,
+                    "raw_token": "Badd9/D\ue262",
+                    "normalized_token": "Badd9/D\ue262",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 39,
+                    "raw_token": "D6/9",
+                    "normalized_token": "D6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 40,
+                    "raw_token": "Aadd9/C",
+                    "normalized_token": "Aadd9/C",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 41,
+                    "raw_token": "Aadd9/C\ue262",
+                    "normalized_token": "Aadd9/C\ue262",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 42,
+                    "raw_token": "C6/9",
+                    "normalized_token": "C6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 43,
+                    "raw_token": "Gadd9/B",
+                    "normalized_token": "Gadd9/B",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 44,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 45,
+                    "raw_token": "D7",
+                    "normalized_token": "D7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 46,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 47,
+                    "raw_token": "11",
+                    "normalized_token": "11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 48,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 49,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 50,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 51,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 52,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 53,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 54,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 55,
+                    "raw_token": "E\ue2605",
+                    "normalized_token": "E\ue2605",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 56,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 57,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 58,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 59,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 0,
+                    "sequence_index": 60,
+                    "raw_token": "E\ue260513",
+                    "normalized_token": "E\ue260513",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "page_index": 1,
+            "harvested_tokens": [
+                "Common",
+                "Ground7",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "B",
+                "C\ue262m7",
+                "m7",
+                "D6/9",
+                "G11",
+                "C\ue8739",
+                "F\ue262m7",
+                "m7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "B",
+                "Em",
+                "D",
+                "Em",
+                "E\ue2605",
+                "D5",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "7",
+                "9",
+                "A11",
+                "B11",
+                "Em",
+                "D",
+                "Em",
+                "E\ue26057",
+                "9",
+                "7",
+                "9",
+                "7",
+                "D5",
+                "Em",
+                "D",
+                "Em",
+                "E\ue2605",
+                "D5"
+            ],
+            "records": [
+                {
+                    "page_index": 1,
+                    "sequence_index": 0,
+                    "raw_token": "Common",
+                    "normalized_token": "Common",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 1,
+                    "raw_token": "Ground7",
+                    "normalized_token": "Ground7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 2,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 3,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 4,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 5,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 6,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 7,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 8,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 9,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 10,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 11,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 12,
+                    "raw_token": "B",
+                    "normalized_token": "B",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 13,
+                    "raw_token": "C\ue262m7",
+                    "normalized_token": "C\ue262m7",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 14,
+                    "raw_token": "m7",
+                    "normalized_token": "m7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 15,
+                    "raw_token": "D6/9",
+                    "normalized_token": "D6/9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 16,
+                    "raw_token": "G11",
+                    "normalized_token": "G11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 17,
+                    "raw_token": "C\ue8739",
+                    "normalized_token": "C\ue8739",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue873"
+                    ],
+                    "ambiguity_classes": [
+                        "extended_accidental",
+                        "other_accidental",
+                        "sharp"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 18,
+                    "raw_token": "F\ue262m7",
+                    "normalized_token": "F\ue262m7",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue262"
+                    ],
+                    "ambiguity_classes": [
+                        "flat",
+                        "other_accidental",
+                        "suffix_splitter"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 19,
+                    "raw_token": "m7",
+                    "normalized_token": "m7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 20,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 21,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 22,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 23,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 24,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 25,
+                    "raw_token": "B",
+                    "normalized_token": "B",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 26,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 27,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 28,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 29,
+                    "raw_token": "E\ue2605",
+                    "normalized_token": "E\ue2605",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 30,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 31,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 32,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 33,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 34,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 35,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 36,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 37,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 38,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 39,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 40,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 41,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 42,
+                    "raw_token": "A11",
+                    "normalized_token": "A11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 43,
+                    "raw_token": "B11",
+                    "normalized_token": "B11",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 44,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 45,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 46,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 47,
+                    "raw_token": "E\ue26057",
+                    "normalized_token": "E\ue26057",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 48,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 49,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 50,
+                    "raw_token": "9",
+                    "normalized_token": "9",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 51,
+                    "raw_token": "7",
+                    "normalized_token": "7",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 52,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 53,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 54,
+                    "raw_token": "D",
+                    "normalized_token": "D",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 55,
+                    "raw_token": "Em",
+                    "normalized_token": "Em",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 56,
+                    "raw_token": "E\ue2605",
+                    "normalized_token": "E\ue2605",
+                    "ambiguous": true,
+                    "ambiguous_glyphs": [
+                        "\ue260"
+                    ],
+                    "ambiguity_classes": [
+                        "diminished",
+                        "flat",
+                        "other_accidental"
+                    ],
+                    "repair_status": "unrepaired",
+                    "notes": ""
+                },
+                {
+                    "page_index": 1,
+                    "sequence_index": 57,
+                    "raw_token": "D5",
+                    "normalized_token": "D5",
+                    "ambiguous": false,
+                    "ambiguous_glyphs": [],
+                    "ambiguity_classes": [],
+                    "repair_status": "clean",
+                    "notes": ""
+                }
+            ]
+        }
+    ],
+    "all_records": [
+        {
+            "page_index": 0,
+            "sequence_index": 0,
+            "raw_token": "Common",
+            "normalized_token": "Common",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 1,
+            "raw_token": "Ground",
+            "normalized_token": "Ground",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 2,
+            "raw_token": "Ardans",
+            "normalized_token": "Ardans",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 3,
+            "raw_token": "Griffin",
+            "normalized_token": "Griffin",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 4,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 5,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 6,
+            "raw_token": "E\ue2605",
+            "normalized_token": "E\ue2605",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 7,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 8,
+            "raw_token": "E6/9",
+            "normalized_token": "E6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 9,
+            "raw_token": "Badd9/D",
+            "normalized_token": "Badd9/D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 10,
+            "raw_token": "Badd9/D\ue262",
+            "normalized_token": "Badd9/D\ue262",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 11,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 12,
+            "raw_token": "Aadd9/C",
+            "normalized_token": "Aadd9/C",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 13,
+            "raw_token": "Aadd9/C\ue262",
+            "normalized_token": "Aadd9/C\ue262",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 14,
+            "raw_token": "C6/9",
+            "normalized_token": "C6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 15,
+            "raw_token": "Gadd9/B",
+            "normalized_token": "Gadd9/B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 16,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C\ue262m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 17,
+            "raw_token": "m7",
+            "normalized_token": "m7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 18,
+            "raw_token": "G11",
+            "normalized_token": "G11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 19,
+            "raw_token": "C\ue8739",
+            "normalized_token": "C\ue8739",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue873"
+            ],
+            "ambiguity_classes": [
+                "extended_accidental",
+                "other_accidental",
+                "sharp"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 20,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F\ue262m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 21,
+            "raw_token": "m7",
+            "normalized_token": "m7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 22,
+            "raw_token": "B",
+            "normalized_token": "B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 23,
+            "raw_token": "A11",
+            "normalized_token": "A11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 24,
+            "raw_token": "B11",
+            "normalized_token": "B11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 25,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 26,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 27,
+            "raw_token": "E\ue2605",
+            "normalized_token": "E\ue2605",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 28,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 29,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 30,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 31,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 32,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 33,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 34,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 35,
+            "raw_token": "A",
+            "normalized_token": "A",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 36,
+            "raw_token": "E6/9",
+            "normalized_token": "E6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 37,
+            "raw_token": "Badd9/D",
+            "normalized_token": "Badd9/D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 38,
+            "raw_token": "Badd9/D\ue262",
+            "normalized_token": "Badd9/D\ue262",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 39,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 40,
+            "raw_token": "Aadd9/C",
+            "normalized_token": "Aadd9/C",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 41,
+            "raw_token": "Aadd9/C\ue262",
+            "normalized_token": "Aadd9/C\ue262",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 42,
+            "raw_token": "C6/9",
+            "normalized_token": "C6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 43,
+            "raw_token": "Gadd9/B",
+            "normalized_token": "Gadd9/B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 44,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 45,
+            "raw_token": "D7",
+            "normalized_token": "D7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 46,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 47,
+            "raw_token": "11",
+            "normalized_token": "11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 48,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 49,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 50,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 51,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 52,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 53,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 54,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 55,
+            "raw_token": "E\ue2605",
+            "normalized_token": "E\ue2605",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 56,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 57,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 58,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 59,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 0,
+            "sequence_index": 60,
+            "raw_token": "E\ue260513",
+            "normalized_token": "E\ue260513",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 0,
+            "raw_token": "Common",
+            "normalized_token": "Common",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 1,
+            "raw_token": "Ground7",
+            "normalized_token": "Ground7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 2,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 3,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 4,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 5,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 6,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 7,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 8,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 9,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 10,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 11,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 12,
+            "raw_token": "B",
+            "normalized_token": "B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 13,
+            "raw_token": "C\ue262m7",
+            "normalized_token": "C\ue262m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 14,
+            "raw_token": "m7",
+            "normalized_token": "m7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 15,
+            "raw_token": "D6/9",
+            "normalized_token": "D6/9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 16,
+            "raw_token": "G11",
+            "normalized_token": "G11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 17,
+            "raw_token": "C\ue8739",
+            "normalized_token": "C\ue8739",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue873"
+            ],
+            "ambiguity_classes": [
+                "extended_accidental",
+                "other_accidental",
+                "sharp"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 18,
+            "raw_token": "F\ue262m7",
+            "normalized_token": "F\ue262m7",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue262"
+            ],
+            "ambiguity_classes": [
+                "flat",
+                "other_accidental",
+                "suffix_splitter"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 19,
+            "raw_token": "m7",
+            "normalized_token": "m7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 20,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 21,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 22,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 23,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 24,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 25,
+            "raw_token": "B",
+            "normalized_token": "B",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 26,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 27,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 28,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 29,
+            "raw_token": "E\ue2605",
+            "normalized_token": "E\ue2605",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 30,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 31,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 32,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 33,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 34,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 35,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 36,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 37,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 38,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 39,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 40,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 41,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 42,
+            "raw_token": "A11",
+            "normalized_token": "A11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 43,
+            "raw_token": "B11",
+            "normalized_token": "B11",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 44,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 45,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 46,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 47,
+            "raw_token": "E\ue26057",
+            "normalized_token": "E\ue26057",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 48,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 49,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 50,
+            "raw_token": "9",
+            "normalized_token": "9",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 51,
+            "raw_token": "7",
+            "normalized_token": "7",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 52,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 53,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 54,
+            "raw_token": "D",
+            "normalized_token": "D",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 55,
+            "raw_token": "Em",
+            "normalized_token": "Em",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 56,
+            "raw_token": "E\ue2605",
+            "normalized_token": "E\ue2605",
+            "ambiguous": true,
+            "ambiguous_glyphs": [
+                "\ue260"
+            ],
+            "ambiguity_classes": [
+                "diminished",
+                "flat",
+                "other_accidental"
+            ],
+            "repair_status": "unrepaired",
+            "notes": ""
+        },
+        {
+            "page_index": 1,
+            "sequence_index": 57,
+            "raw_token": "D5",
+            "normalized_token": "D5",
+            "ambiguous": false,
+            "ambiguous_glyphs": [],
+            "ambiguity_classes": [],
+            "repair_status": "clean",
+            "notes": ""
+        }
+    ]
+}

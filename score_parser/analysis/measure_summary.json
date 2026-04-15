@@ -1,0 +1,147 @@
+[
+    {
+        "title": "birdland_breakdown",
+        "page_count": 2,
+        "estimated_measure_count": 210,
+        "systems_detected": 0,
+        "bars_per_page": [
+            108,
+            102
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "common_ground",
+        "page_count": 2,
+        "estimated_measure_count": 200,
+        "systems_detected": 0,
+        "bars_per_page": [
+            89,
+            111
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "gasology",
+        "page_count": 2,
+        "estimated_measure_count": 232,
+        "systems_detected": 0,
+        "bars_per_page": [
+            85,
+            147
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "is_that_so",
+        "page_count": 2,
+        "estimated_measure_count": 160,
+        "systems_detected": 0,
+        "bars_per_page": [
+            96,
+            64
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "manzanita",
+        "page_count": 2,
+        "estimated_measure_count": 190,
+        "systems_detected": 0,
+        "bars_per_page": [
+            82,
+            108
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "mar_east",
+        "page_count": 2,
+        "estimated_measure_count": 248,
+        "systems_detected": 0,
+        "bars_per_page": [
+            98,
+            150
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "mar_west",
+        "page_count": 1,
+        "estimated_measure_count": 99,
+        "systems_detected": 0,
+        "bars_per_page": [
+            99
+        ],
+        "confidence": 0.99
+    },
+    {
+        "title": "neon_tetra",
+        "page_count": 3,
+        "estimated_measure_count": 272,
+        "systems_detected": 0,
+        "bars_per_page": [
+            98,
+            135,
+            39
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "old_gray_coat",
+        "page_count": 2,
+        "estimated_measure_count": 240,
+        "systems_detected": 0,
+        "bars_per_page": [
+            118,
+            122
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "port_tobacco",
+        "page_count": 2,
+        "estimated_measure_count": 259,
+        "systems_detected": 0,
+        "bars_per_page": [
+            111,
+            148
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "so_much",
+        "page_count": 4,
+        "estimated_measure_count": 274,
+        "systems_detected": 0,
+        "bars_per_page": [
+            99,
+            121,
+            53,
+            1
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "swing_51",
+        "page_count": 2,
+        "estimated_measure_count": 250,
+        "systems_detected": 0,
+        "bars_per_page": [
+            122,
+            128
+        ],
+        "confidence": 1.0
+    },
+    {
+        "title": "waltz_for_indira",
+        "page_count": 2,
+        "estimated_measure_count": 294,
+        "systems_detected": 0,
+        "bars_per_page": [
+            137,
+            157
+        ],
+        "confidence": 1.0
+    }
+]

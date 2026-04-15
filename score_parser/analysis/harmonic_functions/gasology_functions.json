@@ -1,0 +1,4536 @@
+{
+    "title": "gasology",
+    "harmonic_stream": [
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em11",
+        "B7",
+        "Bm7",
+        "C6/9",
+        "B7",
+        "Em",
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em11",
+        "B7",
+        "Em11",
+        "B7",
+        "Am7",
+        "Bm7",
+        "C6/9",
+        "Bm7",
+        "Am7",
+        "Bm7",
+        "B7",
+        "Em11",
+        "C6/9",
+        "Bm7",
+        "Am7",
+        "C6/9",
+        "Bm7",
+        "Em11",
+        "C6/9",
+        "Bm7",
+        "Am7",
+        "C6/9",
+        "Bm7",
+        "Em11",
+        "B7",
+        "Em",
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em7",
+        "Am7",
+        "Bm11"
+    ],
+    "unique_chords": [
+        "Em7",
+        "Am7",
+        "Bm11",
+        "Em11",
+        "B7",
+        "Bm7",
+        "C6/9",
+        "Em"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11"
+            ],
+            "count": 4,
+            "start_indexes": [
+                9,
+                12,
+                15,
+                47
+            ]
+        },
+        {
+            "cell": [
+                "B7",
+                "Em",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                7,
+                45
+            ]
+        },
+        {
+            "cell": [
+                "Em",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                8,
+                46
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                10,
+                13
+            ]
+        },
+        {
+            "cell": [
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                11,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "Em11",
+                "C6/9",
+                "Bm7",
+                "Am7",
+                "C6/9",
+                "Bm7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                32,
+                38
+            ]
+        },
+        {
+            "cell": [
+                "C6/9",
+                "Bm7",
+                "Am7",
+                "C6/9",
+                "Bm7",
+                "Em11"
+            ],
+            "count": 2,
+            "start_indexes": [
+                33,
+                39
+            ]
+        },
+        {
+            "cell": [
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "count": 4,
+            "start_indexes": [
+                9,
+                12,
+                15,
+                47
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11"
+            ],
+            "count": 4,
+            "start_indexes": [
+                10,
+                13,
+                16,
+                48
+            ]
+        },
+        {
+            "cell": [
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em11",
+                "B7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                18
+            ]
+        },
+        {
+            "cell": [
+                "B7",
+                "Em",
+                "Em7",
+                "Am7",
+                "Bm11"
+            ],
+            "count": 2,
+            "start_indexes": [
+                7,
+                45
+            ]
+        },
+        {
+            "cell": [
+                "Em",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                8,
+                46
+            ]
+        },
+        {
+            "cell": [
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                11,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "Em11",
+                "C6/9",
+                "Bm7",
+                "Am7",
+                "C6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                32,
+                38
+            ]
+        },
+        {
+            "cell": [
+                "C6/9",
+                "Bm7",
+                "Am7",
+                "C6/9",
+                "Bm7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                33,
+                39
+            ]
+        },
+        {
+            "cell": [
+                "Bm7",
+                "Am7",
+                "C6/9",
+                "Bm7",
+                "Em11"
+            ],
+            "count": 2,
+            "start_indexes": [
+                34,
+                40
+            ]
+        },
+        {
+            "cell": [
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em7"
+            ],
+            "count": 4,
+            "start_indexes": [
+                9,
+                12,
+                15,
+                47
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "count": 4,
+            "start_indexes": [
+                10,
+                13,
+                16,
+                48
+            ]
+        },
+        {
+            "cell": [
+                "Bm11",
+                "Em7",
+                "Am7",
+                "Bm11"
+            ],
+            "count": 4,
+            "start_indexes": [
+                11,
+                14,
+                17,
+                49
+            ]
+        },
+        {
+            "cell": [
+                "Em7",
+                "Am7",
+                "Bm11",
+                "Em11"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                18
+            ]
+        }
+    ],
+    "parsed_stream": [
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "C6/9",
+            "root": "C",
+            "bass": null,
+            "quality_raw": "6/9",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "6",
+                "6/9",
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em11",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "B7",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "7",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Em7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Am7",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "m7",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Bm11",
+            "root": "B",
+            "bass": null,
+            "quality_raw": "m11",
+            "quality_family": "minor",
+            "is_dominant": false,
+            "is_minor": true,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "11"
+            ],
+            "parse_ok": true
+        }
+    ],
+    "transition_records": [
+        {
+            "index": 0,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 1,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 2,
+            "from": "Bm11",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 3,
+            "from": "Em11",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 4,
+            "from": "B7",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Bm7",
+                "strength": "medium"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "B7 -> Bm7"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 5,
+            "from": "Bm7",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 1,
+                "interval_signed": 1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 6,
+            "from": "C6/9",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 7,
+            "from": "B7",
+            "to": "Em",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": {
+                "type": "dominant_resolution_by_fourth",
+                "target": "Em",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 8,
+            "from": "Em",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Em",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 9,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 10,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 11,
+            "from": "Bm11",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 12,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 13,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 14,
+            "from": "Bm11",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 15,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 16,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 17,
+            "from": "Bm11",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 18,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 19,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 20,
+            "from": "Bm11",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 21,
+            "from": "Em11",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 22,
+            "from": "B7",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": {
+                "type": "dominant_resolution_by_fourth",
+                "target": "Em11",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 23,
+            "from": "Em11",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 24,
+            "from": "B7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 10,
+                "interval_signed": -2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Am7",
+                "strength": "medium"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 25,
+            "from": "Am7",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 26,
+            "from": "Bm7",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 1,
+                "interval_signed": 1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 27,
+            "from": "C6/9",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 28,
+            "from": "Bm7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 10,
+                "interval_signed": -2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 29,
+            "from": "Am7",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 30,
+            "from": "Bm7",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "Bm7 -> B7"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 31,
+            "from": "B7",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": {
+                "type": "dominant_resolution_by_fourth",
+                "target": "Em11",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 32,
+            "from": "Em11",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 8,
+                "interval_signed": -4,
+                "motion_class": "thirds_or_sixths_motion_major"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 33,
+            "from": "C6/9",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 34,
+            "from": "Bm7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 10,
+                "interval_signed": -2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 35,
+            "from": "Am7",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 3,
+                "interval_signed": 3,
+                "motion_class": "thirds_or_sixths_motion_minor"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 36,
+            "from": "C6/9",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 37,
+            "from": "Bm7",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 38,
+            "from": "Em11",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 8,
+                "interval_signed": -4,
+                "motion_class": "thirds_or_sixths_motion_major"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 39,
+            "from": "C6/9",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 40,
+            "from": "Bm7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 10,
+                "interval_signed": -2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 41,
+            "from": "Am7",
+            "to": "C6/9",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 3,
+                "interval_signed": 3,
+                "motion_class": "thirds_or_sixths_motion_minor"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 42,
+            "from": "C6/9",
+            "to": "Bm7",
+            "from_parsed": {
+                "symbol": "C6/9",
+                "root": "C",
+                "bass": null,
+                "quality_raw": "6/9",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "6",
+                    "6/9",
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 11,
+                "interval_signed": -1,
+                "motion_class": "chromatic"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 43,
+            "from": "Bm7",
+            "to": "Em11",
+            "from_parsed": {
+                "symbol": "Bm7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 44,
+            "from": "Em11",
+            "to": "B7",
+            "from_parsed": {
+                "symbol": "Em11",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 45,
+            "from": "B7",
+            "to": "Em",
+            "from_parsed": {
+                "symbol": "B7",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "7",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": {
+                "type": "dominant_resolution_by_fourth",
+                "target": "Em",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 46,
+            "from": "Em",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Em",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 47,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 48,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        },
+        {
+            "index": 49,
+            "from": "Bm11",
+            "to": "Em7",
+            "from_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 50,
+            "from": "Em7",
+            "to": "Am7",
+            "from_parsed": {
+                "symbol": "Em7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 51,
+            "from": "Am7",
+            "to": "Bm11",
+            "from_parsed": {
+                "symbol": "Am7",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "m7",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Bm11",
+                "root": "B",
+                "bass": null,
+                "quality_raw": "m11",
+                "quality_family": "minor",
+                "is_dominant": false,
+                "is_minor": true,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "11"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 2,
+                "interval_signed": 2,
+                "motion_class": "seconds_motion"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "pink_candidate"
+        }
+    ],
+    "cycle_windows": [
+        {
+            "start_index": 2,
+            "window": [
+                "Bm11",
+                "Em11",
+                "B7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 11,
+            "window": [
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 14,
+            "window": [
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 17,
+            "window": [
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 20,
+            "window": [
+                "Bm11",
+                "Em11",
+                "B7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 21,
+            "window": [
+                "Em11",
+                "B7",
+                "Em11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 22,
+            "window": [
+                "B7",
+                "Em11",
+                "B7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 43,
+            "window": [
+                "Bm7",
+                "Em11",
+                "B7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 44,
+            "window": [
+                "Em11",
+                "B7",
+                "Em"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 49,
+            "window": [
+                "Bm11",
+                "Em7",
+                "Am7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 20,
+            "window": [
+                "Bm11",
+                "Em11",
+                "B7",
+                "Em11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 21,
+            "window": [
+                "Em11",
+                "B7",
+                "Em11",
+                "B7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 43,
+            "window": [
+                "Bm7",
+                "Em11",
+                "B7",
+                "Em"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        }
+    ],
+    "treatment_counts": {
+        "pink_candidate": 20,
+        "teal_candidate": 9,
+        "hybrid": 2,
+        "neutral_or_contextual": 21
+    },
+    "function_summary": {
+        "dominant_chain_count": 6,
+        "diminished_connector_count": 0,
+        "augmented_event_count": 0,
+        "tonal_shift_count": 2,
+        "modal_descent_count": 8,
+        "cycle_window_count": 13,
+        "dominant_chains": [
+            {
+                "from": "B7",
+                "to": "Bm7",
+                "event": {
+                    "type": "possible_dominant_resolution",
+                    "target": "Bm7",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "B7",
+                "to": "Em",
+                "event": {
+                    "type": "dominant_resolution_by_fourth",
+                    "target": "Em",
+                    "strength": "high"
+                }
+            },
+            {
+                "from": "B7",
+                "to": "Em11",
+                "event": {
+                    "type": "dominant_resolution_by_fourth",
+                    "target": "Em11",
+                    "strength": "high"
+                }
+            },
+            {
+                "from": "B7",
+                "to": "Am7",
+                "event": {
+                    "type": "possible_dominant_resolution",
+                    "target": "Am7",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "B7",
+                "to": "Em11",
+                "event": {
+                    "type": "dominant_resolution_by_fourth",
+                    "target": "Em11",
+                    "strength": "high"
+                }
+            },
+            {
+                "from": "B7",
+                "to": "Em",
+                "event": {
+                    "type": "dominant_resolution_by_fourth",
+                    "target": "Em",
+                    "strength": "high"
+                }
+            }
+        ],
+        "diminished_connectors": [],
+        "augmented_events": [],
+        "tonal_shifts": [
+            {
+                "from": "B7",
+                "to": "Bm7",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "B7 -> Bm7"
+                }
+            },
+            {
+                "from": "Bm7",
+                "to": "B7",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "Bm7 -> B7"
+                }
+            }
+        ],
+        "modal_descents": [
+            {
+                "from": "C6/9",
+                "to": "Bm7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "Bm7",
+                "to": "Am7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "C6/9",
+                "to": "Bm7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "Bm7",
+                "to": "Am7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "C6/9",
+                "to": "Bm7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "C6/9",
+                "to": "Bm7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "Bm7",
+                "to": "Am7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "C6/9",
+                "to": "Bm7",
+                "event": {
+                    "type": "descending_scalar_or_modal_motion",
+                    "strength": "medium"
+                }
+            }
+        ],
+        "cycle_windows": [
+            {
+                "start_index": 2,
+                "window": [
+                    "Bm11",
+                    "Em11",
+                    "B7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 11,
+                "window": [
+                    "Bm11",
+                    "Em7",
+                    "Am7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 14,
+                "window": [
+                    "Bm11",
+                    "Em7",
+                    "Am7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 17,
+                "window": [
+                    "Bm11",
+                    "Em7",
+                    "Am7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 20,
+                "window": [
+                    "Bm11",
+                    "Em11",
+                    "B7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 21,
+                "window": [
+                    "Em11",
+                    "B7",
+                    "Em11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 22,
+                "window": [
+                    "B7",
+                    "Em11",
+                    "B7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 43,
+                "window": [
+                    "Bm7",
+                    "Em11",
+                    "B7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 44,
+                "window": [
+                    "Em11",
+                    "B7",
+                    "Em"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 49,
+                "window": [
+                    "Bm11",
+                    "Em7",
+                    "Am7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 20,
+                "window": [
+                    "Bm11",
+                    "Em11",
+                    "B7",
+                    "Em11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 21,
+                "window": [
+                    "Em11",
+                    "B7",
+                    "Em11",
+                    "B7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 43,
+                "window": [
+                    "Bm7",
+                    "Em11",
+                    "B7",
+                    "Em"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            }
+        ]
+    }
+}

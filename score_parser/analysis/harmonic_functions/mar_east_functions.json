@@ -1,0 +1,878 @@
+{
+    "title": "mar_east",
+    "harmonic_stream": [
+        "A13",
+        "E9",
+        "Emaj7",
+        "A13",
+        "E9",
+        "E9",
+        "Emaj7",
+        "E9",
+        "Emaj7",
+        "E9"
+    ],
+    "unique_chords": [
+        "A13",
+        "E9",
+        "Emaj7"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "E9",
+                "Emaj7",
+                "E9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                5,
+                7
+            ]
+        },
+        {
+            "cell": [
+                "E9",
+                "Emaj7"
+            ],
+            "count": 3,
+            "start_indexes": [
+                1,
+                5,
+                7
+            ]
+        },
+        {
+            "cell": [
+                "A13",
+                "E9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                3
+            ]
+        },
+        {
+            "cell": [
+                "Emaj7",
+                "E9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                6,
+                8
+            ]
+        }
+    ],
+    "parsed_stream": [
+        {
+            "symbol": "A13",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "13",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "13"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "E9",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "9",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Emaj7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "maj7",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7",
+                "maj7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "A13",
+            "root": "A",
+            "bass": null,
+            "quality_raw": "13",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "13"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "E9",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "9",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "E9",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "9",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Emaj7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "maj7",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7",
+                "maj7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "E9",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "9",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "9"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "Emaj7",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "maj7",
+            "quality_family": "major",
+            "is_dominant": false,
+            "is_minor": false,
+            "is_major": true,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "7",
+                "maj7"
+            ],
+            "parse_ok": true
+        },
+        {
+            "symbol": "E9",
+            "root": "E",
+            "bass": null,
+            "quality_raw": "9",
+            "quality_family": "dominant",
+            "is_dominant": true,
+            "is_minor": false,
+            "is_major": false,
+            "is_diminished": false,
+            "is_augmented": false,
+            "is_half_diminished": false,
+            "extensions": [
+                "9"
+            ],
+            "parse_ok": true
+        }
+    ],
+    "transition_records": [
+        {
+            "index": 0,
+            "from": "A13",
+            "to": "E9",
+            "from_parsed": {
+                "symbol": "A13",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "13",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "13"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": {
+                "type": "dominant_chain_by_fifth",
+                "target": "E9",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 1,
+            "from": "E9",
+            "to": "Emaj7",
+            "from_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Emaj7",
+                "strength": "medium"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "E9 -> Emaj7"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 2,
+            "from": "Emaj7",
+            "to": "A13",
+            "from_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "A13",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "13",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "13"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 3,
+            "from": "A13",
+            "to": "E9",
+            "from_parsed": {
+                "symbol": "A13",
+                "root": "A",
+                "bass": null,
+                "quality_raw": "13",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "13"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
+            },
+            "dominant_event": {
+                "type": "dominant_chain_by_fifth",
+                "target": "E9",
+                "strength": "high"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
+        },
+        {
+            "index": 4,
+            "from": "E9",
+            "to": "E9",
+            "from_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": null,
+            "treatment": "neutral_or_contextual"
+        },
+        {
+            "index": 5,
+            "from": "E9",
+            "to": "Emaj7",
+            "from_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Emaj7",
+                "strength": "medium"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "E9 -> Emaj7"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 6,
+            "from": "Emaj7",
+            "to": "E9",
+            "from_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "Emaj7 -> E9"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 7,
+            "from": "E9",
+            "to": "Emaj7",
+            "from_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Emaj7",
+                "strength": "medium"
+            },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "E9 -> Emaj7"
+            },
+            "treatment": "hybrid"
+        },
+        {
+            "index": 8,
+            "from": "Emaj7",
+            "to": "E9",
+            "from_parsed": {
+                "symbol": "Emaj7",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "maj7",
+                "quality_family": "major",
+                "is_dominant": false,
+                "is_minor": false,
+                "is_major": true,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "7",
+                    "maj7"
+                ],
+                "parse_ok": true
+            },
+            "to_parsed": {
+                "symbol": "E9",
+                "root": "E",
+                "bass": null,
+                "quality_raw": "9",
+                "quality_family": "dominant",
+                "is_dominant": true,
+                "is_minor": false,
+                "is_major": false,
+                "is_diminished": false,
+                "is_augmented": false,
+                "is_half_diminished": false,
+                "extensions": [
+                    "9"
+                ],
+                "parse_ok": true
+            },
+            "motion": {
+                "interval_up": 0,
+                "interval_signed": 0,
+                "motion_class": "other"
+            },
+            "dominant_event": null,
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
+            "tonal_shift_event": {
+                "type": "same_root_quality_shift",
+                "description": "Emaj7 -> E9"
+            },
+            "treatment": "hybrid"
+        }
+    ],
+    "cycle_windows": [
+        {
+            "start_index": 2,
+            "window": [
+                "Emaj7",
+                "A13",
+                "E9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        }
+    ],
+    "treatment_counts": {
+        "pink_candidate": 0,
+        "teal_candidate": 3,
+        "hybrid": 5,
+        "neutral_or_contextual": 1
+    },
+    "function_summary": {
+        "dominant_chain_count": 5,
+        "diminished_connector_count": 0,
+        "augmented_event_count": 0,
+        "tonal_shift_count": 5,
+        "modal_descent_count": 0,
+        "cycle_window_count": 1,
+        "dominant_chains": [
+            {
+                "from": "A13",
+                "to": "E9",
+                "event": {
+                    "type": "dominant_chain_by_fifth",
+                    "target": "E9",
+                    "strength": "high"
+                }
+            },
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "possible_dominant_resolution",
+                    "target": "Emaj7",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "A13",
+                "to": "E9",
+                "event": {
+                    "type": "dominant_chain_by_fifth",
+                    "target": "E9",
+                    "strength": "high"
+                }
+            },
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "possible_dominant_resolution",
+                    "target": "Emaj7",
+                    "strength": "medium"
+                }
+            },
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "possible_dominant_resolution",
+                    "target": "Emaj7",
+                    "strength": "medium"
+                }
+            }
+        ],
+        "diminished_connectors": [],
+        "augmented_events": [],
+        "tonal_shifts": [
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "E9 -> Emaj7"
+                }
+            },
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "E9 -> Emaj7"
+                }
+            },
+            {
+                "from": "Emaj7",
+                "to": "E9",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "Emaj7 -> E9"
+                }
+            },
+            {
+                "from": "E9",
+                "to": "Emaj7",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "E9 -> Emaj7"
+                }
+            },
+            {
+                "from": "Emaj7",
+                "to": "E9",
+                "event": {
+                    "type": "same_root_quality_shift",
+                    "description": "Emaj7 -> E9"
+                }
+            }
+        ],
+        "modal_descents": [],
+        "cycle_windows": [
+            {
+                "start_index": 2,
+                "window": [
+                    "Emaj7",
+                    "A13",
+                    "E9"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            }
+        ]
+    }
+}
