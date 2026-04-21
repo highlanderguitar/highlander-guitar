@@ -1,0 +1,64 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+gasology,E,teal,0,Em7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+gasology,E,teal,1,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,2,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,3,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,4,B7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,5,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,6,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,7,G,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,8,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,9,C,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,10,B7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,11,Em,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,12,Em7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+gasology,E,teal,13,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,14,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,15,Em7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,16,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,17,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,18,Em7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,19,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,20,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,21,Em7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,22,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,23,Bm11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,24,A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,25,Em11,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+gasology,E,teal,26,B7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,27,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,28,B7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,29,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,30,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,31,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,32,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,33,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,34,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,35,B7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,36,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,37,B,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,38,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,39,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,40,Am7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+gasology,E,teal,41,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,42,Bm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,43,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,44,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,45,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,46,Am7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+gasology,E,teal,47,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,48,Bm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,49,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,50,G,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,51,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,52,C,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+gasology,E,teal,53,B7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,54,Em,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,55,Em7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+gasology,E,teal,56,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,57,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+gasology,E,teal,58,Em7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+gasology,E,teal,59,Am7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,60,Bm11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+gasology,E,teal,61,A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+gasology,E,teal,62,B,V,dominant,pink,0.88,dominant chord invites tension / superimposed color

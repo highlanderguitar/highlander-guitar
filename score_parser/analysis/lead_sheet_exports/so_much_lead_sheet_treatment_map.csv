@@ -1,0 +1,9 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+so_much,F,teal,0,B11,#IV/bV,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+so_much,F,teal,1,Cm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+so_much,F,teal,2,F,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+so_much,F,teal,3,A,III,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+so_much,F,teal,4,B11,#IV/bV,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+so_much,F,teal,5,B,#IV/bV,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+so_much,F,teal,6,Cm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+so_much,F,teal,7,F,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone

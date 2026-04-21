@@ -1,0 +1,59 @@
+{
+    "title": "so_much",
+    "key_name": "F",
+    "key_confidence": 0.464,
+    "pink_score": 2.8,
+    "teal_score": 4.6,
+    "hybrid_score": 3.8,
+    "recommended_primary_treatment": "teal",
+    "annotation_tags": [
+        {
+            "moment_index": 0,
+            "chord": "B11",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 1,
+            "chord": "Cm7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 2,
+            "chord": "F",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 3,
+            "chord": "A",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 4,
+            "chord": "B11",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 5,
+            "chord": "B",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 6,
+            "chord": "Cm7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 7,
+            "chord": "F",
+            "tag": "TEAL",
+            "confidence": 0.92
+        }
+    ]
+}

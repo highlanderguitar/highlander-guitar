@@ -27,36 +27,20 @@ from .config import (
 from .models import EventRenderCell, VerticalDiagramPage
 
 
-SHAPE_FILL_SEQUENCE = [
-    "#39C3FF",  # cyan
-    "#C76BFF",  # violet
-    "#FF7A59",  # coral
-    "#FFD24D",  # gold
-    "#58E07E",  # lime
-]
-
-SHAPE_STROKE_SEQUENCE = [
-    "#A9E9FF",
-    "#E2B6FF",
-    "#FFB59F",
-    "#FFE694",
-    "#A9F3BE",
-]
-
-
 def build_vertical_fret_positions(top_y: float, board_height: float) -> list[float]:
     step = board_height / NUM_FRETS
     return [top_y + (step * f) for f in range(NUM_FRETS + 1)]
 
 
 def string_x(left_x: float, board_width: float, string_index: int) -> float:
-    spacing = board_width / (NUM_STRINGS - 1)
-    return left_x + string_index * spacing
-
+    inner_pad = board_width * 0.045
+    usable = board_width - (2 * inner_pad)
+    spacing = usable / (NUM_STRINGS - 1)
+    return left_x + inner_pad + string_index * spacing
 
 def note_center_y(fret_y: list[float], fret_number: int) -> float:
     if fret_number == 0:
-        return fret_y[0] + 1.0
+        return fret_y[0] - 2.0
     return (fret_y[fret_number - 1] + fret_y[fret_number]) / 2.0
 
 
@@ -135,78 +119,15 @@ def _layout_for_page(page: VerticalDiagramPage) -> dict[str, float]:
         "page_width": page_width,
         "column_gap": column_gap,
         "column_width": column_width,
-        "board_left_pad": 38,
-        "board_right_pad": 16,
-        "board_top_pad": HEADER_HEIGHT + 64,
+        "board_left_pad": 42,
+        "board_right_pad": 12,
+        "board_top_pad": HEADER_HEIGHT + 96,
         "board_bottom_pad": 46,
     }
 
 
 def _section_total_height(cells: list[EventRenderCell]) -> float:
     return _row_height()
-
-
-def _shape_groups_for_cell(cell: EventRenderCell) -> list[list]:
-    """
-    Group tones by pentatonic shape_id
-    """
-    groups = {}
-
-    for t in cell.tones:
-        if t.source != "super" or t.shape_id is None:
-            continue
-
-        groups.setdefault(t.shape_id, []).append(t)
-
-    return list(groups.values())
-
-    frets = sorted(set(t.fret for t in cell.tones))
-    if not frets:
-        return []
-
-    windows: list[list[int]] = []
-    current = [frets[0]]
-    start = frets[0]
-
-    for fret in frets[1:]:
-        if fret <= start + 4:
-            current.append(fret)
-        else:
-            windows.append(current)
-            current = [fret]
-            start = fret
-    windows.append(current)
-
-    groups: list[list] = []
-    for window in windows:
-        window_set = set(window)
-        group = [t for t in cell.tones if t.fret in window_set]
-        if group:
-            groups.append(group)
-
-    return groups
-
-
-def _shape_bounds(
-    tones: list,
-    board_left: float,
-    board_width: float,
-    fret_y: list[float],
-    note_radius: float,
-) -> tuple[float, float, float, float]:
-    xs = [string_x(board_left, board_width, t.string_index) for t in tones]
-    ys = [note_center_y(fret_y, t.fret) for t in tones]
-
-    left = min(xs) - (note_radius + 8)
-    right = max(xs) + (note_radius + 8)
-    top = min(ys) - (note_radius + 8)
-    bottom = max(ys) + (note_radius + 8)
-
-    return left, top, right, bottom
-
-
-def _shape_fill_alpha(colors: dict[str, str]) -> float:
-    return 0.26 if colors["background"].lower() != "#ffffff" else 0.14
 
 
 def render_page_svg(
@@ -342,31 +263,7 @@ def _render_event_svg(
     board_left = left + board_left_pad
     board_top = top + board_top_pad
     fret_y = build_vertical_fret_positions(board_top, board_height)
-
-    note_radius = min(11, (board_width / (NUM_STRINGS - 1)) * 0.24)
-
-    # shape overlays first
-    for idx, group in enumerate(_shape_groups_for_cell(cell)):
-        shape_fill = SHAPE_FILL_SEQUENCE[idx % len(SHAPE_FILL_SEQUENCE)]
-        shape_stroke = SHAPE_STROKE_SEQUENCE[idx % len(SHAPE_STROKE_SEQUENCE)]
-        sl, st, sr, sb = _shape_bounds(group, board_left, board_width, fret_y, note_radius)
-        points = []
-
-for t in group:
-    x = string_x(board_left, board_width, t.string_index)
-    y = note_center_y(fret_y, t.fret)
-    points.append((x, y))
-
-if len(points) >= 3:
-    shape = dwg.polygon(
-        points=points,
-        fill=shape_fill,
-        stroke=shape_stroke,
-        stroke_width=1.2,
-    )
-    shape["fill-opacity"] = _shape_fill_alpha(colors)
-    shape["stroke-opacity"] = 0.6
-    dwg.add(shape)
+    note_radius = min(11, ((board_width - (board_width * 0.16)) / (NUM_STRINGS - 1)) * 0.24)
 
     dwg.add(
         dwg.rect(
@@ -385,7 +282,8 @@ if len(points) >= 3:
                 start=(x, board_top),
                 end=(x, board_top + board_height),
                 stroke=colors["string_line"],
-                stroke_width=2.2 if s in (0, 5) else 1.4,
+                stroke_width=1.3 if s in (0, 5) else 0.9,
+                opacity=0.78,
             )
         )
 
@@ -396,7 +294,8 @@ if len(points) >= 3:
                 start=(board_left, y),
                 end=(board_left + board_width, y),
                 stroke=colors["nut_line"] if f == 0 else colors["fret_line"],
-                stroke_width=2.0 if f == 0 else 1.0,
+                stroke_width=2.0 if f == 0 else 0.8,
+                opacity=1.0 if f == 0 else 0.8,
             )
         )
 
@@ -405,10 +304,10 @@ if len(points) >= 3:
         dwg.add(
             dwg.text(
                 str(f),
-                insert=(board_left + board_width + BOARD_LABEL_GAP, y + 4),
+                insert=(board_left - BOARD_LABEL_GAP, y + 4),
                 text_anchor="middle",
                 font_size=13,
-                font_weight="bold",
+                font_weight="normal",
                 font_family=SVG_FONT_FAMILY,
                 fill=colors["label"],
             )
@@ -419,7 +318,7 @@ if len(points) >= 3:
         dwg.add(
             dwg.text(
                 name,
-                insert=(x, board_top - 14),
+                insert=(x, board_top - 24),
                 text_anchor="middle",
                 font_size=10,
                 font_weight="bold",
@@ -434,7 +333,7 @@ if len(points) >= 3:
             continue
         y = note_center_y(fret_y, fret)
         if fret == 12:
-            for frac in (0.32, 0.68):
+            for frac in (0.38, 0.62):
                 dwg.add(
                     dwg.circle(
                         center=(board_left + board_width * frac, y),
@@ -622,26 +521,7 @@ def _render_event_pdf(
     board_left = left + board_left_pad
     board_top = top + board_top_pad
     fret_y = build_vertical_fret_positions(board_top, board_height)
-
-    note_radius = min(11, (board_width / (NUM_STRINGS - 1)) * 0.24)
-
-    # shape overlays first
-    for idx, group in enumerate(_shape_groups_for_cell(cell)):
-        shape_fill = SHAPE_FILL_SEQUENCE[idx % len(SHAPE_FILL_SEQUENCE)]
-        shape_stroke = SHAPE_STROKE_SEQUENCE[idx % len(SHAPE_STROKE_SEQUENCE)]
-        sl, st, sr, sb = _shape_bounds(group, board_left, board_width, fret_y, note_radius)
-
-        c.saveState()
-        c.setFillColor(HexColor(shape_fill))
-        c.setStrokeColor(HexColor(shape_stroke))
-        try:
-            c.setFillAlpha(_shape_fill_alpha(colors))
-            c.setStrokeAlpha(0.55)
-        except Exception:
-            pass
-        c.setLineWidth(1.25)
-        c.roundRect(tx(sl), ty(sb), tx(sr - sl), tx(sb - st), 16, fill=1, stroke=1)
-        c.restoreState()
+    note_radius = min(11, ((board_width - (board_width * 0.16)) / (NUM_STRINGS - 1)) * 0.24)
 
     c.setStrokeColor(HexColor(colors["fretboard_border"]))
     c.rect(
@@ -656,7 +536,7 @@ def _render_event_pdf(
     for s in range(NUM_STRINGS):
         x = string_x(board_left, board_width, s)
         c.setStrokeColor(HexColor(colors["string_line"]))
-        c.setLineWidth(1.8 if s in (0, 5) else 1.1)
+        c.setLineWidth(1.3 if s in (0, 5) else 0.9)
         c.line(tx(x), ty(board_top), tx(x), ty(board_top + board_height))
 
     for f in range(NUM_FRETS + 1):
@@ -666,15 +546,15 @@ def _render_event_pdf(
         c.line(tx(board_left), ty(y), tx(board_left + board_width), ty(y))
 
     c.setFillColor(HexColor(colors["label"]))
-    c.setFont("Helvetica-Bold", 13)
+    c.setFont("Helvetica", 13)
     for f in range(1, NUM_FRETS + 1):
         y = note_center_y(fret_y, f)
-        c.drawCentredString(tx(board_left + board_width + BOARD_LABEL_GAP), ty(y) - 4, str(f))
+        c.drawCentredString(tx(board_left - BOARD_LABEL_GAP), ty(y) - 4, str(f))
 
     c.setFont("Helvetica-Bold", 10)
     for s, name in enumerate(TUNING_BOTTOM_TO_TOP):
         x = string_x(board_left, board_width, s)
-        c.drawCentredString(tx(x), ty(board_top - 14) - 1, name)
+        c.drawCentredString(tx(x), ty(board_top - 24) - 1, name)
 
     marker_frets = [3, 5, 7, 9, 12, 15]
     for fret in marker_frets:
@@ -683,7 +563,7 @@ def _render_event_pdf(
         y = note_center_y(fret_y, fret)
         if fret == 12:
             c.setFillColor(HexColor(colors["marker_dot"]))
-            for frac in (0.32, 0.68):
+            for frac in (0.38, 0.62):
                 c.circle(tx(board_left + board_width * frac), ty(y), 2.8, fill=1, stroke=0)
         else:
             c.setFillColor(HexColor(colors["marker_dot_subtle"]))

@@ -1,0 +1,44 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+old_gray_coat,E,hybrid,0,Em11,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+old_gray_coat,E,hybrid,1,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,2,Bm11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,3,A9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,4,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,5,B11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,6,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,7,Dm11,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,8,Am7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,9,Cm7,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,10,Dm7,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,11,B7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,12,A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+old_gray_coat,E,hybrid,13,Em11,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+old_gray_coat,E,hybrid,14,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,15,Bm11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+old_gray_coat,E,hybrid,16,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+old_gray_coat,E,hybrid,17,A9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,18,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,19,B11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+old_gray_coat,E,hybrid,20,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+old_gray_coat,E,hybrid,21,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,22,Bm11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,23,A9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,24,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,25,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,26,B11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,27,B,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,28,Dm11,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,29,Em11,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+old_gray_coat,E,hybrid,30,Am7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,31,Cm7,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,32,Dm7,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,33,Cm7,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,34,B7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+old_gray_coat,E,hybrid,35,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+old_gray_coat,E,hybrid,36,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,37,Bm11,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+old_gray_coat,E,hybrid,38,A9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+old_gray_coat,E,hybrid,39,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,40,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+old_gray_coat,E,hybrid,41,B11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+old_gray_coat,E,hybrid,42,Em11,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone

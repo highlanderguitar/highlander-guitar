@@ -1,0 +1,30 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+port_tobacco,A,hybrid,0,Am7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+port_tobacco,A,hybrid,1,D/A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+port_tobacco,A,hybrid,2,A6/9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+port_tobacco,A,hybrid,3,Em7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+port_tobacco,A,hybrid,4,A7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+port_tobacco,A,hybrid,5,D6/9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+port_tobacco,A,hybrid,6,B9,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,7,E7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+port_tobacco,A,hybrid,8,F9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,9,E9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+port_tobacco,A,hybrid,10,A,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+port_tobacco,A,hybrid,11,Am7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+port_tobacco,A,hybrid,12,D/A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+port_tobacco,A,hybrid,13,Am7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+port_tobacco,A,hybrid,14,D/A,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+port_tobacco,A,hybrid,15,B,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,16,A6/9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+port_tobacco,A,hybrid,17,Em7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+port_tobacco,A,hybrid,18,A7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+port_tobacco,A,hybrid,19,D6/9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+port_tobacco,A,hybrid,20,B9,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,21,E7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+port_tobacco,A,hybrid,22,A6/9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+port_tobacco,A,hybrid,23,Em7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+port_tobacco,A,hybrid,24,A7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+port_tobacco,A,hybrid,25,D6/9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+port_tobacco,A,hybrid,26,B9,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,27,F9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+port_tobacco,A,hybrid,28,E9,V,dominant,pink,0.88,dominant chord invites tension / superimposed color

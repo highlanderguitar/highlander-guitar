@@ -1,7 +1,6 @@
 {
     "title": "neon_tetra",
     "harmonic_stream": [
-        "F#m7",
         "Em7",
         "Am7/D",
         "Bm7",
@@ -9,12 +8,6 @@
         "C/B",
         "A6",
         "G7",
-        "F#m7",
-        "F#m7",
-        "F#m7",
-        "F#m7",
-        "F#m7",
-        "F#m7",
         "Em7",
         "Am7/D",
         "Bm7",
@@ -25,14 +18,11 @@
         "C/B",
         "A6",
         "Bm7",
-        "F#m7",
         "A6",
         "Bm7",
-        "F#m7",
         "G7"
     ],
     "unique_chords": [
-        "F#m7",
         "Em7",
         "Am7/D",
         "Bm7",
@@ -43,7 +33,6 @@
     "harmonic_cells": [
         {
             "cell": [
-                "F#m7",
                 "Em7",
                 "Am7/D",
                 "Bm7",
@@ -52,33 +41,7 @@
             "count": 2,
             "start_indexes": [
                 0,
-                13
-            ]
-        },
-        {
-            "cell": [
-                "F#m7",
-                "Em7",
-                "Am7/D",
-                "Bm7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                0,
-                13
-            ]
-        },
-        {
-            "cell": [
-                "Em7",
-                "Am7/D",
-                "Bm7",
-                "Em7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                1,
-                14
+                7
             ]
         },
         {
@@ -89,21 +52,9 @@
             ],
             "count": 3,
             "start_indexes": [
-                1,
-                14,
-                18
-            ]
-        },
-        {
-            "cell": [
-                "F#m7",
-                "Em7",
-                "Am7/D"
-            ],
-            "count": 2,
-            "start_indexes": [
                 0,
-                13
+                7,
+                11
             ]
         },
         {
@@ -114,20 +65,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                2,
-                15
-            ]
-        },
-        {
-            "cell": [
-                "A6",
-                "Bm7",
-                "F#m7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                22,
-                25
+                1,
+                8
             ]
         },
         {
@@ -137,9 +76,9 @@
             ],
             "count": 3,
             "start_indexes": [
-                1,
-                14,
-                18
+                0,
+                7,
+                11
             ]
         },
         {
@@ -149,20 +88,9 @@
             ],
             "count": 3,
             "start_indexes": [
-                2,
-                15,
-                19
-            ]
-        },
-        {
-            "cell": [
-                "F#m7",
-                "Em7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                0,
-                13
+                1,
+                8,
+                12
             ]
         },
         {
@@ -172,8 +100,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                3,
-                16
+                2,
+                9
             ]
         },
         {
@@ -183,8 +111,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                5,
-                21
+                4,
+                14
             ]
         },
         {
@@ -194,40 +122,12 @@
             ],
             "count": 2,
             "start_indexes": [
-                22,
-                25
-            ]
-        },
-        {
-            "cell": [
-                "Bm7",
-                "F#m7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                23,
-                26
+                15,
+                17
             ]
         }
     ],
     "parsed_stream": [
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
         {
             "symbol": "Em7",
             "root": "E",
@@ -346,108 +246,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Em7",
             "root": "E",
             "bass": null,
@@ -616,23 +414,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "A6",
             "root": "A",
             "bass": null,
@@ -652,23 +433,6 @@
         {
             "symbol": "Bm7",
             "root": "B",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
             "bass": null,
             "quality_raw": "m7",
             "quality_family": "minor",
@@ -704,59 +468,6 @@
     "transition_records": [
         {
             "index": 0,
-            "from": "F#m7",
-            "to": "Em7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Em7",
-                "root": "E",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
-            "tonal_shift_event": null,
-            "treatment": "pink_candidate"
-        },
-        {
-            "index": 1,
             "from": "Em7",
             "to": "Am7/D",
             "from_parsed": {
@@ -806,7 +517,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 2,
+            "index": 1,
             "from": "Am7/D",
             "to": "Bm7",
             "from_parsed": {
@@ -856,7 +567,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 3,
+            "index": 2,
             "from": "Bm7",
             "to": "Em7",
             "from_parsed": {
@@ -906,7 +617,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 4,
+            "index": 3,
             "from": "Em7",
             "to": "C/B",
             "from_parsed": {
@@ -954,7 +665,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 5,
+            "index": 4,
             "from": "C/B",
             "to": "A6",
             "from_parsed": {
@@ -1002,7 +713,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 6,
+            "index": 5,
             "from": "A6",
             "to": "G7",
             "from_parsed": {
@@ -1052,9 +763,9 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 7,
+            "index": 6,
             "from": "G7",
-            "to": "F#m7",
+            "to": "Em7",
             "from_parsed": {
                 "symbol": "G7",
                 "root": "G",
@@ -1063,310 +774,6 @@
                 "quality_family": "dominant",
                 "is_dominant": true,
                 "is_minor": false,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
-            },
-            "dominant_event": {
-                "type": "possible_dominant_resolution",
-                "target": "F#m7",
-                "strength": "medium"
-            },
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "teal_candidate"
-        },
-        {
-            "index": 8,
-            "from": "F#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 9,
-            "from": "F#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 10,
-            "from": "F#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 11,
-            "from": "F#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 12,
-            "from": "F#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 13,
-            "from": "F#m7",
-            "to": "Em7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
                 "is_major": false,
                 "is_diminished": false,
                 "is_augmented": false,
@@ -1394,22 +801,23 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
+                "interval_up": 9,
+                "interval_signed": -3,
+                "motion_class": "thirds_or_sixths_motion_minor"
             },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
+            "dominant_event": {
+                "type": "possible_dominant_resolution",
+                "target": "Em7",
                 "strength": "medium"
             },
+            "diminished_event": null,
+            "augmented_event": null,
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "teal_candidate"
         },
         {
-            "index": 14,
+            "index": 7,
             "from": "Em7",
             "to": "Am7/D",
             "from_parsed": {
@@ -1459,7 +867,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 15,
+            "index": 8,
             "from": "Am7/D",
             "to": "Bm7",
             "from_parsed": {
@@ -1509,7 +917,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 16,
+            "index": 9,
             "from": "Bm7",
             "to": "Em7",
             "from_parsed": {
@@ -1559,7 +967,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 17,
+            "index": 10,
             "from": "Em7",
             "to": "Em7",
             "from_parsed": {
@@ -1609,7 +1017,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 18,
+            "index": 11,
             "from": "Em7",
             "to": "Am7/D",
             "from_parsed": {
@@ -1659,7 +1067,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 19,
+            "index": 12,
             "from": "Am7/D",
             "to": "Bm7",
             "from_parsed": {
@@ -1709,7 +1117,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 20,
+            "index": 13,
             "from": "Bm7",
             "to": "C/B",
             "from_parsed": {
@@ -1757,7 +1165,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 21,
+            "index": 14,
             "from": "C/B",
             "to": "A6",
             "from_parsed": {
@@ -1805,7 +1213,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 22,
+            "index": 15,
             "from": "A6",
             "to": "Bm7",
             "from_parsed": {
@@ -1855,62 +1263,12 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 23,
+            "index": 16,
             "from": "Bm7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "Bm7",
-                "root": "B",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 7,
-                "interval_signed": -5,
-                "motion_class": "cycle_of_fifths"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 24,
-            "from": "F#m7",
             "to": "A6",
             "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
+                "symbol": "Bm7",
+                "root": "B",
                 "bass": null,
                 "quality_raw": "m7",
                 "quality_family": "minor",
@@ -1943,19 +1301,22 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 3,
-                "interval_signed": 3,
-                "motion_class": "thirds_or_sixths_motion_minor"
+                "interval_up": 10,
+                "interval_signed": -2,
+                "motion_class": "seconds_motion"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": null,
+            "modal_event": {
+                "type": "descending_scalar_or_modal_motion",
+                "strength": "medium"
+            },
             "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
+            "treatment": "pink_candidate"
         },
         {
-            "index": 25,
+            "index": 17,
             "from": "A6",
             "to": "Bm7",
             "from_parsed": {
@@ -2005,62 +1366,12 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 26,
+            "index": 18,
             "from": "Bm7",
-            "to": "F#m7",
+            "to": "G7",
             "from_parsed": {
                 "symbol": "Bm7",
                 "root": "B",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 7,
-                "interval_signed": -5,
-                "motion_class": "cycle_of_fifths"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 27,
-            "from": "F#m7",
-            "to": "G7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
                 "bass": null,
                 "quality_raw": "m7",
                 "quality_family": "minor",
@@ -2093,39 +1404,39 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 1,
-                "interval_signed": 1,
-                "motion_class": "chromatic"
+                "interval_up": 8,
+                "interval_signed": -4,
+                "motion_class": "thirds_or_sixths_motion_major"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
             "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "teal_candidate"
         }
     ],
     "cycle_windows": [],
     "treatment_counts": {
-        "pink_candidate": 10,
-        "teal_candidate": 1,
+        "pink_candidate": 8,
+        "teal_candidate": 2,
         "hybrid": 0,
-        "neutral_or_contextual": 17
+        "neutral_or_contextual": 9
     },
     "function_summary": {
         "dominant_chain_count": 1,
         "diminished_connector_count": 0,
         "augmented_event_count": 0,
         "tonal_shift_count": 0,
-        "modal_descent_count": 2,
+        "modal_descent_count": 1,
         "cycle_window_count": 0,
         "dominant_chains": [
             {
                 "from": "G7",
-                "to": "F#m7",
+                "to": "Em7",
                 "event": {
                     "type": "possible_dominant_resolution",
-                    "target": "F#m7",
+                    "target": "Em7",
                     "strength": "medium"
                 }
             }
@@ -2135,16 +1446,8 @@
         "tonal_shifts": [],
         "modal_descents": [
             {
-                "from": "F#m7",
-                "to": "Em7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "F#m7",
-                "to": "Em7",
+                "from": "Bm7",
+                "to": "A6",
                 "event": {
                     "type": "descending_scalar_or_modal_motion",
                     "strength": "medium"

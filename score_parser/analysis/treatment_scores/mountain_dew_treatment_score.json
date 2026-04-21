@@ -1,0 +1,370 @@
+{
+    "title": "mountain_dew",
+    "key_inference": {
+        "key_root": 7,
+        "key_name": "G",
+        "confidence": 0.188,
+        "scores": [
+            {
+                "tonic_pc": 7,
+                "key_name": "G",
+                "score": 32.0,
+                "tonic_count": 5,
+                "subdom_count": 2,
+                "dom_count": 2,
+                "cadential_count": 2,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 0,
+                "key_name": "C",
+                "score": 26.0,
+                "tonic_count": 2,
+                "subdom_count": 0,
+                "dom_count": 5,
+                "cadential_count": 2,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 2,
+                "key_name": "D",
+                "score": 15.0,
+                "tonic_count": 2,
+                "subdom_count": 5,
+                "dom_count": 0,
+                "cadential_count": 0,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 5,
+                "key_name": "F",
+                "score": 6.0,
+                "tonic_count": 0,
+                "subdom_count": 0,
+                "dom_count": 2,
+                "cadential_count": 0,
+                "vi_count": 2
+            },
+            {
+                "tonic_pc": 10,
+                "key_name": "Bb",
+                "score": 4.0,
+                "tonic_count": 0,
+                "subdom_count": 0,
+                "dom_count": 0,
+                "cadential_count": 0,
+                "vi_count": 5
+            }
+        ]
+    },
+    "harmonic_stream": [
+        "G",
+        "C",
+        "G",
+        "D",
+        "G",
+        "C",
+        "G",
+        "D",
+        "G"
+    ],
+    "unique_chords": [
+        "G",
+        "C",
+        "D"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "G",
+                "C",
+                "G",
+                "D"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                4
+            ]
+        },
+        {
+            "cell": [
+                "C",
+                "G",
+                "D",
+                "G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                5
+            ]
+        },
+        {
+            "cell": [
+                "G",
+                "C",
+                "G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                4
+            ]
+        },
+        {
+            "cell": [
+                "C",
+                "G",
+                "D"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                5
+            ]
+        },
+        {
+            "cell": [
+                "G",
+                "D",
+                "G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                6
+            ]
+        },
+        {
+            "cell": [
+                "G",
+                "C"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                4
+            ]
+        },
+        {
+            "cell": [
+                "C",
+                "G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                5
+            ]
+        },
+        {
+            "cell": [
+                "G",
+                "D"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                6
+            ]
+        },
+        {
+            "cell": [
+                "D",
+                "G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                3,
+                7
+            ]
+        }
+    ],
+    "treatment_scores": {
+        "pink_score": 5.8,
+        "teal_score": 9.25,
+        "hybrid_score": 6.8,
+        "recommended_primary_treatment": "teal",
+        "reasoning": [
+            "few unique chords increases teal room",
+            "stable repeating cadence loop supports teal extension frameworks",
+            "simple harmony leaves room for pink superimposition without harmonic overload",
+            "repeating cells create repeatable pink insertion windows"
+        ],
+        "stats": {
+            "unique_count": 3,
+            "total_count": 9,
+            "tonic_count": 5,
+            "subdominant_count": 2,
+            "dominant_count": 2,
+            "cadence_count": 2,
+            "repeated_cell_strength": 9
+        }
+    },
+    "moment_annotations": [
+        {
+            "moment_index": 0,
+            "chord": "G",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 1,
+            "chord": "C",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 2,
+            "chord": "G",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 3,
+            "chord": "D",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 4,
+            "chord": "G",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        },
+        {
+            "moment_index": 5,
+            "chord": "C",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 6,
+            "chord": "G",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 7,
+            "chord": "D",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 8,
+            "chord": "G",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        }
+    ],
+    "lead_sheet_annotation_plan": {
+        "annotation_tags": [
+            {
+                "moment_index": 0,
+                "chord": "G",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 1,
+                "chord": "C",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 2,
+                "chord": "G",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 3,
+                "chord": "D",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 4,
+                "chord": "G",
+                "tag": "TEAL",
+                "confidence": 0.92
+            },
+            {
+                "moment_index": 5,
+                "chord": "C",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 6,
+                "chord": "G",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 7,
+                "chord": "D",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 8,
+                "chord": "G",
+                "tag": "TEAL",
+                "confidence": 0.92
+            }
+        ]
+    }
+}

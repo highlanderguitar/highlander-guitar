@@ -1,0 +1,331 @@
+{
+    "title": "mar_east",
+    "key_inference": {
+        "key_root": 4,
+        "key_name": "E",
+        "confidence": 0.127,
+        "scores": [
+            {
+                "tonic_pc": 4,
+                "key_name": "E",
+                "score": 33.099999999999994,
+                "tonic_count": 7,
+                "subdom_count": 3,
+                "dom_count": 1,
+                "cadential_count": 1,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 9,
+                "key_name": "A",
+                "score": 28.900000000000002,
+                "tonic_count": 3,
+                "subdom_count": 0,
+                "dom_count": 7,
+                "cadential_count": 1,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 11,
+                "key_name": "B",
+                "score": 15.6,
+                "tonic_count": 1,
+                "subdom_count": 7,
+                "dom_count": 0,
+                "cadential_count": 0,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 2,
+                "key_name": "D",
+                "score": 7.4,
+                "tonic_count": 0,
+                "subdom_count": 0,
+                "dom_count": 3,
+                "cadential_count": 0,
+                "vi_count": 1
+            },
+            {
+                "tonic_pc": 7,
+                "key_name": "G",
+                "score": 5.6000000000000005,
+                "tonic_count": 0,
+                "subdom_count": 0,
+                "dom_count": 0,
+                "cadential_count": 0,
+                "vi_count": 7
+            }
+        ]
+    },
+    "harmonic_stream": [
+        "A13",
+        "E9",
+        "Emaj7",
+        "A",
+        "A13",
+        "E9",
+        "B",
+        "Emaj7",
+        "E9",
+        "Emaj7",
+        "E9"
+    ],
+    "unique_chords": [
+        "A13",
+        "E9",
+        "Emaj7",
+        "A",
+        "B"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "A13",
+                "E9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                4
+            ]
+        },
+        {
+            "cell": [
+                "E9",
+                "Emaj7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                8
+            ]
+        },
+        {
+            "cell": [
+                "Emaj7",
+                "E9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                7,
+                9
+            ]
+        }
+    ],
+    "treatment_scores": {
+        "pink_score": 2.8,
+        "teal_score": 6.3,
+        "hybrid_score": 3.8,
+        "recommended_primary_treatment": "teal",
+        "reasoning": [
+            "moderately limited harmonic palette supports teal",
+            "repeating cells create repeatable pink insertion windows"
+        ],
+        "stats": {
+            "unique_count": 5,
+            "total_count": 11,
+            "tonic_count": 7,
+            "subdominant_count": 3,
+            "dominant_count": 1,
+            "cadence_count": 1,
+            "repeated_cell_strength": 3
+        }
+    },
+    "moment_annotations": [
+        {
+            "moment_index": 0,
+            "chord": "A13",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 1,
+            "chord": "E9",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 2,
+            "chord": "Emaj7",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 3,
+            "chord": "A",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.78,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing"
+            ]
+        },
+        {
+            "moment_index": 4,
+            "chord": "A13",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 5,
+            "chord": "E9",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 6,
+            "chord": "B",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 7,
+            "chord": "Emaj7",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        },
+        {
+            "moment_index": 8,
+            "chord": "E9",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 9,
+            "chord": "Emaj7",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 10,
+            "chord": "E9",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        }
+    ],
+    "lead_sheet_annotation_plan": {
+        "annotation_tags": [
+            {
+                "moment_index": 0,
+                "chord": "A13",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 1,
+                "chord": "E9",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 2,
+                "chord": "Emaj7",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 3,
+                "chord": "A",
+                "tag": "TEAL",
+                "confidence": 0.78
+            },
+            {
+                "moment_index": 4,
+                "chord": "A13",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 5,
+                "chord": "E9",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 6,
+                "chord": "B",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 7,
+                "chord": "Emaj7",
+                "tag": "TEAL",
+                "confidence": 0.92
+            },
+            {
+                "moment_index": 8,
+                "chord": "E9",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 9,
+                "chord": "Emaj7",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 10,
+                "chord": "E9",
+                "tag": "TEAL",
+                "confidence": 0.86
+            }
+        ]
+    }
+}

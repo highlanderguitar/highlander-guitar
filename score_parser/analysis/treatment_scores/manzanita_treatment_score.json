@@ -1,0 +1,878 @@
+{
+    "title": "manzanita",
+    "key_inference": {
+        "key_root": 2,
+        "key_name": "D",
+        "confidence": 0.287,
+        "scores": [
+            {
+                "tonic_pc": 2,
+                "key_name": "D",
+                "score": 66.10000000000001,
+                "tonic_count": 9,
+                "subdom_count": 4,
+                "dom_count": 8,
+                "cadential_count": 3,
+                "vi_count": 1
+            },
+            {
+                "tonic_pc": 7,
+                "key_name": "G",
+                "score": 47.1,
+                "tonic_count": 4,
+                "subdom_count": 6,
+                "dom_count": 9,
+                "cadential_count": 1,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 0,
+                "key_name": "C",
+                "score": 44.0,
+                "tonic_count": 6,
+                "subdom_count": 6,
+                "dom_count": 4,
+                "cadential_count": 0,
+                "vi_count": 8
+            },
+            {
+                "tonic_pc": 9,
+                "key_name": "A",
+                "score": 40.2,
+                "tonic_count": 8,
+                "subdom_count": 9,
+                "dom_count": 0,
+                "cadential_count": 0,
+                "vi_count": 0
+            },
+            {
+                "tonic_pc": 5,
+                "key_name": "F",
+                "score": 38.400000000000006,
+                "tonic_count": 6,
+                "subdom_count": 0,
+                "dom_count": 6,
+                "cadential_count": 0,
+                "vi_count": 9
+            }
+        ]
+    },
+    "harmonic_stream": [
+        "Csus2",
+        "Dm",
+        "Am",
+        "Am7",
+        "D7",
+        "F/G",
+        "G/A",
+        "F",
+        "C",
+        "A7",
+        "A",
+        "Csus2",
+        "Dm",
+        "Csus2",
+        "Am",
+        "Am7",
+        "D7",
+        "F/G",
+        "G/A",
+        "Dm",
+        "Am7",
+        "F/G",
+        "G/A",
+        "Dm",
+        "G/A",
+        "Dm",
+        "B",
+        "F",
+        "C",
+        "Dm",
+        "F",
+        "C7",
+        "A7",
+        "Dm"
+    ],
+    "unique_chords": [
+        "Csus2",
+        "Dm",
+        "Am",
+        "Am7",
+        "D7",
+        "F/G",
+        "G/A",
+        "F",
+        "C",
+        "A7",
+        "A",
+        "B",
+        "C7"
+    ],
+    "harmonic_cells": [
+        {
+            "cell": [
+                "F/G",
+                "G/A"
+            ],
+            "count": 3,
+            "start_indexes": [
+                5,
+                17,
+                21
+            ]
+        },
+        {
+            "cell": [
+                "G/A",
+                "Dm"
+            ],
+            "count": 3,
+            "start_indexes": [
+                18,
+                22,
+                24
+            ]
+        },
+        {
+            "cell": [
+                "Am",
+                "Am7",
+                "D7",
+                "F/G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "D7",
+                "F/G",
+                "G/A"
+            ],
+            "count": 2,
+            "start_indexes": [
+                3,
+                15
+            ]
+        },
+        {
+            "cell": [
+                "Am",
+                "Am7",
+                "D7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "D7",
+                "F/G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                3,
+                15
+            ]
+        },
+        {
+            "cell": [
+                "D7",
+                "F/G",
+                "G/A"
+            ],
+            "count": 2,
+            "start_indexes": [
+                4,
+                16
+            ]
+        },
+        {
+            "cell": [
+                "F/G",
+                "G/A",
+                "Dm"
+            ],
+            "count": 2,
+            "start_indexes": [
+                17,
+                21
+            ]
+        },
+        {
+            "cell": [
+                "Csus2",
+                "Dm"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                11
+            ]
+        },
+        {
+            "cell": [
+                "Am",
+                "Am7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "D7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                3,
+                15
+            ]
+        },
+        {
+            "cell": [
+                "D7",
+                "F/G"
+            ],
+            "count": 2,
+            "start_indexes": [
+                4,
+                16
+            ]
+        },
+        {
+            "cell": [
+                "F",
+                "C"
+            ],
+            "count": 2,
+            "start_indexes": [
+                7,
+                27
+            ]
+        }
+    ],
+    "treatment_scores": {
+        "pink_score": 7.1,
+        "teal_score": 7.7,
+        "hybrid_score": 8.1,
+        "recommended_primary_treatment": "hybrid",
+        "reasoning": [
+            "stable repeating cadence loop supports teal extension frameworks",
+            "repeating cells create repeatable pink insertion windows"
+        ],
+        "stats": {
+            "unique_count": 13,
+            "total_count": 34,
+            "tonic_count": 9,
+            "subdominant_count": 4,
+            "dominant_count": 8,
+            "cadence_count": 3,
+            "repeated_cell_strength": 15
+        }
+    },
+    "moment_annotations": [
+        {
+            "moment_index": 0,
+            "chord": "Csus2",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 1,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 2,
+            "chord": "Am",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.88,
+            "rationale": [
+                "dominant chord invites tension / superimposed color"
+            ]
+        },
+        {
+            "moment_index": 3,
+            "chord": "Am7",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 4,
+            "chord": "D7",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        },
+        {
+            "moment_index": 5,
+            "chord": "F/G",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 6,
+            "chord": "G/A",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.78,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing"
+            ]
+        },
+        {
+            "moment_index": 7,
+            "chord": "F",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 8,
+            "chord": "C",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 9,
+            "chord": "A7",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.88,
+            "rationale": [
+                "dominant chord invites tension / superimposed color"
+            ]
+        },
+        {
+            "moment_index": 10,
+            "chord": "A",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.88,
+            "rationale": [
+                "dominant chord invites tension / superimposed color"
+            ]
+        },
+        {
+            "moment_index": 11,
+            "chord": "Csus2",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 12,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 13,
+            "chord": "Csus2",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 14,
+            "chord": "Am",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.88,
+            "rationale": [
+                "dominant chord invites tension / superimposed color"
+            ]
+        },
+        {
+            "moment_index": 15,
+            "chord": "Am7",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 16,
+            "chord": "D7",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        },
+        {
+            "moment_index": 17,
+            "chord": "F/G",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 18,
+            "chord": "G/A",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 19,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 20,
+            "chord": "Am7",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.88,
+            "rationale": [
+                "dominant chord invites tension / superimposed color"
+            ]
+        },
+        {
+            "moment_index": 21,
+            "chord": "F/G",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 22,
+            "chord": "G/A",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 23,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 24,
+            "chord": "G/A",
+            "degree": "IV",
+            "functional_bucket": "subdominant",
+            "recommended_treatment": "teal",
+            "confidence": 0.83,
+            "rationale": [
+                "subdominant plateau leaves room for extension climbing",
+                "IV moving back into the home loop favors shape-based teal phrasing"
+            ]
+        },
+        {
+            "moment_index": 25,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 26,
+            "chord": "B",
+            "degree": "VI",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 27,
+            "chord": "F",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 28,
+            "chord": "C",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 29,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.86,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing"
+            ]
+        },
+        {
+            "moment_index": 30,
+            "chord": "F",
+            "degree": "bIII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 31,
+            "chord": "C7",
+            "degree": "bVII",
+            "functional_bucket": "color_or_other",
+            "recommended_treatment": "hybrid",
+            "confidence": 0.62,
+            "rationale": [
+                "non-core function may support mixed color depending on phrase target"
+            ]
+        },
+        {
+            "moment_index": 32,
+            "chord": "A7",
+            "degree": "V",
+            "functional_bucket": "dominant",
+            "recommended_treatment": "pink",
+            "confidence": 0.94,
+            "rationale": [
+                "dominant chord invites tension / superimposed color",
+                "direct V\u2192I cadence makes pink tension especially useful"
+            ]
+        },
+        {
+            "moment_index": 33,
+            "chord": "Dm",
+            "degree": "I",
+            "functional_bucket": "tonic",
+            "recommended_treatment": "teal",
+            "confidence": 0.92,
+            "rationale": [
+                "tonic stability supports teal extension framing and melodic climbing",
+                "post-cadential tonic is a strong teal arrival zone"
+            ]
+        }
+    ],
+    "lead_sheet_annotation_plan": {
+        "annotation_tags": [
+            {
+                "moment_index": 0,
+                "chord": "Csus2",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 1,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 2,
+                "chord": "Am",
+                "tag": "PINK",
+                "confidence": 0.88
+            },
+            {
+                "moment_index": 3,
+                "chord": "Am7",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 4,
+                "chord": "D7",
+                "tag": "TEAL",
+                "confidence": 0.92
+            },
+            {
+                "moment_index": 5,
+                "chord": "F/G",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 6,
+                "chord": "G/A",
+                "tag": "TEAL",
+                "confidence": 0.78
+            },
+            {
+                "moment_index": 7,
+                "chord": "F",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 8,
+                "chord": "C",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 9,
+                "chord": "A7",
+                "tag": "PINK",
+                "confidence": 0.88
+            },
+            {
+                "moment_index": 10,
+                "chord": "A",
+                "tag": "PINK",
+                "confidence": 0.88
+            },
+            {
+                "moment_index": 11,
+                "chord": "Csus2",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 12,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 13,
+                "chord": "Csus2",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 14,
+                "chord": "Am",
+                "tag": "PINK",
+                "confidence": 0.88
+            },
+            {
+                "moment_index": 15,
+                "chord": "Am7",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 16,
+                "chord": "D7",
+                "tag": "TEAL",
+                "confidence": 0.92
+            },
+            {
+                "moment_index": 17,
+                "chord": "F/G",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 18,
+                "chord": "G/A",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 19,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 20,
+                "chord": "Am7",
+                "tag": "PINK",
+                "confidence": 0.88
+            },
+            {
+                "moment_index": 21,
+                "chord": "F/G",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 22,
+                "chord": "G/A",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 23,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 24,
+                "chord": "G/A",
+                "tag": "TEAL",
+                "confidence": 0.83
+            },
+            {
+                "moment_index": 25,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 26,
+                "chord": "B",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 27,
+                "chord": "F",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 28,
+                "chord": "C",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 29,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.86
+            },
+            {
+                "moment_index": 30,
+                "chord": "F",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 31,
+                "chord": "C7",
+                "tag": "HYBRID",
+                "confidence": 0.62
+            },
+            {
+                "moment_index": 32,
+                "chord": "A7",
+                "tag": "PINK",
+                "confidence": 0.94
+            },
+            {
+                "moment_index": 33,
+                "chord": "Dm",
+                "tag": "TEAL",
+                "confidence": 0.92
+            }
+        ]
+    }
+}

@@ -4,71 +4,102 @@
         "Am7",
         "D/A",
         "A6/9",
-        "F#m7",
         "Em7",
         "A7",
         "D6/9",
-        "C#m7",
         "B9",
         "E7",
         "F9",
         "E9",
-        "Amaj13",
         "Am7",
         "D/A",
         "Am7",
         "D/A",
         "A6/9",
-        "F#m7",
         "Em7",
         "A7",
         "D6/9",
-        "C#m7",
-        "F#m7",
         "B9",
         "E7",
         "A6/9",
-        "F#m7",
         "Em7",
         "A7",
         "D6/9",
-        "C#m7",
-        "F#m7",
         "B9",
         "F9",
-        "E9",
-        "Amaj13"
+        "E9"
     ],
     "unique_chords": [
         "Am7",
         "D/A",
         "A6/9",
-        "F#m7",
         "Em7",
         "A7",
         "D6/9",
-        "C#m7",
         "B9",
         "E7",
         "F9",
-        "E9",
-        "Amaj13"
+        "E9"
     ],
     "harmonic_cells": [
         {
             "cell": [
+                "Am7",
+                "D/A",
                 "A6/9",
-                "F#m7",
+                "Em7",
+                "A7",
+                "D6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                0,
+                12
+            ]
+        },
+        {
+            "cell": [
+                "D/A",
+                "A6/9",
                 "Em7",
                 "A7",
                 "D6/9",
-                "C#m7"
+                "B9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                1,
+                13
+            ]
+        },
+        {
+            "cell": [
+                "A6/9",
+                "Em7",
+                "A7",
+                "D6/9",
+                "B9",
+                "E7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                2,
+                14
+            ]
+        },
+        {
+            "cell": [
+                "A6/9",
+                "Em7",
+                "A7",
+                "D6/9",
+                "B9"
             ],
             "count": 3,
             "start_indexes": [
                 2,
-                17,
-                26
+                14,
+                20
             ]
         },
         {
@@ -76,21 +107,19 @@
                 "Am7",
                 "D/A",
                 "A6/9",
-                "F#m7",
                 "Em7",
                 "A7"
             ],
             "count": 2,
             "start_indexes": [
                 0,
-                15
+                12
             ]
         },
         {
             "cell": [
                 "D/A",
                 "A6/9",
-                "F#m7",
                 "Em7",
                 "A7",
                 "D6/9"
@@ -98,22 +127,7 @@
             "count": 2,
             "start_indexes": [
                 1,
-                16
-            ]
-        },
-        {
-            "cell": [
-                "F#m7",
-                "Em7",
-                "A7",
-                "D6/9",
-                "C#m7",
-                "F#m7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                18,
-                27
+                13
             ]
         },
         {
@@ -121,20 +135,18 @@
                 "Em7",
                 "A7",
                 "D6/9",
-                "C#m7",
-                "F#m7",
-                "B9"
+                "B9",
+                "E7"
             ],
             "count": 2,
             "start_indexes": [
-                19,
-                28
+                3,
+                15
             ]
         },
         {
             "cell": [
                 "A6/9",
-                "F#m7",
                 "Em7",
                 "A7",
                 "D6/9"
@@ -142,23 +154,22 @@
             "count": 3,
             "start_indexes": [
                 2,
-                17,
-                26
+                14,
+                20
             ]
         },
         {
             "cell": [
-                "F#m7",
                 "Em7",
                 "A7",
                 "D6/9",
-                "C#m7"
+                "B9"
             ],
             "count": 3,
             "start_indexes": [
                 3,
-                18,
-                27
+                15,
+                21
             ]
         },
         {
@@ -166,74 +177,55 @@
                 "Am7",
                 "D/A",
                 "A6/9",
-                "F#m7",
                 "Em7"
             ],
             "count": 2,
             "start_indexes": [
                 0,
-                15
+                12
             ]
         },
         {
             "cell": [
                 "D/A",
                 "A6/9",
-                "F#m7",
                 "Em7",
                 "A7"
             ],
             "count": 2,
             "start_indexes": [
                 1,
+                13
+            ]
+        },
+        {
+            "cell": [
+                "A7",
+                "D6/9",
+                "B9",
+                "E7"
+            ],
+            "count": 2,
+            "start_indexes": [
+                4,
                 16
             ]
         },
         {
             "cell": [
-                "Em7",
-                "A7",
-                "D6/9",
-                "C#m7",
-                "F#m7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                19,
-                28
-            ]
-        },
-        {
-            "cell": [
-                "A7",
-                "D6/9",
-                "C#m7",
-                "F#m7",
-                "B9"
-            ],
-            "count": 2,
-            "start_indexes": [
-                20,
-                29
-            ]
-        },
-        {
-            "cell": [
                 "A6/9",
-                "F#m7",
                 "Em7",
                 "A7"
             ],
             "count": 3,
             "start_indexes": [
                 2,
-                17,
-                26
+                14,
+                20
             ]
         },
         {
             "cell": [
-                "F#m7",
                 "Em7",
                 "A7",
                 "D6/9"
@@ -241,100 +233,81 @@
             "count": 3,
             "start_indexes": [
                 3,
-                18,
-                27
+                15,
+                21
             ]
         },
         {
             "cell": [
-                "Em7",
                 "A7",
                 "D6/9",
-                "C#m7"
+                "B9"
             ],
             "count": 3,
             "start_indexes": [
                 4,
-                19,
-                28
+                16,
+                22
             ]
         },
         {
             "cell": [
                 "Am7",
                 "D/A",
-                "A6/9",
-                "F#m7"
+                "A6/9"
             ],
             "count": 2,
             "start_indexes": [
                 0,
-                15
+                12
             ]
         },
         {
             "cell": [
                 "D/A",
                 "A6/9",
-                "F#m7",
                 "Em7"
             ],
             "count": 2,
             "start_indexes": [
                 1,
-                16
-            ]
-        },
-        {
-            "cell": [
-                "A7",
-                "D6/9",
-                "C#m7",
-                "F#m7"
-            ],
-            "count": 2,
-            "start_indexes": [
-                20,
-                29
+                13
             ]
         },
         {
             "cell": [
                 "D6/9",
-                "C#m7",
-                "F#m7",
-                "B9"
+                "B9",
+                "E7"
             ],
             "count": 2,
             "start_indexes": [
-                21,
-                30
+                5,
+                17
+            ]
+        },
+        {
+            "cell": [
+                "Am7",
+                "D/A"
+            ],
+            "count": 3,
+            "start_indexes": [
+                0,
+                10,
+                12
             ]
         },
         {
             "cell": [
                 "A6/9",
-                "F#m7",
                 "Em7"
             ],
             "count": 3,
             "start_indexes": [
                 2,
-                17,
-                26
-            ]
-        },
-        {
-            "cell": [
-                "F#m7",
-                "Em7",
-                "A7"
-            ],
-            "count": 3,
-            "start_indexes": [
-                3,
-                18,
-                27
+                14,
+                20
             ]
         }
     ],
@@ -391,23 +364,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Em7",
             "root": "E",
             "bass": null,
@@ -457,23 +413,6 @@
                 "6",
                 "6/9",
                 "9"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "C#m7",
-            "root": "C#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
             ],
             "parse_ok": true
         },
@@ -542,24 +481,6 @@
             "is_half_diminished": false,
             "extensions": [
                 "9"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "Amaj13",
-            "root": "A",
-            "bass": null,
-            "quality_raw": "maj13",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "13",
-                "maj13"
             ],
             "parse_ok": true
         },
@@ -647,23 +568,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Em7",
             "root": "E",
             "bass": null,
@@ -713,40 +617,6 @@
                 "6",
                 "6/9",
                 "9"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "C#m7",
-            "root": "C#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
             ],
             "parse_ok": true
         },
@@ -804,23 +674,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Em7",
             "root": "E",
             "bass": null,
@@ -874,40 +727,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "C#m7",
-            "root": "C#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "F#m7",
-            "root": "F#",
-            "bass": null,
-            "quality_raw": "m7",
-            "quality_family": "minor",
-            "is_dominant": false,
-            "is_minor": true,
-            "is_major": false,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "7"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "B9",
             "root": "B",
             "bass": null,
@@ -955,24 +774,6 @@
             "is_half_diminished": false,
             "extensions": [
                 "9"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "Amaj13",
-            "root": "A",
-            "bass": null,
-            "quality_raw": "maj13",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "13",
-                "maj13"
             ],
             "parse_ok": true
         }
@@ -1079,7 +880,7 @@
         {
             "index": 2,
             "from": "A6/9",
-            "to": "F#m7",
+            "to": "Em7",
             "from_parsed": {
                 "symbol": "A6/9",
                 "root": "A",
@@ -1096,56 +897,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 9,
-                "interval_signed": -3,
-                "motion_class": "thirds_or_sixths_motion_minor"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 3,
-            "from": "F#m7",
-            "to": "Em7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -1167,22 +918,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 4,
+            "index": 3,
             "from": "Em7",
             "to": "A7",
             "from_parsed": {
@@ -1232,7 +980,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 5,
+            "index": 4,
             "from": "A7",
             "to": "D6/9",
             "from_parsed": {
@@ -1288,9 +1036,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 6,
+            "index": 5,
             "from": "D6/9",
-            "to": "C#m7",
+            "to": "B9",
             "from_parsed": {
                 "symbol": "D6/9",
                 "root": "D",
@@ -1307,59 +1055,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
-            "tonal_shift_event": null,
-            "treatment": "pink_candidate"
-        },
-        {
-            "index": 7,
-            "from": "C#m7",
-            "to": "B9",
-            "from_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -1381,19 +1076,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
+                "interval_up": 9,
+                "interval_signed": -3,
+                "motion_class": "thirds_or_sixths_motion_minor"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
             "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "teal_candidate"
         },
         {
-            "index": 8,
+            "index": 6,
             "from": "B9",
             "to": "E7",
             "from_parsed": {
@@ -1447,7 +1142,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 9,
+            "index": 7,
             "from": "E7",
             "to": "F9",
             "from_parsed": {
@@ -1497,7 +1192,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 10,
+            "index": 8,
             "from": "F9",
             "to": "E9",
             "from_parsed": {
@@ -1547,9 +1242,9 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 11,
+            "index": 9,
             "from": "E9",
-            "to": "Amaj13",
+            "to": "Am7",
             "from_parsed": {
                 "symbol": "E9",
                 "root": "E",
@@ -1564,62 +1259,6 @@
                 "is_half_diminished": false,
                 "extensions": [
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Amaj13",
-                "root": "A",
-                "bass": null,
-                "quality_raw": "maj13",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "13",
-                    "maj13"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
-            },
-            "dominant_event": {
-                "type": "dominant_resolution_by_fourth",
-                "target": "Amaj13",
-                "strength": "high"
-            },
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "teal_candidate"
-        },
-        {
-            "index": 12,
-            "from": "Amaj13",
-            "to": "Am7",
-            "from_parsed": {
-                "symbol": "Amaj13",
-                "root": "A",
-                "bass": null,
-                "quality_raw": "maj13",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "13",
-                    "maj13"
                 ],
                 "parse_ok": true
             },
@@ -1641,22 +1280,23 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 0,
-                "interval_signed": 0,
-                "motion_class": "other"
+                "interval_up": 5,
+                "interval_signed": 5,
+                "motion_class": "cycle_of_fourths"
             },
-            "dominant_event": null,
+            "dominant_event": {
+                "type": "dominant_resolution_by_fourth",
+                "target": "Am7",
+                "strength": "high"
+            },
             "diminished_event": null,
             "augmented_event": null,
             "modal_event": null,
-            "tonal_shift_event": {
-                "type": "parallel_major_minor_shift",
-                "description": "Amaj13 -> Am7"
-            },
-            "treatment": "hybrid"
+            "tonal_shift_event": null,
+            "treatment": "teal_candidate"
         },
         {
-            "index": 13,
+            "index": 10,
             "from": "Am7",
             "to": "D/A",
             "from_parsed": {
@@ -1704,7 +1344,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 14,
+            "index": 11,
             "from": "D/A",
             "to": "Am7",
             "from_parsed": {
@@ -1752,7 +1392,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 15,
+            "index": 12,
             "from": "Am7",
             "to": "D/A",
             "from_parsed": {
@@ -1800,7 +1440,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 16,
+            "index": 13,
             "from": "D/A",
             "to": "A6/9",
             "from_parsed": {
@@ -1850,9 +1490,9 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 17,
+            "index": 14,
             "from": "A6/9",
-            "to": "F#m7",
+            "to": "Em7",
             "from_parsed": {
                 "symbol": "A6/9",
                 "root": "A",
@@ -1869,56 +1509,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 9,
-                "interval_signed": -3,
-                "motion_class": "thirds_or_sixths_motion_minor"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 18,
-            "from": "F#m7",
-            "to": "Em7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -1940,22 +1530,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 19,
+            "index": 15,
             "from": "Em7",
             "to": "A7",
             "from_parsed": {
@@ -2005,7 +1592,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 20,
+            "index": 16,
             "from": "A7",
             "to": "D6/9",
             "from_parsed": {
@@ -2061,9 +1648,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 21,
+            "index": 17,
             "from": "D6/9",
-            "to": "C#m7",
+            "to": "B9",
             "from_parsed": {
                 "symbol": "D6/9",
                 "root": "D",
@@ -2080,109 +1667,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
-            "tonal_shift_event": null,
-            "treatment": "pink_candidate"
-        },
-        {
-            "index": 22,
-            "from": "C#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 23,
-            "from": "F#m7",
-            "to": "B9",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -2204,9 +1688,9 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
+                "interval_up": 9,
+                "interval_signed": -3,
+                "motion_class": "thirds_or_sixths_motion_minor"
             },
             "dominant_event": null,
             "diminished_event": null,
@@ -2216,7 +1700,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 24,
+            "index": 18,
             "from": "B9",
             "to": "E7",
             "from_parsed": {
@@ -2270,7 +1754,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 25,
+            "index": 19,
             "from": "E7",
             "to": "A6/9",
             "from_parsed": {
@@ -2326,9 +1810,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 26,
+            "index": 20,
             "from": "A6/9",
-            "to": "F#m7",
+            "to": "Em7",
             "from_parsed": {
                 "symbol": "A6/9",
                 "root": "A",
@@ -2345,56 +1829,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 9,
-                "interval_signed": -3,
-                "motion_class": "thirds_or_sixths_motion_minor"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 27,
-            "from": "F#m7",
-            "to": "Em7",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -2416,22 +1850,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 10,
-                "interval_signed": -2,
-                "motion_class": "seconds_motion"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 28,
+            "index": 21,
             "from": "Em7",
             "to": "A7",
             "from_parsed": {
@@ -2481,7 +1912,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 29,
+            "index": 22,
             "from": "A7",
             "to": "D6/9",
             "from_parsed": {
@@ -2537,9 +1968,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 30,
+            "index": 23,
             "from": "D6/9",
-            "to": "C#m7",
+            "to": "B9",
             "from_parsed": {
                 "symbol": "D6/9",
                 "root": "D",
@@ -2556,109 +1987,6 @@
                     "6",
                     "6/9",
                     "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
-            "tonal_shift_event": null,
-            "treatment": "pink_candidate"
-        },
-        {
-            "index": 31,
-            "from": "C#m7",
-            "to": "F#m7",
-            "from_parsed": {
-                "symbol": "C#m7",
-                "root": "C#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 32,
-            "from": "F#m7",
-            "to": "B9",
-            "from_parsed": {
-                "symbol": "F#m7",
-                "root": "F#",
-                "bass": null,
-                "quality_raw": "m7",
-                "quality_family": "minor",
-                "is_dominant": false,
-                "is_minor": true,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "7"
                 ],
                 "parse_ok": true
             },
@@ -2680,9 +2008,9 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
+                "interval_up": 9,
+                "interval_signed": -3,
+                "motion_class": "thirds_or_sixths_motion_minor"
             },
             "dominant_event": null,
             "diminished_event": null,
@@ -2692,7 +2020,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 33,
+            "index": 24,
             "from": "B9",
             "to": "F9",
             "from_parsed": {
@@ -2742,7 +2070,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 34,
+            "index": 25,
             "from": "F9",
             "to": "E9",
             "from_parsed": {
@@ -2790,61 +2118,6 @@
             "modal_event": null,
             "tonal_shift_event": null,
             "treatment": "pink_candidate"
-        },
-        {
-            "index": 35,
-            "from": "E9",
-            "to": "Amaj13",
-            "from_parsed": {
-                "symbol": "E9",
-                "root": "E",
-                "bass": null,
-                "quality_raw": "9",
-                "quality_family": "dominant",
-                "is_dominant": true,
-                "is_minor": false,
-                "is_major": false,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Amaj13",
-                "root": "A",
-                "bass": null,
-                "quality_raw": "maj13",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "13",
-                    "maj13"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 5,
-                "interval_signed": 5,
-                "motion_class": "cycle_of_fourths"
-            },
-            "dominant_event": {
-                "type": "dominant_resolution_by_fourth",
-                "target": "Amaj13",
-                "strength": "high"
-            },
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "teal_candidate"
         }
     ],
     "cycle_windows": [
@@ -2865,7 +2138,39 @@
             }
         },
         {
-            "start_index": 4,
+            "start_index": 1,
+            "window": [
+                "D/A",
+                "A6/9",
+                "Em7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 2,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 3,
             "window": [
                 "Em7",
                 "A7",
@@ -2881,7 +2186,23 @@
             }
         },
         {
-            "start_index": 13,
+            "start_index": 9,
+            "window": [
+                "E9",
+                "Am7",
+                "D/A"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 10,
             "window": [
                 "Am7",
                 "D/A",
@@ -2897,11 +2218,59 @@
             }
         },
         {
-            "start_index": 14,
+            "start_index": 11,
             "window": [
                 "D/A",
                 "Am7",
                 "D/A"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 12,
+            "window": [
+                "Am7",
+                "D/A",
+                "A6/9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 13,
+            "window": [
+                "D/A",
+                "A6/9",
+                "Em7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 14,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7"
             ],
             "cycle_info": {
                 "type": "cycle_chain",
@@ -2915,22 +2284,6 @@
         {
             "start_index": 15,
             "window": [
-                "Am7",
-                "D/A",
-                "A6/9"
-            ],
-            "cycle_info": {
-                "type": "cycle_chain",
-                "length": 3,
-                "motions": [
-                    "cycle_of_fourths",
-                    "cycle_of_fifths"
-                ]
-            }
-        },
-        {
-            "start_index": 19,
-            "window": [
                 "Em7",
                 "A7",
                 "D6/9"
@@ -2945,39 +2298,7 @@
             }
         },
         {
-            "start_index": 22,
-            "window": [
-                "C#m7",
-                "F#m7",
-                "B9"
-            ],
-            "cycle_info": {
-                "type": "cycle_chain",
-                "length": 3,
-                "motions": [
-                    "cycle_of_fourths",
-                    "cycle_of_fourths"
-                ]
-            }
-        },
-        {
-            "start_index": 23,
-            "window": [
-                "F#m7",
-                "B9",
-                "E7"
-            ],
-            "cycle_info": {
-                "type": "cycle_chain",
-                "length": 3,
-                "motions": [
-                    "cycle_of_fourths",
-                    "cycle_of_fourths"
-                ]
-            }
-        },
-        {
-            "start_index": 24,
+            "start_index": 18,
             "window": [
                 "B9",
                 "E7",
@@ -2993,7 +2314,39 @@
             }
         },
         {
-            "start_index": 28,
+            "start_index": 19,
+            "window": [
+                "E7",
+                "A6/9",
+                "Em7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 20,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 21,
             "window": [
                 "Em7",
                 "A7",
@@ -3009,23 +2362,79 @@
             }
         },
         {
-            "start_index": 31,
+            "start_index": 0,
             "window": [
-                "C#m7",
-                "F#m7",
-                "B9"
+                "Am7",
+                "D/A",
+                "A6/9",
+                "Em7"
             ],
             "cycle_info": {
                 "type": "cycle_chain",
-                "length": 3,
+                "length": 4,
                 "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 1,
+            "window": [
+                "D/A",
+                "A6/9",
+                "Em7",
+                "A7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 2,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7",
+                "D6/9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
                     "cycle_of_fourths",
                     "cycle_of_fourths"
                 ]
             }
         },
         {
-            "start_index": 13,
+            "start_index": 9,
+            "window": [
+                "E9",
+                "Am7",
+                "D/A",
+                "Am7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 10,
             "window": [
                 "Am7",
                 "D/A",
@@ -3043,7 +2452,7 @@
             }
         },
         {
-            "start_index": 14,
+            "start_index": 11,
             "window": [
                 "D/A",
                 "Am7",
@@ -3061,36 +2470,108 @@
             }
         },
         {
-            "start_index": 22,
+            "start_index": 12,
             "window": [
-                "C#m7",
-                "F#m7",
-                "B9",
-                "E7"
+                "Am7",
+                "D/A",
+                "A6/9",
+                "Em7"
             ],
             "cycle_info": {
                 "type": "cycle_chain",
                 "length": 4,
                 "motions": [
                     "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 13,
+            "window": [
+                "D/A",
+                "A6/9",
+                "Em7",
+                "A7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 14,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7",
+                "D6/9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
                     "cycle_of_fourths",
                     "cycle_of_fourths"
                 ]
             }
         },
         {
-            "start_index": 23,
+            "start_index": 18,
             "window": [
-                "F#m7",
                 "B9",
                 "E7",
-                "A6/9"
+                "A6/9",
+                "Em7"
             ],
             "cycle_info": {
                 "type": "cycle_chain",
                 "length": 4,
                 "motions": [
                     "cycle_of_fourths",
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 19,
+            "window": [
+                "E7",
+                "A6/9",
+                "Em7",
+                "A7"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 20,
+            "window": [
+                "A6/9",
+                "Em7",
+                "A7",
+                "D6/9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
                     "cycle_of_fourths",
                     "cycle_of_fourths"
                 ]
@@ -3098,18 +2579,18 @@
         }
     ],
     "treatment_counts": {
-        "pink_candidate": 10,
+        "pink_candidate": 3,
         "teal_candidate": 13,
-        "hybrid": 1,
-        "neutral_or_contextual": 12
+        "hybrid": 0,
+        "neutral_or_contextual": 10
     },
     "function_summary": {
-        "dominant_chain_count": 8,
+        "dominant_chain_count": 7,
         "diminished_connector_count": 0,
         "augmented_event_count": 0,
-        "tonal_shift_count": 1,
-        "modal_descent_count": 6,
-        "cycle_window_count": 15,
+        "tonal_shift_count": 0,
+        "modal_descent_count": 0,
+        "cycle_window_count": 27,
         "dominant_chains": [
             {
                 "from": "A7",
@@ -3131,10 +2612,10 @@
             },
             {
                 "from": "E9",
-                "to": "Amaj13",
+                "to": "Am7",
                 "event": {
                     "type": "dominant_resolution_by_fourth",
-                    "target": "Amaj13",
+                    "target": "Am7",
                     "strength": "high"
                 }
             },
@@ -3173,79 +2654,12 @@
                     "target": "D6/9",
                     "strength": "high"
                 }
-            },
-            {
-                "from": "E9",
-                "to": "Amaj13",
-                "event": {
-                    "type": "dominant_resolution_by_fourth",
-                    "target": "Amaj13",
-                    "strength": "high"
-                }
             }
         ],
         "diminished_connectors": [],
         "augmented_events": [],
-        "tonal_shifts": [
-            {
-                "from": "Amaj13",
-                "to": "Am7",
-                "event": {
-                    "type": "parallel_major_minor_shift",
-                    "description": "Amaj13 -> Am7"
-                }
-            }
-        ],
-        "modal_descents": [
-            {
-                "from": "F#m7",
-                "to": "Em7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "D6/9",
-                "to": "C#m7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "F#m7",
-                "to": "Em7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "D6/9",
-                "to": "C#m7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "F#m7",
-                "to": "Em7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "D6/9",
-                "to": "C#m7",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            }
-        ],
+        "tonal_shifts": [],
+        "modal_descents": [],
         "cycle_windows": [
             {
                 "start_index": 0,
@@ -3264,7 +2678,39 @@
                 }
             },
             {
-                "start_index": 4,
+                "start_index": 1,
+                "window": [
+                    "D/A",
+                    "A6/9",
+                    "Em7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 2,
+                "window": [
+                    "A6/9",
+                    "Em7",
+                    "A7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 3,
                 "window": [
                     "Em7",
                     "A7",
@@ -3280,7 +2726,23 @@
                 }
             },
             {
-                "start_index": 13,
+                "start_index": 9,
+                "window": [
+                    "E9",
+                    "Am7",
+                    "D/A"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 10,
                 "window": [
                     "Am7",
                     "D/A",
@@ -3296,11 +2758,59 @@
                 }
             },
             {
-                "start_index": 14,
+                "start_index": 11,
                 "window": [
                     "D/A",
                     "Am7",
                     "D/A"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 12,
+                "window": [
+                    "Am7",
+                    "D/A",
+                    "A6/9"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 13,
+                "window": [
+                    "D/A",
+                    "A6/9",
+                    "Em7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 14,
+                "window": [
+                    "A6/9",
+                    "Em7",
+                    "A7"
                 ],
                 "cycle_info": {
                     "type": "cycle_chain",
@@ -3314,22 +2824,6 @@
             {
                 "start_index": 15,
                 "window": [
-                    "Am7",
-                    "D/A",
-                    "A6/9"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 3,
-                    "motions": [
-                        "cycle_of_fourths",
-                        "cycle_of_fifths"
-                    ]
-                }
-            },
-            {
-                "start_index": 19,
-                "window": [
                     "Em7",
                     "A7",
                     "D6/9"
@@ -3344,39 +2838,7 @@
                 }
             },
             {
-                "start_index": 22,
-                "window": [
-                    "C#m7",
-                    "F#m7",
-                    "B9"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 3,
-                    "motions": [
-                        "cycle_of_fourths",
-                        "cycle_of_fourths"
-                    ]
-                }
-            },
-            {
-                "start_index": 23,
-                "window": [
-                    "F#m7",
-                    "B9",
-                    "E7"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 3,
-                    "motions": [
-                        "cycle_of_fourths",
-                        "cycle_of_fourths"
-                    ]
-                }
-            },
-            {
-                "start_index": 24,
+                "start_index": 18,
                 "window": [
                     "B9",
                     "E7",
@@ -3392,7 +2854,39 @@
                 }
             },
             {
-                "start_index": 28,
+                "start_index": 19,
+                "window": [
+                    "E7",
+                    "A6/9",
+                    "Em7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 20,
+                "window": [
+                    "A6/9",
+                    "Em7",
+                    "A7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 21,
                 "window": [
                     "Em7",
                     "A7",
@@ -3408,23 +2902,79 @@
                 }
             },
             {
-                "start_index": 31,
+                "start_index": 0,
                 "window": [
-                    "C#m7",
-                    "F#m7",
-                    "B9"
+                    "Am7",
+                    "D/A",
+                    "A6/9",
+                    "Em7"
                 ],
                 "cycle_info": {
                     "type": "cycle_chain",
-                    "length": 3,
+                    "length": 4,
                     "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 1,
+                "window": [
+                    "D/A",
+                    "A6/9",
+                    "Em7",
+                    "A7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 2,
+                "window": [
+                    "A6/9",
+                    "Em7",
+                    "A7",
+                    "D6/9"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fifths",
                         "cycle_of_fourths",
                         "cycle_of_fourths"
                     ]
                 }
             },
             {
-                "start_index": 13,
+                "start_index": 9,
+                "window": [
+                    "E9",
+                    "Am7",
+                    "D/A",
+                    "Am7"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 10,
                 "window": [
                     "Am7",
                     "D/A",
@@ -3437,60 +2987,6 @@
                     "motions": [
                         "cycle_of_fourths",
                         "cycle_of_fifths",
-                        "cycle_of_fourths"
-                    ]
-                }
-            },
-            {
-                "start_index": 14,
-                "window": [
-                    "D/A",
-                    "Am7",
-                    "D/A",
-                    "A6/9"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 4,
-                    "motions": [
-                        "cycle_of_fifths",
-                        "cycle_of_fourths",
-                        "cycle_of_fifths"
-                    ]
-                }
-            },
-            {
-                "start_index": 22,
-                "window": [
-                    "C#m7",
-                    "F#m7",
-                    "B9",
-                    "E7"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 4,
-                    "motions": [
-                        "cycle_of_fourths",
-                        "cycle_of_fourths",
-                        "cycle_of_fourths"
-                    ]
-                }
-            },
-            {
-                "start_index": 23,
-                "window": [
-                    "F#m7",
-                    "B9",
-                    "E7",
-                    "A6/9"
-                ],
-                "cycle_info": {
-                    "type": "cycle_chain",
-                    "length": 4,
-                    "motions": [
-                        "cycle_of_fourths",
-                        "cycle_of_fourths",
                         "cycle_of_fourths"
                     ]
                 }

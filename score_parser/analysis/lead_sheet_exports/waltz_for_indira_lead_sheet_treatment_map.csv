@@ -1,0 +1,25 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+waltz_for_indira,C,hybrid,0,Bb6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+waltz_for_indira,C,hybrid,1,F,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+waltz_for_indira,C,hybrid,2,Gm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+waltz_for_indira,C,hybrid,3,C9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+waltz_for_indira,C,hybrid,4,F13,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+waltz_for_indira,C,hybrid,5,Am7,VI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+waltz_for_indira,C,hybrid,6,Bb6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+waltz_for_indira,C,hybrid,7,F,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+waltz_for_indira,C,hybrid,8,Gm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+waltz_for_indira,C,hybrid,9,C9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+waltz_for_indira,C,hybrid,10,F,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+waltz_for_indira,C,hybrid,11,Bb6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+waltz_for_indira,C,hybrid,12,F,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+waltz_for_indira,C,hybrid,13,Gm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+waltz_for_indira,C,hybrid,14,C9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+waltz_for_indira,C,hybrid,15,F13,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+waltz_for_indira,C,hybrid,16,Am7,VI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+waltz_for_indira,C,hybrid,17,Gm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+waltz_for_indira,C,hybrid,18,C9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+waltz_for_indira,C,hybrid,19,F13,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+waltz_for_indira,C,hybrid,20,F,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+waltz_for_indira,C,hybrid,21,Gm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+waltz_for_indira,C,hybrid,22,C9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+waltz_for_indira,C,hybrid,23,F,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing

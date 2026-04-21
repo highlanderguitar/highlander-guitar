@@ -4,71 +4,41 @@
     "usable_chords": [
         "Em",
         "D",
-        "Eb5",
-        "D5",
         "E6/9",
-        "Badd9/D",
-        "Badd9/D#",
         "D6/9",
-        "Aadd9/C",
-        "Aadd9/C#",
         "C6/9",
-        "Gadd9/B",
-        "C#m7",
         "G11",
-        "C#9",
-        "F#m7",
         "B",
         "A11",
         "B11",
         "Em",
         "D",
-        "Eb5",
-        "D5",
         "A",
         "E6/9",
-        "Badd9/D",
-        "Badd9/D#",
         "D6/9",
-        "Aadd9/C",
-        "Aadd9/C#",
         "C6/9",
-        "Gadd9/B",
         "Em",
         "D7",
         "D",
         "Em",
-        "Eb5",
-        "D5",
         "Em",
         "D",
         "Em",
-        "Eb5add13",
-        "Ground7",
         "B",
-        "C#m7",
         "D6/9",
         "G11",
-        "C#9",
-        "F#m7",
         "B",
         "Em",
         "D",
         "Em",
-        "Eb5",
-        "D5",
         "A11",
         "B11",
         "Em",
         "D",
         "Em",
-        "Eb57",
-        "D5",
         "Em",
         "D",
-        "Em",
-        "Eb5",
-        "D5"
+        "Em"
     ],
     "repaired_records": [
         {
@@ -79,7 +49,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -91,7 +61,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -103,7 +73,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -115,7 +85,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -127,9 +97,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -139,15 +109,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 6,
             "raw_token": "E\ue2605",
-            "normalized_token": "Eb5",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -157,7 +127,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -165,13 +135,13 @@
             "page_index": 0,
             "sequence_index": 7,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -181,27 +151,27 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 9,
             "raw_token": "Badd9/D",
-            "normalized_token": "Badd9/D",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 10,
             "raw_token": "Badd9/D\ue262",
-            "normalized_token": "Badd9/D#",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -211,7 +181,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -223,27 +193,27 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 12,
             "raw_token": "Aadd9/C",
-            "normalized_token": "Aadd9/C",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 13,
             "raw_token": "Aadd9/C\ue262",
-            "normalized_token": "Aadd9/C#",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -253,7 +223,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -265,27 +235,27 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 15,
             "raw_token": "Gadd9/B",
-            "normalized_token": "Gadd9/B",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 16,
             "raw_token": "C\ue262m7",
-            "normalized_token": "C#m7",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -295,7 +265,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -319,15 +289,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 19,
             "raw_token": "C\ue8739",
-            "normalized_token": "C#9",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue873"
@@ -337,7 +307,7 @@
                 "other_accidental",
                 "sharp"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -345,7 +315,7 @@
             "page_index": 0,
             "sequence_index": 20,
             "raw_token": "F\ue262m7",
-            "normalized_token": "F#m7",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -355,7 +325,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -379,9 +349,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -391,9 +361,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -403,9 +373,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -415,9 +385,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -427,15 +397,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 27,
             "raw_token": "E\ue2605",
-            "normalized_token": "Eb5",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -445,7 +415,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -453,13 +423,13 @@
             "page_index": 0,
             "sequence_index": 28,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -541,9 +511,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -553,27 +523,27 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 37,
             "raw_token": "Badd9/D",
-            "normalized_token": "Badd9/D",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 38,
             "raw_token": "Badd9/D\ue262",
-            "normalized_token": "Badd9/D#",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -583,7 +553,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -595,27 +565,27 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 40,
             "raw_token": "Aadd9/C",
-            "normalized_token": "Aadd9/C",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 41,
             "raw_token": "Aadd9/C\ue262",
-            "normalized_token": "Aadd9/C#",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -625,7 +595,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -637,21 +607,21 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 43,
             "raw_token": "Gadd9/B",
-            "normalized_token": "Gadd9/B",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -661,9 +631,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -673,9 +643,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -769,9 +739,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -781,15 +751,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 55,
             "raw_token": "E\ue2605",
-            "normalized_token": "Eb5",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -799,7 +769,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -807,13 +777,13 @@
             "page_index": 0,
             "sequence_index": 56,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -823,9 +793,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -835,9 +805,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -847,15 +817,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 60,
             "raw_token": "E\ue260513",
-            "normalized_token": "Eb5add13",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -865,7 +835,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -877,7 +847,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -885,13 +855,13 @@
             "page_index": 1,
             "sequence_index": 1,
             "raw_token": "Ground7",
-            "normalized_token": "Ground7",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1021,15 +991,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
             "sequence_index": 13,
             "raw_token": "C\ue262m7",
-            "normalized_token": "C#m7",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -1039,7 +1009,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1063,9 +1033,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1075,15 +1045,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
             "sequence_index": 17,
             "raw_token": "C\ue8739",
-            "normalized_token": "C#9",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue873"
@@ -1093,7 +1063,7 @@
                 "other_accidental",
                 "sharp"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1101,7 +1071,7 @@
             "page_index": 1,
             "sequence_index": 18,
             "raw_token": "F\ue262m7",
-            "normalized_token": "F#m7",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -1111,7 +1081,7 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1195,9 +1165,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1207,9 +1177,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1219,9 +1189,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1231,15 +1201,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
             "sequence_index": 29,
             "raw_token": "E\ue2605",
-            "normalized_token": "Eb5",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -1249,7 +1219,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1257,13 +1227,13 @@
             "page_index": 1,
             "sequence_index": 30,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1405,9 +1375,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1417,9 +1387,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1429,9 +1399,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1441,9 +1411,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1453,15 +1423,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
             "sequence_index": 47,
             "raw_token": "E\ue26057",
-            "normalized_token": "Eb57",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -1471,7 +1441,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1527,13 +1497,13 @@
             "page_index": 1,
             "sequence_index": 52,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1543,9 +1513,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1555,9 +1525,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
@@ -1567,15 +1537,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 1,
             "sequence_index": 56,
             "raw_token": "E\ue2605",
-            "normalized_token": "Eb5",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue260"
@@ -1585,7 +1555,7 @@
                 "flat",
                 "other_accidental"
             ],
-            "repair_status": "repaired_from_memory",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -1593,315 +1563,14 @@
             "page_index": 1,
             "sequence_index": 57,
             "raw_token": "D5",
-            "normalized_token": "D5",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         }
     ],
-    "unresolved_tokens": [
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 4,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 0,
-            "sequence_index": 5,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 0,
-            "sequence_index": 7,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "E6/9",
-            "page_index": 0,
-            "sequence_index": 8,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Badd9/D",
-            "page_index": 0,
-            "sequence_index": 9,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D6/9",
-            "page_index": 0,
-            "sequence_index": 11,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Aadd9/C",
-            "page_index": 0,
-            "sequence_index": 12,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "C6/9",
-            "page_index": 0,
-            "sequence_index": 14,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Gadd9/B",
-            "page_index": 0,
-            "sequence_index": 15,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "G11",
-            "page_index": 0,
-            "sequence_index": 18,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "B",
-            "page_index": 0,
-            "sequence_index": 22,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A11",
-            "page_index": 0,
-            "sequence_index": 23,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "B11",
-            "page_index": 0,
-            "sequence_index": 24,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 25,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 0,
-            "sequence_index": 26,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 0,
-            "sequence_index": 28,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A",
-            "page_index": 0,
-            "sequence_index": 35,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "E6/9",
-            "page_index": 0,
-            "sequence_index": 36,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Badd9/D",
-            "page_index": 0,
-            "sequence_index": 37,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D6/9",
-            "page_index": 0,
-            "sequence_index": 39,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Aadd9/C",
-            "page_index": 0,
-            "sequence_index": 40,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "C6/9",
-            "page_index": 0,
-            "sequence_index": 42,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Gadd9/B",
-            "page_index": 0,
-            "sequence_index": 43,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 44,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D7",
-            "page_index": 0,
-            "sequence_index": 45,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 0,
-            "sequence_index": 53,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 54,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 0,
-            "sequence_index": 56,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 57,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 0,
-            "sequence_index": 58,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 0,
-            "sequence_index": 59,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Ground7",
-            "page_index": 1,
-            "sequence_index": 1,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "B",
-            "page_index": 1,
-            "sequence_index": 12,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D6/9",
-            "page_index": 1,
-            "sequence_index": 15,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "G11",
-            "page_index": 1,
-            "sequence_index": 16,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "B",
-            "page_index": 1,
-            "sequence_index": 25,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 26,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 1,
-            "sequence_index": 27,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 28,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 1,
-            "sequence_index": 30,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A11",
-            "page_index": 1,
-            "sequence_index": 42,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "B11",
-            "page_index": 1,
-            "sequence_index": 43,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 44,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 1,
-            "sequence_index": 45,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 46,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 1,
-            "sequence_index": 52,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 53,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D",
-            "page_index": 1,
-            "sequence_index": 54,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Em",
-            "page_index": 1,
-            "sequence_index": 55,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "D5",
-            "page_index": 1,
-            "sequence_index": 57,
-            "ambiguity_classes": []
-        }
-    ]
+    "unresolved_tokens": []
 }

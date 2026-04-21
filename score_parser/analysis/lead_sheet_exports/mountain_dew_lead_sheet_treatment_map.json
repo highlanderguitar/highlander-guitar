@@ -1,0 +1,65 @@
+{
+    "title": "mountain_dew",
+    "key_name": "G",
+    "key_confidence": 0.188,
+    "pink_score": 5.8,
+    "teal_score": 9.25,
+    "hybrid_score": 6.8,
+    "recommended_primary_treatment": "teal",
+    "annotation_tags": [
+        {
+            "moment_index": 0,
+            "chord": "G",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 1,
+            "chord": "C",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 2,
+            "chord": "G",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 3,
+            "chord": "D",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 4,
+            "chord": "G",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 5,
+            "chord": "C",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 6,
+            "chord": "G",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 7,
+            "chord": "D",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 8,
+            "chord": "G",
+            "tag": "TEAL",
+            "confidence": 0.92
+        }
+    ]
+}

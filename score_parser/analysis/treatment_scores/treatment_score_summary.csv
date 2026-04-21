@@ -1,0 +1,15 @@
+title,key_name,key_confidence,pink_score,teal_score,hybrid_score,recommended_primary_treatment
+birdland_breakdown,D,0.212,7.4,8.7,8.4,teal
+common_ground,E,0.094,6.6,7.45,7.6,hybrid
+gasology,E,0.364,7.4,8.7,8.4,teal
+is_that_so,A,0.4,7.4,8.7,8.4,teal
+manzanita,D,0.287,7.1,7.7,8.1,hybrid
+mar_east,E,0.127,2.8,6.3,3.8,teal
+mar_west,E,0.283,6.1,5.75,6.75,hybrid
+mountain_dew,G,0.188,5.8,9.25,6.8,teal
+neon_tetra,E,0.087,7.1,7.45,8.1,hybrid
+old_gray_coat,E,0.127,7.4,7.9,8.4,hybrid
+port_tobacco,A,0.108,7.4,8.2,8.4,hybrid
+so_much,F,0.464,2.8,4.6,3.8,teal
+swing_51,A,0.058,4.2,6.5,5.2,teal
+waltz_for_indira,C,0.006,6.9,7.45,7.9,hybrid

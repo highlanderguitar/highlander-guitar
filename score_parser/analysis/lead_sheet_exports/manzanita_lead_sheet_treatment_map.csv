@@ -1,0 +1,35 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+manzanita,D,hybrid,0,Csus2,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,1,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,2,Am,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+manzanita,D,hybrid,3,Am7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+manzanita,D,hybrid,4,D7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+manzanita,D,hybrid,5,F/G,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,6,G/A,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+manzanita,D,hybrid,7,F,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,8,C,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,9,A7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+manzanita,D,hybrid,10,A,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+manzanita,D,hybrid,11,Csus2,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,12,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,13,Csus2,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,14,Am,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+manzanita,D,hybrid,15,Am7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+manzanita,D,hybrid,16,D7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+manzanita,D,hybrid,17,F/G,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,18,G/A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+manzanita,D,hybrid,19,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,20,Am7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+manzanita,D,hybrid,21,F/G,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,22,G/A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+manzanita,D,hybrid,23,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,24,G/A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+manzanita,D,hybrid,25,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,26,B,VI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,27,F,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,28,C,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,29,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+manzanita,D,hybrid,30,F,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,31,C7,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+manzanita,D,hybrid,32,A7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+manzanita,D,hybrid,33,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone

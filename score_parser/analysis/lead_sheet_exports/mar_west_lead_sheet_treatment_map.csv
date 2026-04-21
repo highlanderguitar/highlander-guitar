@@ -1,0 +1,16 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+mar_west,E,hybrid,0,Bm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+mar_west,E,hybrid,1,E9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+mar_west,E,hybrid,2,A11,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+mar_west,E,hybrid,3,G6/9,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+mar_west,E,hybrid,4,A7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+mar_west,E,hybrid,5,G7,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+mar_west,E,hybrid,6,Bm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+mar_west,E,hybrid,7,E9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+mar_west,E,hybrid,8,A11,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+mar_west,E,hybrid,9,G6/9,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+mar_west,E,hybrid,10,A7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+mar_west,E,hybrid,11,Bm7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+mar_west,E,hybrid,12,E9,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+mar_west,E,hybrid,13,G7,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+mar_west,E,hybrid,14,Bm7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color

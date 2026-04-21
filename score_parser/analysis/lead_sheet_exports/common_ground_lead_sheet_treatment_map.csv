@@ -1,0 +1,36 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+common_ground,E,hybrid,0,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,1,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,2,E6/9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,3,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,4,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,5,G11,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,6,B,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+common_ground,E,hybrid,7,A11,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+common_ground,E,hybrid,8,B11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+common_ground,E,hybrid,9,Em,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+common_ground,E,hybrid,10,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,11,A,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+common_ground,E,hybrid,12,E6/9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,13,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,14,C6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,15,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,16,D7,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,17,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,18,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,19,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,20,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,21,B,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+common_ground,E,hybrid,22,D6/9,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,23,G11,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,24,B,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+common_ground,E,hybrid,25,Em,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+common_ground,E,hybrid,26,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,27,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,28,A11,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+common_ground,E,hybrid,29,B11,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+common_ground,E,hybrid,30,Em,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+common_ground,E,hybrid,31,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,32,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+common_ground,E,hybrid,33,D,bVII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+common_ground,E,hybrid,34,Em,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing

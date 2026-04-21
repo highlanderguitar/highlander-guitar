@@ -2,7 +2,6 @@
     "title": "old_gray_coat",
     "harmonic_stream": [
         "Em11",
-        "Cmaj9",
         "Bm11",
         "A9",
         "C6/9",
@@ -14,14 +13,12 @@
         "Dm7",
         "B7",
         "Em11",
-        "Cmaj9",
         "Bm11",
         "Em11",
         "A9",
         "C6/9",
         "B11",
         "Em11",
-        "Cmaj9",
         "Bm11",
         "A9",
         "D6/9",
@@ -35,7 +32,6 @@
         "Cm7",
         "B7",
         "Em11",
-        "Cmaj9",
         "Bm11",
         "A9",
         "A9",
@@ -46,7 +42,6 @@
     ],
     "unique_chords": [
         "Em11",
-        "Cmaj9",
         "Bm11",
         "A9",
         "C6/9",
@@ -61,33 +56,6 @@
     "harmonic_cells": [
         {
             "cell": [
-                "Em11",
-                "Cmaj9",
-                "Bm11",
-                "A9"
-            ],
-            "count": 3,
-            "start_indexes": [
-                0,
-                19,
-                33
-            ]
-        },
-        {
-            "cell": [
-                "B7",
-                "Em11",
-                "Cmaj9",
-                "Bm11"
-            ],
-            "count": 2,
-            "start_indexes": [
-                11,
-                32
-            ]
-        },
-        {
-            "cell": [
                 "A9",
                 "D6/9",
                 "C6/9",
@@ -95,35 +63,21 @@
             ],
             "count": 2,
             "start_indexes": [
-                22,
-                37
-            ]
-        },
-        {
-            "cell": [
-                "Em11",
-                "Cmaj9",
-                "Bm11"
-            ],
-            "count": 4,
-            "start_indexes": [
-                0,
-                12,
                 19,
                 33
             ]
         },
         {
             "cell": [
-                "Cmaj9",
+                "Em11",
                 "Bm11",
                 "A9"
             ],
             "count": 3,
             "start_indexes": [
-                1,
-                20,
-                34
+                0,
+                17,
+                30
             ]
         },
         {
@@ -134,8 +88,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                3,
-                16
+                2,
+                14
             ]
         },
         {
@@ -146,20 +100,20 @@
             ],
             "count": 2,
             "start_indexes": [
-                8,
-                28
+                7,
+                25
             ]
         },
         {
             "cell": [
                 "B7",
                 "Em11",
-                "Cmaj9"
+                "Bm11"
             ],
             "count": 2,
             "start_indexes": [
-                11,
-                32
+                10,
+                29
             ]
         },
         {
@@ -170,8 +124,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                17,
-                39
+                15,
+                35
             ]
         },
         {
@@ -182,8 +136,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                22,
-                37
+                19,
+                33
             ]
         },
         {
@@ -194,34 +148,21 @@
             ],
             "count": 2,
             "start_indexes": [
-                23,
-                38
+                20,
+                34
             ]
         },
         {
             "cell": [
                 "Em11",
-                "Cmaj9"
-            ],
-            "count": 4,
-            "start_indexes": [
-                0,
-                12,
-                19,
-                33
-            ]
-        },
-        {
-            "cell": [
-                "Cmaj9",
                 "Bm11"
             ],
             "count": 4,
             "start_indexes": [
-                1,
-                13,
-                20,
-                34
+                0,
+                11,
+                17,
+                30
             ]
         },
         {
@@ -231,10 +172,10 @@
             ],
             "count": 4,
             "start_indexes": [
-                4,
-                17,
-                24,
-                39
+                3,
+                15,
+                21,
+                35
             ]
         },
         {
@@ -244,9 +185,9 @@
             ],
             "count": 3,
             "start_indexes": [
-                2,
-                21,
-                35
+                1,
+                18,
+                31
             ]
         },
         {
@@ -256,8 +197,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                3,
-                16
+                2,
+                14
             ]
         },
         {
@@ -267,8 +208,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                8,
-                28
+                7,
+                25
             ]
         },
         {
@@ -278,8 +219,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                9,
-                29
+                8,
+                26
             ]
         },
         {
@@ -289,8 +230,8 @@
             ],
             "count": 2,
             "start_indexes": [
-                11,
-                32
+                10,
+                29
             ]
         },
         {
@@ -300,8 +241,30 @@
             ],
             "count": 2,
             "start_indexes": [
-                18,
-                40
+                16,
+                36
+            ]
+        },
+        {
+            "cell": [
+                "A9",
+                "D6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                19,
+                33
+            ]
+        },
+        {
+            "cell": [
+                "D6/9",
+                "C6/9"
+            ],
+            "count": 2,
+            "start_indexes": [
+                20,
+                34
             ]
         }
     ],
@@ -324,24 +287,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "Cmaj9",
-            "root": "C",
-            "bass": null,
-            "quality_raw": "maj9",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "9",
-                "maj9"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Bm11",
             "root": "B",
             "bass": null,
@@ -533,24 +478,6 @@
             "parse_ok": true
         },
         {
-            "symbol": "Cmaj9",
-            "root": "C",
-            "bass": null,
-            "quality_raw": "maj9",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "9",
-                "maj9"
-            ],
-            "parse_ok": true
-        },
-        {
             "symbol": "Bm11",
             "root": "B",
             "bass": null,
@@ -651,24 +578,6 @@
             "is_half_diminished": false,
             "extensions": [
                 "11"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "Cmaj9",
-            "root": "C",
-            "bass": null,
-            "quality_raw": "maj9",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "9",
-                "maj9"
             ],
             "parse_ok": true
         },
@@ -894,24 +803,6 @@
             "is_half_diminished": false,
             "extensions": [
                 "11"
-            ],
-            "parse_ok": true
-        },
-        {
-            "symbol": "Cmaj9",
-            "root": "C",
-            "bass": null,
-            "quality_raw": "maj9",
-            "quality_family": "major",
-            "is_dominant": false,
-            "is_minor": false,
-            "is_major": true,
-            "is_diminished": false,
-            "is_augmented": false,
-            "is_half_diminished": false,
-            "extensions": [
-                "9",
-                "maj9"
             ],
             "parse_ok": true
         },
@@ -1043,7 +934,7 @@
         {
             "index": 0,
             "from": "Em11",
-            "to": "Cmaj9",
+            "to": "Bm11",
             "from_parsed": {
                 "symbol": "Em11",
                 "root": "E",
@@ -1058,58 +949,6 @@
                 "is_half_diminished": false,
                 "extensions": [
                     "11"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 8,
-                "interval_signed": -4,
-                "motion_class": "thirds_or_sixths_motion_major"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 1,
-            "from": "Cmaj9",
-            "to": "Bm11",
-            "from_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
                 ],
                 "parse_ok": true
             },
@@ -1131,22 +970,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 2,
+            "index": 1,
             "from": "Bm11",
             "to": "A9",
             "from_parsed": {
@@ -1196,7 +1032,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 3,
+            "index": 2,
             "from": "A9",
             "to": "C6/9",
             "from_parsed": {
@@ -1252,7 +1088,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 4,
+            "index": 3,
             "from": "C6/9",
             "to": "B11",
             "from_parsed": {
@@ -1304,7 +1140,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 5,
+            "index": 4,
             "from": "B11",
             "to": "D6/9",
             "from_parsed": {
@@ -1360,7 +1196,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 6,
+            "index": 5,
             "from": "D6/9",
             "to": "Dm11",
             "from_parsed": {
@@ -1415,7 +1251,7 @@
             "treatment": "hybrid"
         },
         {
-            "index": 7,
+            "index": 6,
             "from": "Dm11",
             "to": "Am7",
             "from_parsed": {
@@ -1465,7 +1301,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 8,
+            "index": 7,
             "from": "Am7",
             "to": "Cm7",
             "from_parsed": {
@@ -1515,7 +1351,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 9,
+            "index": 8,
             "from": "Cm7",
             "to": "Dm7",
             "from_parsed": {
@@ -1565,7 +1401,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 10,
+            "index": 9,
             "from": "Dm7",
             "to": "B7",
             "from_parsed": {
@@ -1615,7 +1451,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 11,
+            "index": 10,
             "from": "B7",
             "to": "Em11",
             "from_parsed": {
@@ -1669,9 +1505,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 12,
+            "index": 11,
             "from": "Em11",
-            "to": "Cmaj9",
+            "to": "Bm11",
             "from_parsed": {
                 "symbol": "Em11",
                 "root": "E",
@@ -1686,58 +1522,6 @@
                 "is_half_diminished": false,
                 "extensions": [
                     "11"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 8,
-                "interval_signed": -4,
-                "motion_class": "thirds_or_sixths_motion_major"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 13,
-            "from": "Cmaj9",
-            "to": "Bm11",
-            "from_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
                 ],
                 "parse_ok": true
             },
@@ -1759,22 +1543,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 14,
+            "index": 12,
             "from": "Bm11",
             "to": "Em11",
             "from_parsed": {
@@ -1824,7 +1605,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 15,
+            "index": 13,
             "from": "Em11",
             "to": "A9",
             "from_parsed": {
@@ -1874,7 +1655,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 16,
+            "index": 14,
             "from": "A9",
             "to": "C6/9",
             "from_parsed": {
@@ -1930,7 +1711,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 17,
+            "index": 15,
             "from": "C6/9",
             "to": "B11",
             "from_parsed": {
@@ -1982,7 +1763,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 18,
+            "index": 16,
             "from": "B11",
             "to": "Em11",
             "from_parsed": {
@@ -2036,9 +1817,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 19,
+            "index": 17,
             "from": "Em11",
-            "to": "Cmaj9",
+            "to": "Bm11",
             "from_parsed": {
                 "symbol": "Em11",
                 "root": "E",
@@ -2053,58 +1834,6 @@
                 "is_half_diminished": false,
                 "extensions": [
                     "11"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 8,
-                "interval_signed": -4,
-                "motion_class": "thirds_or_sixths_motion_major"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 20,
-            "from": "Cmaj9",
-            "to": "Bm11",
-            "from_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
                 ],
                 "parse_ok": true
             },
@@ -2126,22 +1855,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 21,
+            "index": 18,
             "from": "Bm11",
             "to": "A9",
             "from_parsed": {
@@ -2191,7 +1917,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 22,
+            "index": 19,
             "from": "A9",
             "to": "D6/9",
             "from_parsed": {
@@ -2247,7 +1973,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 23,
+            "index": 20,
             "from": "D6/9",
             "to": "C6/9",
             "from_parsed": {
@@ -2304,7 +2030,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 24,
+            "index": 21,
             "from": "C6/9",
             "to": "B11",
             "from_parsed": {
@@ -2356,7 +2082,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 25,
+            "index": 22,
             "from": "B11",
             "to": "Dm11",
             "from_parsed": {
@@ -2410,7 +2136,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 26,
+            "index": 23,
             "from": "Dm11",
             "to": "Em11",
             "from_parsed": {
@@ -2460,7 +2186,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 27,
+            "index": 24,
             "from": "Em11",
             "to": "Am7",
             "from_parsed": {
@@ -2510,7 +2236,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 28,
+            "index": 25,
             "from": "Am7",
             "to": "Cm7",
             "from_parsed": {
@@ -2560,7 +2286,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 29,
+            "index": 26,
             "from": "Cm7",
             "to": "Dm7",
             "from_parsed": {
@@ -2610,7 +2336,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 30,
+            "index": 27,
             "from": "Dm7",
             "to": "Cm7",
             "from_parsed": {
@@ -2663,7 +2389,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 31,
+            "index": 28,
             "from": "Cm7",
             "to": "B7",
             "from_parsed": {
@@ -2713,7 +2439,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 32,
+            "index": 29,
             "from": "B7",
             "to": "Em11",
             "from_parsed": {
@@ -2767,9 +2493,9 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 33,
+            "index": 30,
             "from": "Em11",
-            "to": "Cmaj9",
+            "to": "Bm11",
             "from_parsed": {
                 "symbol": "Em11",
                 "root": "E",
@@ -2784,58 +2510,6 @@
                 "is_half_diminished": false,
                 "extensions": [
                     "11"
-                ],
-                "parse_ok": true
-            },
-            "to_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
-                ],
-                "parse_ok": true
-            },
-            "motion": {
-                "interval_up": 8,
-                "interval_signed": -4,
-                "motion_class": "thirds_or_sixths_motion_major"
-            },
-            "dominant_event": null,
-            "diminished_event": null,
-            "augmented_event": null,
-            "modal_event": null,
-            "tonal_shift_event": null,
-            "treatment": "neutral_or_contextual"
-        },
-        {
-            "index": 34,
-            "from": "Cmaj9",
-            "to": "Bm11",
-            "from_parsed": {
-                "symbol": "Cmaj9",
-                "root": "C",
-                "bass": null,
-                "quality_raw": "maj9",
-                "quality_family": "major",
-                "is_dominant": false,
-                "is_minor": false,
-                "is_major": true,
-                "is_diminished": false,
-                "is_augmented": false,
-                "is_half_diminished": false,
-                "extensions": [
-                    "9",
-                    "maj9"
                 ],
                 "parse_ok": true
             },
@@ -2857,22 +2531,19 @@
                 "parse_ok": true
             },
             "motion": {
-                "interval_up": 11,
-                "interval_signed": -1,
-                "motion_class": "chromatic"
+                "interval_up": 7,
+                "interval_signed": -5,
+                "motion_class": "cycle_of_fifths"
             },
             "dominant_event": null,
             "diminished_event": null,
             "augmented_event": null,
-            "modal_event": {
-                "type": "descending_scalar_or_modal_motion",
-                "strength": "medium"
-            },
+            "modal_event": null,
             "tonal_shift_event": null,
-            "treatment": "pink_candidate"
+            "treatment": "neutral_or_contextual"
         },
         {
-            "index": 35,
+            "index": 31,
             "from": "Bm11",
             "to": "A9",
             "from_parsed": {
@@ -2922,7 +2593,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 36,
+            "index": 32,
             "from": "A9",
             "to": "A9",
             "from_parsed": {
@@ -2972,7 +2643,7 @@
             "treatment": "neutral_or_contextual"
         },
         {
-            "index": 37,
+            "index": 33,
             "from": "A9",
             "to": "D6/9",
             "from_parsed": {
@@ -3028,7 +2699,7 @@
             "treatment": "teal_candidate"
         },
         {
-            "index": 38,
+            "index": 34,
             "from": "D6/9",
             "to": "C6/9",
             "from_parsed": {
@@ -3085,7 +2756,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 39,
+            "index": 35,
             "from": "C6/9",
             "to": "B11",
             "from_parsed": {
@@ -3137,7 +2808,7 @@
             "treatment": "pink_candidate"
         },
         {
-            "index": 40,
+            "index": 36,
             "from": "B11",
             "to": "Em11",
             "from_parsed": {
@@ -3193,7 +2864,39 @@
     ],
     "cycle_windows": [
         {
-            "start_index": 14,
+            "start_index": 10,
+            "window": [
+                "B7",
+                "Em11",
+                "Bm11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 11,
+            "window": [
+                "Em11",
+                "Bm11",
+                "Em11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 12,
             "window": [
                 "Bm11",
                 "Em11",
@@ -3207,10 +2910,78 @@
                     "cycle_of_fourths"
                 ]
             }
+        },
+        {
+            "start_index": 16,
+            "window": [
+                "B11",
+                "Em11",
+                "Bm11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 29,
+            "window": [
+                "B7",
+                "Em11",
+                "Bm11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 3,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths"
+                ]
+            }
+        },
+        {
+            "start_index": 10,
+            "window": [
+                "B7",
+                "Em11",
+                "Bm11",
+                "Em11"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fourths",
+                    "cycle_of_fifths",
+                    "cycle_of_fourths"
+                ]
+            }
+        },
+        {
+            "start_index": 11,
+            "window": [
+                "Em11",
+                "Bm11",
+                "Em11",
+                "A9"
+            ],
+            "cycle_info": {
+                "type": "cycle_chain",
+                "length": 4,
+                "motions": [
+                    "cycle_of_fifths",
+                    "cycle_of_fourths",
+                    "cycle_of_fourths"
+                ]
+            }
         }
     ],
     "treatment_counts": {
-        "pink_candidate": 18,
+        "pink_candidate": 14,
         "teal_candidate": 12,
         "hybrid": 1,
         "neutral_or_contextual": 10
@@ -3220,8 +2991,8 @@
         "diminished_connector_count": 0,
         "augmented_event_count": 0,
         "tonal_shift_count": 1,
-        "modal_descent_count": 7,
-        "cycle_window_count": 1,
+        "modal_descent_count": 3,
+        "cycle_window_count": 7,
         "dominant_chains": [
             {
                 "from": "A9",
@@ -3328,30 +3099,6 @@
         ],
         "modal_descents": [
             {
-                "from": "Cmaj9",
-                "to": "Bm11",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "Cmaj9",
-                "to": "Bm11",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
-                "from": "Cmaj9",
-                "to": "Bm11",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
                 "from": "D6/9",
                 "to": "C6/9",
                 "event": {
@@ -3368,14 +3115,6 @@
                 }
             },
             {
-                "from": "Cmaj9",
-                "to": "Bm11",
-                "event": {
-                    "type": "descending_scalar_or_modal_motion",
-                    "strength": "medium"
-                }
-            },
-            {
                 "from": "D6/9",
                 "to": "C6/9",
                 "event": {
@@ -3386,7 +3125,39 @@
         ],
         "cycle_windows": [
             {
-                "start_index": 14,
+                "start_index": 10,
+                "window": [
+                    "B7",
+                    "Em11",
+                    "Bm11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 11,
+                "window": [
+                    "Em11",
+                    "Bm11",
+                    "Em11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 12,
                 "window": [
                     "Bm11",
                     "Em11",
@@ -3396,6 +3167,74 @@
                     "type": "cycle_chain",
                     "length": 3,
                     "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 16,
+                "window": [
+                    "B11",
+                    "Em11",
+                    "Bm11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 29,
+                "window": [
+                    "B7",
+                    "Em11",
+                    "Bm11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 3,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths"
+                    ]
+                }
+            },
+            {
+                "start_index": 10,
+                "window": [
+                    "B7",
+                    "Em11",
+                    "Bm11",
+                    "Em11"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fourths",
+                        "cycle_of_fifths",
+                        "cycle_of_fourths"
+                    ]
+                }
+            },
+            {
+                "start_index": 11,
+                "window": [
+                    "Em11",
+                    "Bm11",
+                    "Em11",
+                    "A9"
+                ],
+                "cycle_info": {
+                    "type": "cycle_chain",
+                    "length": 4,
+                    "motions": [
+                        "cycle_of_fifths",
                         "cycle_of_fourths",
                         "cycle_of_fourths"
                     ]

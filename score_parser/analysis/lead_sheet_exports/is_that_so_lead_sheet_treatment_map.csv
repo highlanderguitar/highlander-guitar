@@ -1,0 +1,40 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+is_that_so,A,teal,0,Dm7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,1,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,2,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,3,E9,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+is_that_so,A,teal,4,F,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,5,Dm9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+is_that_so,A,teal,6,Bm11,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,7,D9,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,8,A,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+is_that_so,A,teal,9,Am7,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+is_that_so,A,teal,10,Dm7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,11,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,12,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,13,Dm7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,14,Em9,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+is_that_so,A,teal,15,E9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,16,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,17,B,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,18,F,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,19,E9,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+is_that_so,A,teal,20,F,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,21,E9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,22,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,23,F,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,24,E9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,25,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,26,Dm9,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,27,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,28,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,29,Bm11,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,30,Dm9,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+is_that_so,A,teal,31,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,32,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,33,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,34,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+is_that_so,A,teal,35,D9,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+is_that_so,A,teal,36,F,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+is_that_so,A,teal,37,Em9,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+is_that_so,A,teal,38,Am7,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone

@@ -1,0 +1,47 @@
+title,key_name,primary_treatment,moment_index,chord,degree,functional_bucket,recommended_treatment,confidence,rationale
+birdland_breakdown,D,teal,0,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,1,E7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,2,A7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+birdland_breakdown,D,teal,3,Bb6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,4,Am7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+birdland_breakdown,D,teal,5,Gm7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+birdland_breakdown,D,teal,6,Edim7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,7,Gdim7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+birdland_breakdown,D,teal,8,Dm9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,9,F,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,10,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,11,Bb7,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,12,A,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,13,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+birdland_breakdown,D,teal,14,E7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,15,A7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,16,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+birdland_breakdown,D,teal,17,Bb6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,18,Am7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+birdland_breakdown,D,teal,19,Gm7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+birdland_breakdown,D,teal,20,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,21,A7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,22,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+birdland_breakdown,D,teal,23,B,VI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,24,Edim7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,25,Gdim7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+birdland_breakdown,D,teal,26,Dm9,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,27,Gm7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+birdland_breakdown,D,teal,28,F,bIII,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,29,Edim7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,30,Gdim7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+birdland_breakdown,D,teal,31,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,32,Gm7,IV,subdominant,teal,0.78,subdominant plateau leaves room for extension climbing
+birdland_breakdown,D,teal,33,Bb7,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,34,A7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+birdland_breakdown,D,teal,35,A,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,36,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+birdland_breakdown,D,teal,37,E7,II,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,38,A7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,39,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone
+birdland_breakdown,D,teal,40,Bb6/9,bVI,color_or_other,hybrid,0.62,non-core function may support mixed color depending on phrase target
+birdland_breakdown,D,teal,41,Am7,V,dominant,pink,0.88,dominant chord invites tension / superimposed color
+birdland_breakdown,D,teal,42,Gm7,IV,subdominant,teal,0.83,subdominant plateau leaves room for extension climbing | IV moving back into the home loop favors shape-based teal phrasing
+birdland_breakdown,D,teal,43,Dm,I,tonic,teal,0.86,tonic stability supports teal extension framing and melodic climbing
+birdland_breakdown,D,teal,44,A7,V,dominant,pink,0.94,dominant chord invites tension / superimposed color | direct V→I cadence makes pink tension especially useful
+birdland_breakdown,D,teal,45,Dm,I,tonic,teal,0.92,tonic stability supports teal extension framing and melodic climbing | post-cadential tonic is a strong teal arrival zone

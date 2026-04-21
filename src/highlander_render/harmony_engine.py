@@ -4,7 +4,16 @@ import re
 from dataclasses import dataclass
 from typing import Literal
 
-from .models import DiagramTone, HarmonicEvent, ProgressionChart
+from .models import (
+    DiagramTone,
+    GuardrailEdge,
+    GuardrailMembership,
+    GuardrailShapeWindow,
+    GuardrailTone,
+    HarmonicEvent,
+    ProgressionChart,
+    ScaleGuardrailDiagram,
+)
 
 NoteSpelling = Literal["sharps", "flats"]
 
@@ -44,6 +53,8 @@ TUNING_PITCHES = {
     "B": 11,
 }
 
+TUNING_BOTTOM_TO_TOP = ["E", "A", "D", "G", "B", "E"]
+
 PINK_SYSTEM_BY_QUALITY = {
     "min7": "2",
     "maj7": "3",
@@ -53,12 +64,10 @@ PINK_SYSTEM_BY_QUALITY = {
 EFFECT_FAMILY_MAP = {
     ("maj7", 4): "three_minor_pent_over_major",
     ("maj7", 11): "seven_minor_pent_over_major",
-
     ("min7", 0): "one_minor_pent_over_minor",
     ("min7", 7): "five_minor_pent_over_minor",
     ("min7", 2): "two_minor_pent_over_minor",
     ("min7", 10): "flat_seven_minor_pent_over_minor",
-
     ("dom7", 7): "five_minor_pent_over_dominant",
     ("dom7", 3): "flat_three_minor_pent_over_dominant",
 }
@@ -104,6 +113,18 @@ EFFECT_METADATA = {
         "teaching_name": "Altered Dominant Sound",
         "priority_rank": 2,
     },
+}
+
+MINOR_PENT_INTERVALS = ["1", "b3", "4", "5", "b7"]
+
+# 5-shape windows for now.
+# These are retrieval / masking windows, not the doctrine itself.
+SHAPE_WINDOWS = {
+    1: (0, 2),
+    2: (3, 5),
+    3: (6, 8),
+    4: (9, 11),
+    5: (12, 15),
 }
 
 
@@ -217,7 +238,7 @@ def get_minor_pent_tones(
     chord_root: str,
     spelling: NoteSpelling = "sharps",
 ) -> list[ClassifiedTone]:
-    raw = build_tones_from_intervals(super_root, ["1", "b3", "4", "5", "b7"], spelling)
+    raw = build_tones_from_intervals(super_root, MINOR_PENT_INTERVALS, spelling)
     chord_root_idx = note_to_index(chord_root)
 
     tones: list[ClassifiedTone] = []
@@ -259,6 +280,18 @@ def combine_chord_and_super_tones(
         else:
             result.append(t)
     return result
+
+
+def build_minor_pent_cycle(root: str, spelling: NoteSpelling = "sharps") -> list[str]:
+    return [
+        index_to_note(note_to_index(root) + INTERVAL_TO_SEMITONES[i], spelling)
+        for i in MINOR_PENT_INTERVALS
+    ]
+
+
+def build_pent_index_map(root: str, spelling: NoteSpelling = "sharps") -> dict[str, int]:
+    cycle = build_minor_pent_cycle(root, spelling)
+    return {note: i for i, note in enumerate(cycle)}
 
 
 def parse_root(symbol: str) -> str:
@@ -433,7 +466,7 @@ def iter_fretboard_positions_for_pitch_class(
     max_fret: int = 15,
 ) -> list[tuple[int, int]]:
     positions: list[tuple[int, int]] = []
-    for string_index, open_name in enumerate(["E", "A", "D", "G", "B", "E"]):
+    for string_index, open_name in enumerate(TUNING_BOTTOM_TO_TOP):
         open_pitch = TUNING_PITCHES[open_name]
         for fret in range(0, max_fret + 1):
             if (open_pitch + fret) % 12 == semitone:
@@ -442,23 +475,9 @@ def iter_fretboard_positions_for_pitch_class(
 
 
 def assign_pentatonic_shape(fret: int) -> int:
-    """
-    5-position system (rough but stable)
-
-    0–2   → shape 1
-    3–5   → shape 2
-    6–8   → shape 3
-    9–11  → shape 4
-    12–15 → shape 5
-    """
-    if fret <= 2:
-        return 1
-    if fret <= 5:
-        return 2
-    if fret <= 8:
-        return 3
-    if fret <= 11:
-        return 4
+    for shape_id, (fret_min, fret_max) in SHAPE_WINDOWS.items():
+        if fret_min <= fret <= fret_max:
+            return shape_id
     return 5
 
 
@@ -497,4 +516,281 @@ def build_diagram_tones_for_event(
                 )
             )
 
-    return tones-0
+    return tones
+
+
+# ============================================================
+# Guardrail library generation
+# ============================================================
+
+def degree_label_in_minor_pent(root: str, note_name: str, spelling: NoteSpelling = "sharps") -> str:
+    root_idx = note_to_index(root)
+    note_idx = note_to_index(note_name)
+    return semitone_to_chord_interval((note_idx - root_idx) % 12)
+
+
+def build_minor_pent_position_map(
+    root: str,
+    spelling: NoteSpelling = "sharps",
+    max_fret: int = 15,
+) -> list[tuple[int, int, str, str]]:
+    """
+    Returns all fretboard positions for the scale:
+      (string_index, fret, note_name, degree_label)
+    """
+    result: list[tuple[int, int, str, str]] = []
+    cycle = build_minor_pent_cycle(root, spelling)
+    for note_name in cycle:
+        degree_label = degree_label_in_minor_pent(root, note_name, spelling)
+        for string_index, fret in iter_fretboard_positions_for_pitch_class(
+            note_to_index(note_name),
+            max_fret=max_fret,
+        ):
+            result.append((string_index, fret, note_name, degree_label))
+    result.sort(key=lambda x: (x[1], x[0], x[2]))
+    return result
+
+
+def _first_two_frets_for_string_in_shape(
+    positions: list[tuple[int, int, str, str]],
+    string_index: int,
+    shape_id: int,
+) -> list[tuple[int, int, str, str]]:
+    fret_min, fret_max = SHAPE_WINDOWS[shape_id]
+    matches = [
+        p for p in positions
+        if p[0] == string_index and fret_min <= p[1] <= fret_max
+    ]
+    # unique frets only, preserve order
+    seen: set[int] = set()
+    filtered: list[tuple[int, int, str, str]] = []
+    for p in matches:
+        if p[1] in seen:
+            continue
+        seen.add(p[1])
+        filtered.append(p)
+    return filtered[:2]
+
+
+def _membership_label(family: str, shape_id: int) -> str:
+    return f"{family}{shape_id}"
+
+
+def build_minor_pent_guardrail_tones(
+    root: str,
+    spelling: NoteSpelling = "sharps",
+    max_fret: int = 15,
+) -> list[GuardrailTone]:
+    """
+    First-pass classification layer:
+    - rectangle = odd string-pairs inside each shape window
+    - stack     = even string-pairs inside each shape window
+
+    This gives us machine-usable memberships like:
+      rectangle1, stack1, both1, rectangle2, ...
+    without touching the progression renderer yet.
+    """
+    positions = build_minor_pent_position_map(root, spelling, max_fret=max_fret)
+
+    membership_map: dict[tuple[int, int], list[GuardrailMembership]] = {}
+    note_meta: dict[tuple[int, int], tuple[str, str]] = {}
+
+    for string_index, fret, note_name, degree_label in positions:
+        note_meta[(string_index, fret)] = (note_name, degree_label)
+
+    for shape_id in sorted(SHAPE_WINDOWS.keys()):
+        per_string = {
+            s: _first_two_frets_for_string_in_shape(positions, s, shape_id)
+            for s in range(6)
+        }
+
+        # Rectangle families: 3x2, using string pairs (0,1), (2,3), (4,5)
+        for s1, s2 in ((0, 1), (2, 3), (4, 5)):
+            if len(per_string[s1]) >= 2 and len(per_string[s2]) >= 2:
+                for ordinal, tone in enumerate(per_string[s1][:2], start=1):
+                    key = (tone[0], tone[1])
+                    membership_map.setdefault(key, []).append(
+                        GuardrailMembership(
+                            shape_id=shape_id,
+                            family="rectangle",
+                            label=_membership_label("rectangle", shape_id),
+                            ordinal_on_string=ordinal,
+                        )
+                    )
+                for ordinal, tone in enumerate(per_string[s2][:2], start=1):
+                    key = (tone[0], tone[1])
+                    membership_map.setdefault(key, []).append(
+                        GuardrailMembership(
+                            shape_id=shape_id,
+                            family="rectangle",
+                            label=_membership_label("rectangle", shape_id),
+                            ordinal_on_string=ordinal,
+                        )
+                    )
+
+        # Stack families: 2x3, using overlapping string pairs
+        for s1, s2 in ((1, 2), (2, 3), (3, 4), (4, 5), (0, 1)):
+            if len(per_string[s1]) >= 2 and len(per_string[s2]) >= 2:
+                for ordinal, tone in enumerate(per_string[s1][:2], start=1):
+                    key = (tone[0], tone[1])
+                    membership_map.setdefault(key, []).append(
+                        GuardrailMembership(
+                            shape_id=shape_id,
+                            family="stack",
+                            label=_membership_label("stack", shape_id),
+                            ordinal_on_string=ordinal,
+                        )
+                    )
+                for ordinal, tone in enumerate(per_string[s2][:2], start=1):
+                    key = (tone[0], tone[1])
+                    membership_map.setdefault(key, []).append(
+                        GuardrailMembership(
+                            shape_id=shape_id,
+                            family="stack",
+                            label=_membership_label("stack", shape_id),
+                            ordinal_on_string=ordinal,
+                        )
+                    )
+
+    guardrail_tones: list[GuardrailTone] = []
+    for (string_index, fret), memberships in sorted(membership_map.items(), key=lambda x: (x[0][1], x[0][0])):
+        note_name, degree_label = note_meta[(string_index, fret)]
+
+        families = {m.family for m in memberships}
+        final_memberships: list[GuardrailMembership] = []
+
+        # Preserve the detailed memberships
+        final_memberships.extend(memberships)
+
+        # Add "both{shape}" when both rectangle and stack occur in same shape
+        for shape_id in sorted({m.shape_id for m in memberships}):
+            shape_families = {m.family for m in memberships if m.shape_id == shape_id}
+            if "rectangle" in shape_families and "stack" in shape_families:
+                final_memberships.append(
+                    GuardrailMembership(
+                        shape_id=shape_id,
+                        family="both",
+                        label=_membership_label("both", shape_id),
+                        ordinal_on_string=0,
+                    )
+                )
+
+        guardrail_tones.append(
+            GuardrailTone(
+                string_index=string_index,
+                fret=fret,
+                note_name=note_name,
+                degree_label=degree_label,
+                memberships=sorted(
+                    final_memberships,
+                    key=lambda m: (m.shape_id, m.family, m.ordinal_on_string),
+                ),
+            )
+        )
+
+    return guardrail_tones
+
+
+def build_minor_pent_guardrail_edges(
+    tones: list[GuardrailTone],
+) -> list[GuardrailEdge]:
+    """
+    First-pass render edges:
+    - rectangle edges connect same-family notes across adjacent strings
+    - stack edges connect same-family notes up the string pair ladder
+
+    This is intentionally simple and diagnostic.
+    """
+    by_shape_family: dict[tuple[int, str], list[GuardrailTone]] = {}
+    for tone in tones:
+        for membership in tone.memberships:
+            if membership.family not in {"rectangle", "stack"}:
+                continue
+            by_shape_family.setdefault((membership.shape_id, membership.family), []).append(tone)
+
+    edges: list[GuardrailEdge] = []
+
+    for (shape_id, family), members in by_shape_family.items():
+        members = sorted(members, key=lambda t: (t.string_index, t.fret))
+
+        # connect nearest same-ordinal neighbors across adjacent strings
+        for i, a in enumerate(members):
+            for b in members[i + 1:]:
+                if abs(a.string_index - b.string_index) != 1:
+                    continue
+                if abs(a.fret - b.fret) > 3:
+                    continue
+
+                edges.append(
+                    GuardrailEdge(
+                        shape_id=shape_id,
+                        color_role=family,
+                        start_string_index=a.string_index,
+                        start_fret=a.fret,
+                        end_string_index=b.string_index,
+                        end_fret=b.fret,
+                    )
+                )
+
+    # de-dupe
+    seen: set[tuple[int, str, int, int, int, int]] = set()
+    deduped: list[GuardrailEdge] = []
+    for e in edges:
+        key = (
+            e.shape_id,
+            e.color_role,
+            min(e.start_string_index, e.end_string_index),
+            min(e.start_fret, e.end_fret),
+            max(e.start_string_index, e.end_string_index),
+            max(e.start_fret, e.end_fret),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(e)
+
+    return deduped
+
+
+def build_minor_pent_guardrail_windows(
+    root: str,
+    spelling: NoteSpelling = "sharps",
+    max_fret: int = 15,
+) -> list[GuardrailShapeWindow]:
+    tones = build_minor_pent_guardrail_tones(root, spelling=spelling, max_fret=max_fret)
+    edges = build_minor_pent_guardrail_edges(tones)
+
+    windows: list[GuardrailShapeWindow] = []
+    for shape_id, (fret_min, fret_max) in SHAPE_WINDOWS.items():
+        window_tones = [
+            t for t in tones
+            if any(m.shape_id == shape_id for m in t.memberships)
+        ]
+        window_edges = [e for e in edges if e.shape_id == shape_id]
+        windows.append(
+            GuardrailShapeWindow(
+                shape_id=shape_id,
+                fret_min=fret_min,
+                fret_max=fret_max,
+                tones=window_tones,
+                edges=window_edges,
+            )
+        )
+    return windows
+
+
+def build_minor_pent_guardrail_diagram(
+    root: str,
+    spelling: NoteSpelling = "sharps",
+    max_fret: int = 15,
+) -> ScaleGuardrailDiagram:
+    tones = build_minor_pent_guardrail_tones(root, spelling=spelling, max_fret=max_fret)
+    windows = build_minor_pent_guardrail_windows(root, spelling=spelling, max_fret=max_fret)
+    return ScaleGuardrailDiagram(
+        title=f"{root} Minor Pentatonic Guardrails",
+        key_name=root,
+        scale_name="minor_pent",
+        root=root,
+        tones=tones,
+        shape_windows=windows,
+    )

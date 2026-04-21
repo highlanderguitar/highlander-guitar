@@ -1,0 +1,86 @@
+[
+    {
+        "title": "birdland_breakdown",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\birdland_breakdown_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\birdland_breakdown_lead_sheet_treatment_map.json",
+        "row_count": 46
+    },
+    {
+        "title": "common_ground",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\common_ground_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\common_ground_lead_sheet_treatment_map.json",
+        "row_count": 35
+    },
+    {
+        "title": "gasology",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\gasology_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\gasology_lead_sheet_treatment_map.json",
+        "row_count": 63
+    },
+    {
+        "title": "is_that_so",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\is_that_so_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\is_that_so_lead_sheet_treatment_map.json",
+        "row_count": 39
+    },
+    {
+        "title": "manzanita",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\manzanita_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\manzanita_lead_sheet_treatment_map.json",
+        "row_count": 34
+    },
+    {
+        "title": "mar_east",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mar_east_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mar_east_lead_sheet_treatment_map.json",
+        "row_count": 11
+    },
+    {
+        "title": "mar_west",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mar_west_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mar_west_lead_sheet_treatment_map.json",
+        "row_count": 15
+    },
+    {
+        "title": "mountain_dew",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mountain_dew_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\mountain_dew_lead_sheet_treatment_map.json",
+        "row_count": 9
+    },
+    {
+        "title": "neon_tetra",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\neon_tetra_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\neon_tetra_lead_sheet_treatment_map.json",
+        "row_count": 27
+    },
+    {
+        "title": "old_gray_coat",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\old_gray_coat_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\old_gray_coat_lead_sheet_treatment_map.json",
+        "row_count": 43
+    },
+    {
+        "title": "port_tobacco",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\port_tobacco_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\port_tobacco_lead_sheet_treatment_map.json",
+        "row_count": 29
+    },
+    {
+        "title": "so_much",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\so_much_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\so_much_lead_sheet_treatment_map.json",
+        "row_count": 8
+    },
+    {
+        "title": "swing_51",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\swing_51_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\swing_51_lead_sheet_treatment_map.json",
+        "row_count": 25
+    },
+    {
+        "title": "waltz_for_indira",
+        "csv_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\waltz_for_indira_lead_sheet_treatment_map.csv",
+        "json_path": "C:\\Users\\highl\\prism-archive\\projects\\_bootstrap\\highlander_migration\\highlander_render\\score_parser\\analysis\\lead_sheet_exports\\waltz_for_indira_lead_sheet_treatment_map.json",
+        "row_count": 24
+    }
+]

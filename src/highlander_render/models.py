@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Any, Optional
 
 
 @dataclass(frozen=True)
@@ -41,15 +41,140 @@ class DiagramTone:
 
 
 @dataclass(frozen=True)
-class HarmonicEvent:
-    symbol: str
+class GuardrailMembership:
+    """
+    Example labels:
+      rectangle1
+      stack1
+      both1
+      rectangle2
+      stack2
+      both2
+
+    ordinal_on_string:
+      1 = first selected note for that structure on that string
+      2 = second selected note for that structure on that string
+    """
+    shape_id: int
+    family: str              # rectangle | stack | both
+    label: str               # rectangle1 | stack2 | both3 etc
+    ordinal_on_string: int   # 1 or 2
+
+
+@dataclass(frozen=True)
+class GuardrailTone:
+    """
+    A fretboard position classified for the rectangle/stack system.
+    This is intentionally separate from DiagramTone so we can build
+    scale libraries and guardrail generators without disturbing the
+    working progression renderer.
+    """
+    string_index: int
+    fret: int
+    note_name: str
+    degree_label: str
+    memberships: list[GuardrailMembership] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
+class GuardrailEdge:
+    """
+    A render-ready connection between two classified fretboard nodes.
+    color_role:
+      rectangle | stack
+    """
+    shape_id: int
+    color_role: str
+    start_string_index: int
+    start_fret: int
+    end_string_index: int
+    end_fret: int
+
+
+@dataclass(frozen=True)
+class GuardrailShapeWindow:
+    """
+    A single shape window in the 5-shape system.
+    """
+    shape_id: int
+    fret_min: int
+    fret_max: int
+    tones: list[GuardrailTone] = field(default_factory=list)
+    edges: list[GuardrailEdge] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
+class ScaleGuardrailDiagram:
+    """
+    Standalone guardrail-library artifact for one scale/key/system.
+    """
+    title: str
+    key_name: str
+    scale_name: str
     root: str
-    quality: str
-    beats: int
-    display_label: str
-    section_name: str
-    beat_offset_in_bar: int = 0
-    super_root: Optional[str] = None
+    tones: list[GuardrailTone]
+    shape_windows: list[GuardrailShapeWindow] = field(default_factory=list)
+
+
+class HarmonicEvent:
+    """
+    Flexible event model so harmony_engine can evolve without constantly
+    breaking models.py when new metadata fields are added.
+    """
+
+    def __init__(
+        self,
+        symbol: str,
+        root: str,
+        quality: str,
+        beats: int,
+        display_label: str,
+        section_name: str,
+        beat_offset_in_bar: int = 0,
+        super_root: Optional[str] = None,
+        **extra_fields: Any,
+    ) -> None:
+        self.symbol = symbol
+        self.root = root
+        self.quality = quality
+        self.beats = beats
+        self.display_label = display_label
+        self.section_name = section_name
+        self.beat_offset_in_bar = beat_offset_in_bar
+        self.super_root = super_root
+
+        for key, value in extra_fields.items():
+            setattr(self, key, value)
+
+    def __repr__(self) -> str:
+        core = (
+            f"symbol={self.symbol!r}, "
+            f"root={self.root!r}, "
+            f"quality={self.quality!r}, "
+            f"beats={self.beats!r}, "
+            f"display_label={self.display_label!r}, "
+            f"section_name={self.section_name!r}, "
+            f"beat_offset_in_bar={self.beat_offset_in_bar!r}, "
+            f"super_root={self.super_root!r}"
+        )
+        extras = [
+            f"{k}={v!r}"
+            for k, v in self.__dict__.items()
+            if k
+            not in {
+                "symbol",
+                "root",
+                "quality",
+                "beats",
+                "display_label",
+                "section_name",
+                "beat_offset_in_bar",
+                "super_root",
+            }
+        ]
+        if extras:
+            return f"HarmonicEvent({core}, {', '.join(extras)})"
+        return f"HarmonicEvent({core})"
 
 
 @dataclass(frozen=True)

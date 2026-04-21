@@ -1,0 +1,77 @@
+{
+    "title": "mar_east",
+    "key_name": "E",
+    "key_confidence": 0.127,
+    "pink_score": 2.8,
+    "teal_score": 6.3,
+    "hybrid_score": 3.8,
+    "recommended_primary_treatment": "teal",
+    "annotation_tags": [
+        {
+            "moment_index": 0,
+            "chord": "A13",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 1,
+            "chord": "E9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 2,
+            "chord": "Emaj7",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 3,
+            "chord": "A",
+            "tag": "TEAL",
+            "confidence": 0.78
+        },
+        {
+            "moment_index": 4,
+            "chord": "A13",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 5,
+            "chord": "E9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 6,
+            "chord": "B",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 7,
+            "chord": "Emaj7",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 8,
+            "chord": "E9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 9,
+            "chord": "Emaj7",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 10,
+            "chord": "E9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Title: GCD Diagram
+Key: G
+Spelling: sharps
+
+quality G=maj7 C=maj7 D=7
+
+GCD section
+G--- | C--- | D---

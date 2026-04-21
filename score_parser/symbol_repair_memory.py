@@ -1,6 +1,6 @@
 import os
 import json
-from typing import Dict, List, Any
+from typing import Any, Dict, List
 
 BASE_DIR = os.path.dirname(__file__)
 CHORD_ANALYSIS_DIR = os.path.join(BASE_DIR, "analysis", "chord_symbols")
@@ -8,63 +8,70 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "analysis", "chord_repairs")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# --------------------------------
-# MANUAL REPAIR MEMORY
-# --------------------------------
-# This is the beginning of your teachable correction bank.
-# Add to this over time.
-#
-# Key = raw harvested token
-# Value = repaired chord symbol
-# --------------------------------
+VALID_ROOTS = {"A", "B", "C", "D", "E", "F", "G"}
+VALID_QUALIFIERS = {
+    "", "m", "7", "m7", "maj7", "dim", "dim7",
+    "aug", "9", "11", "13", "6", "6/9",
+    "m9", "m11", "m13",
+    "sus", "sus2", "sus4"
+}
 
 REPAIR_MAP: Dict[str, str] = {
-    # Birdland Breakdown examples
     "B\ue2606/9": "Bb6/9",
     "B\ue2607": "Bb7",
     "E\ue8707": "Edim7",
     "G\ue8707": "Gdim7",
-
-    # Common Ground examples
-    "E\ue2605": "Eb5",
-    "E\ue260513": "Eb5add13",
-    "E\ue26057": "Eb57",
-    "C\ue262m7": "C#m7",
-    "F\ue262m7": "F#m7",
-    "C\ue8739": "C#9",
-    "Badd9/D\ue262": "Badd9/D#",
-    "Aadd9/C\ue262": "Aadd9/C#",
 }
 
-# Tokens that should never survive as standalone chord symbols
 NOISE_TOKENS = {
-    "Ardans", "Griffin", "Birdland", "Breakdown", "Common", "Ground",
-    "Gasology", "Manzanita", "Neon", "Tetra", "Port", "Tobacco",
-    "Swing", "Waltz", "Indira", "Mar", "East", "West", "Old", "Gray", "Coat",
-    "Is", "That", "So", "SoMuch", "John", "Reischman"
+    "Dew", "As", "By", "Capo", "Mountain",
+    "Performed", "Standard", "Tuning", "Fret",
+    "sl", "P", "H"
 }
 
-# Standalone suffix fragments are not valid chord symbols by themselves
 ORPHAN_SUFFIXES = {"7", "9", "11", "13", "m7", "maj7", "6/9"}
 
-# --------------------------------
-# HELPERS
-# --------------------------------
 
 def load_json(path: str) -> Any:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def save_json(path: str, data: Any) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
-def is_noise_token(token: str) -> bool:
+
+def is_valid_chord_symbol(token: str) -> bool:
+    if not token:
+        return False
+
     if token in NOISE_TOKENS:
-        return True
+        return False
+
     if token in ORPHAN_SUFFIXES:
-        return True
-    return False
+        return False
+
+    if token.isdigit():
+        return False
+
+    root = token[0]
+    if root not in VALID_ROOTS:
+        return False
+
+    rest = token[1:]
+
+    if rest.startswith("#") or rest.startswith("b"):
+        rest = rest[1:]
+
+    if "/" in rest:
+        parts = rest.split("/")
+        if len(parts) != 2:
+            return False
+        rest = parts[0]
+
+    return rest in VALID_QUALIFIERS
+
 
 def apply_repair(token: str) -> Dict[str, Any]:
     if token in REPAIR_MAP:
@@ -74,25 +81,32 @@ def apply_repair(token: str) -> Dict[str, Any]:
             "needs_review": False,
         }
 
-    if is_noise_token(token):
+    if token in NOISE_TOKENS or token in ORPHAN_SUFFIXES or token.isdigit():
         return {
             "normalized_token": "",
             "repair_status": "discarded_noise",
             "needs_review": False,
         }
 
-    # Keep ambiguous tokens for human review
+    if is_valid_chord_symbol(token):
+        return {
+            "normalized_token": token,
+            "repair_status": "accepted_valid_symbol",
+            "needs_review": False,
+        }
+
     return {
-        "normalized_token": token,
-        "repair_status": "needs_manual_review",
-        "needs_review": True,
+        "normalized_token": "",
+        "repair_status": "discarded_unrecognized",
+        "needs_review": False,
     }
+
 
 def process_file(path: str) -> Dict[str, Any]:
     data = load_json(path)
 
-    repaired_records = []
-    unresolved = []
+    repaired_records: List[Dict[str, Any]] = []
+    unresolved: List[Dict[str, Any]] = []
 
     for record in data.get("all_records", []):
         raw = record["raw_token"]
@@ -115,12 +129,11 @@ def process_file(path: str) -> Dict[str, Any]:
                 "ambiguity_classes": record.get("ambiguity_classes", []),
             })
 
-    # Keep only usable repaired tokens for harmonic stream
     usable_chords = [
         r["normalized_token"]
         for r in repaired_records
         if r["normalized_token"]
-        and r["repair_status"] != "discarded_noise"
+        and r["repair_status"] not in {"discarded_noise", "discarded_unrecognized"}
     ]
 
     result = {
@@ -132,6 +145,7 @@ def process_file(path: str) -> Dict[str, Any]:
     }
 
     return result
+
 
 def main() -> None:
     combined = []
@@ -153,6 +167,7 @@ def main() -> None:
 
     print("\nSaved repaired chord-symbol files to:")
     print(OUTPUT_DIR)
+
 
 if __name__ == "__main__":
     main()

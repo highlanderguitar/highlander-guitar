@@ -2,27 +2,20 @@
     "title": "mar_west",
     "page_count": 1,
     "usable_chords": [
-        "Griffin7",
         "Bm7",
         "E9",
         "A11",
-        "F\ue26211",
         "G6/9",
         "A7",
-        "F\ue2629",
         "G7",
-        "F\ue2627",
         "Bm7",
         "E9",
         "A11",
-        "F\ue26211",
         "G6/9",
         "A7",
         "Bm7",
-        "F\ue2629",
         "E9",
         "G7",
-        "F\ue2627",
         "Bm7"
     ],
     "repaired_records": [
@@ -34,7 +27,7 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "discarded_noise",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
             "needs_review": false
         },
@@ -42,13 +35,13 @@
             "page_index": 0,
             "sequence_index": 1,
             "raw_token": "Griffin7",
-            "normalized_token": "Griffin7",
+            "normalized_token": "",
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -58,9 +51,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -70,9 +63,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -82,15 +75,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 5,
             "raw_token": "F\ue26211",
-            "normalized_token": "F\ue26211",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -100,9 +93,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -124,9 +117,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -136,15 +129,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 9,
             "raw_token": "F\ue2629",
-            "normalized_token": "F\ue2629",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -154,9 +147,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -166,15 +159,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 11,
             "raw_token": "F\ue2627",
-            "normalized_token": "F\ue2627",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -184,9 +177,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -280,9 +273,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -292,9 +285,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -304,15 +297,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 22,
             "raw_token": "F\ue26211",
-            "normalized_token": "F\ue26211",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -322,9 +315,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -574,9 +567,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -586,9 +579,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -598,9 +591,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -702,7 +695,7 @@
             "page_index": 0,
             "sequence_index": 54,
             "raw_token": "F\ue2629",
-            "normalized_token": "F\ue2629",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -712,9 +705,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -724,9 +717,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -736,15 +729,15 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
             "sequence_index": 57,
             "raw_token": "F\ue2627",
-            "normalized_token": "F\ue2627",
+            "normalized_token": "",
             "ambiguous": true,
             "ambiguous_glyphs": [
                 "\ue262"
@@ -754,9 +747,9 @@
                 "other_accidental",
                 "suffix_splitter"
             ],
-            "repair_status": "needs_manual_review",
+            "repair_status": "discarded_unrecognized",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -766,9 +759,9 @@
             "ambiguous": false,
             "ambiguous_glyphs": [],
             "ambiguity_classes": [],
-            "repair_status": "needs_manual_review",
+            "repair_status": "accepted_valid_symbol",
             "notes": "",
-            "needs_review": true
+            "needs_review": false
         },
         {
             "page_index": 0,
@@ -795,162 +788,5 @@
             "needs_review": false
         }
     ],
-    "unresolved_tokens": [
-        {
-            "raw_token": "Griffin7",
-            "page_index": 0,
-            "sequence_index": 1,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Bm7",
-            "page_index": 0,
-            "sequence_index": 2,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "E9",
-            "page_index": 0,
-            "sequence_index": 3,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A11",
-            "page_index": 0,
-            "sequence_index": 4,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue26211",
-            "page_index": 0,
-            "sequence_index": 5,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "G6/9",
-            "page_index": 0,
-            "sequence_index": 7,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A7",
-            "page_index": 0,
-            "sequence_index": 8,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue2629",
-            "page_index": 0,
-            "sequence_index": 9,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "G7",
-            "page_index": 0,
-            "sequence_index": 10,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue2627",
-            "page_index": 0,
-            "sequence_index": 11,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "Bm7",
-            "page_index": 0,
-            "sequence_index": 19,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "E9",
-            "page_index": 0,
-            "sequence_index": 20,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A11",
-            "page_index": 0,
-            "sequence_index": 21,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue26211",
-            "page_index": 0,
-            "sequence_index": 22,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "G6/9",
-            "page_index": 0,
-            "sequence_index": 43,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "A7",
-            "page_index": 0,
-            "sequence_index": 44,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "Bm7",
-            "page_index": 0,
-            "sequence_index": 45,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue2629",
-            "page_index": 0,
-            "sequence_index": 54,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "E9",
-            "page_index": 0,
-            "sequence_index": 55,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "G7",
-            "page_index": 0,
-            "sequence_index": 56,
-            "ambiguity_classes": []
-        },
-        {
-            "raw_token": "F\ue2627",
-            "page_index": 0,
-            "sequence_index": 57,
-            "ambiguity_classes": [
-                "flat",
-                "other_accidental",
-                "suffix_splitter"
-            ]
-        },
-        {
-            "raw_token": "Bm7",
-            "page_index": 0,
-            "sequence_index": 58,
-            "ambiguity_classes": []
-        }
-    ]
+    "unresolved_tokens": []
 }

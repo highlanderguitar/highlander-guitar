@@ -1,0 +1,287 @@
+{
+    "title": "birdland_breakdown",
+    "key_name": "D",
+    "key_confidence": 0.212,
+    "pink_score": 7.4,
+    "teal_score": 8.7,
+    "hybrid_score": 8.4,
+    "recommended_primary_treatment": "teal",
+    "annotation_tags": [
+        {
+            "moment_index": 0,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 1,
+            "chord": "E7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 2,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.88
+        },
+        {
+            "moment_index": 3,
+            "chord": "Bb6/9",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 4,
+            "chord": "Am7",
+            "tag": "PINK",
+            "confidence": 0.88
+        },
+        {
+            "moment_index": 5,
+            "chord": "Gm7",
+            "tag": "TEAL",
+            "confidence": 0.78
+        },
+        {
+            "moment_index": 6,
+            "chord": "Edim7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 7,
+            "chord": "Gdim7",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 8,
+            "chord": "Dm9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 9,
+            "chord": "F",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 10,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 11,
+            "chord": "Bb7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 12,
+            "chord": "A",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 13,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 14,
+            "chord": "E7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 15,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 16,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 17,
+            "chord": "Bb6/9",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 18,
+            "chord": "Am7",
+            "tag": "PINK",
+            "confidence": 0.88
+        },
+        {
+            "moment_index": 19,
+            "chord": "Gm7",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 20,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 21,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 22,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 23,
+            "chord": "B",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 24,
+            "chord": "Edim7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 25,
+            "chord": "Gdim7",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 26,
+            "chord": "Dm9",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 27,
+            "chord": "Gm7",
+            "tag": "TEAL",
+            "confidence": 0.78
+        },
+        {
+            "moment_index": 28,
+            "chord": "F",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 29,
+            "chord": "Edim7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 30,
+            "chord": "Gdim7",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 31,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 32,
+            "chord": "Gm7",
+            "tag": "TEAL",
+            "confidence": 0.78
+        },
+        {
+            "moment_index": 33,
+            "chord": "Bb7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 34,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.88
+        },
+        {
+            "moment_index": 35,
+            "chord": "A",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 36,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 37,
+            "chord": "E7",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 38,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 39,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        },
+        {
+            "moment_index": 40,
+            "chord": "Bb6/9",
+            "tag": "HYBRID",
+            "confidence": 0.62
+        },
+        {
+            "moment_index": 41,
+            "chord": "Am7",
+            "tag": "PINK",
+            "confidence": 0.88
+        },
+        {
+            "moment_index": 42,
+            "chord": "Gm7",
+            "tag": "TEAL",
+            "confidence": 0.83
+        },
+        {
+            "moment_index": 43,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.86
+        },
+        {
+            "moment_index": 44,
+            "chord": "A7",
+            "tag": "PINK",
+            "confidence": 0.94
+        },
+        {
+            "moment_index": 45,
+            "chord": "Dm",
+            "tag": "TEAL",
+            "confidence": 0.92
+        }
+    ]
+}

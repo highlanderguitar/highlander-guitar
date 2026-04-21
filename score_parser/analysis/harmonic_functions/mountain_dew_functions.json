@@ -1,0 +1,29 @@
+{
+    "title": "mountain_dew",
+    "harmonic_stream": [],
+    "unique_chords": [],
+    "harmonic_cells": [],
+    "parsed_stream": [],
+    "transition_records": [],
+    "cycle_windows": [],
+    "treatment_counts": {
+        "pink_candidate": 0,
+        "teal_candidate": 0,
+        "hybrid": 0,
+        "neutral_or_contextual": 0
+    },
+    "function_summary": {
+        "dominant_chain_count": 0,
+        "diminished_connector_count": 0,
+        "augmented_event_count": 0,
+        "tonal_shift_count": 0,
+        "modal_descent_count": 0,
+        "cycle_window_count": 0,
+        "dominant_chains": [],
+        "diminished_connectors": [],
+        "augmented_events": [],
+        "tonal_shifts": [],
+        "modal_descents": [],
+        "cycle_windows": []
+    }
+}

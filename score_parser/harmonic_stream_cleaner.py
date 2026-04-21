@@ -1,7 +1,8 @@
 import os
-import re
 import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
+
+print("RUNNING HARMONIC_STREAM_CLEANER v2")
 
 BASE_DIR = os.path.dirname(__file__)
 INPUT_DIR = os.path.join(BASE_DIR, "analysis", "chord_repairs")
@@ -9,43 +10,8 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "analysis", "harmonic_streams")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-
-VALID_CHORD_RE = re.compile(
-    r"""
-    ^
-    [A-G]                              # root
-    (?:[#b])?                          # accidental
-    (?:
-        maj7|maj9|maj11|maj13|
-        m7b5|mMaj7|mMaj9|
-        dim7|dim|aug|
-        m11|m9|m7|m6|m|
-        sus2|sus4|sus|
-        add9|add11|add13|
-        13|11|9|7|6/9|6|5
-    )?
-    (?:/[A-G](?:[#b])?)?               # slash bass
-    $
-    """,
-    re.VERBOSE,
-)
-
-
-TITLE_WORDS_BY_TUNE = {
-    "birdland_breakdown": {"Birdland", "Breakdown"},
-    "common_ground": {"Common", "Ground", "Ground7"},
-    "gasology": {"Gasology", "Gasology7"},
-    "is_that_so": {"Is", "That", "So"},
-    "manzanita": {"Manzanita"},
-    "mar_east": {"Mar", "East"},
-    "mar_west": {"Mar", "West"},
-    "neon_tetra": {"Neon", "Tetra"},
-    "old_gray_coat": {"Old", "Gray", "Coat"},
-    "port_tobacco": {"Port", "Tobacco"},
-    "so_much": {"So", "Much"},
-    "swing_51": {"Swing"},
-    "waltz_for_indira": {"Waltz", "Indira"},
-}
+ALLOW_SINGLETON_ROOTS = True
+VALID_ROOTS = {"A", "B", "C", "D", "E", "F", "G"}
 
 
 def load_json(path: str) -> Any:
@@ -58,91 +24,102 @@ def save_json(path: str, data: Any) -> None:
         json.dump(data, f, indent=4)
 
 
-def is_valid_chord_symbol(token: str) -> bool:
-    return bool(VALID_CHORD_RE.match(token))
+def is_singleton_root(token: str) -> bool:
+    return token in VALID_ROOTS
 
 
-def is_suspicious_singleton_root(token: str) -> bool:
-    return token in {"A", "B", "C", "D", "E", "F", "G"}
+def dedupe_adjacent(chords: List[str]) -> List[str]:
+    if not chords:
+        return []
+    out = [chords[0]]
+    for ch in chords[1:]:
+        if ch != out[-1]:
+            out.append(ch)
+    return out
 
 
-def normalize_records(title: str, repaired_records: List[Dict[str, Any]]) -> Dict[str, Any]:
-    title_noise = TITLE_WORDS_BY_TUNE.get(title, set())
+def build_harmonic_cells(chords: List[str]) -> List[Dict[str, Any]]:
+    cells: List[Dict[str, Any]] = []
 
-    harmonic_stream: List[str] = []
-    unique_chords: List[str] = []
-    unique_seen = set()
+    for size in [2, 3, 4]:
+        seen: Dict[Tuple[str, ...], List[int]] = {}
+
+        for i in range(len(chords) - size + 1):
+            cell = tuple(chords[i:i + size])
+            seen.setdefault(cell, []).append(i)
+
+        for cell, starts in seen.items():
+            if len(starts) >= 2:
+                cells.append({
+                    "cell": list(cell),
+                    "count": len(starts),
+                    "start_indexes": starts
+                })
+
+    cells.sort(key=lambda x: (-x["count"], -len(x["cell"]), x["start_indexes"][0]))
+    return cells
+
+
+def process_file(path: str) -> Dict[str, Any]:
+    data = load_json(path)
 
     accepted_records: List[Dict[str, Any]] = []
-    rejected_records: List[Dict[str, Any]] = []
     review_records: List[Dict[str, Any]] = []
+    rejected_records: List[Dict[str, Any]] = []
 
-    for rec in repaired_records:
-        raw = rec.get("raw_token", "")
-        normalized = rec.get("normalized_token", "")
-        page_index = rec.get("page_index")
-        seq_index = rec.get("sequence_index")
+    for record in data.get("repaired_records", []):
+        token = record.get("normalized_token", "")
+        repair_status = record.get("repair_status", "")
 
-        # Skip discarded noise from earlier stage
-        if rec.get("repair_status") == "discarded_noise":
-            rejected_records.append({
-                **rec,
-                "cleaner_status": "discarded_noise",
-                "cleaner_reason": "discarded by repair memory",
-            })
+        if not token:
+            new_record = {
+                **record,
+                "cleaner_status": "rejected_empty",
+                "cleaner_reason": "empty normalized token"
+            }
+            rejected_records.append(new_record)
             continue
 
-        # Drop title contamination even if it slipped through
-        if raw in title_noise or normalized in title_noise:
-            rejected_records.append({
-                **rec,
-                "cleaner_status": "discarded_title_noise",
-                "cleaner_reason": "matched tune-title contamination",
-            })
+        if repair_status in {"discarded_noise", "discarded_unrecognized"}:
+            new_record = {
+                **record,
+                "cleaner_status": "rejected_discarded",
+                "cleaner_reason": "repair layer already discarded token"
+            }
+            rejected_records.append(new_record)
             continue
 
-        # Empty normalized token means unusable
-        if not normalized:
-            rejected_records.append({
-                **rec,
-                "cleaner_status": "discarded_empty",
-                "cleaner_reason": "empty normalized token",
-            })
-            continue
-
-        # Strong accept: known-valid chord symbol
-        if is_valid_chord_symbol(normalized):
-            # But keep suspicious singleton roots reviewable
-            if is_suspicious_singleton_root(normalized):
-                review_records.append({
-                    **rec,
-                    "cleaner_status": "review_singleton_root",
-                    "cleaner_reason": "singleton root may be true chord or OCR/title contamination",
-                })
+        if is_singleton_root(token):
+            if ALLOW_SINGLETON_ROOTS:
+                new_record = {
+                    **record,
+                    "cleaner_status": "accepted_singleton_root",
+                    "cleaner_reason": "singleton root accepted as likely chord symbol"
+                }
+                accepted_records.append(new_record)
             else:
-                accepted_records.append({
-                    **rec,
-                    "cleaner_status": "accepted_valid_symbol",
-                    "cleaner_reason": "matched valid chord symbol pattern",
-                })
-                harmonic_stream.append(normalized)
-                if normalized not in unique_seen:
-                    unique_seen.add(normalized)
-                    unique_chords.append(normalized)
+                new_record = {
+                    **record,
+                    "cleaner_status": "review_singleton_root",
+                    "cleaner_reason": "singleton root may be true chord or OCR/title contamination"
+                }
+                review_records.append(new_record)
             continue
 
-        # Anything else goes to review
-        review_records.append({
-            **rec,
-            "cleaner_status": "needs_context_review",
-            "cleaner_reason": "did not match valid chord symbol pattern",
-        })
+        new_record = {
+            **record,
+            "cleaner_status": "accepted_qualified_symbol",
+            "cleaner_reason": "qualified chord symbol accepted"
+        }
+        accepted_records.append(new_record)
 
-    # Build repeated cells from accepted harmonic stream
-    harmonic_cells = detect_harmonic_cells(harmonic_stream)
+    harmonic_stream_raw = [r["normalized_token"] for r in accepted_records]
+    harmonic_stream = dedupe_adjacent(harmonic_stream_raw)
+    unique_chords = list(dict.fromkeys(harmonic_stream))
+    harmonic_cells = build_harmonic_cells(harmonic_stream)
 
-    return {
-        "title": title,
+    result = {
+        "title": data.get("title"),
         "harmonic_stream": harmonic_stream,
         "unique_chords": unique_chords,
         "harmonic_cells": harmonic_cells,
@@ -151,63 +128,7 @@ def normalize_records(title: str, repaired_records: List[Dict[str, Any]]) -> Dic
         "rejected_records": rejected_records,
     }
 
-
-def detect_harmonic_cells(stream: List[str], min_len: int = 2, max_len: int = 6, min_occurrences: int = 2) -> List[Dict[str, Any]]:
-    """
-    Find repeated chord subsequences.
-    This is intentionally simple but useful.
-    """
-    cell_counts: Dict[tuple, Dict[str, Any]] = {}
-
-    n = len(stream)
-    for size in range(min_len, max_len + 1):
-        if size > n:
-            continue
-
-        for i in range(n - size + 1):
-            cell = tuple(stream[i:i + size])
-
-            # ignore exact same repeated chord blobs
-            if len(set(cell)) == 1:
-                continue
-
-            if cell not in cell_counts:
-                cell_counts[cell] = {
-                    "cell": list(cell),
-                    "count": 0,
-                    "start_indexes": [],
-                }
-
-            cell_counts[cell]["count"] += 1
-            cell_counts[cell]["start_indexes"].append(i)
-
-    # keep only repeated cells
-    repeated = [
-        v for v in cell_counts.values()
-        if v["count"] >= min_occurrences
-    ]
-
-    # prefer more substantial cells
-    repeated.sort(
-        key=lambda x: (
-            -len(x["cell"]),
-            -x["count"],
-            x["start_indexes"][0],
-        )
-    )
-
-    # lightly dedupe contained/less useful cells
-    filtered: List[Dict[str, Any]] = []
-    seen_signatures = set()
-
-    for item in repeated:
-        sig = tuple(item["cell"])
-        if sig in seen_signatures:
-            continue
-        seen_signatures.add(sig)
-        filtered.append(item)
-
-    return filtered[:20]
+    return result
 
 
 def main() -> None:
@@ -218,17 +139,12 @@ def main() -> None:
             continue
 
         path = os.path.join(INPUT_DIR, filename)
-        data = load_json(path)
-
-        title = data.get("title", os.path.splitext(filename)[0].replace("_repaired", ""))
-        repaired_records = data.get("repaired_records", [])
-
-        cleaned = normalize_records(title=title, repaired_records=repaired_records)
-        combined.append(cleaned)
+        result = process_file(path)
+        combined.append(result)
 
         out_name = filename.replace("_repaired.json", "_harmonic_stream.json")
         out_path = os.path.join(OUTPUT_DIR, out_name)
-        save_json(out_path, cleaned)
+        save_json(out_path, result)
 
     combined_path = os.path.join(OUTPUT_DIR, "all_harmonic_streams.json")
     save_json(combined_path, combined)
