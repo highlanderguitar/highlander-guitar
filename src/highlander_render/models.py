@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Optional
 
@@ -39,26 +40,28 @@ class DiagramTone:
     source: str
     shape_id: int | None = None
 
-
 @dataclass(frozen=True)
-class GuardrailMembership:
+class GuardrailEdge:
     """
-    Example labels:
-      rectangle1
-      stack1
-      both1
-      rectangle2
-      stack2
-      both2
+    A render-ready connection between two classified fretboard nodes.
 
-    ordinal_on_string:
-      1 = first selected note for that structure on that string
-      2 = second selected note for that structure on that string
+    color_role:
+      rectangle | stack
+
+    side:
+      top | bottom
+
+    is_warp:
+      True only for the G->B tuning-warp diagonal
     """
     shape_id: int
-    family: str              # rectangle | stack | both
-    label: str               # rectangle1 | stack2 | both3 etc
-    ordinal_on_string: int   # 1 or 2
+    color_role: str
+    side: str
+    is_warp: bool
+    start_string_index: int
+    start_fret: int
+    end_string_index: int
+    end_fret: int
 
 
 @dataclass(frozen=True)
@@ -120,6 +123,12 @@ class HarmonicEvent:
     """
     Flexible event model so harmony_engine can evolve without constantly
     breaking models.py when new metadata fields are added.
+
+    guardrail_spans:
+        Runtime-ready on-string overlay segments:
+        {
+            string_index: [("red"|"blue", fret_a, fret_b), ...]
+        }
     """
 
     def __init__(
@@ -132,6 +141,7 @@ class HarmonicEvent:
         section_name: str,
         beat_offset_in_bar: int = 0,
         super_root: Optional[str] = None,
+        guardrail_spans: Optional[dict[int, list[tuple[str, int, int]]]] = None,
         **extra_fields: Any,
     ) -> None:
         self.symbol = symbol
@@ -142,6 +152,7 @@ class HarmonicEvent:
         self.section_name = section_name
         self.beat_offset_in_bar = beat_offset_in_bar
         self.super_root = super_root
+        self.guardrail_spans = guardrail_spans or {}
 
         for key, value in extra_fields.items():
             setattr(self, key, value)
@@ -155,7 +166,8 @@ class HarmonicEvent:
             f"display_label={self.display_label!r}, "
             f"section_name={self.section_name!r}, "
             f"beat_offset_in_bar={self.beat_offset_in_bar!r}, "
-            f"super_root={self.super_root!r}"
+            f"super_root={self.super_root!r}, "
+            f"guardrail_spans={self.guardrail_spans!r}"
         )
         extras = [
             f"{k}={v!r}"
@@ -170,6 +182,7 @@ class HarmonicEvent:
                 "section_name",
                 "beat_offset_in_bar",
                 "super_root",
+                "guardrail_spans",
             }
         ]
         if extras:
