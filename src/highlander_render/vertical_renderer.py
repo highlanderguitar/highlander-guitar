@@ -24,7 +24,18 @@ from .config import (
     WIDTH,
     get_theme,
 )
-from .models import EventRenderCell, VerticalDiagramPage
+from .harmony_engine import build_string_span_overlay_for_event
+from .models import EventRenderCell, GuardrailEdge, VerticalDiagramPage
+
+RECTANGLE_COLOR = "#FF1744"
+STACK_COLOR = "#00A6FF"
+
+OUTER_STRING_STROKE = 1.3
+INNER_STRING_STROKE = 0.9
+
+NOTE_CENTER_BIAS = 0.66
+JOIN_INSET = 2.0
+POLYGON_EDGE_PAD = 1.4
 
 
 def build_vertical_fret_positions(top_y: float, board_height: float) -> list[float]:
@@ -38,22 +49,33 @@ def string_x(left_x: float, board_width: float, string_index: int) -> float:
     spacing = usable / (NUM_STRINGS - 1)
     return left_x + inner_pad + string_index * spacing
 
+
 def note_center_y(fret_y: list[float], fret_number: int) -> float:
     if fret_number == 0:
         return fret_y[0] - 2.0
-    return (fret_y[fret_number - 1] + fret_y[fret_number]) / 2.0
+    y1 = fret_y[fret_number - 1]
+    y2 = fret_y[fret_number]
+    return y1 + ((y2 - y1) * NOTE_CENTER_BIAS)
+
+
+def fret_line_y(fret_y: list[float], fret_number: int) -> float:
+    return fret_y[fret_number]
 
 
 def label_for_tone(note) -> str:
     return note.chord_interval if note.source == "super" else note.note_name
 
 
-def font_size_for_label(label: str) -> int:
+def font_size_for_label(label: str) -> float:
+    if "/" in label:
+        if len(label) >= 6:
+            return 7.9
+        return 8.9
     if len(label) >= 6:
-        return 7
+        return 7.0
     if len(label) >= 4:
-        return 8
-    return 10
+        return 8.0
+    return 10.0
 
 
 def hex_to_rgb(hex_color: str) -> tuple[int, int, int]:
@@ -77,7 +99,7 @@ def relative_luminance(hex_color: str) -> float:
 
 
 def text_color_for_tone(role: str, fill_hex: str, colors: dict[str, str]) -> str:
-    if role in {"super_tone", "third"}:
+    if role in {"super_tone", "third", "fifth", "extension"}:
         return colors["note_text_dark"]
     return (
         colors["note_text_dark"]
@@ -93,7 +115,292 @@ def outline_color_for_tone(role: str, colors: dict[str, str]) -> str:
 
 
 def label_stroke_width(label: str) -> float:
-    return 0.6 if "/" in label else 0.0
+    if "/" in label:
+        return 0.18
+    return 0.0
+
+
+def span_color(color_role: str) -> str:
+    return RECTANGLE_COLOR if color_role == "red" else STACK_COLOR
+
+
+def edge_color(color_role: str) -> str:
+    return RECTANGLE_COLOR if color_role == "rectangle" else STACK_COLOR
+
+
+def string_stroke_width(string_index: int) -> float:
+    return OUTER_STRING_STROKE if string_index in (0, 5) else INNER_STRING_STROKE
+
+
+def guardrail_stroke_width_for_string(string_index: int) -> float:
+    return string_stroke_width(string_index) * 2.0
+
+
+def guardrail_cross_stroke_width(left_string_index: int, right_string_index: int) -> float:
+    return min(
+        guardrail_stroke_width_for_string(left_string_index),
+        guardrail_stroke_width_for_string(right_string_index),
+    )
+
+
+def get_event_guardrail_spans(cell: EventRenderCell) -> dict[int, list[tuple[str, int, int]]]:
+    spans = getattr(cell.event, "guardrail_spans", None)
+    if spans:
+        return spans
+    return build_string_span_overlay_for_event(cell.event, max_fret=NUM_FRETS)
+
+
+def get_event_guardrail_edges(cell: EventRenderCell) -> list[GuardrailEdge]:
+    return list(getattr(cell.event, "guardrail_edges", []) or [])
+
+
+def _draw_edge_svg(
+    dwg: svgwrite.Drawing,
+    start: tuple[float, float],
+    end: tuple[float, float],
+    color: str,
+    left_string_index: int,
+    right_string_index: int,
+) -> None:
+    dwg.add(
+        dwg.line(
+            start=start,
+            end=end,
+            stroke=color,
+            stroke_width=guardrail_cross_stroke_width(left_string_index, right_string_index),
+            stroke_linecap="butt",
+            opacity=1.0,
+        )
+    )
+
+
+def _draw_edge_pdf(
+    c,
+    start: tuple[float, float],
+    end: tuple[float, float],
+    color: str,
+    left_string_index: int,
+    right_string_index: int,
+    tx,
+    ty,
+) -> None:
+    c.setStrokeColor(HexColor(color))
+    c.setLineWidth(guardrail_cross_stroke_width(left_string_index, right_string_index))
+    c.line(tx(start[0]), ty(start[1]), tx(end[0]), ty(end[1]))
+
+
+def _edge_points_for_guardrail_edge(
+    edge: GuardrailEdge,
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+) -> tuple[tuple[float, float], tuple[float, float]]:
+    x1 = string_x(board_left, board_width, edge.start_string_index) + JOIN_INSET
+    x2 = string_x(board_left, board_width, edge.end_string_index) - JOIN_INSET
+
+    base_y1 = fret_line_y(fret_y, edge.start_fret)
+    base_y2 = fret_line_y(fret_y, edge.end_fret)
+
+    if edge.side == "top":
+        y1 = base_y1 + POLYGON_EDGE_PAD
+        y2 = base_y2 + POLYGON_EDGE_PAD
+    else:
+        y1 = base_y1 - POLYGON_EDGE_PAD
+        y2 = base_y2 - POLYGON_EDGE_PAD
+
+    return (x1, y1), (x2, y2)
+
+def _structural_node_centers(
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+) -> list[tuple[float, float]]:
+    seen: set[tuple[int, int]] = set()
+    centers: list[tuple[float, float]] = []
+
+    for edge in edges:
+        for string_index, fret in (
+            (edge.start_string_index, edge.start_fret),
+            (edge.end_string_index, edge.end_fret),
+        ):
+            key = (string_index, fret)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            x = string_x(board_left, board_width, string_index)
+            y = note_center_y(fret_y, fret)
+            centers.append((x, y))
+
+    return centers
+
+
+def draw_guardrail_nodes_svg(
+    dwg: svgwrite.Drawing,
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    colors: dict[str, str],
+) -> None:
+    for x, y in _structural_node_centers(edges, board_left, board_width, fret_y):
+        dwg.add(
+            dwg.circle(
+                center=(x, y),
+                r=2.6,
+                fill=colors["background"],
+                stroke=colors["note_outline"],
+                stroke_width=0.9,
+            )
+        )
+
+
+def draw_guardrail_nodes_pdf(
+    c,
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    tx,
+    ty,
+    colors: dict[str, str],
+) -> None:
+    for x, y in _structural_node_centers(edges, board_left, board_width, fret_y):
+        c.setFillColor(HexColor(colors["background"]))
+        c.setStrokeColor(HexColor(colors["note_outline"]))
+        c.setLineWidth(0.9)
+        c.circle(tx(x), ty(y), 2.6, fill=1, stroke=1)
+
+
+
+def draw_guardrail_edges_svg(
+    dwg: svgwrite.Drawing,
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+) -> None:
+    seen: set[tuple[str, int, int, int, int]] = set()
+
+    for edge in edges:
+        key = (
+            edge.color_role,
+            min(edge.start_string_index, edge.end_string_index),
+            min(edge.start_fret, edge.end_fret),
+            max(edge.start_string_index, edge.end_string_index),
+            max(edge.start_fret, edge.end_fret),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+
+        start_pt, end_pt = _edge_points_for_guardrail_edge(edge, board_left, board_width, fret_y)
+        _draw_edge_svg(
+            dwg,
+            start_pt,
+            end_pt,
+            edge_color(edge.color_role),
+            edge.start_string_index,
+            edge.end_string_index,
+        )
+
+
+def draw_guardrail_edges_pdf(
+    c,
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    tx,
+    ty,
+) -> None:
+    seen: set[tuple[str, int, int, int, int]] = set()
+
+    for edge in edges:
+        key = (
+            edge.color_role,
+            min(edge.start_string_index, edge.end_string_index),
+            min(edge.start_fret, edge.end_fret),
+            max(edge.start_string_index, edge.end_string_index),
+            max(edge.start_fret, edge.end_fret),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+
+        start_pt, end_pt = _edge_points_for_guardrail_edge(edge, board_left, board_width, fret_y)
+        _draw_edge_pdf(
+            c,
+            start_pt,
+            end_pt,
+            edge_color(edge.color_role),
+            edge.start_string_index,
+            edge.end_string_index,
+            tx,
+            ty,
+        )
+
+
+def draw_string_span_overlay_svg(
+    dwg: svgwrite.Drawing,
+    spans: dict[int, list[tuple[str, int, int]]],
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    colors: dict[str, str],
+) -> None:
+    for string_index, string_spans in spans.items():
+        x = string_x(board_left, board_width, string_index)
+        stroke_width = guardrail_stroke_width_for_string(string_index)
+
+        for color_role, fret_a, fret_b in string_spans:
+            y1 = fret_line_y(fret_y, fret_a)
+            y2 = fret_line_y(fret_y, fret_b)
+
+            dwg.add(
+                dwg.line(
+                    start=(x, y1),
+                    end=(x, y2),
+                    stroke=span_color(color_role),
+                    stroke_width=stroke_width,
+                    stroke_linecap="butt",
+                    opacity=1.0,
+                )
+            )
+
+    draw_guardrail_edges_svg(dwg, edges, board_left, board_width, fret_y)
+    draw_guardrail_nodes_svg(dwg, edges, board_left, board_width, fret_y, colors)
+
+def draw_string_span_overlay_pdf(
+    c,
+    spans: dict[int, list[tuple[str, int, int]]],
+    edges: list[GuardrailEdge],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    tx,
+    ty,
+    colors: dict[str, str],
+) -> None:
+    c.setLineCap(0)
+
+    for string_index, string_spans in spans.items():
+        x = string_x(board_left, board_width, string_index)
+        stroke_width = guardrail_stroke_width_for_string(string_index)
+
+        for color_role, fret_a, fret_b in string_spans:
+            y1 = fret_line_y(fret_y, fret_a)
+            y2 = fret_line_y(fret_y, fret_b)
+
+            c.setStrokeColor(HexColor(span_color(color_role)))
+            c.setLineWidth(stroke_width)
+            c.line(tx(x), ty(y1), tx(x), ty(y2))
+
+    draw_guardrail_edges_pdf(c, edges, board_left, board_width, fret_y, tx, ty)
+    draw_guardrail_nodes_pdf(c, edges, board_left, board_width, fret_y, tx, ty, colors)
+
 
 
 def _row_height() -> float:
@@ -282,7 +589,7 @@ def _render_event_svg(
                 start=(x, board_top),
                 end=(x, board_top + board_height),
                 stroke=colors["string_line"],
-                stroke_width=1.3 if s in (0, 5) else 0.9,
+                stroke_width=string_stroke_width(s),
                 opacity=0.78,
             )
         )
@@ -350,6 +657,19 @@ def _render_event_svg(
                 )
             )
 
+    show_guardrails = bool(getattr(cell.event, "super_root", None))
+    if show_guardrails:
+        spans = get_event_guardrail_spans(cell)
+        edges = get_event_guardrail_edges(cell)
+        draw_string_span_overlay_svg(
+            dwg,
+            spans,
+            edges,
+            board_left,
+            board_width,
+            fret_y,
+            colors,
+        )
     for tone in cell.tones:
         x = string_x(board_left, board_width, tone.string_index)
         y = note_center_y(fret_y, tone.fret)
@@ -361,7 +681,7 @@ def _render_event_svg(
         dwg.add(
             dwg.circle(
                 center=(x, y),
-                r=note_radius + 1.6,
+                r=note_radius + 1.0,
                 fill=colors["background"],
                 stroke="none",
             )
@@ -536,7 +856,7 @@ def _render_event_pdf(
     for s in range(NUM_STRINGS):
         x = string_x(board_left, board_width, s)
         c.setStrokeColor(HexColor(colors["string_line"]))
-        c.setLineWidth(1.3 if s in (0, 5) else 0.9)
+        c.setLineWidth(string_stroke_width(s))
         c.line(tx(x), ty(board_top), tx(x), ty(board_top + board_height))
 
     for f in range(NUM_FRETS + 1):
@@ -569,6 +889,22 @@ def _render_event_pdf(
             c.setFillColor(HexColor(colors["marker_dot_subtle"]))
             c.circle(tx(board_left + board_width * 0.5), ty(y), 2.8, fill=1, stroke=0)
 
+    show_guardrails = bool(getattr(cell.event, "super_root", None))
+    if show_guardrails:
+        spans = get_event_guardrail_spans(cell)
+        edges = get_event_guardrail_edges(cell)
+        draw_string_span_overlay_pdf(
+            c,
+            spans,
+            edges,
+            board_left,
+            board_width,
+            fret_y,
+            tx,
+            ty,
+            colors,
+        )
+
     for tone in cell.tones:
         x = string_x(board_left, board_width, tone.string_index)
         y = note_center_y(fret_y, tone.fret)
@@ -578,7 +914,7 @@ def _render_event_pdf(
         label = label_for_tone(tone)
 
         c.setFillColor(HexColor(colors["background"]))
-        c.circle(tx(x), ty(y), note_radius + 1.4, fill=1, stroke=0)
+        c.circle(tx(x), ty(y), note_radius + 1.0, fill=1, stroke=0)
 
         c.setFillColor(HexColor(fill))
         c.setStrokeColor(HexColor(outline_fill))
@@ -592,8 +928,8 @@ def _render_event_pdf(
         c.setFont("Helvetica-Bold", font_size_for_label(label))
 
         if "/" in label:
-            c.drawCentredString(0.18, -2, label)
-            c.drawCentredString(-0.18, -2, label)
+            c.drawCentredString(0.08, -2, label)
+            c.drawCentredString(-0.08, -2, label)
 
         c.drawCentredString(0, -2, label)
         c.restoreState()

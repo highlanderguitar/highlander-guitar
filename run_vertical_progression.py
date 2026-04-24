@@ -13,7 +13,7 @@ if str(SRC_DIR) not in sys.path:
 from highlander_render.config import OUTPUT_DIR, NUM_FRETS
 from highlander_render.harmony_engine import (
     build_diagram_tones_for_event,
-    chord_symbol_to_quality,
+    expand_chart_to_events,
 )
 from highlander_render.models import (
     EventRenderCell,
@@ -141,57 +141,28 @@ def build_subtitle(include_pink: bool) -> str:
 def build_page(chart: ProgressionChart, include_pink: bool) -> VerticalDiagramPage:
     sections_out: list[tuple[str, list[EventRenderCell]]] = []
 
+    all_events = expand_chart_to_events(chart)
+
+    section_order: list[str] = []
+    section_to_cells: dict[str, list[EventRenderCell]] = {}
+
     for section in chart.sections:
-        cells: list[EventRenderCell] = []
+        section_order.append(section.name)
+        section_to_cells.setdefault(section.name, [])
 
-        for bar in section.bars:
-            fragments = [frag.strip() for frag in bar.split() if frag.strip()]
-            if not fragments:
-                fragments = [bar]
+    for event in all_events:
+        tones = build_diagram_tones_for_event(
+            event,
+            include_pink=include_pink,
+            spelling=chart.spelling,
+            max_fret=NUM_FRETS,
+        )
+        section_to_cells.setdefault(event.section_name, []).append(
+            EventRenderCell(event=event, tones=tones)
+        )
 
-            for fragment in fragments:
-                expanded: list[tuple[str, int]] = []
-                matches = list(re.finditer(r"([A-Ga-g][#b]?(?:\([^)]*\))?)(-*)", fragment))
-                beat_total = 0
-                for m in matches:
-                    symbol = m.group(1)
-                    beats = 1 + len(m.group(2))
-                    expanded.append((symbol, beats))
-                    beat_total += beats
-
-                if expanded and beat_total == 4:
-                    pieces = expanded
-                else:
-                    pieces = [(fragment, 4)]
-
-                for symbol, beats in pieces:
-                    display_symbol, root, quality = chord_symbol_to_quality(
-                        symbol,
-                        chart.quality_overrides,
-                    )
-
-                    class EventObj:
-                        pass
-
-                    event = EventObj()
-                    event.symbol = display_symbol
-                    event.root = root
-                    event.quality = quality
-                    event.beats = beats
-                    event.display_label = display_symbol
-                    event.section_name = section.name
-                    event.beat_offset_in_bar = 0
-                    event.super_root = None
-
-                    tones = build_diagram_tones_for_event(
-                        event,
-                        include_pink=include_pink,
-                        spelling=chart.spelling,
-                        max_fret=NUM_FRETS,
-                    )
-                    cells.append(EventRenderCell(event=event, tones=tones))
-
-        sections_out.append((section.name, cells))
+    for section_name in section_order:
+        sections_out.append((section_name, section_to_cells.get(section_name, [])))
 
     title_suffix = "Pink Panther Vertical Progression" if include_pink else "Chord-Tone Vertical Progression"
 
