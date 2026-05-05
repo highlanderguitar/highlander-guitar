@@ -614,6 +614,32 @@ def _distance_color(distance: int) -> str | None:
     return None
 
 
+def _is_stack_center_wrap_span(
+    super_root: str,
+    note_a: str,
+    note_b: str,
+) -> bool:
+    """
+    Suppress the blue center-fill span in minor pentatonic stacks.
+
+    Example in B minor pent:
+        A -> B
+
+    That b7 -> 1 whole-step is the blue line filling the center
+    of the stack. We do not want it as a visible rail.
+    """
+    cycle = build_minor_pent_cycle(super_root, "sharps")
+    ordered_notes = [normalize_note_name(note_name) for _, note_name, _ in cycle]
+
+    root_note = ordered_notes[0]
+    flat7_note = ordered_notes[-1]
+
+    return (
+        normalize_note_name(note_a) == flat7_note
+        and normalize_note_name(note_b) == root_note
+    )
+
+
 def _raw_string_spans_for_minor_pent(
     super_root: str,
     max_fret: int = 15,
@@ -639,8 +665,12 @@ def _raw_string_spans_for_minor_pent(
                     note_name = flat_name
                 hits.append((fret, note_name))
 
-        for (a, _note_a), (b, _note_b) in zip(hits, hits[1:]):
+        for (a, note_a), (b, note_b) in zip(hits, hits[1:]):
             color = _distance_color(b - a)
+
+            if color == "blue" and _is_stack_center_wrap_span(super_root, note_a, note_b):
+                continue
+
             if color:
                 spans[string_index].append((color, a, b))
 
@@ -657,6 +687,8 @@ def _raw_string_spans_for_minor_pent(
         spans[string_index].sort(key=lambda t: (t[1], t[2], t[0]))
 
     return spans
+
+
 
 
 def _normalize_string_spans(

@@ -1,0 +1,6 @@
+Title: Guardrail Test
+Key: G
+Spelling: sharps
+
+A Section
+| Gmaj7--- | D7--- |
