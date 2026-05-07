@@ -1,6 +1,5 @@
 from __future__ import annotations
 from types import SimpleNamespace
-from dataclasses import asdict, is_dataclass
 
 import re
 from dataclasses import dataclass
@@ -614,6 +613,30 @@ def _distance_color(distance: int) -> str | None:
     return None
 
 
+def _is_minor_pent_stack_center_span(
+    super_root: str,
+    pitch_a: int,
+    pitch_b: int,
+) -> bool:
+    """
+    Highlander stack rule:
+
+    The blue b7 -> 1 whole-step span is the CENTER line of the stack.
+    Do not draw it.
+
+    Example in B minor pent:
+        A -> B
+
+    Keep the other blue whole-step spans:
+        b3 -> 4
+        4 -> 5
+    """
+    root_pc = note_to_index(super_root)
+    flat7_pc = (root_pc + INTERVAL_TO_SEMITONES["b7"]) % 12
+
+    return pitch_a == flat7_pc and pitch_b == root_pc
+
+
 def _raw_string_spans_for_minor_pent(
     super_root: str,
     max_fret: int = 15,
@@ -622,32 +645,37 @@ def _raw_string_spans_for_minor_pent(
         s: [] for s in range(len(TUNING_BOTTOM_TO_TOP))
     }
 
-    cycle_sharps = {note_name for _, note_name, _ in build_minor_pent_cycle(super_root, "sharps")}
-    cycle_flats = {note_name for _, note_name, _ in build_minor_pent_cycle(super_root, "flats")}
+    cycle_pitch_classes = {
+        pitch_class
+        for _, _, pitch_class in build_minor_pent_cycle(super_root, "sharps")
+    }
 
     for string_index, open_name in enumerate(TUNING_BOTTOM_TO_TOP):
         open_pc = TUNING_PITCHES[open_name]
-        hits: list[tuple[int, str]] = []
+        hits: list[tuple[int, int]] = []
 
         for fret in range(0, max_fret + 1):
-            sharp_name = index_to_note(open_pc + fret, "sharps")
-            flat_name = index_to_note(open_pc + fret, "flats")
+            pitch_class = (open_pc + fret) % 12
+            if pitch_class in cycle_pitch_classes:
+                hits.append((fret, pitch_class))
 
-            if sharp_name in cycle_sharps or flat_name in cycle_flats:
-                note_name = sharp_name
-                if flat_name in cycle_flats and sharp_name not in cycle_sharps:
-                    note_name = flat_name
-                hits.append((fret, note_name))
-
-        for (a, _note_a), (b, _note_b) in zip(hits, hits[1:]):
+        for (a, pitch_a), (b, pitch_b) in zip(hits, hits[1:]):
             color = _distance_color(b - a)
+
+            if color == "blue" and _is_minor_pent_stack_center_span(
+                super_root,
+                pitch_a,
+                pitch_b,
+            ):
+                continue
+
             if color:
                 spans[string_index].append((color, a, b))
 
         if normalize_note_name(super_root) == "B" and string_index == 3 and max_fret >= 2:
-            fret2_sharp = index_to_note(open_pc + 2, "sharps")
-            fret2_flat = index_to_note(open_pc + 2, "flats")
-            if fret2_sharp == "A" or fret2_flat == "A":
+            fret2_pc = (open_pc + 2) % 12
+            a_pc = note_to_index("A")
+            if fret2_pc == a_pc:
                 spans[string_index] = [
                     item for item in spans[string_index]
                     if not (item[1] == 0 and item[2] == 2)
@@ -692,8 +720,10 @@ def build_minor_pent_string_spans(
     max_fret: int = 15,
 ) -> dict[int, list[tuple[str, int, int]]]:
     raw = _raw_string_spans_for_minor_pent(root, max_fret=max_fret)
-    return {string_index: _normalize_string_spans(items) for string_index, items in raw.items()}
-
+    return {
+        string_index: _normalize_string_spans(items)
+        for string_index, items in raw.items()
+    }
 
 def build_string_span_overlay_for_event(
     event: HarmonicEvent,
