@@ -33,7 +33,10 @@ STACK_COLOR = "#00A6FF"
 OUTER_STRING_STROKE = 1.3
 INNER_STRING_STROKE = 0.9
 
-NOTE_CENTER_BIAS = 0.66
+# Note bubbles sit visually inside the fret box, not on the fret wire.
+# Guardrails/polygon edges still use fret_line_y(...) below.
+NOTE_CENTER_BIAS = 0.50
+
 JOIN_INSET = 2.0
 POLYGON_EDGE_PAD = 1.4
 
@@ -42,7 +45,7 @@ STRING_LABEL_RISE_PX = 6.0
 SLASH_LABEL_FONT_SIZE = 7.4
 SLASH_LABEL_STROKE_WIDTH = 0.12
 DERIVED_CONNECTOR_STROKE_WIDTH = 3.0
-CONNECTOR_PARALLEL_OFFSET_PX = 1.8
+CONNECTOR_PARALLEL_OFFSET_PX = 3.6
 
 # Current vertical renderer string indexing follows TUNING_BOTTOM_TO_TOP:
 # 0=low E, 1=A, 2=D, 3=G, 4=B, 5=high E
@@ -193,54 +196,15 @@ def _guardrail_span_endpoints_by_color(
     spans: dict[int, list[tuple[str, int, int]]],
 ) -> dict[str, set[tuple[int, int]]]:
     """
-    Build endpoint map BUT exclude interior stack nodes.
+    Collect guardrail span endpoints by connector role.
 
-    Stack rule:
-    - Each stack on a string is split into TWO spans
-    - The shared middle fret appears as BOTH an end of one span
-      and start of another → this is the CENTER node
-    - That center node must be EXCLUDED from connector logic
+    IMPORTANT:
+    Do NOT prune repeated stack endpoints here.
 
-    Result:
-    - Only outer endpoints remain
-    - Vertical "ladder" connectors disappear
-    - Stack becomes 2x3 hollow box
+    The center blue stack span is already removed upstream in harmony_engine.py.
+    If we also prune shared stack endpoints here, the stack/rectangle polygon
+    edges lose valid shared vertices and the blue/red geometry gets jacked up.
     """
-
-    endpoints: dict[str, set[tuple[int, int]]] = {
-        "rectangle": set(),
-        "stack": set(),
-    }
-
-    # Track frequency of endpoints per (string, fret, color)
-    endpoint_counts: dict[tuple[str, int, int], int] = {}
-
-    for string_index, string_spans in spans.items():
-        if not 0 <= string_index < NUM_STRINGS:
-            continue
-
-        for span_role, fret_a, fret_b in string_spans:
-            connector_role = _connector_role_for_span_color(span_role)
-
-            for fret in (fret_a, fret_b):
-                if not (0 <= fret <= NUM_FRETS):
-                    continue
-
-                key = (connector_role, string_index, fret)
-                endpoint_counts[key] = endpoint_counts.get(key, 0) + 1
-
-    # Now decide which endpoints to KEEP
-    for (connector_role, string_index, fret), count in endpoint_counts.items():
-
-        if connector_role == "stack":
-            # ❗ CRITICAL RULE:
-            # If endpoint appears TWICE → it's the center node → EXCLUDE
-            if count > 1:
-                continue
-
-        endpoints[connector_role].add((string_index, fret))
-
-    return endpoints
     endpoints: dict[str, set[tuple[int, int]]] = {
         "rectangle": set(),
         "stack": set(),
@@ -255,6 +219,7 @@ def _guardrail_span_endpoints_by_color(
 
             if 0 <= fret_a <= NUM_FRETS:
                 endpoints[connector_role].add((string_index, fret_a))
+
             if 0 <= fret_b <= NUM_FRETS:
                 endpoints[connector_role].add((string_index, fret_b))
 
