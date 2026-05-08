@@ -2,6 +2,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Optional
 
+from .guardrail_cells import GuardrailGeometry
+
 
 @dataclass(frozen=True)
 class DiagramNote:
@@ -142,6 +144,7 @@ class HarmonicEvent:
         beat_offset_in_bar: int = 0,
         super_root: Optional[str] = None,
         guardrail_spans: Optional[dict[int, list[tuple[str, int, int]]]] = None,
+        guardrail_geometry: Optional[GuardrailGeometry] = None,
         **extra_fields: Any,
     ) -> None:
         self.symbol = symbol
@@ -153,6 +156,7 @@ class HarmonicEvent:
         self.beat_offset_in_bar = beat_offset_in_bar
         self.super_root = super_root
         self.guardrail_spans = guardrail_spans or {}
+        self.guardrail_geometry = guardrail_geometry
 
         for key, value in extra_fields.items():
             setattr(self, key, value)
@@ -167,7 +171,8 @@ class HarmonicEvent:
             f"section_name={self.section_name!r}, "
             f"beat_offset_in_bar={self.beat_offset_in_bar!r}, "
             f"super_root={self.super_root!r}, "
-            f"guardrail_spans={self.guardrail_spans!r}"
+            f"guardrail_spans={self.guardrail_spans!r}, "
+            f"guardrail_geometry={self.guardrail_geometry!r}"
         )
         extras = [
             f"{k}={v!r}"
@@ -183,6 +188,7 @@ class HarmonicEvent:
                 "beat_offset_in_bar",
                 "super_root",
                 "guardrail_spans",
+                "guardrail_geometry",
             }
         ]
         if extras:

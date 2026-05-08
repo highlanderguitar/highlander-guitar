@@ -1,10 +1,11 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Literal
 
 GuardrailRole = Literal["rectangle", "stack"]
 GuardrailColor = Literal["red", "blue"]
+GuardrailSegmentKind = Literal["rail", "cap"]
 
 
 @dataclass(frozen=True)
@@ -33,8 +34,10 @@ class GuardrailSegment:
     """
     color: GuardrailColor
     role: GuardrailRole
+    edge_kind: GuardrailSegmentKind
     start: GuardrailPoint
     end: GuardrailPoint
+    cell_id: str = ""
     source: str = "cell"
 
 
@@ -54,9 +57,27 @@ class GuardrailCell:
     """
     role: GuardrailRole
     color: GuardrailColor
+    cell_id: str
+    anchor_string: int
+    anchor_fret: int
     points: tuple[GuardrailPoint, ...]
     segments: tuple[GuardrailSegment, ...]
     label: str = ""
+
+
+@dataclass(frozen=True)
+class GuardrailGeometry:
+    """
+    Canonical guardrail geometry for renderers.
+
+    Cells preserve the rectangle/stack doctrine. Segments are the flattened,
+    render-ready geometry that every renderer should consume.
+    """
+    root: str
+    scale_name: str
+    max_fret: int
+    cells: tuple[GuardrailCell, ...] = field(default_factory=tuple)
+    segments: tuple[GuardrailSegment, ...] = field(default_factory=tuple)
 
 
 def crosses_g_b(source_string: int, target_string: int) -> bool:
@@ -83,17 +104,21 @@ def adjacent_warped_fret(source_string: int, target_string: int, fret: int) -> i
 def make_segment(
     color: GuardrailColor,
     role: GuardrailRole,
+    edge_kind: GuardrailSegmentKind,
     s1: int,
     f1: int,
     s2: int,
     f2: int,
+    cell_id: str = "",
     source: str = "cell",
 ) -> GuardrailSegment:
     return GuardrailSegment(
         color=color,
         role=role,
+        edge_kind=edge_kind,
         start=GuardrailPoint(s1, f1),
         end=GuardrailPoint(s2, f2),
+        cell_id=cell_id,
         source=source,
     )
 
@@ -110,6 +135,7 @@ def make_rectangle_cell(
     Applies B-string warp to the upper string side.
     """
     high_string = low_string + 1
+    cell_id = f"rectangle:{low_string}:{left_fret}:{right_fret}"
 
     high_left = adjacent_warped_fret(low_string, high_string, left_fret)
     high_right = adjacent_warped_fret(low_string, high_string, right_fret)
@@ -122,15 +148,18 @@ def make_rectangle_cell(
     )
 
     segments = (
-        make_segment("red", "rectangle", low_string, left_fret, low_string, right_fret),
-        make_segment("red", "rectangle", high_string, high_left, high_string, high_right),
-        make_segment("red", "rectangle", low_string, left_fret, high_string, high_left),
-        make_segment("red", "rectangle", low_string, right_fret, high_string, high_right),
+        make_segment("red", "rectangle", "rail", low_string, left_fret, low_string, right_fret, cell_id),
+        make_segment("red", "rectangle", "rail", high_string, high_left, high_string, high_right, cell_id),
+        make_segment("red", "rectangle", "cap", low_string, left_fret, high_string, high_left, cell_id),
+        make_segment("red", "rectangle", "cap", low_string, right_fret, high_string, high_right, cell_id),
     )
 
     return GuardrailCell(
         role="rectangle",
         color="red",
+        cell_id=cell_id,
+        anchor_string=low_string,
+        anchor_fret=left_fret,
         points=points,
         segments=segments,
         label="rectangle",
@@ -152,6 +181,7 @@ def make_stack_cell(
     """
     mid_string = low_string + 1
     high_string = low_string + 2
+    cell_id = f"stack:{low_string}:{lower_fret}:{upper_fret}"
 
     mid_lower = adjacent_warped_fret(low_string, mid_string, lower_fret)
     mid_upper = adjacent_warped_fret(low_string, mid_string, upper_fret)
@@ -170,19 +200,22 @@ def make_stack_cell(
 
     segments = (
         # vertical sides
-        make_segment("blue", "stack", low_string, lower_fret, low_string, upper_fret),
-        make_segment("blue", "stack", high_string, high_lower, high_string, high_upper),
+        make_segment("blue", "stack", "rail", low_string, lower_fret, low_string, upper_fret, cell_id),
+        make_segment("blue", "stack", "rail", high_string, high_lower, high_string, high_upper, cell_id),
 
         # one-string-at-a-time caps/path edges
-        make_segment("blue", "stack", low_string, lower_fret, mid_string, mid_lower),
-        make_segment("blue", "stack", mid_string, mid_lower, high_string, high_lower),
-        make_segment("blue", "stack", low_string, upper_fret, mid_string, mid_upper),
-        make_segment("blue", "stack", mid_string, mid_upper, high_string, high_upper),
+        make_segment("blue", "stack", "cap", low_string, lower_fret, mid_string, mid_lower, cell_id),
+        make_segment("blue", "stack", "cap", mid_string, mid_lower, high_string, high_lower, cell_id),
+        make_segment("blue", "stack", "cap", low_string, upper_fret, mid_string, mid_upper, cell_id),
+        make_segment("blue", "stack", "cap", mid_string, mid_upper, high_string, high_upper, cell_id),
     )
 
     return GuardrailCell(
         role="stack",
         color="blue",
+        cell_id=cell_id,
+        anchor_string=low_string,
+        anchor_fret=lower_fret,
         points=points,
         segments=segments,
         label="stack",

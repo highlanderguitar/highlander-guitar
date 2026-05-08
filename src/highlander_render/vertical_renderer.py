@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import defaultdict
 from pathlib import Path
 
 import svgwrite
@@ -24,6 +25,7 @@ from .config import (
     WIDTH,
     get_theme,
 )
+from .guardrail_cells import GuardrailGeometry, GuardrailSegment
 from .harmony_engine import build_string_span_overlay_for_event
 from .models import EventRenderCell, GuardrailEdge, VerticalDiagramPage
 
@@ -46,6 +48,7 @@ SLASH_LABEL_FONT_SIZE = 7.4
 SLASH_LABEL_STROKE_WIDTH = 0.12
 DERIVED_CONNECTOR_STROKE_WIDTH = 3.0
 CONNECTOR_PARALLEL_OFFSET_PX = 3.6
+SHARED_BOUNDARY_OFFSET_PX = 1.8
 
 # Current vertical renderer string indexing follows TUNING_BOTTOM_TO_TOP:
 # 0=low E, 1=A, 2=D, 3=G, 4=B, 5=high E
@@ -182,6 +185,92 @@ def get_event_guardrail_spans(cell: EventRenderCell) -> dict[int, list[tuple[str
 
 def get_event_guardrail_edges(cell: EventRenderCell) -> list[GuardrailEdge]:
     return list(getattr(cell.event, "guardrail_edges", []) or [])
+
+
+def get_event_guardrail_geometry(cell: EventRenderCell) -> GuardrailGeometry | None:
+    return getattr(cell.event, "guardrail_geometry", None)
+
+
+def segment_physical_key(segment: GuardrailSegment) -> tuple[tuple[int, int], tuple[int, int]]:
+    endpoints = (
+        (segment.start.string_index, segment.start.fret),
+        (segment.end.string_index, segment.end.fret),
+    )
+    return tuple(sorted(endpoints))
+
+
+def build_shared_boundary_keys(
+    geometry: GuardrailGeometry,
+) -> set[tuple[tuple[int, int], tuple[int, int]]]:
+    colors_by_key: dict[tuple[tuple[int, int], tuple[int, int]], set[str]] = defaultdict(set)
+
+    for segment in geometry.segments:
+        colors_by_key[segment_physical_key(segment)].add(segment.color)
+
+    return {
+        key
+        for key, colors in colors_by_key.items()
+        if "red" in colors and "blue" in colors
+    }
+
+
+def perpendicular_offset(
+    x1: float,
+    y1: float,
+    x2: float,
+    y2: float,
+    amount: float,
+) -> tuple[float, float]:
+    dx = x2 - x1
+    dy = y2 - y1
+    length = (dx * dx + dy * dy) ** 0.5
+
+    if length == 0:
+        return 0.0, 0.0
+
+    return (-dy / length * amount, dx / length * amount)
+
+
+def segment_stroke_width(segment: GuardrailSegment) -> float:
+    if segment.edge_kind == "rail":
+        return guardrail_stroke_width_for_string(segment.start.string_index)
+    return guardrail_cross_stroke_width(
+        segment.start.string_index,
+        segment.end.string_index,
+    )
+
+
+def segment_color(segment: GuardrailSegment) -> str:
+    return RECTANGLE_COLOR if segment.color == "red" else STACK_COLOR
+
+
+def segment_points(
+    segment: GuardrailSegment,
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    shared_boundary_keys: set[tuple[tuple[int, int], tuple[int, int]]],
+) -> tuple[tuple[float, float], tuple[float, float]]:
+    x1 = string_x(board_left, board_width, segment.start.string_index)
+    x2 = string_x(board_left, board_width, segment.end.string_index)
+    y1 = fret_line_y(fret_y, segment.start.fret)
+    y2 = fret_line_y(fret_y, segment.end.fret)
+
+    if segment_physical_key(segment) in shared_boundary_keys:
+        direction = -1.0 if segment.color == "red" else 1.0
+        offset_x, offset_y = perpendicular_offset(
+            x1,
+            y1,
+            x2,
+            y2,
+            SHARED_BOUNDARY_OFFSET_PX * direction,
+        )
+        x1 += offset_x
+        x2 += offset_x
+        y1 += offset_y
+        y2 += offset_y
+
+    return (x1, y1), (x2, y2)
 
 
 def _connector_role_for_span_color(color_role: str) -> str:
@@ -624,6 +713,39 @@ def draw_string_span_overlay_svg(
     draw_guardrail_nodes_svg(dwg, edges, board_left, board_width, fret_y, colors)
 
 
+def draw_guardrail_geometry_svg(
+    dwg: svgwrite.Drawing,
+    geometry: GuardrailGeometry,
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+) -> None:
+    shared_boundary_keys = build_shared_boundary_keys(geometry)
+
+    for role in ("rectangle", "stack"):
+        for segment in geometry.segments:
+            if segment.role != role:
+                continue
+
+            start, end = segment_points(
+                segment,
+                board_left,
+                board_width,
+                fret_y,
+                shared_boundary_keys,
+            )
+            dwg.add(
+                dwg.line(
+                    start=start,
+                    end=end,
+                    stroke=segment_color(segment),
+                    stroke_width=segment_stroke_width(segment),
+                    stroke_linecap="butt",
+                    opacity=1.0,
+                )
+            )
+
+
 def draw_string_span_overlay_pdf(
     c,
     spans: dict[int, list[tuple[str, int, int]]],
@@ -652,6 +774,35 @@ def draw_string_span_overlay_pdf(
     draw_derived_guardrail_connectors_pdf(c, spans, board_left, board_width, fret_y, tx, ty)
     draw_guardrail_edges_pdf(c, edges, board_left, board_width, fret_y, tx, ty)
     draw_guardrail_nodes_pdf(c, edges, board_left, board_width, fret_y, tx, ty, colors)
+
+
+def draw_guardrail_geometry_pdf(
+    c,
+    geometry: GuardrailGeometry,
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    tx,
+    ty,
+) -> None:
+    c.setLineCap(0)
+    shared_boundary_keys = build_shared_boundary_keys(geometry)
+
+    for role in ("rectangle", "stack"):
+        for segment in geometry.segments:
+            if segment.role != role:
+                continue
+
+            start, end = segment_points(
+                segment,
+                board_left,
+                board_width,
+                fret_y,
+                shared_boundary_keys,
+            )
+            c.setStrokeColor(HexColor(segment_color(segment)))
+            c.setLineWidth(segment_stroke_width(segment))
+            c.line(tx(start[0]), ty(start[1]), tx(end[0]), ty(end[1]))
 
 
 def _row_height() -> float:
@@ -911,22 +1062,29 @@ def _render_event_svg(
     show_guardrails = True
     print("DRAWING GUARDRAILS FOR", cell.event.display_label, getattr(cell.event, "super_root", None))
     if show_guardrails:
-        spans = get_event_guardrail_spans(cell)
-        if not spans:
-            print("⚠️ NO SPANS for", cell.event.display_label)
+        geometry = get_event_guardrail_geometry(cell)
+        if geometry is not None:
+            red_count = sum(1 for segment in geometry.segments if segment.color == "red")
+            blue_count = sum(1 for segment in geometry.segments if segment.color == "blue")
+            print("GEOMETRY SEGMENTS:", len(geometry.segments), "red:", red_count, "blue:", blue_count)
+            draw_guardrail_geometry_svg(dwg, geometry, board_left, board_width, fret_y)
         else:
-            total = sum(len(v) for v in spans.values())
-            print("SPAN COUNT:", total)
-        edges = get_event_guardrail_edges(cell)
-        draw_string_span_overlay_svg(
-            dwg,
-            spans,
-            edges,
-            board_left,
-            board_width,
-            fret_y,
-            colors,
-        )
+            spans = get_event_guardrail_spans(cell)
+            if not spans:
+                print("NO SPANS for", cell.event.display_label)
+            else:
+                total = sum(len(v) for v in spans.values())
+                print("SPAN COUNT:", total)
+            edges = get_event_guardrail_edges(cell)
+            draw_string_span_overlay_svg(
+                dwg,
+                spans,
+                edges,
+                board_left,
+                board_width,
+                fret_y,
+                colors,
+            )
 
     for tone in cell.tones:
         x = string_x(board_left, board_width, tone.string_index)
@@ -1150,24 +1308,31 @@ def _render_event_pdf(
     show_guardrails = True
     print("DRAWING GUARDRAILS FOR", cell.event.display_label, getattr(cell.event, "super_root", None))
     if show_guardrails:
-        spans = get_event_guardrail_spans(cell)
-        if not spans:
-            print("⚠️ NO SPANS for", cell.event.display_label)
+        geometry = get_event_guardrail_geometry(cell)
+        if geometry is not None:
+            red_count = sum(1 for segment in geometry.segments if segment.color == "red")
+            blue_count = sum(1 for segment in geometry.segments if segment.color == "blue")
+            print("GEOMETRY SEGMENTS:", len(geometry.segments), "red:", red_count, "blue:", blue_count)
+            draw_guardrail_geometry_pdf(c, geometry, board_left, board_width, fret_y, tx, ty)
         else:
-            total = sum(len(v) for v in spans.values())
-            print("SPAN COUNT:", total)
-        edges = get_event_guardrail_edges(cell)
-        draw_string_span_overlay_pdf(
-            c,
-            spans,
-            edges,
-            board_left,
-            board_width,
-            fret_y,
-            tx,
-            ty,
-            colors,
-        )
+            spans = get_event_guardrail_spans(cell)
+            if not spans:
+                print("NO SPANS for", cell.event.display_label)
+            else:
+                total = sum(len(v) for v in spans.values())
+                print("SPAN COUNT:", total)
+            edges = get_event_guardrail_edges(cell)
+            draw_string_span_overlay_pdf(
+                c,
+                spans,
+                edges,
+                board_left,
+                board_width,
+                fret_y,
+                tx,
+                ty,
+                colors,
+            )
 
     for tone in cell.tones:
         x = string_x(board_left, board_width, tone.string_index)

@@ -2,7 +2,11 @@ from __future__ import annotations
 
 from .guardrail_cells import (
     GuardrailCell,
+    GuardrailGeometry,
+    GuardrailPoint,
+    GuardrailSegment,
     adjacent_warped_fret,
+    make_segment,
     make_rectangle_cell,
     make_stack_cell,
 )
@@ -97,7 +101,56 @@ def build_rectangle_cells_from_spans(
 
             cells.append(candidate)
 
+    open_g_b_cell = _build_open_g_b_rectangle_cell(red_spans)
+    if open_g_b_cell is not None:
+        cells.append(open_g_b_cell)
+
     return cells
+
+
+def _build_open_g_b_rectangle_cell(
+    red_spans: dict[int, set[tuple[int, int]]],
+) -> GuardrailCell | None:
+    """
+    Build the nut-clipped G/B red rectangle.
+
+    In B minor pentatonic the theoretical warped rectangle starts one fret
+    before the nut on the G string and lands on fret 0 of the B string. The
+    visible geometry is therefore clipped by the nut: G 0->2, B 0->3, and the
+    lower warped cap G2->B3. We intentionally do not draw a fake same-fret
+    G0->B0 cap.
+    """
+    g_string = 3
+    b_string = 4
+
+    if not _has_containing_span(red_spans, g_string, 0, 2):
+        return None
+    if not _has_containing_span(red_spans, b_string, 0, 3):
+        return None
+
+    cell_id = "rectangle:3:open:0:3"
+    points = (
+        GuardrailPoint(g_string, 0),
+        GuardrailPoint(g_string, 2),
+        GuardrailPoint(b_string, 3),
+        GuardrailPoint(b_string, 0),
+    )
+    segments = (
+        make_segment("red", "rectangle", "rail", g_string, 0, g_string, 2, cell_id),
+        make_segment("red", "rectangle", "rail", b_string, 0, b_string, 3, cell_id),
+        make_segment("red", "rectangle", "cap", g_string, 2, b_string, 3, cell_id),
+    )
+
+    return GuardrailCell(
+        role="rectangle",
+        color="red",
+        cell_id=cell_id,
+        anchor_string=g_string,
+        anchor_fret=0,
+        points=points,
+        segments=segments,
+        label="rectangle_open_clip",
+    )
 
 
 def build_stack_cells_from_spans(
@@ -158,3 +211,62 @@ def build_guardrail_cells_from_spans(
         *build_rectangle_cells_from_spans(spans),
         *build_stack_cells_from_spans(spans),
     ]
+
+
+def _segment_key(segment: GuardrailSegment) -> tuple[str, str, str, int, int, int, int]:
+    return (
+        segment.color,
+        segment.role,
+        segment.edge_kind,
+        segment.start.string_index,
+        segment.start.fret,
+        segment.end.string_index,
+        segment.end.fret,
+    )
+
+
+def flatten_guardrail_segments(cells: list[GuardrailCell]) -> tuple[GuardrailSegment, ...]:
+    """
+    Flatten cells into render-ready segments while preserving doctrine.
+
+    Identical segments may be shared by neighboring cells. They should be drawn
+    once, but they remain traceable to the cell that first introduced them.
+    """
+    segments: list[GuardrailSegment] = []
+    seen: set[tuple[str, str, str, int, int, int, int]] = set()
+
+    for cell in cells:
+        for segment in cell.segments:
+            key = _segment_key(segment)
+            if key in seen:
+                continue
+            seen.add(key)
+            segments.append(segment)
+
+    return tuple(segments)
+
+
+def build_minor_pent_guardrail_geometry(
+    root: str,
+    spelling: str = "sharps",
+    max_fret: int = NUM_FRETS,
+) -> GuardrailGeometry:
+    """
+    Build the canonical minor-pentatonic rectangle/stack guardrail geometry.
+
+    The current implementation still uses the established span classifier as
+    input, but renderers consume only the returned GuardrailGeometry segments.
+    """
+    from .harmony_engine import build_minor_pent_string_spans
+
+    spans = build_minor_pent_string_spans(root, spelling=spelling, max_fret=max_fret)
+    cells = build_guardrail_cells_from_spans(spans)
+    segments = flatten_guardrail_segments(cells)
+
+    return GuardrailGeometry(
+        root=root,
+        scale_name="minor_pentatonic",
+        max_fret=max_fret,
+        cells=tuple(cells),
+        segments=segments,
+    )

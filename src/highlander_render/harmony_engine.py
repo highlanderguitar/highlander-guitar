@@ -5,6 +5,7 @@ import re
 from dataclasses import dataclass
 from typing import Literal
 
+from .guardrail_cell_builder import build_minor_pent_guardrail_geometry
 from .models import DiagramTone, HarmonicEvent, ProgressionChart
 
 NoteSpelling = Literal["sharps", "flats"]
@@ -781,6 +782,11 @@ def expand_chart_to_events(chart: ProgressionChart) -> list[HarmonicEvent]:
 
                 event.guardrail_spans = build_string_span_overlay_for_event(
                     event,
+                    spelling=chart.spelling,
+                    max_fret=15,
+                )
+                event.guardrail_geometry = build_minor_pent_guardrail_geometry(
+                    super_root,
                     spelling=chart.spelling,
                     max_fret=15,
                 )

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
+from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
@@ -14,9 +15,8 @@ if str(SRC) not in sys.path:
 import svgwrite
 
 from highlander_render.config import NUM_FRETS, NUM_STRINGS
-from highlander_render.guardrail_cell_builder import build_guardrail_cells_from_spans
-from highlander_render.guardrail_cells import GuardrailCell, GuardrailSegment
-from highlander_render.harmony_engine import build_minor_pent_string_spans
+from highlander_render.guardrail_cell_builder import build_minor_pent_guardrail_geometry
+from highlander_render.guardrail_cells import GuardrailGeometry, GuardrailSegment
 
 
 RECTANGLE_COLOR = "#FF1744"
@@ -34,9 +34,9 @@ BOARD_WIDTH = WIDTH - (2 * MARGIN_X)
 
 STRING_LABELS = ["E", "A", "D", "G", "B", "E"]
 
-CONNECTOR_INSET_PX = 5.0
 RED_STROKE_WIDTH = 5.0
 BLUE_STROKE_WIDTH = 4.0
+SHARED_BOUNDARY_OFFSET_PX = 2.2
 
 
 def string_x(string_index: int) -> float:
@@ -57,61 +57,44 @@ def stroke_width(color: str) -> float:
     return RED_STROKE_WIDTH if color == "red" else BLUE_STROKE_WIDTH
 
 
-def _segment_is_connector(segment: GuardrailSegment) -> bool:
-    return segment.start.string_index != segment.end.string_index
+def segment_physical_key(segment: GuardrailSegment) -> tuple[tuple[int, int], tuple[int, int]]:
+    endpoints = (
+        (segment.start.string_index, segment.start.fret),
+        (segment.end.string_index, segment.end.fret),
+    )
+    return tuple(sorted(endpoints))
 
 
-def _cell_fret_bounds(cell: GuardrailCell) -> tuple[float, float]:
-    frets = [point.fret for point in cell.points]
-    return min(frets), max(frets)
+def build_shared_boundary_keys(
+    geometry: GuardrailGeometry,
+) -> set[tuple[tuple[int, int], tuple[int, int]]]:
+    colors_by_key: dict[tuple[tuple[int, int], tuple[int, int]], set[str]] = defaultdict(set)
+
+    for segment in geometry.segments:
+        colors_by_key[segment_physical_key(segment)].add(segment.color)
+
+    return {
+        key
+        for key, colors in colors_by_key.items()
+        if "red" in colors and "blue" in colors
+    }
 
 
-def _connector_inset_for_cell(cell: GuardrailCell, segment: GuardrailSegment) -> float:
-    if not _segment_is_connector(segment):
-        return 0.0
+def perpendicular_offset(
+    x1: float,
+    y1: float,
+    x2: float,
+    y2: float,
+    amount: float,
+) -> tuple[float, float]:
+    dx = x2 - x1
+    dy = y2 - y1
+    length = (dx * dx + dy * dy) ** 0.5
 
-    min_fret, max_fret = _cell_fret_bounds(cell)
-    segment_mid_fret = (segment.start.fret + segment.end.fret) / 2.0
-    cell_mid_fret = (min_fret + max_fret) / 2.0
+    if length == 0:
+        return 0.0, 0.0
 
-    return CONNECTOR_INSET_PX if segment_mid_fret <= cell_mid_fret else -CONNECTOR_INSET_PX
-
-
-def _build_endpoint_offsets(
-    cells: list[GuardrailCell],
-) -> dict[tuple[str, int, int], list[float]]:
-    offsets: dict[tuple[str, int, int], list[float]] = {}
-
-    for cell in cells:
-        for segment in cell.segments:
-            if not _segment_is_connector(segment):
-                continue
-
-            inset = _connector_inset_for_cell(cell, segment)
-
-            for point in (segment.start, segment.end):
-                key = (segment.color, point.string_index, point.fret)
-                offsets.setdefault(key, []).append(inset)
-
-    return offsets
-
-
-def _choose_endpoint_offset(
-    offsets: dict[tuple[str, int, int], list[float]],
-    color: str,
-    string_index: int,
-    fret: int,
-    preferred_sign: int,
-) -> float:
-    choices = offsets.get((color, string_index, fret), [])
-    if not choices:
-        return 0.0
-
-    signed = [value for value in choices if value * preferred_sign > 0]
-    if signed:
-        return signed[0]
-
-    return choices[0]
+    return (-dy / length * amount, dx / length * amount)
 
 
 def draw_board(dwg: svgwrite.Drawing) -> None:
@@ -165,58 +148,29 @@ def draw_board(dwg: svgwrite.Drawing) -> None:
             )
 
 
-def draw_vertical_spans(
+def draw_guardrail_segment(
     dwg: svgwrite.Drawing,
-    spans: dict[int, list[tuple[str, int, int]]],
-    endpoint_offsets: dict[tuple[str, int, int], list[float]],
-) -> None:
-    for string_index in range(NUM_STRINGS):
-        x = string_x(string_index)
-
-        for color, fret_a, fret_b in spans.get(string_index, []):
-            a, b = sorted((fret_a, fret_b))
-
-            y1 = fret_y(a) + _choose_endpoint_offset(
-                endpoint_offsets,
-                color,
-                string_index,
-                a,
-                preferred_sign=1,
-            )
-            y2 = fret_y(b) + _choose_endpoint_offset(
-                endpoint_offsets,
-                color,
-                string_index,
-                b,
-                preferred_sign=-1,
-            )
-
-            dwg.add(
-                dwg.line(
-                    start=(x, y1),
-                    end=(x, y2),
-                    stroke=color_hex(color),
-                    stroke_width=stroke_width(color),
-                    stroke_linecap="butt",
-                    opacity=1.0,
-                )
-            )
-
-
-def draw_connector_segment(
-    dwg: svgwrite.Drawing,
-    cell: GuardrailCell,
     segment: GuardrailSegment,
+    shared_boundary_keys: set[tuple[tuple[int, int], tuple[int, int]]],
 ) -> None:
-    if not _segment_is_connector(segment):
-        return
-
-    y_inset = _connector_inset_for_cell(cell, segment)
-
     x1 = string_x(segment.start.string_index)
-    y1 = fret_y(segment.start.fret) + y_inset
     x2 = string_x(segment.end.string_index)
-    y2 = fret_y(segment.end.fret) + y_inset
+    y1 = fret_y(segment.start.fret)
+    y2 = fret_y(segment.end.fret)
+
+    if segment_physical_key(segment) in shared_boundary_keys:
+        direction = -1.0 if segment.color == "red" else 1.0
+        offset_x, offset_y = perpendicular_offset(
+            x1,
+            y1,
+            x2,
+            y2,
+            SHARED_BOUNDARY_OFFSET_PX * direction,
+        )
+        x1 += offset_x
+        x2 += offset_x
+        y1 += offset_y
+        y2 += offset_y
 
     dwg.add(
         dwg.line(
@@ -230,14 +184,16 @@ def draw_connector_segment(
     )
 
 
-def draw_cell_connectors(dwg: svgwrite.Drawing, cells: list[GuardrailCell]) -> None:
-    for role in ("rectangle", "stack"):
-        for cell in cells:
-            if cell.role != role:
-                continue
+def draw_guardrail_geometry(dwg: svgwrite.Drawing, geometry: GuardrailGeometry) -> int:
+    shared_boundary_keys = build_shared_boundary_keys(geometry)
 
-            for segment in cell.segments:
-                draw_connector_segment(dwg, cell, segment)
+    for role in ("rectangle", "stack"):
+        for segment in geometry.segments:
+            if segment.role != role:
+                continue
+            draw_guardrail_segment(dwg, segment, shared_boundary_keys)
+
+    return len(shared_boundary_keys)
 
 
 def render_debug(root: str = "B") -> Path:
@@ -246,9 +202,7 @@ def render_debug(root: str = "B") -> Path:
 
     out_path = output_dir / f"debug_{root.lower()}_minor_guardrail_cells.svg"
 
-    spans = build_minor_pent_string_spans(root, max_fret=NUM_FRETS)
-    cells = build_guardrail_cells_from_spans(spans)
-    endpoint_offsets = _build_endpoint_offsets(cells)
+    geometry = build_minor_pent_guardrail_geometry(root, max_fret=NUM_FRETS)
 
     dwg = svgwrite.Drawing(str(out_path), size=(WIDTH, HEIGHT))
     draw_board(dwg)
@@ -264,17 +218,21 @@ def render_debug(root: str = "B") -> Path:
         )
     )
 
-    draw_vertical_spans(dwg, spans, endpoint_offsets)
-    draw_cell_connectors(dwg, cells)
+    shared_boundary_count = draw_guardrail_geometry(dwg, geometry)
     dwg.save()
 
+    red_segments = sum(1 for segment in geometry.segments if segment.color == "red")
+    blue_segments = sum(1 for segment in geometry.segments if segment.color == "blue")
+
     print(f"Wrote: {out_path}")
-    print(f"Cells: {len(cells)}")
-    print(f"Rectangles: {sum(1 for c in cells if c.role == 'rectangle')}")
-    print(f"Stacks: {sum(1 for c in cells if c.role == 'stack')}")
-    print("Spans:")
-    for string_index in range(NUM_STRINGS):
-        print(f"  {STRING_LABELS[string_index]}[{string_index}]: {spans.get(string_index, [])}")
+    print(f"Cells: {len(geometry.cells)}")
+    print(f"Rectangles: {sum(1 for c in geometry.cells if c.role == 'rectangle')}")
+    print(f"Stacks: {sum(1 for c in geometry.cells if c.role == 'stack')}")
+    print(f"Segments: {len(geometry.segments)}")
+    print(f"Red segments: {red_segments}")
+    print(f"Blue segments: {blue_segments}")
+    print(f"Shared red/blue boundaries: {shared_boundary_count}")
+    print(f"Shared-boundary offset px: {SHARED_BOUNDARY_OFFSET_PX}")
 
     return out_path
 
