@@ -48,7 +48,9 @@ SLASH_LABEL_FONT_SIZE = 7.4
 SLASH_LABEL_STROKE_WIDTH = 0.12
 DERIVED_CONNECTOR_STROKE_WIDTH = 3.0
 CONNECTOR_PARALLEL_OFFSET_PX = 3.6
-SHARED_BOUNDARY_OFFSET_PX = 1.8
+SHARED_PAIR_OFFSET_PX = 0.9
+SHARED_PAIR_STROKE_WIDTH_RATIO = 0.58
+SHARED_PAIR_MIN_STROKE_WIDTH = 1.1
 
 # Current vertical renderer string indexing follows TUNING_BOTTOM_TO_TOP:
 # 0=low E, 1=A, 2=D, 3=G, 4=B, 5=high E
@@ -199,36 +201,30 @@ def segment_physical_key(segment: GuardrailSegment) -> tuple[tuple[int, int], tu
     return tuple(sorted(endpoints))
 
 
-def build_shared_boundary_keys(
+def group_segments_by_physical_key(
     geometry: GuardrailGeometry,
-) -> set[tuple[tuple[int, int], tuple[int, int]]]:
-    colors_by_key: dict[tuple[tuple[int, int], tuple[int, int]], set[str]] = defaultdict(set)
+) -> dict[tuple[tuple[int, int], tuple[int, int]], list[GuardrailSegment]]:
+    segments_by_key: dict[tuple[tuple[int, int], tuple[int, int]], list[GuardrailSegment]] = defaultdict(list)
 
     for segment in geometry.segments:
-        colors_by_key[segment_physical_key(segment)].add(segment.color)
+        segments_by_key[segment_physical_key(segment)].append(segment)
 
-    return {
-        key
-        for key, colors in colors_by_key.items()
-        if "red" in colors and "blue" in colors
-    }
+    return segments_by_key
 
 
-def perpendicular_offset(
-    x1: float,
-    y1: float,
-    x2: float,
-    y2: float,
-    amount: float,
-) -> tuple[float, float]:
-    dx = x2 - x1
-    dy = y2 - y1
-    length = (dx * dx + dy * dy) ** 0.5
+def is_shared_red_blue(segments: list[GuardrailSegment]) -> bool:
+    colors = {segment.color for segment in segments}
+    return "red" in colors and "blue" in colors
 
-    if length == 0:
-        return 0.0, 0.0
 
-    return (-dy / length * amount, dx / length * amount)
+def first_segment_with_color(
+    segments: list[GuardrailSegment],
+    color: str,
+) -> GuardrailSegment:
+    for segment in segments:
+        if segment.color == color:
+            return segment
+    raise ValueError(f"No {color} segment found")
 
 
 def segment_stroke_width(segment: GuardrailSegment) -> float:
@@ -244,33 +240,84 @@ def segment_color(segment: GuardrailSegment) -> str:
     return RECTANGLE_COLOR if segment.color == "red" else STACK_COLOR
 
 
+def cells_by_id(geometry: GuardrailGeometry) -> dict[str, object]:
+    return {cell.cell_id: cell for cell in geometry.cells}
+
+
 def segment_points(
     segment: GuardrailSegment,
     board_left: float,
     board_width: float,
     fret_y: list[float],
-    shared_boundary_keys: set[tuple[tuple[int, int], tuple[int, int]]],
+    offset: tuple[float, float] = (0.0, 0.0),
 ) -> tuple[tuple[float, float], tuple[float, float]]:
     x1 = string_x(board_left, board_width, segment.start.string_index)
     x2 = string_x(board_left, board_width, segment.end.string_index)
     y1 = fret_line_y(fret_y, segment.start.fret)
     y2 = fret_line_y(fret_y, segment.end.fret)
+    offset_x, offset_y = offset
 
-    if segment_physical_key(segment) in shared_boundary_keys:
-        direction = -1.0 if segment.color == "red" else 1.0
-        offset_x, offset_y = perpendicular_offset(
-            x1,
-            y1,
-            x2,
-            y2,
-            SHARED_BOUNDARY_OFFSET_PX * direction,
+    return (x1 + offset_x, y1 + offset_y), (x2 + offset_x, y2 + offset_y)
+
+
+def cell_centroid(
+    cell,
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+) -> tuple[float, float]:
+    points = [
+        (
+            string_x(board_left, board_width, point.string_index),
+            fret_line_y(fret_y, point.fret),
         )
-        x1 += offset_x
-        x2 += offset_x
-        y1 += offset_y
-        y2 += offset_y
+        for point in cell.points
+    ]
+    return (
+        sum(point[0] for point in points) / len(points),
+        sum(point[1] for point in points) / len(points),
+    )
 
-    return (x1, y1), (x2, y2)
+
+def inward_offset_for_segment(
+    segment: GuardrailSegment,
+    geometry_cells_by_id: dict[str, object],
+    board_left: float,
+    board_width: float,
+    fret_y: list[float],
+    amount: float,
+) -> tuple[float, float]:
+    cell = geometry_cells_by_id.get(segment.cell_id)
+    if cell is None:
+        return 0.0, 0.0
+
+    (x1, y1), (x2, y2) = segment_points(segment, board_left, board_width, fret_y)
+    dx = x2 - x1
+    dy = y2 - y1
+    length = (dx * dx + dy * dy) ** 0.5
+
+    if length == 0:
+        return 0.0, 0.0
+
+    normal_x = -dy / length
+    normal_y = dx / length
+    mid_x = (x1 + x2) / 2
+    mid_y = (y1 + y2) / 2
+    centroid_x, centroid_y = cell_centroid(cell, board_left, board_width, fret_y)
+    toward_cell = (
+        (centroid_x - mid_x) * normal_x
+        + (centroid_y - mid_y) * normal_y
+    )
+    direction = 1.0 if toward_cell >= 0 else -1.0
+
+    return normal_x * amount * direction, normal_y * amount * direction
+
+
+def shared_pair_stroke_width(segment: GuardrailSegment) -> float:
+    return max(
+        SHARED_PAIR_MIN_STROKE_WIDTH,
+        segment_stroke_width(segment) * SHARED_PAIR_STROKE_WIDTH_RATIO,
+    )
 
 
 def _connector_role_for_span_color(color_role: str) -> str:
@@ -720,11 +767,17 @@ def draw_guardrail_geometry_svg(
     board_width: float,
     fret_y: list[float],
 ) -> None:
-    shared_boundary_keys = build_shared_boundary_keys(geometry)
+    segments_by_key = group_segments_by_physical_key(geometry)
+    shared_boundary_keys = {
+        key for key, segments in segments_by_key.items() if is_shared_red_blue(segments)
+    }
+    geometry_cells_by_id = cells_by_id(geometry)
 
     for role in ("rectangle", "stack"):
         for segment in geometry.segments:
             if segment.role != role:
+                continue
+            if segment_physical_key(segment) in shared_boundary_keys:
                 continue
 
             start, end = segment_points(
@@ -732,7 +785,6 @@ def draw_guardrail_geometry_svg(
                 board_left,
                 board_width,
                 fret_y,
-                shared_boundary_keys,
             )
             dwg.add(
                 dwg.line(
@@ -740,6 +792,36 @@ def draw_guardrail_geometry_svg(
                     end=end,
                     stroke=segment_color(segment),
                     stroke_width=segment_stroke_width(segment),
+                    stroke_linecap="butt",
+                    opacity=1.0,
+                )
+            )
+
+    for key in sorted(shared_boundary_keys):
+        blue_segment = first_segment_with_color(segments_by_key[key], "blue")
+        red_segment = first_segment_with_color(segments_by_key[key], "red")
+
+        for segment in (blue_segment, red_segment):
+            start, end = segment_points(
+                segment,
+                board_left,
+                board_width,
+                fret_y,
+                offset=inward_offset_for_segment(
+                    segment,
+                    geometry_cells_by_id,
+                    board_left,
+                    board_width,
+                    fret_y,
+                    SHARED_PAIR_OFFSET_PX,
+                ),
+            )
+            dwg.add(
+                dwg.line(
+                    start=start,
+                    end=end,
+                    stroke=segment_color(segment),
+                    stroke_width=shared_pair_stroke_width(segment),
                     stroke_linecap="butt",
                     opacity=1.0,
                 )
@@ -786,11 +868,17 @@ def draw_guardrail_geometry_pdf(
     ty,
 ) -> None:
     c.setLineCap(0)
-    shared_boundary_keys = build_shared_boundary_keys(geometry)
+    segments_by_key = group_segments_by_physical_key(geometry)
+    shared_boundary_keys = {
+        key for key, segments in segments_by_key.items() if is_shared_red_blue(segments)
+    }
+    geometry_cells_by_id = cells_by_id(geometry)
 
     for role in ("rectangle", "stack"):
         for segment in geometry.segments:
             if segment.role != role:
+                continue
+            if segment_physical_key(segment) in shared_boundary_keys:
                 continue
 
             start, end = segment_points(
@@ -798,10 +886,32 @@ def draw_guardrail_geometry_pdf(
                 board_left,
                 board_width,
                 fret_y,
-                shared_boundary_keys,
             )
             c.setStrokeColor(HexColor(segment_color(segment)))
             c.setLineWidth(segment_stroke_width(segment))
+            c.line(tx(start[0]), ty(start[1]), tx(end[0]), ty(end[1]))
+
+    for key in sorted(shared_boundary_keys):
+        blue_segment = first_segment_with_color(segments_by_key[key], "blue")
+        red_segment = first_segment_with_color(segments_by_key[key], "red")
+
+        for segment in (blue_segment, red_segment):
+            start, end = segment_points(
+                segment,
+                board_left,
+                board_width,
+                fret_y,
+                offset=inward_offset_for_segment(
+                    segment,
+                    geometry_cells_by_id,
+                    board_left,
+                    board_width,
+                    fret_y,
+                    SHARED_PAIR_OFFSET_PX,
+                ),
+            )
+            c.setStrokeColor(HexColor(segment_color(segment)))
+            c.setLineWidth(shared_pair_stroke_width(segment))
             c.line(tx(start[0]), ty(start[1]), tx(end[0]), ty(end[1]))
 
 
