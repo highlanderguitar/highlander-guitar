@@ -1,0 +1,119 @@
+{
+  "schema": "highlander.guardrail_doctrine.v1",
+  "scale_system": "minor_pentatonic",
+  "degrees": ["1", "b3", "4", "5", "b7"],
+  "degree_semitones": {
+    "1": 0,
+    "b3": 3,
+    "4": 5,
+    "5": 7,
+    "b7": 10
+  },
+  "corridors": [
+    {
+      "id": "minor_pent:1->b3",
+      "from_degree": "1",
+      "to_degree": "b3",
+      "semitones": 3,
+      "ownership": "rectangle",
+      "color": "red",
+      "visible": true
+    },
+    {
+      "id": "minor_pent:b3->4",
+      "from_degree": "b3",
+      "to_degree": "4",
+      "semitones": 2,
+      "ownership": "stack",
+      "color": "blue",
+      "visible": true
+    },
+    {
+      "id": "minor_pent:4->5",
+      "from_degree": "4",
+      "to_degree": "5",
+      "semitones": 2,
+      "ownership": "stack",
+      "color": "blue",
+      "visible": true
+    },
+    {
+      "id": "minor_pent:5->b7",
+      "from_degree": "5",
+      "to_degree": "b7",
+      "semitones": 3,
+      "ownership": "rectangle",
+      "color": "red",
+      "visible": true
+    },
+    {
+      "id": "minor_pent:b7->1",
+      "from_degree": "b7",
+      "to_degree": "1",
+      "semitones": 2,
+      "ownership": "omitted",
+      "color": "blue",
+      "visible": false,
+      "reason": "stack_center_span"
+    }
+  ],
+  "shared_edges": [
+    {
+      "id": "minor_pent:5<->1",
+      "degree_pair": ["5", "1"],
+      "owners": ["rectangle", "stack"],
+      "colors": ["red", "blue"],
+      "rendering": "paired_rails_tiny_gap",
+      "reason": "rectangle cap and stack cap share the physical F#/B boundary"
+    },
+    {
+      "id": "minor_pent:b3<->b7",
+      "degree_pair": ["b3", "b7"],
+      "owners": ["rectangle", "stack"],
+      "colors": ["red", "blue"],
+      "rendering": "paired_rails_tiny_gap",
+      "reason": "rectangle cap and stack cap share the physical D/A boundary"
+    }
+  ],
+  "global_ownership_consistency": {
+    "enabled": true,
+    "scope": "all_observed_pitch_class_degree_pairs",
+    "rule": "An equivalent pitch-class corridor must not receive multiple ownership roles unless declared as a shared edge or explicit doctrine exception."
+  },
+  "e_string_symmetry": {
+    "low_e_string": 0,
+    "high_e_string": 5,
+    "open_pitch_class": "E",
+    "ownership_rule": "equivalent pitch-class corridors inherit the same ownership modulo octave"
+  },
+  "b_string_warp": {
+    "g_string": 3,
+    "b_string": 4,
+    "g_to_b_delta": 1,
+    "b_to_g_delta": -1,
+    "ownership_effect": "none",
+    "invalid_same_fret_shortcuts": true
+  },
+  "octave_propagation": {
+    "enabled": true,
+    "rule": "corridor ownership is keyed by degree identity, not absolute fret or local cell discovery"
+  },
+  "allowed_non_scale_segments": [
+    {
+      "id": "b_minor_open_g_b_nut_clip",
+      "root": "B",
+      "degree_pair": ["non_scale", "b7"],
+      "strings": [3, 3],
+      "frets": [0, 2],
+      "reason": "visible nut-clipped G/B rectangle rail starts at the nut; G is a clipped coordinate, not a scale-tone ownership claim"
+    }
+  ],
+  "regression_examples": [
+    "B minor pent debug board",
+    "C major pent reference board",
+    "low/high E string mirror",
+    "G/B warp valid diagonal",
+    "invalid same-fret G/B shortcut rejection",
+    "shared red/blue boundary preservation"
+  ]
+}
