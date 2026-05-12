@@ -4,6 +4,81 @@ This document is the human-readable reference for canonical minor pentatonic gua
 
 Guardrail ownership is musical topology first and fretboard drawing second. A renderer should not invent ownership. A local cell builder should not invent ownership. Repeated octave regions should inherit from canonical corridor identity.
 
+## Shape Regions
+
+Rectangle is not a border around arbitrary space. Rectangle is a 4-tone pentatonic shape region.
+
+For minor pentatonic:
+
+```text
+degrees: 1, b3, 4, 5, b7
+rectangle degree set: 1, b3, 5, b7
+rectangle omitted degree: 4
+```
+
+The rectangle visible rail corridors are:
+
+```text
+1 -> b3
+5 -> b7
+```
+
+Stack is also a pentatonic shape region.
+
+```text
+stack degree set: 1, b3, 4, 5, b7
+stack visible corridors: b3 -> 4, 4 -> 5
+stack omitted corridor: b7 -> 1
+```
+
+The omitted `b7 -> 1` corridor is the stack center span. It remains doctrinally meaningful, but it should not draw as a visible rail.
+
+## A Minor / C Major Reference
+
+A minor pentatonic and C major pentatonic are relative views of the same five tones:
+
+```text
+A minor pentatonic: A, C, D, E, G
+C major pentatonic: C, D, E, G, A
+```
+
+For A minor pentatonic:
+
+| Degree | Tone |
+|---|---|
+| `1` | A |
+| `b3` | C |
+| `4` | D |
+| `5` | E |
+| `b7` | G |
+
+Rectangle:
+
+```text
+degree set: 1, b3, 5, b7
+tones: A, C, E, G
+omitted degree/tone: 4 / D
+```
+
+Stack:
+
+```text
+degree set: 1, b3, 4, 5, b7
+tones: A, C, D, E, G
+visible corridors: C -> D, D -> E
+omitted corridor: G -> A
+```
+
+For C major pentatonic:
+
+```text
+rectangle tones: C, E, G, A
+rectangle omitted tone: D
+stack tones: C, D, E, G, A
+stack visible corridors: C -> D, D -> E
+stack omitted corridor: G -> A
+```
+
 ## Seed Corridors
 
 | Corridor ID | Degrees | Semitones | Ownership | Color | Visible | Notes |

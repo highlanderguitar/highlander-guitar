@@ -9,6 +9,46 @@
     "5": 7,
     "b7": 10
   },
+  "shapes": {
+    "rectangle": {
+      "degree_set": ["1", "b3", "5", "b7"],
+      "omitted_degrees": ["4"],
+      "visible_corridors": ["minor_pent:1->b3", "minor_pent:5->b7"],
+      "description": "A 4-tone pentatonic shape region, not a border around arbitrary space."
+    },
+    "stack": {
+      "degree_set": ["1", "b3", "4", "5", "b7"],
+      "visible_corridors": ["minor_pent:b3->4", "minor_pent:4->5"],
+      "omitted_corridors": ["minor_pent:b7->1"],
+      "description": "A pentatonic stack shape region whose b7->1 center corridor is doctrinally omitted."
+    }
+  },
+  "reference_examples": {
+    "a_minor_pentatonic": {
+      "relative_major": "C major pentatonic",
+      "degrees_to_tones": {
+        "1": "A",
+        "b3": "C",
+        "4": "D",
+        "5": "E",
+        "b7": "G"
+      },
+      "rectangle_tones": ["A", "C", "E", "G"],
+      "rectangle_omitted_tone": "D",
+      "stack_tones": ["A", "C", "D", "E", "G"],
+      "stack_visible_corridors": ["C->D", "D->E"],
+      "stack_omitted_corridor": "G->A"
+    },
+    "c_major_pentatonic": {
+      "relative_minor": "A minor pentatonic",
+      "tones": ["C", "D", "E", "G", "A"],
+      "rectangle_tones": ["C", "E", "G", "A"],
+      "rectangle_omitted_tone": "D",
+      "stack_tones": ["C", "D", "E", "G", "A"],
+      "stack_visible_corridors": ["C->D", "D->E"],
+      "stack_omitted_corridor": "G->A"
+    }
+  },
   "corridors": [
     {
       "id": "minor_pent:1->b3",
