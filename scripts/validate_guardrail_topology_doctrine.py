@@ -190,6 +190,54 @@ def validate_e_string_symmetry(
         report.add_fact(f"E-string symmetry passed for strings {low_e} and {high_e}.")
 
 
+def geometry_e_string_rail_sequence(
+    root: str,
+    string_index: int,
+) -> list[tuple[str, int, int]]:
+    geometry = build_minor_pent_guardrail_geometry(root)
+    rails = []
+
+    for segment in geometry.segments:
+        if segment.edge_kind != "rail":
+            continue
+        if segment.start.string_index != string_index or segment.end.string_index != string_index:
+            continue
+
+        fret_a, fret_b = sorted((segment.start.fret, segment.end.fret))
+        rails.append((segment.color, fret_a, fret_b))
+
+    return sorted(set(rails), key=lambda item: (item[1], item[2], item[0]))
+
+
+def validate_geometry_e_string_rail_symmetry(
+    doctrine: Doctrine,
+    root: str,
+    report: ValidationReport,
+) -> None:
+    rule = doctrine.data["e_string_symmetry"]
+    low_e = int(rule["low_e_string"])
+    high_e = int(rule["high_e_string"])
+    low_pattern = geometry_e_string_rail_sequence(root, low_e)
+    high_pattern = geometry_e_string_rail_sequence(root, high_e)
+
+    if low_pattern != high_pattern:
+        low_missing = [rail for rail in high_pattern if rail not in low_pattern]
+        high_missing = [rail for rail in low_pattern if rail not in high_pattern]
+        report.add(
+            "FAIL",
+            "geometry_e_string_rail_symmetry_mismatch",
+            "GuardrailGeometry low E and high E visible rail ownership sequences differ.",
+            [
+                f"low_e={low_pattern}",
+                f"high_e={high_pattern}",
+                f"missing_on_low_e={low_missing}",
+                f"missing_on_high_e={high_missing}",
+            ],
+        )
+    else:
+        report.add_fact(f"GuardrailGeometry E-string rail symmetry passed for strings {low_e} and {high_e}.")
+
+
 def validate_b_string_warp(
     doctrine: Doctrine,
     root: str,
@@ -392,6 +440,7 @@ def validate(root: str, doctrine_path: Path, report_path: Path) -> ValidationRep
     validate_corridor_ownership(doctrine, root, report)
     validate_octave_sequence(doctrine, root, report)
     validate_e_string_symmetry(doctrine, root, report)
+    validate_geometry_e_string_rail_symmetry(doctrine, root, report)
     validate_b_string_warp(doctrine, root, report)
     validate_shared_edges(doctrine, root, report)
     validate_global_ownership_consistency(doctrine, root, report)
@@ -405,16 +454,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate current guardrail geometry against topology doctrine fixtures.")
     parser.add_argument("--root", default="B", help="Minor pentatonic root to validate.")
     parser.add_argument("--fixture", type=Path, default=DEFAULT_DOCTRINE_PATH)
-    parser.add_argument(
-        "--report",
-        type=Path,
-        default=ROOT / "output" / "b_minor_topology_doctrine_report.md",
-    )
+    parser.add_argument("--report", type=Path)
     args = parser.parse_args()
+    report_path = args.report or ROOT / "output" / f"{args.root.lower()}_minor_topology_doctrine_report.md"
 
-    report = validate(args.root, args.fixture, args.report)
+    report = validate(args.root, args.fixture, report_path)
     print(render_report(report))
-    print(f"Wrote: {args.report}")
+    print(f"Wrote: {report_path}")
     return 1 if report.failures else 0
 
 

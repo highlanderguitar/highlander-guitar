@@ -246,6 +246,47 @@ def flatten_guardrail_segments(cells: list[GuardrailCell]) -> tuple[GuardrailSeg
     return tuple(segments)
 
 
+def _role_for_span_color(color: str) -> str:
+    return "rectangle" if color == "red" else "stack"
+
+
+def _propagate_terminal_e_string_rails(
+    spans: dict[int, list[tuple[str, int, int]]],
+    segments: tuple[GuardrailSegment, ...],
+) -> tuple[GuardrailSegment, ...]:
+    """
+    Preserve low/high E octave-equivalent rail ownership in render geometry.
+
+    The local cell builders can clip terminal E rails because string 0 and
+    string 5 sit on opposite edges of the board. These rail-only segments keep
+    the visible E-string ownership sequence canonical without inventing caps or
+    offboard polygons.
+    """
+    out = list(segments)
+    seen = {_segment_key(segment) for segment in out}
+
+    for string_index in (0, NUM_STRINGS - 1):
+        for color, fret_a, fret_b in spans.get(string_index, []):
+            segment = make_segment(
+                color,
+                _role_for_span_color(color),
+                "rail",
+                string_index,
+                fret_a,
+                string_index,
+                fret_b,
+                cell_id=f"e_symmetry:{string_index}:{color}:{fret_a}:{fret_b}",
+                source="e_string_symmetry",
+            )
+            key = _segment_key(segment)
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(segment)
+
+    return tuple(out)
+
+
 def build_minor_pent_guardrail_geometry(
     root: str,
     spelling: str = "sharps",
@@ -261,7 +302,10 @@ def build_minor_pent_guardrail_geometry(
 
     spans = build_minor_pent_string_spans(root, spelling=spelling, max_fret=max_fret)
     cells = build_guardrail_cells_from_spans(spans)
-    segments = flatten_guardrail_segments(cells)
+    segments = _propagate_terminal_e_string_rails(
+        spans,
+        flatten_guardrail_segments(cells),
+    )
 
     return GuardrailGeometry(
         root=root,
