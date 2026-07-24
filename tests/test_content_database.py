@@ -17,11 +17,11 @@ def built_db(tmp_path: Path) -> Path:
 
 def test_clean_migration_and_ordering(tmp_path: Path) -> None:
     path = tmp_path / "clean.sqlite3"
-    assert migrate(path) == 1
+    assert migrate(path) == 2
     assert migrate(path) == 0
     with connect(path) as db:
         versions = [r[0] for r in db.execute("SELECT version FROM schema_migrations ORDER BY version")]
-    assert versions == sorted(versions) == ["001_content_database.sql"]
+    assert versions == sorted(versions) == ["001_content_database.sql", "002_ingestion_tracking.sql"]
 
 
 def test_clean_build_has_all_tables_and_views(tmp_path: Path) -> None:
@@ -46,6 +46,20 @@ def test_seed_and_import_are_idempotent(tmp_path: Path) -> None:
     with connect(path) as db:
         slugs = [r[0] for r in db.execute("SELECT slug FROM sources")]
     assert len(slugs) == len(set(slugs))
+    assert before["entities"]["content_items"]["inserted"] == 3
+    assert after["entities"]["content_items"]["inserted"] == 0
+    assert after["entities"]["content_items"]["skipped"] == 3
+
+
+def test_real_ingestion_counts_and_review_state(tmp_path: Path) -> None:
+    path = built_db(tmp_path)
+    import_repository(path)
+    with connect(path) as db:
+        assert db.execute("SELECT COUNT(*) FROM tunes WHERE slug='take-five'").fetchone()[0] == 1
+        assert db.execute("SELECT COUNT(*) FROM systems WHERE import_status IN ('canonical','provisional')").fetchone()[0] >= 2
+        assert db.execute("SELECT COUNT(*) FROM content_items WHERE import_status='needs_review'").fetchone()[0] == 3
+        assert db.execute("SELECT COUNT(*) FROM v_incomplete_play_this_candidates").fetchone()[0] == 3
+        assert db.execute("SELECT COUNT(*) FROM review_candidates WHERE status='needs_review'").fetchone()[0] == 4
 
 
 def test_foreign_keys_are_enforced(tmp_path: Path) -> None:

@@ -1,0 +1,15 @@
+slug,name,authority,import_status
+accompaniment-texture,Accompaniment Texture,highlander,proposed
+expression,Expression,highlander,canonical
+five-four-pulse,5/4 Pulse,highlander,proposed
+groove,Groove,highlander,proposed
+guide-tones,Guide Tones,highlander,proposed
+harmonic-inference,Harmonic Inference,highlander,proposed
+melody-skeleton,Melody Skeleton,highlander,proposed
+phrase-entry,Phrase Entry,highlander,proposed
+recognition,Recognition,highlander,canonical
+return-to-seed,Return to Seed,highlander,canonical
+source-priority,Source Priority,highlander,proposed
+target-tone,Target Tone,highlander,proposed
+three-plus-two-grouping,3+2 Grouping,highlander,proposed
+unpack,Unpack,highlander,canonical

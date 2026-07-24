@@ -1,22 +1,25 @@
 # Highlander content database summary
 
-Database: `C:\Users\highl\prism-archive\projects\_bootstrap\highlander_migration\highlander_render\var\highlander_content.sqlite3`
+Database: `C:\Users\highl\prism-archive\projects\_bootstrap\highlander_migration\highlander_render\.worktrees\content-database-ingestion\var\highlander_content.sqlite3`
 
-- content_items: 1
-- content_relationships: 0
-- content_teachable_moments: 1
+- content_items: 4
+- content_relationships: 2
+- content_teachable_moments: 4
 - exercises: 0
-- learner_needs: 3
-- lenses: 4
+- import_file_log: 8
+- learner_needs: 6
+- lenses: 14
+- play_this_candidate_details: 3
 - play_this_layers: 1
 - play_this_scripts: 1
-- schema_migrations: 1
-- source_claims: 1
-- sources: 4
+- review_candidates: 4
+- schema_migrations: 2
+- source_claims: 4
+- sources: 6
 - structural_units: 0
 - system_occurrences: 0
-- systems: 0
-- teachable_moment_lenses: 1
-- teachable_moments: 1
-- tunes: 1
+- systems: 2
+- teachable_moment_lenses: 13
+- teachable_moments: 5
+- tunes: 2
 - visual_assets: 0
