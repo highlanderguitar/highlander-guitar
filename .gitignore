@@ -13,6 +13,19 @@ score_parser/input/
 
 # Temp / scratch inputs
 score_parser/input_txt/
+tmp/
+
+# Generated database (rebuild from migrations and seed/import code)
+var/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Machine-local and private source material
+.env
+.env.*
+data/private/
+archive/chatgpt_exports/
 
 # OS junk
 .DS_Store
