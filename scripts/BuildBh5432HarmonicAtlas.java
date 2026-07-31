@@ -33,6 +33,9 @@ public class BuildBh5432HarmonicAtlas {
     private static final ChordSpec CMAJ9 = new ChordSpec(
         "Cmaj9", "Imaj9 (HYPOTHESIS)", new int[][]{{5,3},{4,2},{3,0},{2,0},{1,3}}, 3, 3
     );
+    private static final ChordSpec GMAJ = new ChordSpec(
+        "G", "G MAJOR (USER-CORRECTED)", new int[][]{{6,3},{5,2},{4,0},{3,0},{2,0},{1,3}}, 4, 3
+    );
     private static TGSong read(Path path, TGFactory factory) throws Exception {
         var handle = new TGSongReaderHandle();
         handle.setFactory(factory);
@@ -93,6 +96,9 @@ public class BuildBh5432HarmonicAtlas {
     }
 
     private static ChordSpec assignment(int measure) {
+        if (measure == 26) {
+            return GMAJ;
+        }
         if (measure == 1) {
             return CMAJ7;
         }
@@ -113,6 +119,7 @@ public class BuildBh5432HarmonicAtlas {
             case 10 -> "FROM 2 | Cmaj9 hypothesis; C-C#-D approach to 9th | NEEDS REVIEW";
             case 12 -> "ALL TOGETHER | Entry: sequence opportunity | Status: PROVISIONAL - REVIEW";
             case 21 -> "9th arp | Cmaj9 hypothesis (B natural, not C9) | NEEDS REVIEW";
+            case 26 -> "G LICK | G major backing | USER-CORRECTED";
             default -> null;
         };
     }
@@ -126,7 +133,7 @@ public class BuildBh5432HarmonicAtlas {
         track.setSong(song);
         track.setName(name);
         track.setChannelId(channelId);
-        track.setMaxFret(29);
+        track.setMaxFret(17);
         track.setStrings(strings);
         for (int i = 0; i < song.countMeasureHeaders(); i++) {
             track.addMeasure(factory.newMeasure(song.getMeasureHeader(i)));
@@ -159,6 +166,11 @@ public class BuildBh5432HarmonicAtlas {
         return beat;
     }
 
+    private static int maximumFret(int string) {
+        // Acoustic review boundary: avoid fret 17 on high E; every other string stops at 15.
+        return (string == 1 ? 16 : 15);
+    }
+
     private static int[] realizePitch(int midi, int previousString, int previousFret) {
         int[] tuning = {64,59,55,50,45,40};
         int bestString = 1;
@@ -168,8 +180,13 @@ public class BuildBh5432HarmonicAtlas {
             int candidateMidi = midi + (12 * octave);
             for (int string = 1; string <= tuning.length; string++) {
                 int fret = candidateMidi - tuning[string - 1];
-                if (fret >= 0 && fret <= 19) {
-                    int score = Math.abs(fret - previousFret) + 2 * Math.abs(string - previousString);
+                if (fret >= 0 && fret <= maximumFret(string)) {
+                    // User edits favor the B/G strings over an avoidable high-E reach.
+                    int highEAcousticPenalty = (string == 1 ? 3 : 0);
+                    int octavePenalty = Math.abs(octave) * 8;
+                    int score = Math.abs(fret - previousFret)
+                        + 2 * Math.abs(string - previousString)
+                        + highEAcousticPenalty + octavePenalty;
                     if (score < bestScore) {
                         bestScore = score;
                         bestString = string;
@@ -178,12 +195,76 @@ public class BuildBh5432HarmonicAtlas {
                 }
             }
         }
+        if (bestScore == Integer.MAX_VALUE) {
+            throw new IllegalArgumentException("No acoustic-safe fingering for MIDI note " + midi);
+        }
         return new int[]{bestString, bestFret};
+    }
+
+    private static int[] realizeExactPitch(int midi, int previousString, int previousFret) {
+        int[] tuning = {64,59,55,50,45,40};
+        int[] best = null;
+        int bestScore = Integer.MAX_VALUE;
+        for (int string = 1; string <= tuning.length; string++) {
+            int fret = midi - tuning[string - 1];
+            if (fret >= 0 && fret <= maximumFret(string)) {
+                int score = Math.abs(fret - previousFret)
+                    + 2 * Math.abs(string - previousString)
+                    + (string == 1 ? 3 : 0);
+                if (score < bestScore) {
+                    bestScore = score;
+                    best = new int[]{string, fret};
+                }
+            }
+        }
+        if (best == null) {
+            throw new IllegalArgumentException("No exact acoustic-safe fingering for MIDI note " + midi);
+        }
+        return best;
+    }
+
+    private static void copyOneOctaveLower(
+        TGFactory factory, TGTrack sourceTrack, TGMeasure sourceMeasure,
+        TGMeasure destination, String label
+    ) {
+        long sourceStart = TGDuration.toPreciseTime(sourceMeasure.getHeader().getStart());
+        long destinationStart = TGDuration.toPreciseTime(destination.getHeader().getStart());
+        int previousString = 5;
+        int previousFret = 5;
+        boolean firstBeat = true;
+        for (TGBeat sourceBeat : sourceMeasure.getBeats()) {
+            TGBeat beat = factory.newBeat();
+            beat.setPreciseStart(destinationStart + sourceBeat.getPreciseStart() - sourceStart);
+            if (firstBeat) {
+                TGText text = factory.newText();
+                text.setValue(label);
+                beat.setText(text);
+                firstBeat = false;
+            }
+            TGVoice sourceVoice = sourceBeat.getVoice(0);
+            TGVoice voice = beat.getVoice(0);
+            voice.getDuration().copyFrom(sourceVoice.getDuration());
+            for (TGNote sourceNote : sourceVoice.getNotes()) {
+                int sourceMidi = sourceTrack.getStrings().get(sourceNote.getString() - 1).getValue()
+                    + sourceNote.getValue();
+                int[] fingering = realizeExactPitch(sourceMidi - 12, previousString, previousFret);
+                TGNote note = factory.newNote();
+                note.setString(fingering[0]);
+                note.setValue(fingering[1]);
+                note.setVelocity(85);
+                note.setVoice(voice);
+                voice.addNote(note);
+                previousString = fingering[0];
+                previousFret = fingering[1];
+            }
+            voice.setEmpty(sourceVoice.getNotes().isEmpty());
+            destination.addBeat(beat);
+        }
     }
 
     private static void copyTransposedLick(
         TGFactory factory, TGTrack source, TGMeasure destination, int transposition,
-        String label, int initialString, int initialFret
+        String label, int initialString, int initialFret, int octaveOffset
     ) {
         TGMeasure sourceMeasure = source.getMeasure(0);
         long sourceStart = TGDuration.toPreciseTime(sourceMeasure.getHeader().getStart());
@@ -207,7 +288,7 @@ public class BuildBh5432HarmonicAtlas {
                 int sourceMidi = source.getStrings().get(sourceNote.getString() - 1).getValue()
                     + sourceNote.getValue();
                 int[] fingering = realizePitch(
-                    sourceMidi + transposition, previousString, previousFret
+                    sourceMidi + transposition + octaveOffset, previousString, previousFret
                 );
                 TGNote note = factory.newNote();
                 note.setString(fingering[0]);
@@ -316,11 +397,11 @@ public class BuildBh5432HarmonicAtlas {
             }
             copyTransposedLick(
                 factory, source, licks.getMeasure(base + 2), transpositions[keyIndex],
-                context + " | synchronized lick", 4, 5
+                context + " | synchronized lick | acoustic-safe fingering", 4, 5, 0
             );
-            copyTransposedLick(
-                factory, source, alternate.getMeasure(base + 2), transpositions[keyIndex],
-                context + " | alternate fingering | NEEDS REVIEW", 2, 8
+            copyOneOctaveLower(
+                factory, licks, licks.getMeasure(base + 2), alternate.getMeasure(base + 2),
+                context + " | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW"
             );
         }
         cycleSong.addTrack(licks);
@@ -357,7 +438,7 @@ public class BuildBh5432HarmonicAtlas {
         );
         TGTrack neutral = newTrack(
             factory, song, song.countTracks() + 2, neutralChannel,
-            "Neutral Backing - C MAJOR TRIAD", guitarStrings(factory)
+            "Neutral Backing - MAJOR TRIADS", guitarStrings(factory)
         );
         TGTrack bass = newTrack(
             factory, song, song.countTracks() + 3, bassChannel,
@@ -368,13 +449,16 @@ public class BuildBh5432HarmonicAtlas {
             int measureNumber = i + 1;
             ChordSpec chord = assignment(measureNumber);
             if (chord != null) {
+                ChordSpec neutralChord = (measureNumber == 26 ? GMAJ : CMAJ);
                 String label = sectionLabel(measureNumber);
                 String text = (label != null ? label + " | " : "")
                     + "Chord: " + chord.symbol() + " | Function: " + chord.function();
                 wholeNoteBeat(factory, derived.getMeasure(i), chord.notes(), text);
                 wholeNoteBeat(
-                    factory, neutral.getMeasure(i), CMAJ.notes(),
-                    "Neutral canonical-C context | C major triad | no added 6/7/9"
+                    factory, neutral.getMeasure(i), neutralChord.notes(),
+                    (measureNumber == 26
+                        ? "User-corrected context | G major triad | G lick requires G backing"
+                        : "Neutral canonical-C context | C major triad | no added 6/7/9")
                 );
                 wholeNoteBeat(
                     factory, bass.getMeasure(i),

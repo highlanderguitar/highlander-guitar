@@ -10,6 +10,8 @@
 | ALL TOGETHER | sequence opportunity | hear the active chord before entering; use a melody rest or sustained note |
 | 9th arp | tonic or dominant-color arrival | hear the active chord before entering; use a melody rest or sustained note |
 | additional upper-position variants | phrase fill / register opening | hear the active chord before entering; use a melody rest or sustained note |
+| G lick | G-major application | hear the active chord before entering; use a melody rest or sustained note |
+| additional upper-position variants | phrase fill / register opening | hear the active chord before entering; use a melody rest or sustained note |
 | separator | audible space | hear the active chord before entering; use a melody rest or sustained note |
 | low-position instructional material | low-position fill | hear the active chord before entering; use a melody rest or sustained note |
 | separator | audible space | hear the active chord before entering; use a melody rest or sustained note |

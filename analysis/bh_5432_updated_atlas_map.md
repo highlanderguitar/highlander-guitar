@@ -29,7 +29,7 @@ The updated TG is authoritative. All 43 measures on both tracks are accounted fo
 | Track 1 | 23 | additional upper-position variants |  | G4 B3 C4 F4 E4 F4 F#4 G4 | 8 8 8 8 8 8 8 4 | 3/12 4/9 4/10 3/10 3/9 3/10 3/11 3/12 | Cmaj9 | 0.48 | multiple plausible |
 | Track 1 | 24 | additional upper-position variants |  | G4 B3 C4 F4 E4 D4 B3 | 8 8 8 8 8 4 8 | 3/12 4/9 4/10 3/10 3/9 4/12 4/9 | Cmaj9 | 0.48 | multiple plausible |
 | Track 1 | 25 | additional upper-position variants |  | C4 C4 E4 G4 B4 | 4 4 | 4/10 4/10 3/9 2/8 1/7 | Cmaj9 | 0.48 | multiple plausible |
-| Track 1 | 26 | additional upper-position variants |  | C#4 F#4 D4 G4 G4 D4 G3 A3 F4 C4 A3 C4 F4 F#4 C#4 Bb3 | 16 16 8 8 8 8 8 8 | 2/2 1/2 2/3 1/3 1/3 2/3 3/0 3/2 1/1 2/1 3/2 2/1 1/1 1/2 2/2 3/3 | Cmaj9 | 0.48 | multiple plausible |
+| Track 1 | 26 | G lick |  | C#4 F#4 D4 G4 G4 D4 G3 A3 F4 C4 A3 C4 F4 F#4 C#4 Bb3 | 16 16 8 8 8 8 8 8 | 2/2 1/2 2/3 1/3 1/3 2/3 3/0 3/2 1/1 2/1 3/2 2/1 1/1 1/2 2/2 3/3 | G | 1.00 | user-corrected backing context |
 | Track 1 | 27 | additional upper-position variants |  | B3 D4 G4 G4 D4 B3 D4 Bb3 C#4 A3 G3 E3 D3 | 8 8 8 8 8 8 8 | 3/4 2/3 1/3 1/3 2/3 3/4 2/3 3/3 2/2 3/2 3/0 4/2 4/0 | Cmaj9 | 0.48 | multiple plausible |
 | Track 1 | 28 | additional upper-position variants |  | F3 G3 G3 D4 G4 G3 G3 D4 G4 | 16 16 8 | 4/3 4/5 3/0 2/3 1/3 4/5 3/0 2/3 1/3 | Cmaj9 | 0.48 | multiple plausible |
 | Track 1 | 29 | separator |  | rest/empty | rest/empty | none | unresolved | 1.00 | unresolved |
@@ -72,7 +72,7 @@ The updated TG is authoritative. All 43 measures on both tracks are accounted fo
 | Banjo | 23 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
 | Banjo | 24 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
 | Banjo | 25 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
-| Banjo | 26 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
+| Banjo | 26 | G lick |  | rest/empty | rest/empty | none | G | 1.00 | user-corrected backing context |
 | Banjo | 27 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
 | Banjo | 28 | additional upper-position variants |  | rest/empty | rest/empty | none | Cmaj9 | 0.48 | multiple plausible |
 | Banjo | 29 | separator |  | rest/empty | rest/empty | none | unresolved | 1.00 | unresolved |

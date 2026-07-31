@@ -27,7 +27,9 @@ SECTIONS = [
     ("from 2", 10, 11, "Cmaj9", "Imaj9", "G13 or Cmaj7", 0.78, "one-bar fill / dominant preparation"),
     ("ALL TOGETHER", 12, 20, "Cmaj9", "Imaj9", "Cmaj7 or G13", 0.67, "sequence opportunity"),
     ("9th arp", 21, 21, "Cmaj9", "Imaj9", "Cmaj7(add9) or G13", 0.84, "tonic or dominant-color arrival"),
-    ("additional upper-position variants", 22, 28, "Cmaj9", "Imaj9", "multiple plausible", 0.48, "phrase fill / register opening"),
+    ("additional upper-position variants", 22, 25, "Cmaj9", "Imaj9", "multiple plausible", 0.48, "phrase fill / register opening"),
+    ("G lick", 26, 26, "G", "G major", "user-corrected backing context", 1.0, "G-major application"),
+    ("additional upper-position variants", 27, 28, "Cmaj9", "Imaj9", "multiple plausible", 0.48, "phrase fill / register opening"),
     ("separator", 29, 29, None, None, "unresolved", 1.0, "audible space"),
     ("low-position instructional material", 30, 31, None, None, "Fmaj7, Gm/C, or C11; unresolved", 0.28, "low-position fill"),
     ("separator", 32, 32, None, None, "unresolved", 1.0, "audible space"),
@@ -219,6 +221,7 @@ def harmonic_structure_report(source_root):
         "ALL TOGETHER": ("Cmaj9", "C E G B", "E B", "D (9)", "Eb-E, C-C#-D, chromatic neighbors", "D", "Cmaj7 / G13", "mixed sequence could support local chord changes", .67),
         "9th arp": ("Cmaj9", "C E G B", "E B", "D (9)", "F approaches E / functions as 11", "D", "Cmaj7(add9) / G13", "C9 rejected: phrase has B natural, not Bb", .84),
         "additional upper-position variants": ("Cmaj9", "C E G B", "E B", "D (9)", "F/F#/C# and Bb require phrase-level review", "G", "G13 / multiple", "heterogeneous material should not receive one canonical chord", .48),
+        "G lick": ("G", "G B D", "B", "none required", "chromatic approach tones remain melodic", "G", "other G-family colors", "user identified this measure as a G lick; both backing layers now use G", 1.0),
         "low-position instructional material": ("unresolved", "C E G plus F Bb D", "E / Bb", "possible 9/11", "mixed", "G", "Fmaj7 / Gm/C / C11", "no smallest single chord explains both measures confidently", .28),
         "upper-register application material": ("Cmaj9", "C E G B", "E B", "D (9)", "Eb-E and C-C#-D", "D", "G13", "dominant reading remains audible alternative", .55),
         "closing transition variants": ("Cmaj9", "C E G B", "E B", "D (9)", "Eb-E and C-C#-D", "D", "G13", "short continuation lacks source chord context", .55),
@@ -350,7 +353,7 @@ def listening_guide():
 - Lick alone: solo `Canonical lick material`.
 - Alternate fingering alone: solo `Alternate / banjo realization`.
 - Structure-derived hypothesis: solo the lick plus `Structure-Derived Backing - NEEDS REVIEW` and `Bass roots / harmonic guide`.
-- Neutral canonical-C hearing: mute the structure-derived track; use `Neutral Backing - C MAJOR TRIAD` plus the lick and bass.
+- Neutral major-triad hearing: mute the structure-derived track; use `Neutral Backing - MAJOR TRIADS` plus the lick and bass. Measure 26 intentionally changes to G.
 
 ## Cycle Review
 
@@ -359,7 +362,8 @@ Each key occupies five measures: count-in, chord alone, lick over chord, resolut
 - Neutral cycle: tracks 1, 3, 4, and 5; mute track 6.
 - Neutral chord alone: solo `Cycle Neutral Backing - MAJOR TRIADS`.
 - Lick alone: solo `Cycle Licks - Neutral`.
-- Alternate fingering: solo `Cycle Alternate Realizations`.
+- One-octave-lower alternate: solo `Cycle Alternate Realizations`.
+- Acoustic limits: generated lick notes avoid fret 17 on high E (maximum 16) and stop at fret 15 on strings 2-6.
 - Sixth application: mute track 3 and solo/add `Cycle Sixth Chords - FUTURE BH6 REVIEW`.
 
 The sixth layer is not canonical. It is preserved as `SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW`.
@@ -504,9 +508,10 @@ def review_manifest():
             "authority": str(SOURCE_TG),
             "status": "needs_review",
             "application_layers": {
-                "neutral_canonical_c": "C major triad; audition context only",
-                "structure_derived": "section-specific Cmaj7/Cmaj9 hypotheses",
+                "neutral_major": "C major triad generally; user-corrected G major at measure 26",
+                "structure_derived": "section-specific Cmaj7/Cmaj9 hypotheses; G major at measure 26",
                 "neutral_cycle": "major triads synchronized in five-measure sections",
+                "cycle_alternates": "all cycle licks one octave lower with acoustic-safe fingering",
                 "sixth_chord_preview": "future BH6 review; not canonical",
                 "dominant_alternatives": "unresolved; no default dominant backing",
             },

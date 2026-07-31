@@ -22,11 +22,11 @@ def test_atlas_has_five_meaningful_tracks_and_all_source_measures():
         "Canonical lick material",
         "Alternate / banjo realization",
         "Structure-Derived Backing - NEEDS REVIEW",
-        "Neutral Backing - C MAJOR TRIAD",
+        "Neutral Backing - MAJOR TRIADS",
         "Bass roots / harmonic guide",
     ]
     assert all(len(track.findall("TGMeasure")) == 43 for track in tracks)
-    assert len(root.findall(".//note")) == 842
+    assert len(root.findall(".//note")) == 844
 
 
 def test_atlas_preserves_source_annotations_and_adds_harmonic_labels():
@@ -39,6 +39,14 @@ def test_atlas_preserves_source_annotations_and_adds_harmonic_labels():
     assert any("Cmaj7 hypothesis" in text and "NEEDS REVIEW" in text for text in texts)
     assert any("Cmaj9 hypothesis (B natural, not C9)" in text for text in texts)
     assert not any("Chord: C6" in text for text in texts)
+    measure_26_texts = [
+        node.text or ""
+        for track in root.findall("./TGSong/TGTrack")[2:]
+        for node in track.findall("TGMeasure")[25].findall(".//text")
+    ]
+    assert any("Chord: G" in text for text in measure_26_texts)
+    assert any("G major triad" in text for text in measure_26_texts)
+    assert any("Root: G" in text for text in measure_26_texts)
 
 
 def test_review_manifest_requires_user_decisions():
@@ -80,6 +88,12 @@ def test_cycle_review_is_five_measure_sections_with_separate_sixth_layer():
         assert tracks["Cycle Sixth Chords - FUTURE BH6 REVIEW"].findall("TGMeasure")[base + 2].findall(".//note")
         assert tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 3].findall(".//note")
         assert not tracks["Cycle Licks - Neutral"].findall("TGMeasure")[base + 4].findall(".//note")
+        lick_notes = tracks["Cycle Licks - Neutral"].findall("TGMeasure")[base + 2].findall(".//note")
+        alternate_notes = tracks["Cycle Alternate Realizations"].findall("TGMeasure")[base + 2].findall(".//note")
+        assert len(lick_notes) == len(alternate_notes)
+        lick_midis = [tuning[int(note.get("string")) - 1] + int(note.get("value")) for note in lick_notes]
+        alternate_midis = [tuning[int(note.get("string")) - 1] + int(note.get("value")) for note in alternate_notes]
+        assert alternate_midis == [midi - 12 for midi in lick_midis]
         neutral_notes = tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 2].findall(".//note")
         sixth_notes = tracks["Cycle Sixth Chords - FUTURE BH6 REVIEW"].findall("TGMeasure")[base + 2].findall(".//note")
         neutral_pcs = {
@@ -93,3 +107,9 @@ def test_cycle_review_is_five_measure_sections_with_separate_sixth_layer():
         root_pc = roots[key_index]
         assert neutral_pcs == {root_pc, (root_pc + 4) % 12, (root_pc + 7) % 12}
         assert sixth_pcs == neutral_pcs | {(root_pc + 9) % 12}
+
+    for track_name in ("Cycle Licks - Neutral", "Cycle Alternate Realizations"):
+        for note in tracks[track_name].findall(".//note"):
+            string = int(note.get("string"))
+            fret = int(note.get("value"))
+            assert fret <= (16 if string == 1 else 15)

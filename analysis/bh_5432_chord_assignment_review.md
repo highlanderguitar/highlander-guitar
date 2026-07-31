@@ -12,6 +12,8 @@ All assignments are provisional and require listening review. Canonical C descri
 | ALL TOGETHER | Cmaj9 | Imaj9 | Cmaj7 or G13 | 0.67 | source annotation; needs_review |
 | 9th arp | Cmaj9 | Imaj9 | Cmaj7(add9) or G13 | 0.84 | source annotation; needs_review |
 | additional upper-position variants | Cmaj9 | Imaj9 | multiple plausible | 0.48 | boundary inferred from source spacing/register; needs review; needs_review |
+| G lick | G | G major | user-corrected backing context | 1.00 | boundary inferred from source spacing/register; needs review; needs_review |
+| additional upper-position variants | Cmaj9 | Imaj9 | multiple plausible | 0.48 | boundary inferred from source spacing/register; needs review; needs_review |
 | separator | none | none | unresolved | 1.00 | boundary inferred from source spacing/register; needs review; needs_review |
 | low-position instructional material | none | none | Fmaj7, Gm/C, or C11; unresolved | 0.28 | boundary inferred from source spacing/register; needs review; needs_review |
 | separator | none | none | unresolved | 1.00 | boundary inferred from source spacing/register; needs review; needs_review |
