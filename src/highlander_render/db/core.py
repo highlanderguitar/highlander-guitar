@@ -469,7 +469,7 @@ def status(path: Path = DEFAULT_DB_PATH) -> dict:
 
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Highlander content database")
-    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "inventory-sources", "inspect-source-package", "compare-source-package", "extract-lick-package", "validate-licks", "list-licks", "show-lick", "transpose-lick", "generate-fingering-alternatives", "find-applications", "score-transitions", "export-lick-review", "validate", "export", "rebuild", "status"])
+    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "inventory-sources", "inspect-source-package", "compare-source-package", "extract-lick-package", "validate-licks", "list-licks", "show-lick", "transpose-lick", "generate-fingering-alternatives", "find-applications", "score-transitions", "export-lick-review", "generate-bh-review-assets", "validate", "export", "rebuild", "status"])
     parser.add_argument("--database", type=Path, default=Path(os.environ.get("HIGHLANDER_DB_PATH", DEFAULT_DB_PATH)))
     parser.add_argument("--full", action="store_true", help="Recompute all source hashes during inventory")
     parser.add_argument("subject", nargs="?", default="bh-5432")
@@ -487,6 +487,9 @@ def main(argv: Iterable[str] | None = None) -> int:
             result = inventory_sources(args.database, full=args.full)
             export(args.database)
             print(json.dumps(result, indent=2))
+        elif args.command == "generate-bh-review-assets":
+            from .review_assets import generate_review_assets
+            print(json.dumps(generate_review_assets(args.database),indent=2))
         elif args.command in {"inspect-source-package","compare-source-package","extract-lick-package","validate-licks","list-licks","show-lick","transpose-lick","generate-fingering-alternatives","find-applications","score-transitions","export-lick-review"}:
             from .licks import compare_package, export_lick_review, extract_package, package_info, transpose
             if args.command == "inspect-source-package": result = package_info(args.database,args.subject)

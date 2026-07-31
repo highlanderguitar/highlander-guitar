@@ -1,0 +1,53 @@
+track,track_index,measure,source_start_event,source_end_event,sounding_note_count,rest_count,duration_quarters,pitch_sequence,string_fret_sequence,annotation,imported,family,reason,duplicated,instructional_scaffolding,accompaniment,needs_review
+Track 1,1,1,1,16,13,3,4.0,B3 C4 E4 G4 B4 A#4 A4 G#4 G4 B3 C4 F4 E4,4/9 4/10 3/9 3/12 2/12 2/11 2/10 2/9 3/12 4/9 4/10 3/10 3/9,"""5"" arrives at the 5, then jumps down to 7 1 4 3",True,bh-5432-five,initial proof extraction,possible staff representation only,True,unknown,False
+Track 1,1,2,1,16,9,7,4.0,C4 D4 E4 F4 G4 F4 D4 D#4 E4,4/10 3/7 3/9 3/10 2/8 3/10 3/7 3/8 3/9,"""4"" plays the 4, then jumps down to 2 b3 3",True,bh-5432-four,initial proof extraction,possible staff representation only,True,unknown,False
+Track 1,1,3,1,16,7,9,4.0,G4 C4 D4 F4 D4 D#4 E4,2/8 4/10 3/7 3/10 3/7 3/8 3/9,,True,bh-5432-three,initial proof extraction,possible staff representation only,False,unknown,False
+Track 1,1,4,1,8,8,0,4.0,B4 C5 B4 A4 G#4 G4 C4 D4,1/7 1/8 1/7 2/10 2/9 2/8 4/10 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,5,1,8,4,4,4.0,F4 D4 D#4 E4,3/10 3/7 3/8 3/9,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,6,1,12,10,2,4.0,G4 G4 C4 D4 F4 D4 D#4 E4 E4 E4,2/8 2/8 4/10 3/7 3/10 3/7 3/8 3/9 3/9 3/9,idea from all this...,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,7,1,11,6,5,4.0,D4 C4 A3 G3 C4 C4,3/7 3/5 4/7 4/5 3/5 3/5,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,8,1,8,6,2,4.0,G4 F4 E4 G3 B3 D4,3/12 3/10 3/9 5/10 4/9 4/12,"""3""",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,9,1,8,0,8,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,10,1,8,8,0,4.0,G4 F4 E4 D4 B3 C4 C#4 D4,3/12 3/10 3/9 4/12 4/9 4/10 4/11 4/12,"""2"" walks to 2, jumps down to 5, then back up to the 2",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,11,1,8,8,0,4.0,G4 F4 E4 D4 B3 C4 C#4 D4,1/3 1/1 1/0 2/3 2/0 2/1 2/2 2/3,"""2"" walks to the 2, jumps down to the 5, then back up to the 2",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,12,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/3 3/4 3/5 2/6 2/3 2/4 2/5 4/5,ALL TOGETHER | R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,13,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,14,1,8,8,0,4.0,C5 E4 F4 A#4 G4 G#4 A4 C4,1/8 3/9 3/10 2/11 2/8 2/9 2/10 4/10,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,15,1,9,6,3,4.0,E4 G4 E4 F4 F#4 G4,3/9 3/12 3/9 3/10 3/11 3/12,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,16,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/3 3/4 3/5 2/6 2/3 2/4 2/5 4/5,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,17,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,18,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/3 3/4 3/5 2/6 2/3 2/4 2/5 4/5,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,19,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,20,1,8,8,0,4.0,G4 B3 C4 F4 E4 G4 B4 D5,3/12 4/9 4/10 3/10 3/9 2/8 1/7 1/10,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,21,1,8,8,0,4.0,G4 B3 C4 F4 E4 G4 B4 D5,2/8 4/9 4/10 3/10 3/9 3/12 2/12 1/10,9th arp | I,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Track 1,1,22,1,8,8,0,4.0,G4 B3 C4 F4 E4 G3 B3 D4,3/12 4/9 4/10 3/10 3/9 5/10 4/9 4/12,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,23,1,8,8,0,4.0,G4 B3 C4 F4 E4 F4 F#4 G4,3/12 4/9 4/10 3/10 3/9 3/10 3/11 3/12,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,24,1,7,7,0,4.0,G4 B3 C4 F4 E4 D4 B3,3/12 4/9 4/10 3/10 3/9 4/12 4/9,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,25,1,7,5,2,7.0,C4 C4 E4 G4 B4,4/10 4/10 3/9 2/8 1/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Track 1,1,26,1,8,0,8,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,1,1,16,13,3,4.0,B3 C4 E4 G4 B4 A#4 A4 G#4 G4 B3 C4 F4 E4,4/9 4/10 3/9 3/12 2/12 2/11 2/10 2/9 3/12 4/9 4/10 3/10 3/9,"""5"" arrives at the 5, then jumps down to 7 1 4 3",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,2,1,16,9,7,4.0,C4 D4 E4 F4 G4 F4 D4 D#4 E4,4/10 3/7 3/9 3/10 2/8 3/10 3/7 3/8 3/9,"""4"" plays the 4, then jumps down to 2 b3 3",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,3,1,16,7,9,4.0,G4 C4 D4 F4 D4 D#4 E4,2/8 4/10 3/7 3/10 3/7 3/8 3/9,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,4,1,8,8,0,4.0,B4 C5 B4 A4 G#4 G4 C4 D4,1/9 1/10 1/9 2/10 2/9 2/8 4/10 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,5,1,8,4,4,4.0,F4 D4 D#4 E4,3/10 3/7 3/8 3/9,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,6,1,12,10,2,4.0,G4 G4 C4 D4 F4 D4 D#4 E4 E4 E4,2/8 2/8 4/10 3/7 3/10 3/7 3/8 3/9 3/9 3/9,idea from all this...,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,7,1,11,6,5,4.0,D4 C4 A3 G3 C4 C4,3/7 3/5 4/7 4/5 3/5 3/5,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,8,1,8,6,2,4.0,G4 F4 E4 G3 B3 D4,3/12 3/10 3/9 4/5 4/9 4/12,"""3""",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,9,1,8,0,8,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,10,1,8,8,0,4.0,G4 F4 E4 D4 B3 C4 C#4 D4,3/12 3/10 3/9 4/12 4/9 4/10 4/11 4/12,"""2"" walks to 2, jumps down to 5, then back up to the 2",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,11,1,8,8,0,4.0,G4 F4 E4 D4 B3 C4 C#4 D4,1/5 1/3 1/2 2/3 2/0 2/1 2/2 2/3,"""2"" walks to the 2, jumps down to the 5, then back up to the 2",False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,12,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/5 3/4 3/5 2/6 2/3 2/4 2/5 4/5,ALL TOGETHER | R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,13,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,14,1,8,8,0,4.0,C5 E4 F4 A#4 G4 G#4 A4 C4,1/10 3/9 3/10 2/11 2/8 2/9 2/10 4/10,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,15,1,9,6,3,4.0,E4 G4 E4 F4 F#4 G4,3/9 3/12 3/9 3/10 3/11 3/12,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,16,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/5 3/4 3/5 2/6 2/3 2/4 2/5 4/5,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,17,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,18,1,8,8,0,4.0,G4 B3 C4 F4 D4 D#4 E4 G3,1/5 3/4 3/5 2/6 2/3 2/4 2/5 4/5,R,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,True,unknown,True
+Banjo,2,19,1,9,6,3,4.0,B3 D4 B3 C4 C#4 D4,3/4 3/7 3/4 3/5 3/6 3/7,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,20,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,21,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,22,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,23,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,24,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,25,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
+Banjo,2,26,1,1,0,1,4.0,,,,False,,accounted; not extracted pending boundary/pattern review,possible staff representation only,False,unknown,True
