@@ -1,0 +1,38 @@
+{
+  "tuxguitar_version": "2.0.1",
+  "validation_levels": [
+    "archive_readable",
+    "xml_well_formed",
+    "schema_shape_recognized",
+    "version_metadata_present",
+    "native_parser_accepted",
+    "application_opened",
+    "playback_ready",
+    "reopen_verified",
+    "review_ready"
+  ],
+  "invalid_pre_repair": {
+    "archive_readable": true,
+    "xml_well_formed": true,
+    "native_parser_accepted": false,
+    "review_ready": false
+  },
+  "repaired": [
+    {"file": "bh-5432-five-c-source/bh-5432-five-c-source.tg", "tracks": 1, "notes": 13, "review_ready": true},
+    {"file": "bh-5432-five-c-source/bh-5432-five-c-source_comparison.tg", "tracks": 5, "notes": 53, "review_ready": true},
+    {"file": "bh-5432-four-c-source/bh-5432-four-c-source.tg", "tracks": 1, "notes": 9, "review_ready": true},
+    {"file": "bh-5432-four-c-source/bh-5432-four-c-source_comparison.tg", "tracks": 5, "notes": 37, "review_ready": true},
+    {"file": "bh-5432-three-c-source/bh-5432-three-c-source.tg", "tracks": 1, "notes": 7, "review_ready": true},
+    {"file": "bh-5432-three-c-source/bh-5432-three-c-source_comparison.tg", "tracks": 5, "notes": 29, "review_ready": true},
+    {"file": "transition_1_best_playable_route.tg", "tracks": 2, "notes": 22, "review_ready": true},
+    {"file": "transition_2_intentional_register_shift.tg", "tracks": 2, "notes": 22, "review_ready": true},
+    {"file": "transition_3_best_playable_route.tg", "tracks": 2, "notes": 16, "review_ready": true},
+    {"file": "transition_4_intentional_register_shift.tg", "tracks": 2, "notes": 16, "review_ready": true}
+  ],
+  "all_native_parser_accepted": true,
+  "all_application_opened": true,
+  "all_playback_ready": true,
+  "all_reopen_verified": true,
+  "all_review_ready": true,
+  "conversion_losses": []
+}

@@ -91,13 +91,17 @@ def _tg_xml(tracks, tempo=60):
             tick += int(duration*2882880)
         measures=f"<TGMeasure><clef>treble</clef><keySignature>0</keySignature>{''.join(beats)}</TGMeasure>"+("<TGMeasure><TGBeat><preciseStart>14414400</preciseStart><voice empty=\"false\"><duration value=\"1\"><divisionType enters=\"1\" times=\"1\"/></duration></voice></TGBeat></TGMeasure>"*3)
         track_xml.append(f'<TGTrack maxFret="29"><name>{escape(name)}</name><channelId>{idx}</channelId><color B="0" G="0" R="0"/><TGString>64</TGString><TGString>59</TGString><TGString>55</TGString><TGString>50</TGString><TGString>45</TGString><TGString>40</TGString><TGLyric from="1"/>{measures}</TGTrack>')
-    return f'<?xml version="1.0" encoding="UTF-8" standalone="no"?><TuxGuitarFile><TGVersion major="2" minor="0" revision="1"/><TGSong><name>BH-5432 Review</name>{channels}{headers}{"".join(track_xml)}</TGSong></TuxGuitarFile>'
+    metadata=("<name>BH-5432 Review</name><artist/><album/><author/><date/>"
+              "<copyright/><writer/><transcriber/><comments/>")
+    return f'<?xml version="1.0" encoding="UTF-8" standalone="no"?><TuxGuitarFile><TGVersion major="2" minor="0" revision="1"/><TGSong>{metadata}{channels}{headers}{"".join(track_xml)}</TGSong></TuxGuitarFile>'
 
 
 def _write_tg(path, tracks, tempo=60):
     path.parent.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(path,"w",zipfile.ZIP_DEFLATED) as z:
-        z.writestr("version.txt","TuxGuitar file format 2.0")
+        # This token is part of TuxGuitar's native archive contract. Spaces
+        # cause TGFileFormatDetectorImpl to return a null TGVersion in 2.0.1.
+        z.writestr("version.txt","TuxGuitar_file_format 2.0")
         z.writestr("content.xml",_tg_xml(tracks,tempo))
 
 
