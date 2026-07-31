@@ -1,0 +1,108 @@
+file,track,capo,max_displayed_fret,max_physical_fret,limit,status,measures,notes
+reviews\setlist\bright_sunny_south\canonical\bright-sunny-south.tg,Lead Guide,2,no notes,no notes,16,pass,9,0
+reviews\setlist\bright_sunny_south\canonical\bright-sunny-south.tg,Rhythm / Backing Chords,2,3,5,16,pass,9,39
+reviews\setlist\bright_sunny_south\canonical\bright-sunny-south.tg,Bass Guide,2,10,12,16,pass,9,9
+reviews\setlist\bright_sunny_south\canonical\bright-sunny-south.tg,Click / Count-In,2,12,14,16,pass,9,36
+reviews\setlist\bright_sunny_south\source_working_copy\bright-sunny-south-source.tg,Track 1,2,5,7,16,pass,18,35
+reviews\setlist\cant_you_hear_me_calling\bh_5432_review\cant-you-hear-me-calling-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,16,0
+reviews\setlist\cant_you_hear_me_calling\bh_5432_review\cant-you-hear-me-calling-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,16,74
+reviews\setlist\cant_you_hear_me_calling\bh_5432_review\cant-you-hear-me-calling-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,16,15
+reviews\setlist\cant_you_hear_me_calling\bh_5432_review\cant-you-hear-me-calling-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,16,64
+reviews\setlist\cant_you_hear_me_calling\bh_5432_review\cant-you-hear-me-calling-BH5432-Review.tg,BH-5432 Application Review,0,14,14,16,pass,16,14
+reviews\setlist\cant_you_hear_me_calling\canonical\cant-you-hear-me-calling.tg,Lead Guide,0,no notes,no notes,16,pass,16,0
+reviews\setlist\cant_you_hear_me_calling\canonical\cant-you-hear-me-calling.tg,Rhythm / Backing Chords,0,3,3,16,pass,16,74
+reviews\setlist\cant_you_hear_me_calling\canonical\cant-you-hear-me-calling.tg,Bass Guide,0,10,10,16,pass,16,15
+reviews\setlist\cant_you_hear_me_calling\canonical\cant-you-hear-me-calling.tg,Click / Count-In,0,12,12,16,pass,16,64
+reviews\setlist\dear_old_dixie\bh_5432_review\dear-old-dixie-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,33,0
+reviews\setlist\dear_old_dixie\bh_5432_review\dear-old-dixie-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,33,157
+reviews\setlist\dear_old_dixie\bh_5432_review\dear-old-dixie-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,33,32
+reviews\setlist\dear_old_dixie\bh_5432_review\dear-old-dixie-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,33,132
+reviews\setlist\dear_old_dixie\bh_5432_review\dear-old-dixie-BH5432-Review.tg,BH-5432 Application Review,0,8,8,16,pass,33,7
+reviews\setlist\dear_old_dixie\canonical\dear-old-dixie.tg,Lead Guide,0,no notes,no notes,16,pass,33,0
+reviews\setlist\dear_old_dixie\canonical\dear-old-dixie.tg,Rhythm / Backing Chords,0,3,3,16,pass,33,157
+reviews\setlist\dear_old_dixie\canonical\dear-old-dixie.tg,Bass Guide,0,10,10,16,pass,33,32
+reviews\setlist\dear_old_dixie\canonical\dear-old-dixie.tg,Click / Count-In,0,12,12,16,pass,33,132
+reviews\setlist\dear_old_dixie\supporting_candidates\dixie-hoedown-UNCERTAIN.tg,Track 1,0,5,5,16,pass,17,272
+reviews\setlist\dig_a_hole_in_the_meadow\bh_5432_review\dig-a-hole-in-the-meadow-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,10,0
+reviews\setlist\dig_a_hole_in_the_meadow\bh_5432_review\dig-a-hole-in-the-meadow-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,10,50
+reviews\setlist\dig_a_hole_in_the_meadow\bh_5432_review\dig-a-hole-in-the-meadow-BH5432-Review.tg,Bass Guide,0,8,8,16,pass,10,10
+reviews\setlist\dig_a_hole_in_the_meadow\bh_5432_review\dig-a-hole-in-the-meadow-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,10,40
+reviews\setlist\dig_a_hole_in_the_meadow\bh_5432_review\dig-a-hole-in-the-meadow-BH5432-Review.tg,BH-5432 Application Review,0,8,8,16,pass,10,14
+reviews\setlist\dig_a_hole_in_the_meadow\canonical\dig-a-hole-in-the-meadow.tg,Lead Guide,0,no notes,no notes,16,pass,10,0
+reviews\setlist\dig_a_hole_in_the_meadow\canonical\dig-a-hole-in-the-meadow.tg,Rhythm / Backing Chords,0,3,3,16,pass,10,50
+reviews\setlist\dig_a_hole_in_the_meadow\canonical\dig-a-hole-in-the-meadow.tg,Bass Guide,0,8,8,16,pass,10,10
+reviews\setlist\dig_a_hole_in_the_meadow\canonical\dig-a-hole-in-the-meadow.tg,Click / Count-In,0,12,12,16,pass,10,40
+reviews\setlist\farewell_blues\canonical\farewell-blues.tg,Lead Guide,0,no notes,no notes,16,pass,19,0
+reviews\setlist\farewell_blues\canonical\farewell-blues.tg,Rhythm / Backing Chords,0,8,8,16,pass,19,124
+reviews\setlist\farewell_blues\canonical\farewell-blues.tg,Bass Guide,0,11,11,16,pass,19,26
+reviews\setlist\farewell_blues\canonical\farewell-blues.tg,Click / Count-In,0,12,12,16,pass,19,76
+reviews\setlist\i_feel_the_blues_movin_in\bh_5432_review\i-feel-the-blues-movin-in-BH5432-Review.tg,Lead Guide,4,no notes,no notes,16,pass,20,0
+reviews\setlist\i_feel_the_blues_movin_in\bh_5432_review\i-feel-the-blues-movin-in-BH5432-Review.tg,Rhythm / Backing Chords,4,3,7,16,pass,20,103
+reviews\setlist\i_feel_the_blues_movin_in\bh_5432_review\i-feel-the-blues-movin-in-BH5432-Review.tg,Bass Guide,4,10,14,16,pass,20,21
+reviews\setlist\i_feel_the_blues_movin_in\bh_5432_review\i-feel-the-blues-movin-in-BH5432-Review.tg,Click / Count-In,4,12,16,16,pass,20,80
+reviews\setlist\i_feel_the_blues_movin_in\bh_5432_review\i-feel-the-blues-movin-in-BH5432-Review.tg,BH-5432 Application Review,4,12,16,16,pass,20,14
+reviews\setlist\i_feel_the_blues_movin_in\canonical\i-feel-the-blues-movin-in.tg,Lead Guide,4,no notes,no notes,16,pass,20,0
+reviews\setlist\i_feel_the_blues_movin_in\canonical\i-feel-the-blues-movin-in.tg,Rhythm / Backing Chords,4,3,7,16,pass,20,103
+reviews\setlist\i_feel_the_blues_movin_in\canonical\i-feel-the-blues-movin-in.tg,Bass Guide,4,10,14,16,pass,20,21
+reviews\setlist\i_feel_the_blues_movin_in\canonical\i-feel-the-blues-movin-in.tg,Click / Count-In,4,12,16,16,pass,20,80
+reviews\setlist\i_feel_the_blues_movin_in\source_working_copy\i-feel-the-blues-movin-in-source.tg,Track 1,4,6,10,16,pass,25,115
+reviews\setlist\perfume_powder_and_lead\bh_5432_review\perfume-powder-and-lead-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,11,0
+reviews\setlist\perfume_powder_and_lead\bh_5432_review\perfume-powder-and-lead-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,11,58
+reviews\setlist\perfume_powder_and_lead\bh_5432_review\perfume-powder-and-lead-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,11,12
+reviews\setlist\perfume_powder_and_lead\bh_5432_review\perfume-powder-and-lead-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,11,44
+reviews\setlist\perfume_powder_and_lead\bh_5432_review\perfume-powder-and-lead-BH5432-Review.tg,BH-5432 Application Review,0,14,14,16,pass,11,14
+reviews\setlist\perfume_powder_and_lead\canonical\perfume-powder-and-lead.tg,Lead Guide,0,no notes,no notes,16,pass,11,0
+reviews\setlist\perfume_powder_and_lead\canonical\perfume-powder-and-lead.tg,Rhythm / Backing Chords,0,3,3,16,pass,11,58
+reviews\setlist\perfume_powder_and_lead\canonical\perfume-powder-and-lead.tg,Bass Guide,0,10,10,16,pass,11,12
+reviews\setlist\perfume_powder_and_lead\canonical\perfume-powder-and-lead.tg,Click / Count-In,0,12,12,16,pass,11,44
+reviews\setlist\rank_strangers\bh_5432_review\rank-strangers-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,58,0
+reviews\setlist\rank_strangers\bh_5432_review\rank-strangers-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,58,280
+reviews\setlist\rank_strangers\bh_5432_review\rank-strangers-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,58,57
+reviews\setlist\rank_strangers\bh_5432_review\rank-strangers-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,58,232
+reviews\setlist\rank_strangers\bh_5432_review\rank-strangers-BH5432-Review.tg,BH-5432 Application Review,0,8,8,16,pass,58,7
+reviews\setlist\rank_strangers\canonical\rank-strangers.tg,Lead Guide,0,no notes,no notes,16,pass,58,0
+reviews\setlist\rank_strangers\canonical\rank-strangers.tg,Rhythm / Backing Chords,0,3,3,16,pass,58,280
+reviews\setlist\rank_strangers\canonical\rank-strangers.tg,Bass Guide,0,10,10,16,pass,58,57
+reviews\setlist\rank_strangers\canonical\rank-strangers.tg,Click / Count-In,0,12,12,16,pass,58,232
+reviews\setlist\sarafina\bh_5432_review\sarafina-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,33,0
+reviews\setlist\sarafina\bh_5432_review\sarafina-BH5432-Review.tg,Rhythm / Backing Chords,0,4,4,16,pass,33,169
+reviews\setlist\sarafina\bh_5432_review\sarafina-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,33,35
+reviews\setlist\sarafina\bh_5432_review\sarafina-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,33,132
+reviews\setlist\sarafina\bh_5432_review\sarafina-BH5432-Review.tg,BH-5432 Application Review,0,10,10,16,pass,33,14
+reviews\setlist\sarafina\canonical\sarafina.tg,Lead Guide,0,no notes,no notes,16,pass,33,0
+reviews\setlist\sarafina\canonical\sarafina.tg,Rhythm / Backing Chords,0,4,4,16,pass,33,169
+reviews\setlist\sarafina\canonical\sarafina.tg,Bass Guide,0,10,10,16,pass,33,35
+reviews\setlist\sarafina\canonical\sarafina.tg,Click / Count-In,0,12,12,16,pass,33,132
+reviews\setlist\sitting_on_top_of_the_world\canonical\sitting-on-top-of-the-world.tg,Lead Guide,0,no notes,no notes,16,pass,9,0
+reviews\setlist\sitting_on_top_of_the_world\canonical\sitting-on-top-of-the-world.tg,Rhythm / Backing Chords,0,3,3,16,pass,9,49
+reviews\setlist\sitting_on_top_of_the_world\canonical\sitting-on-top-of-the-world.tg,Bass Guide,0,10,10,16,pass,9,10
+reviews\setlist\sitting_on_top_of_the_world\canonical\sitting-on-top-of-the-world.tg,Click / Count-In,0,12,12,16,pass,9,36
+reviews\setlist\somehow_tonight\bh_5432_review\somehow-tonight-BH5432-Review.tg,Lead Guide,0,no notes,no notes,16,pass,17,0
+reviews\setlist\somehow_tonight\bh_5432_review\somehow-tonight-BH5432-Review.tg,Rhythm / Backing Chords,0,3,3,16,pass,17,77
+reviews\setlist\somehow_tonight\bh_5432_review\somehow-tonight-BH5432-Review.tg,Bass Guide,0,10,10,16,pass,17,16
+reviews\setlist\somehow_tonight\bh_5432_review\somehow-tonight-BH5432-Review.tg,Click / Count-In,0,12,12,16,pass,17,68
+reviews\setlist\somehow_tonight\bh_5432_review\somehow-tonight-BH5432-Review.tg,BH-5432 Application Review,0,8,8,16,pass,17,7
+reviews\setlist\somehow_tonight\canonical\somehow-tonight.tg,Lead Guide,0,no notes,no notes,16,pass,17,0
+reviews\setlist\somehow_tonight\canonical\somehow-tonight.tg,Rhythm / Backing Chords,0,3,3,16,pass,17,77
+reviews\setlist\somehow_tonight\canonical\somehow-tonight.tg,Bass Guide,0,10,10,16,pass,17,16
+reviews\setlist\somehow_tonight\canonical\somehow-tonight.tg,Click / Count-In,0,12,12,16,pass,17,68
+reviews\setlist\southern_flavor\canonical\southern-flavor.tg,Lead Guide,0,no notes,no notes,16,pass,33,0
+reviews\setlist\southern_flavor\canonical\southern-flavor.tg,Rhythm / Backing Chords,0,3,3,16,pass,33,156
+reviews\setlist\southern_flavor\canonical\southern-flavor.tg,Bass Guide,0,10,10,16,pass,33,32
+reviews\setlist\southern_flavor\canonical\southern-flavor.tg,Click / Count-In,0,12,12,16,pass,33,132
+reviews\setlist\trail_of_tears\canonical\trail-of-tears.tg,Lead Guide,0,no notes,no notes,16,pass,17,0
+reviews\setlist\trail_of_tears\canonical\trail-of-tears.tg,Rhythm / Backing Chords,0,3,3,16,pass,17,79
+reviews\setlist\trail_of_tears\canonical\trail-of-tears.tg,Bass Guide,0,10,10,16,pass,17,16
+reviews\setlist\trail_of_tears\canonical\trail-of-tears.tg,Click / Count-In,0,12,12,16,pass,17,68
+reviews\setlist\trail_of_tears\source_working_copy\trail-of-tears-source.tg,Track 1,0,9,9,16,pass,14,117
+reviews\setlist\walls_of_time\bh_5432_review\walls-of-time-BH5432-Review.tg,Lead Guide,4,no notes,no notes,16,pass,17,0
+reviews\setlist\walls_of_time\bh_5432_review\walls-of-time-BH5432-Review.tg,Rhythm / Backing Chords,4,3,7,16,pass,17,78
+reviews\setlist\walls_of_time\bh_5432_review\walls-of-time-BH5432-Review.tg,Bass Guide,4,10,14,16,pass,17,16
+reviews\setlist\walls_of_time\bh_5432_review\walls-of-time-BH5432-Review.tg,Click / Count-In,4,12,16,16,pass,17,68
+reviews\setlist\walls_of_time\bh_5432_review\walls-of-time-BH5432-Review.tg,BH-5432 Application Review,4,12,16,16,pass,17,14
+reviews\setlist\walls_of_time\canonical\walls-of-time.tg,Lead Guide,4,no notes,no notes,16,pass,17,0
+reviews\setlist\walls_of_time\canonical\walls-of-time.tg,Rhythm / Backing Chords,4,3,7,16,pass,17,78
+reviews\setlist\walls_of_time\canonical\walls-of-time.tg,Bass Guide,4,10,14,16,pass,17,16
+reviews\setlist\walls_of_time\canonical\walls-of-time.tg,Click / Count-In,4,12,16,16,pass,17,68
+reviews\setlist\walls_of_time\source_working_copy\walls-of-time-source.tg,Lead,4,5,9,16,pass,49,336
+reviews\setlist\walls_of_time\source_working_copy\walls-of-time-source.tg,Track 1,4,5,9,16,pass,49,1293

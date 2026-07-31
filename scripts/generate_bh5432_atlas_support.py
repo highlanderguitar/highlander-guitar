@@ -389,7 +389,7 @@ def cycle_proof():
     (ANALYSIS / "bh_5432_cycle_of_fourths_proof.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def musicxml_from_atlas(atlas_root, path: Path):
+def musicxml_from_atlas(atlas_root, path: Path, title: str = "BH-5432 Harmonic Atlas"):
     tracks = atlas_root.findall("./TGSong/TGTrack")
     part_list = "".join(
         f'<score-part id="P{i}"><part-name>{escape(track.findtext("name", f"Track {i}"))}</part-name></score-part>'
@@ -439,7 +439,7 @@ def musicxml_from_atlas(atlas_root, path: Path):
         parts.append(f'<part id="P{part_index}">{"".join(measures)}</part>')
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>'
-        '<score-partwise version="4.0"><work><work-title>BH-5432 Harmonic Atlas</work-title></work>'
+        f'<score-partwise version="4.0"><work><work-title>{escape(title)}</work-title></work>'
         f'<part-list>{part_list}</part-list>{"".join(parts)}</score-partwise>'
     )
     path.write_text(xml, encoding="utf-8")

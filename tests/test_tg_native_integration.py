@@ -42,10 +42,13 @@ def test_every_generated_tg_passes_native_parser_save_and_reopen(tmp_path):
 
     generated = sorted(
         path
-        for path in (ROOT / "reviews" / "bh_5432").rglob("*.tg")
+        for review_root in (ROOT / "reviews" / "bh_5432", ROOT / "reviews" / "setlist")
+        for path in review_root.rglob("*.tg")
         if "_invalid_generated_tg" not in path.parts
+        and "source_working_copy" not in path.parts
+        and "supporting_candidates" not in path.parts
     )
-    assert len(generated) == 13
+    assert len(generated) >= 36
     for index, source in enumerate(generated):
         saved = tmp_path / f"{index:02d}-{source.name}"
         completed = subprocess.run(
@@ -56,6 +59,7 @@ def test_every_generated_tg_passes_native_parser_save_and_reopen(tmp_path):
             check=True,
             capture_output=True,
             text=True,
+            timeout=30,
         )
         assert "native_parser_accepted=true" in completed.stdout
         assert "native_save=true reopen_verified=true" in completed.stdout
