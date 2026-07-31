@@ -11,7 +11,7 @@
 | 9th arp | D5 | open pending harmonic confirmation | hold or resolve to chord root | target chord third/root | user must approve next chord |
 | additional upper-position variants | G4 | open pending harmonic confirmation | hold or resolve to chord root | target chord third/root | user must approve next chord |
 | separator | none | separator | hold or resolve to chord root | target chord third/root | user must approve next chord |
-| low-position instructional material | G4 | open pending harmonic confirmation | hold or resolve to chord root | target chord third/root | user must approve next chord |
+| low-position instructional material | G4 | separator | hold or resolve to chord root | target chord third/root | user must approve next chord |
 | separator | none | separator | hold or resolve to chord root | target chord third/root | user must approve next chord |
 | upper-register application material | D4 | open pending harmonic confirmation | hold or resolve to chord root | target chord third/root | user must approve next chord |
 | separator | none | separator | hold or resolve to chord root | target chord third/root | user must approve next chord |

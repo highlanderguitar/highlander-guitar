@@ -1,6 +1,14 @@
 {
   "package": "BH-5432",
   "authority": "C:\\Users\\highl\\OneDrive\\Desktop\\Tabs\\BH-5432.tg",
+  "status": "needs_review",
+  "application_layers": {
+    "neutral_canonical_c": "C major triad; audition context only",
+    "structure_derived": "section-specific Cmaj7/Cmaj9 hypotheses",
+    "neutral_cycle": "major triads synchronized in five-measure sections",
+    "sixth_chord_preview": "future BH6 review; not canonical",
+    "dominant_alternatives": "unresolved; no default dominant backing"
+  },
   "decisions": [
     {
       "section": "from 5",

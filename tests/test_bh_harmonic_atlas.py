@@ -21,12 +21,12 @@ def test_atlas_has_five_meaningful_tracks_and_all_source_measures():
     assert [track.findtext("name") for track in tracks] == [
         "Canonical lick material",
         "Alternate / banjo realization",
-        "Backing chords - PROVISIONAL",
+        "Structure-Derived Backing - NEEDS REVIEW",
+        "Neutral Backing - C MAJOR TRIAD",
         "Bass roots / harmonic guide",
-        "Cycle of fourths preview - NEEDS REVIEW",
     ]
     assert all(len(track.findall("TGMeasure")) == 43 for track in tracks)
-    assert len(root.findall(".//note")) == 824
+    assert len(root.findall(".//note")) == 842
 
 
 def test_atlas_preserves_source_annotations_and_adds_harmonic_labels():
@@ -36,8 +36,9 @@ def test_atlas_preserves_source_annotations_and_adds_harmonic_labels():
     assert '"2" walks to 2, jumps down to 5, then back up to the 2' in texts
     assert "ALL TOGETHER" in texts
     assert "9th arp" in texts
-    assert any("Chord: C6" in text and "PROVISIONAL" in text for text in texts)
-    assert sum("CYCLE PREVIEW" in text for text in texts) == 12
+    assert any("Cmaj7 hypothesis" in text and "NEEDS REVIEW" in text for text in texts)
+    assert any("Cmaj9 hypothesis (B natural, not C9)" in text for text in texts)
+    assert not any("Chord: C6" in text for text in texts)
 
 
 def test_review_manifest_requires_user_decisions():
@@ -53,3 +54,42 @@ def test_supporting_exports_are_nonempty_and_musicxml_has_four_parts():
     assert (ATLAS / "BH-5432-Harmonic-Atlas.pdf").stat().st_size > 10000
     root = ET.parse(ATLAS / "BH-5432-Harmonic-Atlas.musicxml").getroot()
     assert len(root.findall("part")) == 5
+
+
+def test_cycle_review_is_five_measure_sections_with_separate_sixth_layer():
+    with zipfile.ZipFile(ATLAS / "BH-5432-Cycle-Review.tg") as archive:
+        root = ET.fromstring(archive.read("content.xml"))
+    tracks = {track.findtext("name"): track for track in root.findall("./TGSong/TGTrack")}
+    assert set(tracks) == {
+        "Cycle Licks - Neutral",
+        "Cycle Alternate Realizations",
+        "Cycle Neutral Backing - MAJOR TRIADS",
+        "Cycle Bass / Root Guide",
+        "Cycle Count-In",
+        "Cycle Sixth Chords - FUTURE BH6 REVIEW",
+    }
+    assert all(len(track.findall("TGMeasure")) == 60 for track in tracks.values())
+    tuning = [64, 59, 55, 50, 45, 40]
+    roots = [0, 5, 10, 3, 8, 1, 6, 11, 4, 9, 2, 7]
+    for key_index in range(12):
+        base = key_index * 5
+        assert tracks["Cycle Count-In"].findall("TGMeasure")[base].findall(".//note")
+        assert tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 1].findall(".//note")
+        assert tracks["Cycle Licks - Neutral"].findall("TGMeasure")[base + 2].findall(".//note")
+        assert tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 2].findall(".//note")
+        assert tracks["Cycle Sixth Chords - FUTURE BH6 REVIEW"].findall("TGMeasure")[base + 2].findall(".//note")
+        assert tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 3].findall(".//note")
+        assert not tracks["Cycle Licks - Neutral"].findall("TGMeasure")[base + 4].findall(".//note")
+        neutral_notes = tracks["Cycle Neutral Backing - MAJOR TRIADS"].findall("TGMeasure")[base + 2].findall(".//note")
+        sixth_notes = tracks["Cycle Sixth Chords - FUTURE BH6 REVIEW"].findall("TGMeasure")[base + 2].findall(".//note")
+        neutral_pcs = {
+            (tuning[int(note.get("string")) - 1] + int(note.get("value"))) % 12
+            for note in neutral_notes
+        }
+        sixth_pcs = {
+            (tuning[int(note.get("string")) - 1] + int(note.get("value"))) % 12
+            for note in sixth_notes
+        }
+        root_pc = roots[key_index]
+        assert neutral_pcs == {root_pc, (root_pc + 4) % 12, (root_pc + 7) % 12}
+        assert sixth_pcs == neutral_pcs | {(root_pc + 9) % 12}

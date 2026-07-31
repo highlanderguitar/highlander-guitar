@@ -13,6 +13,7 @@ import app.tuxguitar.song.models.TGBeat;
 import app.tuxguitar.song.models.TGChannel;
 import app.tuxguitar.song.models.TGDuration;
 import app.tuxguitar.song.models.TGMeasure;
+import app.tuxguitar.song.models.TGMeasureHeader;
 import app.tuxguitar.song.models.TGNote;
 import app.tuxguitar.song.models.TGSong;
 import app.tuxguitar.song.models.TGString;
@@ -23,13 +24,15 @@ import app.tuxguitar.song.models.TGVoice;
 public class BuildBh5432HarmonicAtlas {
     private record ChordSpec(String symbol, String function, int[][] notes, int bassString, int bassFret) {}
 
-    private static final ChordSpec C6 = new ChordSpec(
-        "C6", "I6 (PROVISIONAL)", new int[][]{{5,3},{4,2},{3,2},{2,1},{1,0}}, 3, 3
+    private static final ChordSpec CMAJ = new ChordSpec(
+        "C", "I (NEUTRAL)", new int[][]{{5,3},{4,2},{3,0},{2,1},{1,0}}, 3, 3
     );
-    private static final ChordSpec C9 = new ChordSpec(
-        "C9", "I9 (PROVISIONAL)", new int[][]{{5,3},{4,2},{3,3},{2,3}}, 3, 3
+    private static final ChordSpec CMAJ7 = new ChordSpec(
+        "Cmaj7", "Imaj7 (HYPOTHESIS)", new int[][]{{5,3},{4,2},{3,0},{2,0},{1,0}}, 3, 3
     );
-
+    private static final ChordSpec CMAJ9 = new ChordSpec(
+        "Cmaj9", "Imaj9 (HYPOTHESIS)", new int[][]{{5,3},{4,2},{3,0},{2,0},{1,3}}, 3, 3
+    );
     private static TGSong read(Path path, TGFactory factory) throws Exception {
         var handle = new TGSongReaderHandle();
         handle.setFactory(factory);
@@ -90,27 +93,26 @@ public class BuildBh5432HarmonicAtlas {
     }
 
     private static ChordSpec assignment(int measure) {
-        if (measure == 21) {
-            return C9;
+        if (measure == 1) {
+            return CMAJ7;
         }
-        if ((measure >= 1 && measure <= 8)
+        if ((measure >= 2 && measure <= 8)
             || (measure >= 10 && measure <= 28)
-            || (measure >= 30 && measure <= 31)
             || (measure >= 33 && measure <= 40)
             || (measure >= 42 && measure <= 43)) {
-            return C6;
+            return CMAJ9;
         }
         return null;
     }
 
     private static String sectionLabel(int measure) {
         return switch (measure) {
-            case 1 -> "FROM 5 | Starts: 5 | Entry: tonic/chord arrival | Status: PROVISIONAL - REVIEW";
-            case 2 -> "FROM 4 | Starts: 4 | Entry: static tonic or IV-color fill | Status: PROVISIONAL - REVIEW";
-            case 8 -> "FROM 3 | Starts: 3 | Entry: tonic phrase opening | Status: PROVISIONAL - REVIEW";
-            case 10 -> "FROM 2 | Starts: 2 | Entry: one-bar fill; C6 or G7 plausible | Status: PROVISIONAL - REVIEW";
+            case 1 -> "FROM 5 | Cmaj7 hypothesis | stable C E G B; chromatic descent ornamental | NEEDS REVIEW";
+            case 2 -> "FROM 4 | Cmaj9 hypothesis | C E G B D structural; chromatic approaches | NEEDS REVIEW";
+            case 8 -> "FROM 3 | Cmaj9 / G13 comparison unresolved | NEEDS REVIEW";
+            case 10 -> "FROM 2 | Cmaj9 hypothesis; C-C#-D approach to 9th | NEEDS REVIEW";
             case 12 -> "ALL TOGETHER | Entry: sequence opportunity | Status: PROVISIONAL - REVIEW";
-            case 21 -> "9th arp | Chord: C9 | Entry: tonic/dominant-color arrival | Status: PROVISIONAL - REVIEW";
+            case 21 -> "9th arp | Cmaj9 hypothesis (B natural, not C9) | NEEDS REVIEW";
             default -> null;
         };
     }
@@ -179,58 +181,160 @@ public class BuildBh5432HarmonicAtlas {
         return new int[]{bestString, bestFret};
     }
 
-    private static void addCyclePreview(
-        TGFactory factory, TGSong song, TGTrack source, TGTrack cycle
+    private static void copyTransposedLick(
+        TGFactory factory, TGTrack source, TGMeasure destination, int transposition,
+        String label, int initialString, int initialFret
     ) {
-        int[] transpositions = {0,5,10,3,8,1,6,11,4,9,2,7};
-        String[] labels = {"C6","F6","Bb6","Eb6","Ab6","Db6","Gb/F#6","B6","E6","A6","D6","G6"};
         TGMeasure sourceMeasure = source.getMeasure(0);
         long sourceStart = TGDuration.toPreciseTime(sourceMeasure.getHeader().getStart());
-        for (int keyIndex = 0; keyIndex < labels.length; keyIndex++) {
-            TGMeasure destination = cycle.getMeasure(31 + keyIndex);
-            long destinationStart = TGDuration.toPreciseTime(destination.getHeader().getStart());
-            int previousString = 4;
-            int previousFret = 5;
-            boolean firstBeat = true;
-            for (TGBeat sourceBeat : sourceMeasure.getBeats()) {
-                TGBeat beat = factory.newBeat();
-                beat.setPreciseStart(destinationStart + sourceBeat.getPreciseStart() - sourceStart);
-                if (firstBeat) {
-                    TGText text = factory.newText();
-                    text.setValue(
-                        "CYCLE PREVIEW | " + labels[keyIndex]
-                        + " | FROM 5 | physical re-realization | NEEDS REVIEW"
-                    );
-                    beat.setText(text);
-                    firstBeat = false;
-                }
-                TGVoice sourceVoice = sourceBeat.getVoice(0);
-                TGVoice voice = beat.getVoice(0);
-                voice.getDuration().copyFrom(sourceVoice.getDuration());
-                for (TGNote sourceNote : sourceVoice.getNotes()) {
-                    int sourceMidi = source.getStrings().get(sourceNote.getString() - 1).getValue()
-                        + sourceNote.getValue();
-                    int[] fingering = realizePitch(
-                        sourceMidi + transpositions[keyIndex], previousString, previousFret
-                    );
-                    TGNote note = factory.newNote();
-                    note.setString(fingering[0]);
-                    note.setValue(fingering[1]);
-                    note.setVelocity(85);
-                    note.setVoice(voice);
-                    voice.addNote(note);
-                    previousString = fingering[0];
-                    previousFret = fingering[1];
-                }
-                voice.setEmpty(sourceVoice.getNotes().isEmpty());
-                destination.addBeat(beat);
+        long destinationStart = TGDuration.toPreciseTime(destination.getHeader().getStart());
+        int previousString = initialString;
+        int previousFret = initialFret;
+        boolean firstBeat = true;
+        for (TGBeat sourceBeat : sourceMeasure.getBeats()) {
+            TGBeat beat = factory.newBeat();
+            beat.setPreciseStart(destinationStart + sourceBeat.getPreciseStart() - sourceStart);
+            if (firstBeat) {
+                TGText text = factory.newText();
+                text.setValue(label);
+                beat.setText(text);
+                firstBeat = false;
             }
+            TGVoice sourceVoice = sourceBeat.getVoice(0);
+            TGVoice voice = beat.getVoice(0);
+            voice.getDuration().copyFrom(sourceVoice.getDuration());
+            for (TGNote sourceNote : sourceVoice.getNotes()) {
+                int sourceMidi = source.getStrings().get(sourceNote.getString() - 1).getValue()
+                    + sourceNote.getValue();
+                int[] fingering = realizePitch(
+                    sourceMidi + transposition, previousString, previousFret
+                );
+                TGNote note = factory.newNote();
+                note.setString(fingering[0]);
+                note.setValue(fingering[1]);
+                note.setVelocity(85);
+                note.setVoice(voice);
+                voice.addNote(note);
+                previousString = fingering[0];
+                previousFret = fingering[1];
+            }
+            voice.setEmpty(sourceVoice.getNotes().isEmpty());
+            destination.addBeat(beat);
         }
     }
 
+    private static int[][] chordVoicing(int transposition, boolean sixth) {
+        int[] source = sixth ? new int[]{48,55,60,64,67,69} : new int[]{48,55,60,64,67};
+        int[][] notes = new int[source.length][2];
+        int previousString = 6;
+        int previousFret = 3;
+        for (int i = 0; i < source.length; i++) {
+            int[] fingering = realizePitch(source[i] + transposition, previousString, previousFret);
+            notes[i] = fingering;
+            previousString = fingering[0];
+            previousFret = fingering[1];
+        }
+        return notes;
+    }
+
+    private static void addCountIn(TGFactory factory, TGMeasure measure, String label) {
+        long start = TGDuration.toPreciseTime(measure.getHeader().getStart());
+        long quarter = TGDuration.WHOLE_PRECISE_DURATION / 4;
+        for (int beatIndex = 0; beatIndex < 4; beatIndex++) {
+            TGBeat beat = factory.newBeat();
+            beat.setPreciseStart(start + beatIndex * quarter);
+            if (beatIndex == 0) {
+                TGText text = factory.newText();
+                text.setValue(label + " | COUNT-IN 1 2 3 4");
+                beat.setText(text);
+            }
+            TGVoice voice = beat.getVoice(0);
+            voice.getDuration().setValue(TGDuration.QUARTER);
+            TGNote note = factory.newNote();
+            note.setString(1);
+            note.setValue(12);
+            note.setVelocity(70);
+            note.setVoice(voice);
+            voice.addNote(note);
+            voice.setEmpty(false);
+            measure.addBeat(beat);
+        }
+    }
+
+    private static TGSong createCycleReview(TGFactory factory, TGTrack source) {
+        TGSong cycleSong = factory.newSong();
+        cycleSong.setName("BH-5432 Cycle Review");
+        cycleSong.setComments(
+            "Neutral major-triad cycle is primary. Sixth-chord layer is a future BH6 application and needs review."
+        );
+        long start = TGDuration.QUARTER_TIME;
+        for (int index = 0; index < 60; index++) {
+            TGMeasureHeader header = factory.newHeader();
+            header.setNumber(index + 1);
+            header.setStart(start);
+            header.getTimeSignature().setNumerator(4);
+            header.getTimeSignature().getDenominator().setValue(4);
+            header.getTempo().setValueBase(70, TGDuration.QUARTER, false);
+            cycleSong.addMeasureHeader(header);
+            start += header.getLength();
+        }
+        cycleSong.addChannel(channel(factory, 30, 25, "Cycle licks"));
+        cycleSong.addChannel(channel(factory, 31, 25, "Cycle alternate realizations"));
+        cycleSong.addChannel(channel(factory, 32, 25, "Cycle neutral backing"));
+        cycleSong.addChannel(channel(factory, 33, 32, "Cycle bass roots"));
+        cycleSong.addChannel(channel(factory, 34, 115, "Cycle count-in"));
+        cycleSong.addChannel(channel(factory, 35, 25, "Cycle sixth-chord preview"));
+        TGTrack licks = newTrack(factory, cycleSong, 1, 30, "Cycle Licks - Neutral", guitarStrings(factory));
+        TGTrack alternate = newTrack(factory, cycleSong, 2, 31, "Cycle Alternate Realizations", guitarStrings(factory));
+        TGTrack neutral = newTrack(factory, cycleSong, 3, 32, "Cycle Neutral Backing - MAJOR TRIADS", guitarStrings(factory));
+        TGTrack bass = newTrack(factory, cycleSong, 4, 33, "Cycle Bass / Root Guide", bassStrings(factory));
+        TGTrack click = newTrack(factory, cycleSong, 5, 34, "Cycle Count-In", guitarStrings(factory));
+        TGTrack sixth = newTrack(factory, cycleSong, 6, 35, "Cycle Sixth Chords - FUTURE BH6 REVIEW", guitarStrings(factory));
+
+        int[] transpositions = {0,5,10,3,8,1,6,11,4,9,2,7};
+        String[] labels = {"C","F","Bb","Eb","Ab","Db","Gb/F#","B","E","A","D","G"};
+        for (int keyIndex = 0; keyIndex < labels.length; keyIndex++) {
+            int base = keyIndex * 5;
+            String context = labels[keyIndex] + " major | FROM 5 | NEUTRAL";
+            addCountIn(factory, click.getMeasure(base), context);
+            int[][] neutralChord = chordVoicing(transpositions[keyIndex], false);
+            int[][] sixthChord = chordVoicing(transpositions[keyIndex], true);
+            for (int offset : new int[]{1,2,3}) {
+                wholeNoteBeat(
+                    factory, neutral.getMeasure(base + offset), neutralChord,
+                    context + (offset == 1 ? " | CHORD ALONE" : offset == 2 ? " | LICK OVER CHORD" : " | RESOLUTION")
+                );
+                wholeNoteBeat(
+                    factory, sixth.getMeasure(base + offset), sixthChord,
+                    "SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | " + labels[keyIndex] + "6 | NEEDS REVIEW"
+                );
+                wholeNoteBeat(
+                    factory, bass.getMeasure(base + offset),
+                    new int[][]{{4, 8 + transpositions[keyIndex]}},
+                    labels[keyIndex] + " root"
+                );
+            }
+            copyTransposedLick(
+                factory, source, licks.getMeasure(base + 2), transpositions[keyIndex],
+                context + " | synchronized lick", 4, 5
+            );
+            copyTransposedLick(
+                factory, source, alternate.getMeasure(base + 2), transpositions[keyIndex],
+                context + " | alternate fingering | NEEDS REVIEW", 2, 8
+            );
+        }
+        cycleSong.addTrack(licks);
+        cycleSong.addTrack(alternate);
+        cycleSong.addTrack(neutral);
+        cycleSong.addTrack(bass);
+        cycleSong.addTrack(click);
+        cycleSong.addTrack(sixth);
+        return cycleSong;
+    }
+
     public static void main(String[] args) throws Exception {
-        if (args.length != 2) {
-            throw new IllegalArgumentException("usage: source.tg atlas.tg");
+        if (args.length != 3) {
+            throw new IllegalArgumentException("usage: source.tg atlas.tg cycle-review.tg");
         }
         TGFactory factory = new TGFactory();
         TGSong song = read(Path.of(args[0]), factory);
@@ -241,23 +345,23 @@ public class BuildBh5432HarmonicAtlas {
         song.getTrack(0).setName("Canonical lick material");
         song.getTrack(1).setName("Alternate / banjo realization");
 
-        int backingChannel = 20;
-        int bassChannel = 21;
-        int cycleChannel = 22;
-        song.addChannel(channel(factory, backingChannel, 25, "Atlas backing guitar"));
+        int derivedChannel = 20;
+        int neutralChannel = 21;
+        int bassChannel = 22;
+        song.addChannel(channel(factory, derivedChannel, 25, "Atlas structure-derived backing"));
+        song.addChannel(channel(factory, neutralChannel, 25, "Atlas neutral backing"));
         song.addChannel(channel(factory, bassChannel, 32, "Atlas bass roots"));
-        song.addChannel(channel(factory, cycleChannel, 25, "Cycle preview guitar"));
-        TGTrack backing = newTrack(
-            factory, song, song.countTracks() + 1, backingChannel,
-            "Backing chords - PROVISIONAL", guitarStrings(factory)
+        TGTrack derived = newTrack(
+            factory, song, song.countTracks() + 1, derivedChannel,
+            "Structure-Derived Backing - NEEDS REVIEW", guitarStrings(factory)
+        );
+        TGTrack neutral = newTrack(
+            factory, song, song.countTracks() + 2, neutralChannel,
+            "Neutral Backing - C MAJOR TRIAD", guitarStrings(factory)
         );
         TGTrack bass = newTrack(
-            factory, song, song.countTracks() + 2, bassChannel,
+            factory, song, song.countTracks() + 3, bassChannel,
             "Bass roots / harmonic guide", bassStrings(factory)
-        );
-        TGTrack cycle = newTrack(
-            factory, song, song.countTracks() + 3, cycleChannel,
-            "Cycle of fourths preview - NEEDS REVIEW", guitarStrings(factory)
         );
 
         for (int i = 0; i < song.countMeasureHeaders(); i++) {
@@ -267,7 +371,11 @@ public class BuildBh5432HarmonicAtlas {
                 String label = sectionLabel(measureNumber);
                 String text = (label != null ? label + " | " : "")
                     + "Chord: " + chord.symbol() + " | Function: " + chord.function();
-                wholeNoteBeat(factory, backing.getMeasure(i), chord.notes(), text);
+                wholeNoteBeat(factory, derived.getMeasure(i), chord.notes(), text);
+                wholeNoteBeat(
+                    factory, neutral.getMeasure(i), CMAJ.notes(),
+                    "Neutral canonical-C context | C major triad | no added 6/7/9"
+                );
                 wholeNoteBeat(
                     factory, bass.getMeasure(i),
                     new int[][]{{chord.bassString(), chord.bassFret()}},
@@ -275,10 +383,10 @@ public class BuildBh5432HarmonicAtlas {
                 );
             }
         }
-        song.addTrack(backing);
+        song.addTrack(derived);
+        song.addTrack(neutral);
         song.addTrack(bass);
-        addCyclePreview(factory, song, song.getTrack(0), cycle);
-        song.addTrack(cycle);
         write(Path.of(args[1]), song, factory);
+        write(Path.of(args[2]), createCycleReview(factory, song.getTrack(0)), factory);
     }
 }
