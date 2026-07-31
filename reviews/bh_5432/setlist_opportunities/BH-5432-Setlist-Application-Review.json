@@ -1,0 +1,110 @@
+{
+  "package": "BH-5432 Set-list Opportunity Engine",
+  "status": "needs_human_tuxguitar_review",
+  "doctrine": {
+    "1625_in_c": [
+      "C",
+      "Am",
+      "Dm",
+      "G/G7"
+    ],
+    "ii_v_i_default": [
+      "ii preparation",
+      "V primary opportunity",
+      "I resolution"
+    ]
+  },
+  "tier_1_count": 14,
+  "tier_1_examples": [
+    {
+      "tune": "Walls of Time",
+      "measure": 3,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "Walls of Time",
+      "measure": 14,
+      "family": "from 3",
+      "decision": "pending"
+    },
+    {
+      "tune": "I Feel the Blues Movin' In",
+      "measure": 10,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "I Feel the Blues Movin' In",
+      "measure": 13,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "Dig a Hole in the Meadow",
+      "measure": 3,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "Dig a Hole in the Meadow",
+      "measure": 6,
+      "family": "from 4",
+      "decision": "pending"
+    },
+    {
+      "tune": "Sarafina",
+      "measure": 14,
+      "family": "from 3",
+      "decision": "pending"
+    },
+    {
+      "tune": "Perfume, Powder and Lead",
+      "measure": 2,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "Rank Strangers",
+      "measure": 7,
+      "family": "from 5",
+      "decision": "pending"
+    },
+    {
+      "tune": "Rank Strangers",
+      "measure": 42,
+      "family": "9th arp",
+      "decision": "pending"
+    },
+    {
+      "tune": "Dear Old Dixie",
+      "measure": 20,
+      "family": "9th arp",
+      "decision": "pending"
+    },
+    {
+      "tune": "Dear Old Dixie",
+      "measure": 30,
+      "family": "from 3",
+      "decision": "pending"
+    },
+    {
+      "tune": "Somehow Tonight",
+      "measure": 8,
+      "family": "from 3",
+      "decision": "pending"
+    },
+    {
+      "tune": "Can't You Hear Me Calling",
+      "measure": 14,
+      "family": "from 3",
+      "decision": "pending"
+    }
+  ],
+  "user_decisions_required": [
+    "Confirm split-measure changes occur on beat 3.",
+    "Approve or revise each Tier 1 example in TuxGuitar before database approval.",
+    "Choose major and minor landing notes for the new short dominant connector.",
+    "Confirm melody space from rehearsal experience; supplied data contains harmony only."
+  ]
+}

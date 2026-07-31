@@ -26,7 +26,9 @@ def test_atlas_has_five_meaningful_tracks_and_all_source_measures():
         "Bass roots / harmonic guide",
     ]
     assert all(len(track.findall("TGMeasure")) == 43 for track in tracks)
-    assert len(root.findall(".//note")) == 844
+    # Human TuxGuitar review may add musically intentional notes; guard against loss,
+    # not against additive edits.
+    assert len(root.findall(".//note")) >= 844
 
 
 def test_atlas_preserves_source_annotations_and_adds_harmonic_labels():
