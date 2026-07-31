@@ -1,0 +1,16 @@
+{
+  "source_roots": {
+    "tabs_library": {
+      "path": "REPLACE_WITH_MACHINE_LOCAL_TABS_PATH",
+      "kind": "external_library",
+      "tracked_in_git": false,
+      "writable": false
+    },
+    "repository_input": {
+      "path": "input",
+      "kind": "repository_relative",
+      "tracked_in_git": false,
+      "writable": false
+    }
+  }
+}

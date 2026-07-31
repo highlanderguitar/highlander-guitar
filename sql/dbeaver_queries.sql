@@ -29,3 +29,15 @@ SELECT * FROM v_learner_need_coverage ORDER BY content_count, name;
 PRAGMA foreign_keys;
 PRAGMA foreign_key_check;
 PRAGMA integrity_check;
+
+-- SOURCE ROOTS AND FILE INVENTORY
+SELECT * FROM v_source_roots ORDER BY root_key;
+SELECT * FROM v_source_file_inventory ORDER BY root_key, relative_path;
+SELECT * FROM v_exact_musical_data_files ORDER BY root_key, relative_path;
+SELECT * FROM v_duplicate_source_hashes ORDER BY file_count DESC;
+SELECT * FROM v_proposed_source_packages ORDER BY title;
+SELECT * FROM v_unresolved_package_groupings ORDER BY title;
+SELECT * FROM v_source_parse_support ORDER BY root_key, extension;
+SELECT * FROM v_missing_source_files;
+SELECT * FROM v_changed_source_files;
+SELECT * FROM v_stale_source_extractions;

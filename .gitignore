@@ -24,6 +24,7 @@ var/
 # Machine-local and private source material
 .env
 .env.*
+configs/source_roots.local.json
 data/private/
 archive/chatgpt_exports/
 

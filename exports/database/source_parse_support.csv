@@ -1,0 +1,14 @@
+root_key,extension,parse_support_status,file_count
+repository_input,.gif,partial,1
+repository_input,.jpg,partial,2
+repository_input,.musicxml,supported,3
+repository_input,.pdf,partial,9
+repository_input,.png,partial,6
+repository_input,.svg,partial,6
+repository_input,.tg,partial,2
+repository_input,.webp,partial,7
+tabs_library,.mid,partial,8
+tabs_library,.musicxml,supported,18
+tabs_library,.mxl,supported,1
+tabs_library,.pdf,partial,13
+tabs_library,.tg,partial,60

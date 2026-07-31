@@ -1,6 +1,6 @@
 # Highlander content database summary
 
-Database: `C:\Users\highl\prism-archive\projects\_bootstrap\highlander_migration\highlander_render\.worktrees\content-database-ingestion\var\highlander_content.sqlite3`
+Database: `var/highlander_content.sqlite3`
 
 - content_items: 4
 - content_relationships: 2
@@ -13,8 +13,17 @@ Database: `C:\Users\highl\prism-archive\projects\_bootstrap\highlander_migration
 - play_this_layers: 1
 - play_this_scripts: 1
 - review_candidates: 4
-- schema_migrations: 2
+- schema_migrations: 3
 - source_claims: 4
+- source_extraction_candidates: 0
+- source_file_hashes: 136
+- source_files: 136
+- source_inventory_events: 272
+- source_inventory_runs: 2
+- source_package_files: 58
+- source_packages: 21
+- source_parse_attempts: 0
+- source_roots: 2
 - sources: 6
 - structural_units: 0
 - system_occurrences: 0

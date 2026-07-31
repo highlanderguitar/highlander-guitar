@@ -311,6 +311,18 @@ def validation_errors(path: Path = DEFAULT_DB_PATH) -> list[str]:
                 "SELECT * FROM v_missing_play_this_concepts",
             "invalid local repository path":
                 "SELECT id,repository_path FROM sources WHERE repository_path IS NOT NULL",
+            "source package has no files":
+                "SELECT p.id,p.slug FROM source_packages p LEFT JOIN source_package_files pf ON pf.source_package_id=p.id GROUP BY p.id HAVING COUNT(pf.source_file_id)=0",
+            "external source root incorrectly marked tracked":
+                "SELECT id,root_key FROM source_roots WHERE root_kind='external_library' AND tracked_in_git=1",
+            "configured source root unavailable":
+                "SELECT id,root_key,availability_status FROM source_roots WHERE is_active=1 AND availability_status<>'available'",
+            "indexed source file missing":
+                "SELECT id,relative_path,missing_status FROM source_files WHERE missing_status<>'present'",
+            "source file lacks root-relative identity":
+                "SELECT id,relative_path FROM source_files WHERE trim(relative_path)='' OR relative_path LIKE '/%' OR relative_path LIKE '%:%' OR relative_path LIKE '../%'",
+            "stale parse result":
+                "SELECT * FROM v_stale_source_extractions",
         }
         for label, sql in checks.items():
             rows = list(db.execute(sql))
@@ -356,6 +368,18 @@ EXPORTS = {
     "needs_review_records.csv": "SELECT * FROM v_needs_review_records ORDER BY entity_type,entity_slug",
     "source_provenance.csv": "SELECT * FROM v_source_provenance ORDER BY authority_level,slug",
     "skipped_files.csv": "SELECT repository_path,content_hash,reason FROM import_file_log WHERE disposition='skipped' ORDER BY repository_path",
+    "configured_source_roots.csv": "SELECT root_key,display_name,root_kind,availability_status FROM v_source_roots ORDER BY root_key",
+    "source_file_inventory.csv": "SELECT * FROM v_source_file_inventory ORDER BY root_key,relative_path",
+    "exact_musical_data_files.csv": "SELECT * FROM v_exact_musical_data_files ORDER BY root_key,relative_path",
+    "unsupported_source_files.csv": "SELECT * FROM v_unsupported_source_files ORDER BY root_key,relative_path",
+    "missing_source_files.csv": "SELECT * FROM v_missing_source_files ORDER BY root_key,relative_path",
+    "changed_source_files.csv": "SELECT * FROM v_changed_source_files ORDER BY root_key,relative_path",
+    "duplicate_source_hashes.csv": "SELECT * FROM v_duplicate_source_hashes ORDER BY file_count DESC,current_sha256",
+    "proposed_source_packages.csv": "SELECT * FROM v_proposed_source_packages ORDER BY title",
+    "unresolved_package_groupings.csv": "SELECT * FROM v_unresolved_package_groupings ORDER BY title",
+    "source_parse_support.csv": "SELECT * FROM v_source_parse_support ORDER BY root_key,extension",
+    "source_extraction_readiness.csv": "SELECT * FROM v_extraction_readiness ORDER BY title",
+    "stale_source_extractions.csv": "SELECT * FROM v_stale_source_extractions ORDER BY root_key,relative_path",
 }
 
 
@@ -390,9 +414,13 @@ def export(path: Path = DEFAULT_DB_PATH) -> None:
             r["name"]: db.execute(f'SELECT COUNT(*) FROM "{r["name"]}"').fetchone()[0]
             for r in db.execute("SELECT name FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%'")
         }
+        try:
+            display_path = path.relative_to(REPO_ROOT).as_posix()
+        except ValueError:
+            display_path = str(path)
         (EXPORT_DIR / "database_summary.md").write_text(
             "# Highlander content database summary\n\n"
-            f"Database: `{path}`\n\n"
+            f"Database: `{display_path}`\n\n"
             + "\n".join(f"- {name}: {count}" for name, count in sorted(counts.items()))
             + "\n",
             encoding="utf-8",
@@ -429,8 +457,9 @@ def status(path: Path = DEFAULT_DB_PATH) -> dict:
 
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Highlander content database")
-    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "validate", "export", "rebuild", "status"])
+    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "inventory-sources", "validate", "export", "rebuild", "status"])
     parser.add_argument("--database", type=Path, default=Path(os.environ.get("HIGHLANDER_DB_PATH", DEFAULT_DB_PATH)))
+    parser.add_argument("--full", action="store_true", help="Recompute all source hashes during inventory")
     args = parser.parse_args(argv)
     try:
         if args.command == "migrate":
@@ -439,6 +468,11 @@ def main(argv: Iterable[str] | None = None) -> int:
             print(json.dumps(seed(args.database), indent=2))
         elif args.command == "import-repository":
             print(json.dumps(import_repository(args.database), indent=2))
+        elif args.command == "inventory-sources":
+            from .inventory import inventory_sources
+            result = inventory_sources(args.database, full=args.full)
+            export(args.database)
+            print(json.dumps(result, indent=2))
         elif args.command == "validate":
             errors = validation_errors(args.database)
             print(json.dumps({"valid": not errors, "errors": errors}, indent=2))
