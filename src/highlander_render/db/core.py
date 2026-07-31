@@ -323,6 +323,18 @@ def validation_errors(path: Path = DEFAULT_DB_PATH) -> list[str]:
                 "SELECT id,relative_path FROM source_files WHERE trim(relative_path)='' OR relative_path LIKE '/%' OR relative_path LIKE '%:%' OR relative_path LIKE '../%'",
             "stale parse result":
                 "SELECT * FROM v_stale_source_extractions",
+            "lick source phrase without provenance":
+                "SELECT id,slug FROM lick_source_phrases WHERE trim(provenance)=''",
+            "lick note has invalid ordering or duration":
+                "SELECT id FROM lick_version_notes WHERE event_index<1 OR duration<=0",
+            "fingering has no tuning":
+                "SELECT id,slug FROM lick_fingerings WHERE trim(tuning)=''",
+            "generated fingering marked canonical":
+                "SELECT id,slug FROM lick_fingerings WHERE source_or_generated='generated' AND is_canonical=1",
+            "harmonic analysis has no system":
+                "SELECT id FROM lick_harmonic_analyses WHERE trim(analytical_system)=''",
+            "application has no harmonic context":
+                "SELECT id FROM lick_applications WHERE trim(chord_quality)=''",
         }
         for label, sql in checks.items():
             rows = list(db.execute(sql))
@@ -457,9 +469,11 @@ def status(path: Path = DEFAULT_DB_PATH) -> dict:
 
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Highlander content database")
-    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "inventory-sources", "validate", "export", "rebuild", "status"])
+    parser.add_argument("command", choices=["build", "migrate", "seed", "import-repository", "inventory-sources", "inspect-source-package", "compare-source-package", "extract-lick-package", "validate-licks", "list-licks", "show-lick", "transpose-lick", "generate-fingering-alternatives", "find-applications", "score-transitions", "export-lick-review", "validate", "export", "rebuild", "status"])
     parser.add_argument("--database", type=Path, default=Path(os.environ.get("HIGHLANDER_DB_PATH", DEFAULT_DB_PATH)))
     parser.add_argument("--full", action="store_true", help="Recompute all source hashes during inventory")
+    parser.add_argument("subject", nargs="?", default="bh-5432")
+    parser.add_argument("--semitones", type=int, default=0)
     args = parser.parse_args(argv)
     try:
         if args.command == "migrate":
@@ -473,6 +487,20 @@ def main(argv: Iterable[str] | None = None) -> int:
             result = inventory_sources(args.database, full=args.full)
             export(args.database)
             print(json.dumps(result, indent=2))
+        elif args.command in {"inspect-source-package","compare-source-package","extract-lick-package","validate-licks","list-licks","show-lick","transpose-lick","generate-fingering-alternatives","find-applications","score-transitions","export-lick-review"}:
+            from .licks import compare_package, export_lick_review, extract_package, package_info, transpose
+            if args.command == "inspect-source-package": result = package_info(args.database,args.subject)
+            elif args.command == "compare-source-package": result = compare_package(args.database,args.subject)
+            elif args.command in {"extract-lick-package","generate-fingering-alternatives","score-transitions"}: result = extract_package(args.database,args.subject)
+            elif args.command == "transpose-lick": result = transpose(args.database,args.subject,args.semitones)
+            elif args.command == "validate-licks": result = {"errors":validation_errors(args.database)}
+            elif args.command == "export-lick-review": export_lick_review(args.database); result={"export_dir":str(EXPORT_DIR)}
+            else:
+                with connect(args.database) as db:
+                    if args.command=="list-licks": result=[dict(r) for r in db.execute("SELECT * FROM v_lick_catalog")]
+                    elif args.command=="show-lick": result=[dict(r) for r in db.execute("SELECT * FROM v_lick_notes WHERE version=?",(args.subject,))]
+                    else: result=[dict(r) for r in db.execute("SELECT * FROM v_lick_applications WHERE version=?",(args.subject,))]
+            print(json.dumps(result,indent=2))
         elif args.command == "validate":
             errors = validation_errors(args.database)
             print(json.dumps({"valid": not errors, "errors": errors}, indent=2))

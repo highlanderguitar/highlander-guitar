@@ -17,11 +17,11 @@ def built_db(tmp_path: Path) -> Path:
 
 def test_clean_migration_and_ordering(tmp_path: Path) -> None:
     path = tmp_path / "clean.sqlite3"
-    assert migrate(path) == 3
+    assert migrate(path) == 4
     assert migrate(path) == 0
     with connect(path) as db:
         versions = [r[0] for r in db.execute("SELECT version FROM schema_migrations ORDER BY version")]
-    assert versions == sorted(versions) == ["001_content_database.sql", "002_ingestion_tracking.sql", "003_source_inventory.sql"]
+    assert versions == sorted(versions) == ["001_content_database.sql", "002_ingestion_tracking.sql", "003_source_inventory.sql", "004_lick_corpus.sql"]
 
 
 def test_clean_build_has_all_tables_and_views(tmp_path: Path) -> None:

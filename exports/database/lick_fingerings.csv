@@ -1,0 +1,7 @@
+version,fingering,instrument,tuning,string_set,min_fret,max_fret,fret_span,source_or_generated,review_status
+bh-5432-five-c-source,bh-5432-five-c-source-source,guitar,E4 B3 G3 D3 A2 E2,"2,3,4",9,12,3,source,accepted
+bh-5432-five-c-source,bh-5432-five-c-source-adjacent-string-set,guitar,E4 B3 G3 D3 A2 E2,"3,4,5",13,17,4,generated,needs_review
+bh-5432-four-c-source,bh-5432-four-c-source-source,guitar,E4 B3 G3 D3 A2 E2,"2,3,4",7,10,3,source,accepted
+bh-5432-four-c-source,bh-5432-four-c-source-adjacent-string-set,guitar,E4 B3 G3 D3 A2 E2,"3,4,5",12,15,3,generated,needs_review
+bh-5432-three-c-source,bh-5432-three-c-source-source,guitar,E4 B3 G3 D3 A2 E2,"2,3,4",7,10,3,source,accepted
+bh-5432-three-c-source,bh-5432-three-c-source-adjacent-string-set,guitar,E4 B3 G3 D3 A2 E2,"3,4,5",12,15,3,generated,needs_review

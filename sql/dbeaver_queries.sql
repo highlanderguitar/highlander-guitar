@@ -41,3 +41,12 @@ SELECT * FROM v_source_parse_support ORDER BY root_key, extension;
 SELECT * FROM v_missing_source_files;
 SELECT * FROM v_changed_source_files;
 SELECT * FROM v_stale_source_extractions;
+
+-- LICK CORPUS
+SELECT * FROM v_lick_catalog ORDER BY family,version;
+SELECT * FROM v_lick_notes ORDER BY version,event_index;
+SELECT * FROM v_lick_fingerings ORDER BY version,fingering;
+SELECT * FROM v_lick_applications ORDER BY version;
+SELECT * FROM v_lick_entry_exit ORDER BY version;
+SELECT * FROM v_lick_transition_scores ORDER BY total_score DESC;
+SELECT * FROM v_lick_needs_review ORDER BY entity,slug;
