@@ -17,6 +17,7 @@ def test_phrase_graph_migration_and_seed_are_ordered_and_idempotent(tmp_path: Pa
         "phrase_realizations": 16,
         "phrase_musical_dna": 7,
         "phrase_relationships": 7,
+        "setlist_phrase_candidates": 14,
     }
     with connect(database) as db:
         objects = {row[0] for row in db.execute("SELECT name FROM sqlite_schema")}

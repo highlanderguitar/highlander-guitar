@@ -3,6 +3,9 @@
   "status": "needs_human_tuxguitar_review",
   "canonical_count": 14,
   "tier_1_review_count": 9,
+  "phrase_review_count": 14,
+  "phrase_corpus": "Highlander Phrase Corpus",
+  "phrase_review_status": "native_parse_save_reopen_passed_human_playback_pending",
   "progression_authority": "user-supplied progressions",
   "source_files_are_read_only": true,
   "tier_1": {
@@ -22,6 +25,8 @@
     "Confirm Bright Sunny South sounding key A with capo 2.",
     "Confirm whether dixie-hoedown.tg is related to Dear Old Dixie.",
     "Align retained source lead arrangements to canonical forms before importing melody.",
-    "Approve Tier 1 review files in TuxGuitar before database approval."
+    "Approve Tier 1 review files in TuxGuitar before database approval.",
+    "Approve or reject each per-tune BH-Traversal phrase-review file in TuxGuitar.",
+    "Confirm the restricted minor, suspended, and split-measure traversal applications before database approval."
   ]
 }

@@ -69,7 +69,24 @@ def seed_phrase_graph(database: Path = DEFAULT_DB_PATH) -> dict[str, int]:
             destination_id=db.execute("SELECT id FROM phrases WHERE slug=?",(destination,)).fetchone()[0]
             db.execute("INSERT OR IGNORE INTO phrase_relationships(source_phrase_id,destination_phrase_id,relationship_type,harmonic_context,physical_route,entry_compatibility,exit_compatibility,rhythmic_compatibility,confidence,evidence,review_status,user_approval) VALUES (?,?,?,?,?,?,?,?,?,?,'needs_review','pending')",
                        (source_id,destination_id,kind,context,route,entry,exit_state,rhythm,confidence,evidence))
-        return {name: db.execute(f"SELECT COUNT(*) FROM {name}").fetchone()[0] for name in ("phrase_corpora","phrases","phrase_realizations","phrase_musical_dna","phrase_relationships")}
+        opportunity_path = REPO_ROOT / "analysis" / "bh_traversals_setlist_opportunities.csv"
+        if opportunity_path.exists():
+            phrase_slugs = {
+                "Up a 3rd, Down a Chord A": "bh-traversal-up3-down-chord-a",
+                "Up a 3rd, Down a Chord B": "bh-traversal-up3-down-chord-b",
+                "Down a 3rd, Down a Chord": "bh-traversal-down3-down-chord",
+            }
+            with opportunity_path.open(newline="", encoding="utf-8") as handle:
+                for row in csv.DictReader(handle):
+                    phrase_id = db.execute("SELECT id FROM phrases WHERE slug=?", (phrase_slugs[row["traversal_family"]],)).fetchone()[0]
+                    next_id = db.execute("SELECT id FROM phrases WHERE slug='bh-traversal-down3-up-chord'").fetchone()[0]
+                    bh_id = db.execute("SELECT id FROM phrases WHERE slug='bh-5432-from-3'").fetchone()[0] if "From 3" in row["best_bh5432_connection"] else None
+                    tune_slug = row["tune"].lower().replace("'","").replace(",","").replace(" ","_")
+                    if db.execute("SELECT 1 FROM setlist_phrase_candidates WHERE tune_slug=? AND measure_number=? AND beat=? AND phrase_id=?", (tune_slug,int(row["measure"]),float(row["beat"]),phrase_id)).fetchone():
+                        continue
+                    db.execute("INSERT OR IGNORE INTO setlist_phrase_candidates(tune_slug,section_label,measure_number,beat,preceding_chord,active_chord,following_chord,phrase_id,opportunity_window,musical_preconditions,available_duration,required_transposition,chord_relative_transformation,entry_note,exit_note,target_note,compatible_next_phrase_id,best_bh5432_phrase_id,physical_route,maximum_fret,confidence,restriction,review_status,user_approval) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'needs_review','pending')",
+                               (tune_slug,row["section"],int(row["measure"]),float(row["beat"]),row["preceding_chord"],row["active_chord"],row["following_chord"],phrase_id,row["opportunity_window"],row["musical_preconditions"],float(row["available_duration"].split()[0]),int(row["required_transposition"]),row["chord_relative_transformation"],row["entry_note"],row["exit_note"],row["target_note"],next_id,bh_id,row["physical_route"],int(row["maximum_fret"]),float(row["confidence"]),row["restriction"]))
+        return {name: db.execute(f"SELECT COUNT(*) FROM {name}").fetchone()[0] for name in ("phrase_corpora","phrases","phrase_realizations","phrase_musical_dna","phrase_relationships","setlist_phrase_candidates")}
 
 
 def export_phrase_graph(database: Path, output_dir: Path = REPO_ROOT / "analysis") -> None:
