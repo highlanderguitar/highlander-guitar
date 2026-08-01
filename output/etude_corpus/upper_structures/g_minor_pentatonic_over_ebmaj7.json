@@ -1,0 +1,437 @@
+{
+  "spec": {
+    "title": "G Minor Pentatonic Color Over Ebmaj7",
+    "tempo": 92,
+    "phrase_length": 10,
+    "tuning": [
+      40,
+      45,
+      50,
+      55,
+      59,
+      64
+    ],
+    "chord_progression": [
+      [
+        {
+          "symbol": "C",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "C",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Fm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Bb7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Ebmaj7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Ebmaj7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Fm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Bb7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Ebmaj7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Ebmaj7",
+          "beats": 4
+        }
+      ]
+    ],
+    "materialize_strong_beat_rests": true
+  },
+  "events": [
+    {
+      "measure": 3,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 2,
+      "fret": 8,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 3,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 3,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 3,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 4,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 4,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 4,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 4,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 5,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 2,
+      "fret": 8,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 5,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 5,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 5,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 6,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 6,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 3,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 6,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 6,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 7,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 3,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 7,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 7,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 7,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Fm7"
+    },
+    {
+      "measure": 8,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 8,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 8,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 8,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Bb7"
+    },
+    {
+      "measure": 9,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 2,
+      "fret": 8,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 9,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 2,
+      "fret": 11,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 9,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 9,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 10,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 10,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 70,
+      "string": 3,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 10,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    },
+    {
+      "measure": 10,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Ebmaj7"
+    }
+  ],
+  "source": {
+    "source": "p2, 00:11:29-00:13:53, image-0011",
+    "confidence": "high",
+    "status": "pedagogical reconstruction"
+  }
+}

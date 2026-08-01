@@ -1,0 +1,349 @@
+{
+  "spec": {
+    "title": "D Dorian Diatonic Fourth Cells",
+    "tempo": 92,
+    "phrase_length": 10,
+    "tuning": [
+      40,
+      45,
+      50,
+      55,
+      59,
+      64
+    ],
+    "chord_progression": [
+      [
+        {
+          "symbol": "C",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "C",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ],
+      [
+        {
+          "symbol": "Dm7",
+          "beats": 4
+        }
+      ]
+    ],
+    "materialize_strong_beat_rests": true
+  },
+  "events": [
+    {
+      "measure": 3,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 62,
+      "string": 3,
+      "fret": 7,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 3,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 2,
+      "fret": 8,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 3,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 72,
+      "string": 1,
+      "fret": 8,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 3,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 65,
+      "string": 2,
+      "fret": 6,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 4,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 71,
+      "string": 1,
+      "fret": 7,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 4,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 76,
+      "string": 1,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 4,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 69,
+      "string": 2,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 4,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 1,
+      "fret": 10,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 5,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 5,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 72,
+      "string": 2,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 5,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 5,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 71,
+      "string": 2,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 6,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 72,
+      "string": 2,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 6,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 79,
+      "string": 1,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 6,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 2,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 6,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 81,
+      "string": 1,
+      "fret": 17,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 7,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 76,
+      "string": 1,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 7,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 71,
+      "string": 2,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 7,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 77,
+      "string": 1,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 7,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 72,
+      "string": 2,
+      "fret": 13,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 8,
+      "onset": 0,
+      "duration": 8,
+      "midi_pitch": 67,
+      "string": 3,
+      "fret": 12,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 8,
+      "onset": 8,
+      "duration": 8,
+      "midi_pitch": 74,
+      "string": 2,
+      "fret": 15,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 8,
+      "onset": 16,
+      "duration": 8,
+      "midi_pitch": 69,
+      "string": 3,
+      "fret": 14,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    },
+    {
+      "measure": 8,
+      "onset": 24,
+      "duration": 8,
+      "midi_pitch": 64,
+      "string": 4,
+      "fret": 14,
+      "tie": [],
+      "articulation": [],
+      "chord_symbol": "Dm7"
+    }
+  ],
+  "source": {
+    "source": "p1, 00:00:10-00:05:10, image-0001",
+    "confidence": "high",
+    "status": "source-derived pedagogical realization"
+  }
+}

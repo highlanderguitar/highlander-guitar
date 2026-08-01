@@ -1,0 +1,318 @@
+{
+  "repaired": [
+    {
+      "id": "E01",
+      "path": "output\\etude_corpus\\intervallic\\d_dorian_diatonic_fourths.tg",
+      "track1": "E01 | Rosenwinkel Pattern | D Dorian Fourths | Source-derived",
+      "e05_preserved": true
+    },
+    {
+      "id": "E02",
+      "path": "output\\etude_corpus\\minor_harmony\\g_dorian_arrival_color.tg",
+      "track1": "E02 | Jim Hall / You'd Be So Nice | G Dorian Arrival | Source-derived",
+      "e05_preserved": true
+    },
+    {
+      "id": "E03",
+      "path": "output\\etude_corpus\\minor_harmony\\one_minor_across_minor_251.tg",
+      "track1": "E03 | Jim Hall / You'd Be So Nice | One-Minor ii-V-i | Reconstruction",
+      "e05_preserved": true
+    },
+    {
+      "id": "E04",
+      "path": "output\\etude_corpus\\upper_structures\\abmaj7_over_bb7.tg",
+      "track1": "E04 | Jim Hall / You'd Be So Nice | Abmaj7 over Bb7 | Reconstruction",
+      "e05_preserved": true
+    },
+    {
+      "id": "E05",
+      "path": "output\\etude_corpus\\upper_structures\\g_minor_pentatonic_over_ebmaj7.tg",
+      "track1": "E05 | Jim Hall / You'd Be So Nice | Gm Pent over Ebmaj7 | Reconstruction",
+      "e05_preserved": true
+    },
+    {
+      "id": "E06",
+      "path": "output\\etude_corpus\\intervallic\\jim_hall_fourths_through_251.tg",
+      "track1": "E06 | Jim Hall / You'd Be So Nice | Fourths Through ii-V-I | Source-derived",
+      "e05_preserved": true
+    },
+    {
+      "id": "E07",
+      "path": "output\\etude_corpus\\modal\\a_dorian_four_dominant.tg",
+      "track1": "E07 | Pat Martino / Impressions | IV-Dominant Lens | Reconstruction",
+      "e05_preserved": true
+    },
+    {
+      "id": "E08",
+      "path": "output\\etude_corpus\\arpeggios\\bm7_to_cmaj7_dorian.tg",
+      "track1": "E08 | Pat Martino / Impressions | Bm7-Cmaj7 Weave | Source-derived",
+      "e05_preserved": true
+    },
+    {
+      "id": "E09",
+      "path": "output\\etude_corpus\\modal\\a_melodic_minor_contrast.tg",
+      "track1": "E09 | Pat Martino / Impressions | Melodic Minor Contrast | Reconstruction",
+      "e05_preserved": true
+    }
+  ],
+  "created": [
+    {
+      "id": "E10A",
+      "path": "output\\etude_corpus\\form_navigation\\e10a_happy_birthday_a.tg",
+      "track1": "E10A | Marbin / Happy Birthday | Quarter-Note Chord-Tone Outline | Source-derived",
+      "meter": "4/4",
+      "source": "00:01:29-00:11:33"
+    },
+    {
+      "id": "E10B",
+      "path": "output\\etude_corpus\\form_navigation\\e10b_happy_birthday_b.tg",
+      "track1": "E10B | Marbin / Happy Birthday | Eighth-Note Etude | Reconstruction",
+      "meter": "4/4",
+      "source": "00:01:29-00:11:33"
+    },
+    {
+      "id": "E10C",
+      "path": "output\\etude_corpus\\form_navigation\\e10c_happy_birthday_c.tg",
+      "track1": "E10C | Marbin / Happy Birthday | Melody-Rhythm Arpeggio Realization | Source-derived",
+      "meter": "4/4",
+      "source": "00:01:29-00:11:33"
+    },
+    {
+      "id": "E10D",
+      "path": "output\\etude_corpus\\form_navigation\\e10d_happy_birthday_d.tg",
+      "track1": "E10D | Marbin / Happy Birthday | Free-Practice Backing | Reconstruction",
+      "meter": "4/4",
+      "source": "00:01:29-00:11:33"
+    },
+    {
+      "id": "E11A",
+      "path": "output\\etude_corpus\\form_navigation\\e11a_lonesome_whistle_a.tg",
+      "track1": "E11A | Marbin / Lonesome Whistle | Quarter-Note Chord-Tone Outline | Source-derived",
+      "meter": "3/4",
+      "source": "00:16:07-00:20:35"
+    },
+    {
+      "id": "E11B",
+      "path": "output\\etude_corpus\\form_navigation\\e11b_lonesome_whistle_b.tg",
+      "track1": "E11B | Marbin / Lonesome Whistle | Eighth-Note Etude | Reconstruction",
+      "meter": "3/4",
+      "source": "00:16:07-00:20:35"
+    },
+    {
+      "id": "E11C",
+      "path": "output\\etude_corpus\\form_navigation\\e11c_lonesome_whistle_c.tg",
+      "track1": "E11C | Marbin / Lonesome Whistle | Melody-Rhythm Arpeggio Realization | Source-derived",
+      "meter": "3/4",
+      "source": "00:16:07-00:20:35"
+    },
+    {
+      "id": "E11D",
+      "path": "output\\etude_corpus\\form_navigation\\e11d_lonesome_whistle_d.tg",
+      "track1": "E11D | Marbin / Lonesome Whistle | Free-Practice Backing | Reconstruction",
+      "meter": "3/4",
+      "source": "00:16:07-00:20:35"
+    },
+    {
+      "id": "E12A",
+      "path": "output\\etude_corpus\\form_navigation\\e12a_hotel_california_a.tg",
+      "track1": "E12A | Marbin / Hotel California | Quarter-Note Chord-Tone Outline | Source-derived",
+      "meter": "4/4",
+      "source": "00:21:03-00:22:02; images-0169-0176"
+    },
+    {
+      "id": "E12B",
+      "path": "output\\etude_corpus\\form_navigation\\e12b_hotel_california_b.tg",
+      "track1": "E12B | Marbin / Hotel California | Eighth-Note Etude | Reconstruction",
+      "meter": "4/4",
+      "source": "00:21:03-00:22:02; images-0169-0176"
+    },
+    {
+      "id": "E12C",
+      "path": "output\\etude_corpus\\form_navigation\\e12c_hotel_california_c.tg",
+      "track1": "E12C | Marbin / Hotel California | Melody-Rhythm Arpeggio Realization | Source-derived",
+      "meter": "4/4",
+      "source": "00:21:03-00:22:02; images-0169-0176"
+    },
+    {
+      "id": "E12D",
+      "path": "output\\etude_corpus\\form_navigation\\e12d_hotel_california_d.tg",
+      "track1": "E12D | Marbin / Hotel California | Free-Practice Backing | Reconstruction",
+      "meter": "4/4",
+      "source": "00:21:03-00:22:02; images-0169-0176"
+    }
+  ],
+  "superseded": "output/etude_corpus/superseded/E10_superseded_generic_form_outline.tg",
+  "validation": [
+    {
+      "file": "output\\etude_corpus\\arpeggios\\bm7_to_cmaj7_dorian.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 14,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e10a_happy_birthday_a.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e10b_happy_birthday_b.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 12,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e10c_happy_birthday_c.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 12,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e10d_happy_birthday_d.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e11a_lonesome_whistle_a.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 12,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e11b_lonesome_whistle_b.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 12,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e11c_lonesome_whistle_c.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 9,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e11d_lonesome_whistle_d.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e12a_hotel_california_a.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 7,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e12b_hotel_california_b.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 7,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e12c_hotel_california_c.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\form_navigation\\e12d_hotel_california_d.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\intervallic\\d_dorian_diatonic_fourths.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\intervallic\\jim_hall_fourths_through_251.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 16,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\minor_harmony\\g_dorian_arrival_color.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\minor_harmony\\one_minor_across_minor_251.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\modal\\a_dorian_four_dominant.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\modal\\a_melodic_minor_contrast.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\upper_structures\\abmaj7_over_bb7.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "output\\etude_corpus\\upper_structures\\g_minor_pentatonic_over_ebmaj7.tg",
+      "track_count": 4,
+      "illegal_rhythm_notes": 0,
+      "illegal_bass_events": 0,
+      "max_lead_fret": 15,
+      "status": "PASS"
+    }
+  ],
+  "e05_preservation": "PASS",
+  "illegal_rhythm_notes": 0,
+  "illegal_bass_events": 0
+}
