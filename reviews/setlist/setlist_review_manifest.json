@@ -6,10 +6,21 @@
   "phrase_review_count": 14,
   "phrase_corpus": "Highlander Phrase Corpus",
   "phrase_review_status": "native_parse_save_reopen_passed_human_playback_pending",
-  "progression_authority": "user-supplied progressions",
+  "progression_authority": "user-supplied progressions except Walls of Time, whose authority is walls-of-time-source.tg",
+  "walls_of_time_source_authority": {
+    "path": "reviews/setlist/walls_of_time/source_working_copy/walls-of-time-source.tg",
+    "sha256": "49309abaf32b5dc91ed9ce243cb0dd9136da53168b507146382957a43ea00a52",
+    "measure_count": 49,
+    "capo": 4,
+    "tempo": 140,
+    "meter": "4/4",
+    "canonical_rhythm_role": "Canonical Rhythm",
+    "prior_17_measure_scaffold": "superseded",
+    "phrase_locations": "provisional_remap_required"
+  },
   "source_files_are_read_only": true,
   "tier_1": {
-    "walls_of_time": "tune m3: from 5 over repeated played-G/sounding-B tonic",
+    "walls_of_time": "STALE: prior m3 placement referenced superseded 17-measure scaffold; remap against 49-measure source authority",
     "i_feel_the_blues_movin_in": "tune m10: from 5 over long played-G/sounding-B tonic",
     "dig_a_hole_in_the_meadow": "tune m3: from 5 over static C",
     "sarafina": "tune m15: from 5 over first of two D tonic measures",
