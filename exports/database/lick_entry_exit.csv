@@ -1,0 +1,4 @@
+slug,first_pitch,entry_beat,entry_string,entry_fret,final_pitch,exit_beat,exit_string,exit_fret,resolution_status
+bh-5432-five-c-source,B3,1.0,4,9,E4,4.0,3,9,open
+bh-5432-four-c-source,C4,1.0,4,10,E4,3.0,3,9,open
+bh-5432-three-c-source,G4,1.0,2,8,E4,2.5,3,9,open

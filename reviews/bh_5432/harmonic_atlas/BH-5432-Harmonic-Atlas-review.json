@@ -1,0 +1,711 @@
+{
+  "package": "BH-5432",
+  "authority": "C:\\Users\\highl\\OneDrive\\Desktop\\Tabs\\BH-5432.tg",
+  "status": "needs_review",
+  "application_layers": {
+    "neutral_major": "C major triad generally; user-corrected G major at measure 26",
+    "structure_derived": "section-specific Cmaj7/Cmaj9 hypotheses; G major at measure 26",
+    "neutral_cycle": "major triads synchronized in five-measure sections",
+    "cycle_alternates": "all cycle licks one octave lower with acoustic-safe fingering",
+    "sixth_chord_preview": "future BH6 review; not canonical",
+    "dominant_alternatives": "unresolved; no default dominant backing"
+  },
+  "decisions": [
+    {
+      "section": "from 5",
+      "source_measures": [
+        1,
+        1
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "from 4",
+      "source_measures": [
+        2,
+        7
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "from 3",
+      "source_measures": [
+        8,
+        8
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "from 2",
+      "source_measures": [
+        10,
+        11
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "ALL TOGETHER",
+      "source_measures": [
+        12,
+        20
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "9th arp",
+      "source_measures": [
+        21,
+        21
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "additional upper-position variants",
+      "source_measures": [
+        22,
+        25
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "G lick",
+      "source_measures": [
+        26,
+        26
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "additional upper-position variants",
+      "source_measures": [
+        27,
+        28
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "low-position instructional material",
+      "source_measures": [
+        30,
+        31
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "upper-register application material",
+      "source_measures": [
+        33,
+        40
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    },
+    {
+      "section": "closing transition variants",
+      "source_measures": [
+        42,
+        43
+      ],
+      "status": "needs_review",
+      "choices": {
+        "section_name": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "section_boundary": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "starting_degree": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "active_chord": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "harmonic_function": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "entry_opportunity": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "target_note": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "resolution": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "original_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "alternate_fingering": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "backing_chord_voicing": {
+          "decision": "pending",
+          "revision": ""
+        },
+        "cycle_of_fourths_realization": {
+          "decision": "pending",
+          "revision": ""
+        }
+      }
+    }
+  ]
+}

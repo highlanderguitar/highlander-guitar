@@ -1,0 +1,4 @@
+version,chord_quality,progression_context,target_degree,confidence,review_status
+bh-5432-five-c-source,major-sixth,static canonical C definition,varies,medium,needs_review
+bh-5432-four-c-source,major-sixth,static canonical C definition,varies,medium,needs_review
+bh-5432-three-c-source,major-sixth,static canonical C definition,varies,medium,needs_review

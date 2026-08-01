@@ -1,0 +1,10 @@
+entity,before_ingestion,after_ingestion,net_change
+tunes,1,2,1
+systems,0,2,2
+lenses,4,14,10
+learner_needs,3,6,3
+teachable_moments,1,5,4
+content_items,1,4,3
+content_relationships,0,2,2
+sources,1,6,5
+source_claims,1,4,3

@@ -1,0 +1,54 @@
+{
+  "batch": "001-take-five-and-doctrine",
+  "sources": [
+    {"slug":"take-five-play-this-inventory","title":"Take Five Play This Inventory","path":"exports/take_five_play_this_inventory.csv","hash":"7b7181c5635b2c3cc4b678cf9e0c31730e26e471ae837f7f385c15a7bbda30cb","authority":"highlander","status":"proposed"},
+    {"slug":"take-five-teachable-moments","title":"Take Five Teachable Moments","path":"exports/take_five_teachable_moments.csv","hash":"6c8730c9db2825009bd1cebc0aea1e65059e6daffbc9c1a9789f5f44f0bbfb5e","authority":"highlander","status":"provisional"},
+    {"slug":"highlander-constitution","title":"Highlander Constitution","path":"docs/highlander_constitution.md","hash":"f7c6fc8efce1e0e96dfad28e993356f3f902e25494b11af0764a7126e75529fb","authority":"canonical","status":"canonical"},
+    {"slug":"minor-pent-guardrail-doctrine","title":"Minor Pentatonic Guardrail Doctrine","path":"fixtures/minor_pent_guardrail_doctrine.yaml","hash":"c0cb5b785d736220e362a0b264c8e8191abd3a85460a2d312a457e79202bd47a","authority":"canonical","status":"canonical"},
+    {"slug":"air-mail-external-claims","title":"Air Mail Special External Claims","path":"exports/air_mail_special_external_claims.csv","hash":"3b2b3622080c74243c05c55531b17924ca73a4dd4c176b41bf38b6c6582fbbc5","authority":"external","status":"needs_review"}
+  ],
+  "tunes": [
+    {"slug":"take-five","title":"Take Five","status":"provisional","source":"take-five-teachable-moments"}
+  ],
+  "systems": [
+    {"slug":"five-four-vamp","name":"5/4 Vamp Pulse","description":"Feel five as a repeatable 3+2 vamp rather than a counting problem.","status":"provisional"},
+    {"slug":"minor-pentatonic-guardrail","name":"Minor Pentatonic Guardrail","description":"Canonical rectangle and stack topology for minor pentatonic.","status":"canonical"}
+  ],
+  "lenses": [
+    {"slug":"five-four-pulse","name":"5/4 Pulse"},{"slug":"three-plus-two-grouping","name":"3+2 Grouping"},
+    {"slug":"accompaniment-texture","name":"Accompaniment Texture"},{"slug":"groove","name":"Groove"},
+    {"slug":"melody-skeleton","name":"Melody Skeleton"},{"slug":"target-tone","name":"Target Tone"},
+    {"slug":"phrase-entry","name":"Phrase Entry"},{"slug":"harmonic-inference","name":"Harmonic Inference"},
+    {"slug":"guide-tones","name":"Guide Tones"},{"slug":"source-priority","name":"Source Priority"}
+  ],
+  "learner_needs": [
+    {"slug":"five-four-freeze","name":"Stop freezing when the bar has five beats"},
+    {"slug":"melody-over-vamp","name":"Keep the melody from floating away from the pulse"},
+    {"slug":"shell-before-symbol","name":"Understand harmony from voicing content rather than external charts"}
+  ],
+  "moments": [
+    {"slug":"feel-five-as-vamp","title":"Feel Five As A Vamp, Not A Math Problem","description":"Play the rhythm shell on beats 1-5 while saying long-short.","system":"five-four-vamp","source":"take-five-teachable-moments","status":"provisional","lenses":["five-four-pulse","three-plus-two-grouping","accompaniment-texture","groove"]},
+    {"slug":"melody-on-vamp","title":"Put The Melody On Top Of The Vamp","description":"Play only the first melody target in each measure against the rhythm shell.","system":"five-four-vamp","source":"take-five-teachable-moments","status":"provisional","lenses":["melody-skeleton","target-tone","phrase-entry"]},
+    {"slug":"rhythm-track-names-chords","title":"Let The Rhythm Track Name The Chords","description":"Strum each shell and name chord tones before reading an inferred symbol.","source":"take-five-teachable-moments","status":"needs_review","lenses":["harmonic-inference","guide-tones","source-priority"]},
+    {"slug":"odd-meter-pickup-placement","title":"Odd-Meter Pickup Placement","description":"Count 1-2-3-4-5 and enter on the written pickup beat.","system":"five-four-vamp","source":"take-five-teachable-moments","status":"provisional","lenses":["five-four-pulse","phrase-entry"]}
+  ],
+  "play_this": [
+    {"slug":"take-five-five-without-freezing","title":"Play This: Five Without Freezing","need":"five-four-freeze","moment":"feel-five-as-vamp","seed":"Rhythm shell, measures 1-4","opening":"PLAY THIS. Strum the rhythm shell five times per bar and say long-short.","ending":"So now you know what to do when five-four makes your hand stop.","part2":"proposed","evidence":"exports/take_five_play_this_inventory.csv row 1"},
+    {"slug":"take-five-melody-targets-over-vamp","title":"Play This: Melody Targets Over The Vamp","need":"melody-over-vamp","moment":"melody-on-vamp","seed":"First melody target in each measure, measures 1-8","opening":"PLAY THIS. Keep the vamp going in your ear and play only the melody targets.","ending":"So now you know where the melody lands inside five.","part2":"proposed","evidence":"exports/take_five_play_this_inventory.csv row 2"},
+    {"slug":"take-five-name-shell-before-chord","title":"Play This: Name The Shell Before The Chord","need":"shell-before-symbol","moment":"rhythm-track-names-chords","seed":"Rhythm-track shell voicings","opening":"PLAY THIS. Strum the shell and name the notes before saying the chord name.","ending":"So now you know how to trust the voicing before the chart.","part2":"proposed","evidence":"exports/take_five_play_this_inventory.csv row 3"}
+  ],
+  "claims": [
+    {"source":"highlander-constitution","text":"Highlander prioritizes chord-tone awareness before color.","type":"doctrine","status":"accepted","canonical":true},
+    {"source":"highlander-constitution","text":"Highlander prioritizes voice-leading and target-tone behavior before pattern collection.","type":"doctrine","status":"accepted","canonical":true},
+    {"source":"air-mail-external-claims","text":"Teach diminished arpeggio skeleton before whole-half scale.","type":"external_doctrine_candidate","status":"unreviewed","canonical":false}
+  ],
+  "relationships": [
+    {"from":"take-five-five-without-freezing","to":"take-five-melody-targets-over-vamp","type":"prerequisite","notes":"The Play This inventory explicitly proposes adding the melody skeleton after the rhythm shell."},
+    {"from":"take-five-five-without-freezing","to":"take-five-name-shell-before-chord","type":"prerequisite","notes":"The rhythm shell is the shared playable seed for naming its chord tones."}
+  ],
+  "skips": [
+    {"path":"exports/take_five_phrase_inventory.csv","hash":"5fbef581fce99685f70e4cfed68e1fa656014ea41382bcc6adaea7329cae46f4","reason":"Phrase schema and harmonic target review are outside batch 001."},
+    {"path":"exports/air_mail_special_new_teachable_moments.csv","hash":"34ebe5c4d8c19b9ab58849163d2222fd06084f113d65b1ff99dfb4c148b59f13","reason":"Mixed Highlander synthesis and external evidence requires row-level adjudication."},
+    {"path":"analysis/swing_51/manifest.json","hash":"c3e161858bd578b0c0961091b29144a7b37972e089ea6f80325ee55644f91ff0","reason":"Output manifest lacks explicit curriculum entity semantics."}
+  ]
+}

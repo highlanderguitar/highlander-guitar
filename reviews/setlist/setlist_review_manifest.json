@@ -1,0 +1,44 @@
+{
+  "library": "Highlander set-list practice scaffolds",
+  "status": "needs_human_tuxguitar_review",
+  "canonical_count": 14,
+  "tier_1_review_count": 9,
+  "phrase_review_count": 14,
+  "phrase_corpus": "Highlander Phrase Corpus",
+  "phrase_review_status": "native_parse_save_reopen_passed_human_playback_pending",
+  "progression_authority": "user-supplied progressions except Walls of Time, whose authority is walls-of-time-source.tg",
+  "walls_of_time_source_authority": {
+    "path": "reviews/setlist/walls_of_time/source_working_copy/walls-of-time-source.tg",
+    "sha256": "49309abaf32b5dc91ed9ce243cb0dd9136da53168b507146382957a43ea00a52",
+    "measure_count": 49,
+    "capo": 4,
+    "tempo": 140,
+    "meter": "4/4",
+    "canonical_rhythm_role": "Canonical Rhythm",
+    "review_analysis_track": "Simple Chord Bed — Analysis Only",
+    "prior_17_measure_scaffold": "superseded",
+    "phrase_locations": "provisional_remap_required"
+  },
+  "source_files_are_read_only": true,
+  "tier_1": {
+    "walls_of_time": "STALE: prior m3 placement referenced superseded 17-measure scaffold; remap against 49-measure source authority",
+    "i_feel_the_blues_movin_in": "tune m10: from 5 over long played-G/sounding-B tonic",
+    "dig_a_hole_in_the_meadow": "tune m3: from 5 over static C",
+    "sarafina": "tune m15: from 5 over first of two D tonic measures",
+    "perfume_powder_and_lead": "tune m2: from 5 over opening G plateau",
+    "rank_strangers": "tune m41-43: from 3 over G/G7, continuation space, then C",
+    "dear_old_dixie": "tune m15-17: from 3 over first D, continuation on second D, then G",
+    "somehow_tonight": "tune m7-9: from 3 over first D, continuation on second D, then G",
+    "cant_you_hear_me_calling": "tune m2: from 5 over opening G; short final D excluded"
+  },
+  "decisions_required": [
+    "Confirm all split changes occur on beat 3.",
+    "Confirm default tempos for tunes without exact TG sources.",
+    "Confirm Bright Sunny South sounding key A with capo 2.",
+    "Confirm whether dixie-hoedown.tg is related to Dear Old Dixie.",
+    "Align retained source lead arrangements to canonical forms before importing melody.",
+    "Approve Tier 1 review files in TuxGuitar before database approval.",
+    "Approve or reject each per-tune BH-Traversal phrase-review file in TuxGuitar.",
+    "Confirm the restricted minor, suspended, and split-measure traversal applications before database approval."
+  ]
+}

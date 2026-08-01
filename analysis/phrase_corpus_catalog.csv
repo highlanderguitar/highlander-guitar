@@ -1,0 +1,8 @@
+corpus,slug,name,family,phrase_kind,measure_start,measure_end,review_status,user_approval
+highlander-phrase-corpus,bh-5432-from-3,BH-5432 From 3,BH-5432,lick,3,3,needs_review,pending
+highlander-phrase-corpus,bh-5432-from-4,BH-5432 From 4,BH-5432,lick,2,2,needs_review,pending
+highlander-phrase-corpus,bh-5432-from-5,BH-5432 From 5,BH-5432,lick,1,1,needs_review,pending
+highlander-phrase-corpus,bh-traversal-down3-down-chord,"Down a 3rd, Down a Chord",BH Traversals,traversal,12,14,needs_review,pending
+highlander-phrase-corpus,bh-traversal-down3-up-chord,"Down a 3rd, Up a Chord",BH Traversals,traversal,16,19,needs_review,pending
+highlander-phrase-corpus,bh-traversal-up3-down-chord-a,"Up a 3rd, Down a Chord A",BH Traversals,traversal,1,4,needs_review,pending
+highlander-phrase-corpus,bh-traversal-up3-down-chord-b,"Up a 3rd, Down a Chord B",BH Traversals,traversal,6,10,needs_review,pending

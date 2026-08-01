@@ -1,0 +1,576 @@
+file,track,section_id,measure,absolute_start_tick,absolute_end_tick,meter,tempo,status,intended_chord,intended_lick,text,alignment_status
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 5,1,2882880,14414400,4/4,120,sounding,Cmaj7,from 5,"""5"" arrives at the 5, then jumps down to 7 1 4 3",aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,2,14414400,25945920,4/4,120,sounding,Cmaj9,from 4,"""4"" plays the 4, then jumps down to 2 b3 3",aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,3,25945920,37477440,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,4,37477440,49008960,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,5,49008960,60540480,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,6,60540480,72072000,4/4,120,sounding,Cmaj9,from 4,idea from all this...,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 4,7,72072000,83603520,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 3,8,83603520,95135040,4/4,120,sounding,Cmaj9,from 3,"""3""",aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,separator,9,95135040,106666560,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 2,10,106666560,118198080,4/4,120,sounding,Cmaj9,from 2,"""2"" walks to 2, jumps down to 5, then back up to the 2",aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,from 2,11,118198080,129729600,4/4,120,sounding,Cmaj9,from 2,"""2"" walks to the 2, jumps down to the 5, then back up to the 2",aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,12,129729600,141261120,4/4,120,sounding,Cmaj9,ALL TOGETHER,ALL TOGETHER | R,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,13,141261120,152792640,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,14,152792640,164324160,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,15,164324160,175855680,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,16,175855680,187387200,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,17,187387200,198918720,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,18,198918720,210450240,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,19,210450240,221981760,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,ALL TOGETHER,20,221981760,233513280,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,9th arp,21,233513280,245044800,4/4,120,sounding,Cmaj9,9th arp,9th arp | I,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,22,245044800,256576320,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,23,256576320,268107840,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,24,268107840,279639360,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,25,279639360,291170880,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,G lick,26,291170880,302702400,4/4,120,sounding,G,G lick,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,27,302702400,314233920,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,additional upper-position variants,28,314233920,325765440,4/4,120,sounding,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,separator,29,325765440,337296960,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,low-position instructional material,30,337296960,348828480,4/4,120,sounding,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,low-position instructional material,31,348828480,360360000,4/4,120,sounding,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,separator,32,360360000,371891520,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,33,371891520,383423040,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,34,383423040,394954560,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,35,394954560,406486080,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,36,406486080,418017600,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,37,418017600,429549120,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,38,429549120,441080640,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,39,441080640,452612160,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,upper-register application material,40,452612160,464143680,4/4,120,sounding,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,separator,41,464143680,475675200,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,closing transition variants,42,475675200,487206720,4/4,120,sounding,Cmaj9,closing transition variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Canonical lick material,closing transition variants,43,487206720,498738240,4/4,120,sounding,Cmaj9,closing transition variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 5,1,2882880,14414400,4/4,120,sounding,Cmaj7,from 5,"""5"" arrives at the 5, then jumps down to 7 1 4 3",aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,2,14414400,25945920,4/4,120,sounding,Cmaj9,from 4,"""4"" plays the 4, then jumps down to 2 b3 3",aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,3,25945920,37477440,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,4,37477440,49008960,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,5,49008960,60540480,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,6,60540480,72072000,4/4,120,sounding,Cmaj9,from 4,idea from all this...,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 4,7,72072000,83603520,4/4,120,sounding,Cmaj9,from 4,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 3,8,83603520,95135040,4/4,120,sounding,Cmaj9,from 3,"""3""",aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,separator,9,95135040,106666560,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 2,10,106666560,118198080,4/4,120,sounding,Cmaj9,from 2,"""2"" walks to 2, jumps down to 5, then back up to the 2",aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,from 2,11,118198080,129729600,4/4,120,sounding,Cmaj9,from 2,"""2"" walks to the 2, jumps down to the 5, then back up to the 2",aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,12,129729600,141261120,4/4,120,sounding,Cmaj9,ALL TOGETHER,ALL TOGETHER | R,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,13,141261120,152792640,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,14,152792640,164324160,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,15,164324160,175855680,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,16,175855680,187387200,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,17,187387200,198918720,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,18,198918720,210450240,4/4,120,sounding,Cmaj9,ALL TOGETHER,R,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,19,210450240,221981760,4/4,120,sounding,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,ALL TOGETHER,20,221981760,233513280,4/4,120,rest/empty,Cmaj9,ALL TOGETHER,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,9th arp,21,233513280,245044800,4/4,120,rest/empty,Cmaj9,9th arp,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,22,245044800,256576320,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,23,256576320,268107840,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,24,268107840,279639360,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,25,279639360,291170880,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,G lick,26,291170880,302702400,4/4,120,rest/empty,G,G lick,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,27,302702400,314233920,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,additional upper-position variants,28,314233920,325765440,4/4,120,rest/empty,Cmaj9,additional upper-position variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,separator,29,325765440,337296960,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,low-position instructional material,30,337296960,348828480,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,low-position instructional material,31,348828480,360360000,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,separator,32,360360000,371891520,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,33,371891520,383423040,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,34,383423040,394954560,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,35,394954560,406486080,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,36,406486080,418017600,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,37,418017600,429549120,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,38,429549120,441080640,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,39,441080640,452612160,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,upper-register application material,40,452612160,464143680,4/4,120,rest/empty,Cmaj9,upper-register application material,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,separator,41,464143680,475675200,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,closing transition variants,42,475675200,487206720,4/4,120,rest/empty,Cmaj9,closing transition variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Alternate / banjo realization,closing transition variants,43,487206720,498738240,4/4,120,rest/empty,Cmaj9,closing transition variants,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 5,1,2882880,14414400,4/4,120,sounding,Cmaj7,from 5,FROM 5 | Cmaj7 hypothesis | stable C E G B; chromatic descent ornamental | NEEDS REVIEW | Chord: Cmaj7 | Function: Imaj7 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,2,14414400,25945920,4/4,120,sounding,Cmaj9,from 4,FROM 4 | Cmaj9 hypothesis | C E G B D structural; chromatic approaches | NEEDS REVIEW | Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,3,25945920,37477440,4/4,120,sounding,Cmaj9,from 4,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,4,37477440,49008960,4/4,120,sounding,Cmaj9,from 4,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,5,49008960,60540480,4/4,120,sounding,Cmaj9,from 4,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,6,60540480,72072000,4/4,120,sounding,Cmaj9,from 4,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 4,7,72072000,83603520,4/4,120,sounding,Cmaj9,from 4,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 3,8,83603520,95135040,4/4,120,sounding,Cmaj9,from 3,FROM 3 | Cmaj9 / G13 comparison unresolved | NEEDS REVIEW | Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,separator,9,95135040,106666560,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 2,10,106666560,118198080,4/4,120,sounding,Cmaj9,from 2,FROM 2 | Cmaj9 hypothesis; C-C#-D approach to 9th | NEEDS REVIEW | Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,from 2,11,118198080,129729600,4/4,120,sounding,Cmaj9,from 2,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,12,129729600,141261120,4/4,120,sounding,Cmaj9,ALL TOGETHER,ALL TOGETHER | Entry: sequence opportunity | Status: PROVISIONAL - REVIEW | Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,13,141261120,152792640,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,14,152792640,164324160,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,15,164324160,175855680,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,16,175855680,187387200,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,17,187387200,198918720,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,18,198918720,210450240,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,19,210450240,221981760,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,ALL TOGETHER,20,221981760,233513280,4/4,120,sounding,Cmaj9,ALL TOGETHER,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,9th arp,21,233513280,245044800,4/4,120,sounding,Cmaj9,9th arp,"9th arp | Cmaj9 hypothesis (B natural, not C9) | NEEDS REVIEW | Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS)",aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,22,245044800,256576320,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,23,256576320,268107840,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,24,268107840,279639360,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,25,279639360,291170880,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,G lick,26,291170880,302702400,4/4,120,sounding,G,G lick,G LICK | G major backing | USER-CORRECTED | Chord: G | Function: G MAJOR (USER-CORRECTED),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,27,302702400,314233920,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,additional upper-position variants,28,314233920,325765440,4/4,120,sounding,Cmaj9,additional upper-position variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,separator,29,325765440,337296960,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,low-position instructional material,30,337296960,348828480,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,low-position instructional material,31,348828480,360360000,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,separator,32,360360000,371891520,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,33,371891520,383423040,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,34,383423040,394954560,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,35,394954560,406486080,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,36,406486080,418017600,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,37,418017600,429549120,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,38,429549120,441080640,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,39,441080640,452612160,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,upper-register application material,40,452612160,464143680,4/4,120,sounding,Cmaj9,upper-register application material,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,separator,41,464143680,475675200,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,closing transition variants,42,475675200,487206720,4/4,120,sounding,Cmaj9,closing transition variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Structure-Derived Backing - NEEDS REVIEW,closing transition variants,43,487206720,498738240,4/4,120,sounding,Cmaj9,closing transition variants,Chord: Cmaj9 | Function: Imaj9 (HYPOTHESIS),aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 5,1,2882880,14414400,4/4,120,sounding,Cmaj7,from 5,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,2,14414400,25945920,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,3,25945920,37477440,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,4,37477440,49008960,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,5,49008960,60540480,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,6,60540480,72072000,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 4,7,72072000,83603520,4/4,120,sounding,Cmaj9,from 4,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 3,8,83603520,95135040,4/4,120,sounding,Cmaj9,from 3,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,separator,9,95135040,106666560,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 2,10,106666560,118198080,4/4,120,sounding,Cmaj9,from 2,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,from 2,11,118198080,129729600,4/4,120,sounding,Cmaj9,from 2,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,12,129729600,141261120,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,13,141261120,152792640,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,14,152792640,164324160,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,15,164324160,175855680,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,16,175855680,187387200,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,17,187387200,198918720,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,18,198918720,210450240,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,19,210450240,221981760,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,ALL TOGETHER,20,221981760,233513280,4/4,120,sounding,Cmaj9,ALL TOGETHER,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,9th arp,21,233513280,245044800,4/4,120,sounding,Cmaj9,9th arp,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,22,245044800,256576320,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,23,256576320,268107840,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,24,268107840,279639360,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,25,279639360,291170880,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,G lick,26,291170880,302702400,4/4,120,sounding,G,G lick,User-corrected context | G major triad | G lick requires G backing,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,27,302702400,314233920,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,additional upper-position variants,28,314233920,325765440,4/4,120,sounding,Cmaj9,additional upper-position variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,separator,29,325765440,337296960,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,low-position instructional material,30,337296960,348828480,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,low-position instructional material,31,348828480,360360000,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,separator,32,360360000,371891520,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,33,371891520,383423040,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,34,383423040,394954560,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,35,394954560,406486080,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,36,406486080,418017600,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,37,418017600,429549120,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,38,429549120,441080640,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,39,441080640,452612160,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,upper-register application material,40,452612160,464143680,4/4,120,sounding,Cmaj9,upper-register application material,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,separator,41,464143680,475675200,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,closing transition variants,42,475675200,487206720,4/4,120,sounding,Cmaj9,closing transition variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Neutral Backing - MAJOR TRIADS,closing transition variants,43,487206720,498738240,4/4,120,sounding,Cmaj9,closing transition variants,Neutral canonical-C context | C major triad | no added 6/7/9,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 5,1,2882880,14414400,4/4,120,sounding,Cmaj7,from 5,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,2,14414400,25945920,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,3,25945920,37477440,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,4,37477440,49008960,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,5,49008960,60540480,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,6,60540480,72072000,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 4,7,72072000,83603520,4/4,120,sounding,Cmaj9,from 4,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 3,8,83603520,95135040,4/4,120,sounding,Cmaj9,from 3,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,separator,9,95135040,106666560,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 2,10,106666560,118198080,4/4,120,sounding,Cmaj9,from 2,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,from 2,11,118198080,129729600,4/4,120,sounding,Cmaj9,from 2,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,12,129729600,141261120,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,13,141261120,152792640,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,14,152792640,164324160,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,15,164324160,175855680,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,16,175855680,187387200,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,17,187387200,198918720,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,18,198918720,210450240,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,19,210450240,221981760,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,ALL TOGETHER,20,221981760,233513280,4/4,120,sounding,Cmaj9,ALL TOGETHER,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,9th arp,21,233513280,245044800,4/4,120,sounding,Cmaj9,9th arp,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,22,245044800,256576320,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,23,256576320,268107840,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,24,268107840,279639360,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,25,279639360,291170880,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,G lick,26,291170880,302702400,4/4,120,sounding,G,G lick,Root: G,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,27,302702400,314233920,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,additional upper-position variants,28,314233920,325765440,4/4,120,sounding,Cmaj9,additional upper-position variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,separator,29,325765440,337296960,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,low-position instructional material,30,337296960,348828480,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,low-position instructional material,31,348828480,360360000,4/4,120,rest/empty,unresolved/none,low-position instructional material,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,separator,32,360360000,371891520,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,33,371891520,383423040,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,34,383423040,394954560,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,35,394954560,406486080,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,36,406486080,418017600,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,37,418017600,429549120,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,38,429549120,441080640,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,39,441080640,452612160,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,upper-register application material,40,452612160,464143680,4/4,120,sounding,Cmaj9,upper-register application material,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,separator,41,464143680,475675200,4/4,120,rest/empty,unresolved/none,none,,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,closing transition variants,42,475675200,487206720,4/4,120,sounding,Cmaj9,closing transition variants,Root: C,aligned
+BH-5432-Harmonic-Atlas.tg,Bass roots / harmonic guide,closing transition variants,43,487206720,498738240,4/4,120,sounding,Cmaj9,closing transition variants,Root: C,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-C-count-in,1,2882880,14414400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-C-chord-alone,2,14414400,25945920,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,sounding,C major triad,from 5,C major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-C-resolution,4,37477440,49008960,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-F-count-in,6,60540480,72072000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-F-chord-alone,7,72072000,83603520,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,sounding,F major triad,from 5,F major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-F-resolution,9,95135040,106666560,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Bb-count-in,11,118198080,129729600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,sounding,Bb major triad,from 5,Bb major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Bb-resolution,14,152792640,164324160,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Eb-count-in,16,175855680,187387200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,sounding,Eb major triad,from 5,Eb major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Eb-resolution,19,210450240,221981760,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Ab-count-in,21,233513280,245044800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,sounding,Ab major triad,from 5,Ab major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Ab-resolution,24,268107840,279639360,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Db-count-in,26,291170880,302702400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,sounding,Db major triad,from 5,Db major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Db-resolution,29,325765440,337296960,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,sounding,Gb/F# major triad,from 5,Gb/F# major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-B-count-in,36,406486080,418017600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-B-chord-alone,37,418017600,429549120,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,sounding,B major triad,from 5,B major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-B-resolution,39,441080640,452612160,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-E-count-in,41,464143680,475675200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-E-chord-alone,42,475675200,487206720,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,sounding,E major triad,from 5,E major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-E-resolution,44,498738240,510269760,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-A-count-in,46,521801280,533332800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-A-chord-alone,47,533332800,544864320,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,sounding,A major triad,from 5,A major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-A-resolution,49,556395840,567927360,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-D-count-in,51,579458880,590990400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-D-chord-alone,52,590990400,602521920,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,sounding,D major triad,from 5,D major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-D-resolution,54,614053440,625584960,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-G-count-in,56,637116480,648648000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-G-chord-alone,57,648648000,660179520,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,sounding,G major triad,from 5,G major | FROM 5 | NEUTRAL | synchronized lick | acoustic-safe fingering,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-G-resolution,59,671711040,683242560,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Licks - Neutral,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-C-count-in,1,2882880,14414400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-C-chord-alone,2,14414400,25945920,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,sounding,C major triad,from 5,C major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-C-resolution,4,37477440,49008960,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-F-count-in,6,60540480,72072000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-F-chord-alone,7,72072000,83603520,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,sounding,F major triad,from 5,F major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-F-resolution,9,95135040,106666560,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Bb-count-in,11,118198080,129729600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,sounding,Bb major triad,from 5,Bb major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Bb-resolution,14,152792640,164324160,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Eb-count-in,16,175855680,187387200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,sounding,Eb major triad,from 5,Eb major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Eb-resolution,19,210450240,221981760,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Ab-count-in,21,233513280,245044800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,sounding,Ab major triad,from 5,Ab major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Ab-resolution,24,268107840,279639360,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Db-count-in,26,291170880,302702400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,sounding,Db major triad,from 5,Db major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Db-resolution,29,325765440,337296960,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,sounding,Gb/F# major triad,from 5,Gb/F# major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-B-count-in,36,406486080,418017600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-B-chord-alone,37,418017600,429549120,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,sounding,B major triad,from 5,B major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-B-resolution,39,441080640,452612160,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-E-count-in,41,464143680,475675200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-E-chord-alone,42,475675200,487206720,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,sounding,E major triad,from 5,E major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-E-resolution,44,498738240,510269760,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-A-count-in,46,521801280,533332800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-A-chord-alone,47,533332800,544864320,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,sounding,A major triad,from 5,A major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-A-resolution,49,556395840,567927360,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-D-count-in,51,579458880,590990400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-D-chord-alone,52,590990400,602521920,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,sounding,D major triad,from 5,D major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-D-resolution,54,614053440,625584960,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-G-count-in,56,637116480,648648000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-G-chord-alone,57,648648000,660179520,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,sounding,G major triad,from 5,G major | FROM 5 | NEUTRAL | ONE OCTAVE LOWER | acoustic-safe alternate | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-G-resolution,59,671711040,683242560,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Alternate Realizations,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-C-count-in,1,2882880,14414400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-C-chord-alone,2,14414400,25945920,4/4,70,sounding,C major triad,none,C major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,sounding,C major triad,from 5,C major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-C-resolution,4,37477440,49008960,4/4,70,sounding,C major triad,none,C major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-F-count-in,6,60540480,72072000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-F-chord-alone,7,72072000,83603520,4/4,70,sounding,F major triad,none,F major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,sounding,F major triad,from 5,F major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-F-resolution,9,95135040,106666560,4/4,70,sounding,F major triad,none,F major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Bb-count-in,11,118198080,129729600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,sounding,Bb major triad,none,Bb major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,sounding,Bb major triad,from 5,Bb major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Bb-resolution,14,152792640,164324160,4/4,70,sounding,Bb major triad,none,Bb major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Eb-count-in,16,175855680,187387200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,sounding,Eb major triad,none,Eb major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,sounding,Eb major triad,from 5,Eb major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Eb-resolution,19,210450240,221981760,4/4,70,sounding,Eb major triad,none,Eb major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Ab-count-in,21,233513280,245044800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,sounding,Ab major triad,none,Ab major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,sounding,Ab major triad,from 5,Ab major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Ab-resolution,24,268107840,279639360,4/4,70,sounding,Ab major triad,none,Ab major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Db-count-in,26,291170880,302702400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,sounding,Db major triad,none,Db major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,sounding,Db major triad,from 5,Db major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Db-resolution,29,325765440,337296960,4/4,70,sounding,Db major triad,none,Db major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,sounding,Gb/F# major triad,none,Gb/F# major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,sounding,Gb/F# major triad,from 5,Gb/F# major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,sounding,Gb/F# major triad,none,Gb/F# major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-B-count-in,36,406486080,418017600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-B-chord-alone,37,418017600,429549120,4/4,70,sounding,B major triad,none,B major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,sounding,B major triad,from 5,B major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-B-resolution,39,441080640,452612160,4/4,70,sounding,B major triad,none,B major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-E-count-in,41,464143680,475675200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-E-chord-alone,42,475675200,487206720,4/4,70,sounding,E major triad,none,E major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,sounding,E major triad,from 5,E major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-E-resolution,44,498738240,510269760,4/4,70,sounding,E major triad,none,E major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-A-count-in,46,521801280,533332800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-A-chord-alone,47,533332800,544864320,4/4,70,sounding,A major triad,none,A major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,sounding,A major triad,from 5,A major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-A-resolution,49,556395840,567927360,4/4,70,sounding,A major triad,none,A major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-D-count-in,51,579458880,590990400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-D-chord-alone,52,590990400,602521920,4/4,70,sounding,D major triad,none,D major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,sounding,D major triad,from 5,D major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-D-resolution,54,614053440,625584960,4/4,70,sounding,D major triad,none,D major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-G-count-in,56,637116480,648648000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-G-chord-alone,57,648648000,660179520,4/4,70,sounding,G major triad,none,G major | FROM 5 | NEUTRAL | CHORD ALONE,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,sounding,G major triad,from 5,G major | FROM 5 | NEUTRAL | LICK OVER CHORD,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-G-resolution,59,671711040,683242560,4/4,70,sounding,G major triad,none,G major | FROM 5 | NEUTRAL | RESOLUTION,aligned
+BH-5432-Cycle-Review.tg,Cycle Neutral Backing - MAJOR TRIADS,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-C-count-in,1,2882880,14414400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-C-chord-alone,2,14414400,25945920,4/4,70,sounding,C major triad,none,C root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,sounding,C major triad,from 5,C root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-C-resolution,4,37477440,49008960,4/4,70,sounding,C major triad,none,C root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-F-count-in,6,60540480,72072000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-F-chord-alone,7,72072000,83603520,4/4,70,sounding,F major triad,none,F root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,sounding,F major triad,from 5,F root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-F-resolution,9,95135040,106666560,4/4,70,sounding,F major triad,none,F root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Bb-count-in,11,118198080,129729600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,sounding,Bb major triad,none,Bb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,sounding,Bb major triad,from 5,Bb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Bb-resolution,14,152792640,164324160,4/4,70,sounding,Bb major triad,none,Bb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Eb-count-in,16,175855680,187387200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,sounding,Eb major triad,none,Eb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,sounding,Eb major triad,from 5,Eb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Eb-resolution,19,210450240,221981760,4/4,70,sounding,Eb major triad,none,Eb root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Ab-count-in,21,233513280,245044800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,sounding,Ab major triad,none,Ab root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,sounding,Ab major triad,from 5,Ab root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Ab-resolution,24,268107840,279639360,4/4,70,sounding,Ab major triad,none,Ab root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Db-count-in,26,291170880,302702400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,sounding,Db major triad,none,Db root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,sounding,Db major triad,from 5,Db root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Db-resolution,29,325765440,337296960,4/4,70,sounding,Db major triad,none,Db root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,sounding,Gb/F# major triad,none,Gb/F# root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,sounding,Gb/F# major triad,from 5,Gb/F# root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,sounding,Gb/F# major triad,none,Gb/F# root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-B-count-in,36,406486080,418017600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-B-chord-alone,37,418017600,429549120,4/4,70,sounding,B major triad,none,B root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,sounding,B major triad,from 5,B root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-B-resolution,39,441080640,452612160,4/4,70,sounding,B major triad,none,B root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-E-count-in,41,464143680,475675200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-E-chord-alone,42,475675200,487206720,4/4,70,sounding,E major triad,none,E root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,sounding,E major triad,from 5,E root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-E-resolution,44,498738240,510269760,4/4,70,sounding,E major triad,none,E root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-A-count-in,46,521801280,533332800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-A-chord-alone,47,533332800,544864320,4/4,70,sounding,A major triad,none,A root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,sounding,A major triad,from 5,A root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-A-resolution,49,556395840,567927360,4/4,70,sounding,A major triad,none,A root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-D-count-in,51,579458880,590990400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-D-chord-alone,52,590990400,602521920,4/4,70,sounding,D major triad,none,D root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,sounding,D major triad,from 5,D root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-D-resolution,54,614053440,625584960,4/4,70,sounding,D major triad,none,D root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-G-count-in,56,637116480,648648000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-G-chord-alone,57,648648000,660179520,4/4,70,sounding,G major triad,none,G root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,sounding,G major triad,from 5,G root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-G-resolution,59,671711040,683242560,4/4,70,sounding,G major triad,none,G root,aligned
+BH-5432-Cycle-Review.tg,Cycle Bass / Root Guide,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-C-count-in,1,2882880,14414400,4/4,70,sounding,none,none,C major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-C-chord-alone,2,14414400,25945920,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,rest/empty,C major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-C-resolution,4,37477440,49008960,4/4,70,rest/empty,C major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-F-count-in,6,60540480,72072000,4/4,70,sounding,none,none,F major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-F-chord-alone,7,72072000,83603520,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,rest/empty,F major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-F-resolution,9,95135040,106666560,4/4,70,rest/empty,F major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Bb-count-in,11,118198080,129729600,4/4,70,sounding,none,none,Bb major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,rest/empty,Bb major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Bb-resolution,14,152792640,164324160,4/4,70,rest/empty,Bb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Eb-count-in,16,175855680,187387200,4/4,70,sounding,none,none,Eb major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,rest/empty,Eb major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Eb-resolution,19,210450240,221981760,4/4,70,rest/empty,Eb major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Ab-count-in,21,233513280,245044800,4/4,70,sounding,none,none,Ab major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,rest/empty,Ab major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Ab-resolution,24,268107840,279639360,4/4,70,rest/empty,Ab major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Db-count-in,26,291170880,302702400,4/4,70,sounding,none,none,Db major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,rest/empty,Db major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Db-resolution,29,325765440,337296960,4/4,70,rest/empty,Db major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,sounding,none,none,Gb/F# major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,rest/empty,Gb/F# major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,rest/empty,Gb/F# major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-B-count-in,36,406486080,418017600,4/4,70,sounding,none,none,B major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-B-chord-alone,37,418017600,429549120,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,rest/empty,B major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-B-resolution,39,441080640,452612160,4/4,70,rest/empty,B major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-E-count-in,41,464143680,475675200,4/4,70,sounding,none,none,E major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-E-chord-alone,42,475675200,487206720,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,rest/empty,E major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-E-resolution,44,498738240,510269760,4/4,70,rest/empty,E major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-A-count-in,46,521801280,533332800,4/4,70,sounding,none,none,A major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-A-chord-alone,47,533332800,544864320,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,rest/empty,A major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-A-resolution,49,556395840,567927360,4/4,70,rest/empty,A major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-D-count-in,51,579458880,590990400,4/4,70,sounding,none,none,D major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-D-chord-alone,52,590990400,602521920,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,rest/empty,D major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-D-resolution,54,614053440,625584960,4/4,70,rest/empty,D major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-G-count-in,56,637116480,648648000,4/4,70,sounding,none,none,G major | FROM 5 | NEUTRAL | COUNT-IN 1 2 3 4,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-G-chord-alone,57,648648000,660179520,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,rest/empty,G major triad,from 5,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-G-resolution,59,671711040,683242560,4/4,70,rest/empty,G major triad,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Count-In,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-C-count-in,1,2882880,14414400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-C-chord-alone,2,14414400,25945920,4/4,70,sounding,C major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | C6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-C-lick-over-chord,3,25945920,37477440,4/4,70,sounding,C major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | C6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-C-resolution,4,37477440,49008960,4/4,70,sounding,C major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | C6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-C-separator,5,49008960,60540480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-F-count-in,6,60540480,72072000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-F-chord-alone,7,72072000,83603520,4/4,70,sounding,F major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | F6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-F-lick-over-chord,8,83603520,95135040,4/4,70,sounding,F major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | F6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-F-resolution,9,95135040,106666560,4/4,70,sounding,F major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | F6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-F-separator,10,106666560,118198080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Bb-count-in,11,118198080,129729600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Bb-chord-alone,12,129729600,141261120,4/4,70,sounding,Bb major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Bb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Bb-lick-over-chord,13,141261120,152792640,4/4,70,sounding,Bb major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Bb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Bb-resolution,14,152792640,164324160,4/4,70,sounding,Bb major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Bb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Bb-separator,15,164324160,175855680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Eb-count-in,16,175855680,187387200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Eb-chord-alone,17,187387200,198918720,4/4,70,sounding,Eb major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Eb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Eb-lick-over-chord,18,198918720,210450240,4/4,70,sounding,Eb major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Eb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Eb-resolution,19,210450240,221981760,4/4,70,sounding,Eb major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Eb6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Eb-separator,20,221981760,233513280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Ab-count-in,21,233513280,245044800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Ab-chord-alone,22,245044800,256576320,4/4,70,sounding,Ab major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Ab6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Ab-lick-over-chord,23,256576320,268107840,4/4,70,sounding,Ab major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Ab6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Ab-resolution,24,268107840,279639360,4/4,70,sounding,Ab major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Ab6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Ab-separator,25,279639360,291170880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Db-count-in,26,291170880,302702400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Db-chord-alone,27,302702400,314233920,4/4,70,sounding,Db major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Db6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Db-lick-over-chord,28,314233920,325765440,4/4,70,sounding,Db major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Db6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Db-resolution,29,325765440,337296960,4/4,70,sounding,Db major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Db6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Db-separator,30,337296960,348828480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Gb/F#-count-in,31,348828480,360360000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Gb/F#-chord-alone,32,360360000,371891520,4/4,70,sounding,Gb/F# major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Gb/F#6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Gb/F#-lick-over-chord,33,371891520,383423040,4/4,70,sounding,Gb/F# major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Gb/F#6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Gb/F#-resolution,34,383423040,394954560,4/4,70,sounding,Gb/F# major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | Gb/F#6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-Gb/F#-separator,35,394954560,406486080,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-B-count-in,36,406486080,418017600,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-B-chord-alone,37,418017600,429549120,4/4,70,sounding,B major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | B6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-B-lick-over-chord,38,429549120,441080640,4/4,70,sounding,B major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | B6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-B-resolution,39,441080640,452612160,4/4,70,sounding,B major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | B6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-B-separator,40,452612160,464143680,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-E-count-in,41,464143680,475675200,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-E-chord-alone,42,475675200,487206720,4/4,70,sounding,E major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | E6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-E-lick-over-chord,43,487206720,498738240,4/4,70,sounding,E major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | E6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-E-resolution,44,498738240,510269760,4/4,70,sounding,E major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | E6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-E-separator,45,510269760,521801280,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-A-count-in,46,521801280,533332800,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-A-chord-alone,47,533332800,544864320,4/4,70,sounding,A major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | A6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-A-lick-over-chord,48,544864320,556395840,4/4,70,sounding,A major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | A6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-A-resolution,49,556395840,567927360,4/4,70,sounding,A major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | A6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-A-separator,50,567927360,579458880,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-D-count-in,51,579458880,590990400,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-D-chord-alone,52,590990400,602521920,4/4,70,sounding,D major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | D6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-D-lick-over-chord,53,602521920,614053440,4/4,70,sounding,D major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | D6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-D-resolution,54,614053440,625584960,4/4,70,sounding,D major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | D6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-D-separator,55,625584960,637116480,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-G-count-in,56,637116480,648648000,4/4,70,rest/empty,none,none,,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-G-chord-alone,57,648648000,660179520,4/4,70,sounding,G major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | G6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-G-lick-over-chord,58,660179520,671711040,4/4,70,sounding,G major triad,from 5,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | G6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-G-resolution,59,671711040,683242560,4/4,70,sounding,G major triad,none,SIXTH-CHORD APPLICATION - FUTURE BH6 REVIEW | G6 | NEEDS REVIEW,aligned
+BH-5432-Cycle-Review.tg,Cycle Sixth Chords - FUTURE BH6 REVIEW,cycle-G-separator,60,683242560,694774080,4/4,70,rest/empty,none,none,,aligned
