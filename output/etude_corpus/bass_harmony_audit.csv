@@ -1,0 +1,355 @@
+file,track_role,measure,chord_symbol,allowed_pitch_classes,actual_pitch_classes,illegal_pitch_classes,status
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,3,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,4,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,5,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,6,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,7,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,8,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,9,Am7,C E G A,E A,,PASS
+output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg,bass,10,Am7,C E G A,E A,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,3,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,4,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,5,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,6,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,7,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,8,F,C F A,C F,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,9,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg,bass,10,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,3,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,4,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,5,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,6,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,7,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,8,F,C F A,C F,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,9,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg,bass,10,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,3,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,4,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,5,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,6,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,7,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,8,F,C F A,C F,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,9,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg,bass,10,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,3,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,4,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,5,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,6,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,7,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,8,F,C F A,C F,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,9,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,10,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,11,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,12,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,13,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,14,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,15,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,16,F,C F A,C F,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,17,G7,D F G B,D G,,PASS
+output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg,bass,18,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,3,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,4,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,5,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,6,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,7,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,8,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,9,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,10,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,11,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,12,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,13,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,14,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,15,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,16,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,17,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,18,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,19,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,20,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,21,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,22,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,23,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,24,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,25,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,26,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,27,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,28,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,29,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,30,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,31,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,32,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,33,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg,bass,34,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,3,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,4,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,5,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,6,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,7,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,8,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,9,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,10,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,11,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,12,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,13,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,14,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,15,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,16,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,17,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,18,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,19,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,20,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,21,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,22,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,23,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,24,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,25,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,26,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,27,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,28,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,29,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,30,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,31,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,32,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,33,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg,bass,34,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,3,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,4,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,5,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,6,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,7,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,8,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,9,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,10,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,11,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,12,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,13,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,14,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,15,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,16,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,17,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,18,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,19,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,20,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,21,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,22,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,23,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,24,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,25,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,26,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,27,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,28,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,29,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,30,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,31,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,32,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,33,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg,bass,34,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,3,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,4,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,5,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,6,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,7,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,8,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,9,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,10,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,11,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,12,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,13,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,14,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,15,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,16,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,17,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,18,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,19,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,20,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,21,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,22,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,23,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,24,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,25,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,26,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,27,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,28,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,29,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,30,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,31,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,32,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,33,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,34,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,35,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,36,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,37,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,38,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,39,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,40,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,41,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,42,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,43,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,44,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,45,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,46,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,47,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,48,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,49,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,50,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,51,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,52,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,53,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,54,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,55,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,56,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,57,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,58,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,59,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,60,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,61,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,62,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,63,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,64,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,65,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg,bass,66,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,3,Bm,D F#/Gb B,F#/Gb B,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,4,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,5,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,6,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,7,G,D G B,D G,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,8,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,9,Em,E G B,E B,,PASS
+output\etude_corpus\form_navigation\e12a_hotel_california_a.tg,bass,10,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,3,Bm,D F#/Gb B,F#/Gb B,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,4,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,5,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,6,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,7,G,D G B,D G,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,8,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,9,Em,E G B,E B,,PASS
+output\etude_corpus\form_navigation\e12b_hotel_california_b.tg,bass,10,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,3,Bm,D F#/Gb B,F#/Gb B,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,4,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,5,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,6,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,7,G,D G B,D G,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,8,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,9,Em,E G B,E B,,PASS
+output\etude_corpus\form_navigation\e12c_hotel_california_c.tg,bass,10,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,3,Bm,D F#/Gb B,F#/Gb B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,4,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,5,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,6,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,7,G,D G B,D G,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,8,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,9,Em,E G B,E B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,10,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,11,Bm,D F#/Gb B,F#/Gb B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,12,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,13,A,C#/Db E A,E A,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,14,E,E G#/Ab B,E B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,15,G,D G B,D G,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,16,D,D F#/Gb A,D A,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,17,Em,E G B,E B,,PASS
+output\etude_corpus\form_navigation\e12d_hotel_california_d.tg,bass,18,F#,C#/Db F#/Gb A#/Bb,C#/Db F#/Gb,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,3,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,4,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,5,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,6,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,7,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,8,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,9,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg,bass,10,Dm7,C D F A,D A,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,3,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,4,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,5,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,6,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,7,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,8,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,9,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg,bass,10,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,3,Am7b5,C D#/Eb G A,D#/Eb A,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,4,D7b9,C D D#/Eb F#/Gb A,D A,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,5,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,6,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,7,Am7b5,C D#/Eb G A,D#/Eb A,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,8,D7b9,C D D#/Eb F#/Gb A,D A,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,9,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg,bass,10,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,3,Am7b5,C D#/Eb G A,D#/Eb A,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,4,D7b9,C D D#/Eb F#/Gb A,D A,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,5,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,6,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,7,Am7b5,C D#/Eb G A,D#/Eb A,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,8,D7b9,C D D#/Eb F#/Gb A,D A,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,9,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg,bass,10,Gm7,D F G A#/Bb,D G,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,3,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,4,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,5,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,6,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,7,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,8,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,9,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_dorian_four_dominant.tg,bass,10,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,3,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,4,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,5,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,6,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,7,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,8,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,9,Am7,C E G A,E A,,PASS
+output\etude_corpus\modal\a_melodic_minor_contrast.tg,bass,10,Am7,C E G A,E A,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,3,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,4,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,5,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,6,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,7,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,8,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,9,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\abmaj7_over_bb7.tg,bass,10,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,1,C,C E G,C G,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,2,C,C E G,C G,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,3,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,4,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,5,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,6,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,7,Fm7,C D#/Eb F G#/Ab,C F,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,8,Bb7,D F G#/Ab A#/Bb,F A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,9,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS
+output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg,bass,10,Ebmaj7,D D#/Eb G A#/Bb,D#/Eb A#/Bb,,PASS

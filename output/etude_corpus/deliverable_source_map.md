@@ -1,0 +1,23 @@
+# Repaired Deliverable-to-Source Map
+
+- E01: `E01 | Rosenwinkel Pattern | D Dorian Fourths | Source-derived` — `output\etude_corpus\intervallic\d_dorian_diatonic_fourths.tg` — playable review — human musical acceptance pending
+- E02: `E02 | Jim Hall / You'd Be So Nice | G Dorian Arrival | Source-derived` — `output\etude_corpus\minor_harmony\g_dorian_arrival_color.tg` — playable review — human musical acceptance pending
+- E03: `E03 | Jim Hall / You'd Be So Nice | One-Minor ii-V-i | Reconstruction` — `output\etude_corpus\minor_harmony\one_minor_across_minor_251.tg` — playable review — human musical acceptance pending
+- E04: `E04 | Jim Hall / You'd Be So Nice | Abmaj7 over Bb7 | Reconstruction` — `output\etude_corpus\upper_structures\abmaj7_over_bb7.tg` — playable review — human musical acceptance pending
+- E05: `E05 | Jim Hall / You'd Be So Nice | Gm Pent over Ebmaj7 | Reconstruction` — `output\etude_corpus\upper_structures\g_minor_pentatonic_over_ebmaj7.tg` — playable review — human musical acceptance pending
+- E06: `E06 | Jim Hall / You'd Be So Nice | Fourths Through ii-V-I | Source-derived` — `output\etude_corpus\intervallic\jim_hall_fourths_through_251.tg` — playable review — human musical acceptance pending
+- E07: `E07 | Pat Martino / Impressions | IV-Dominant Lens | Reconstruction` — `output\etude_corpus\modal\a_dorian_four_dominant.tg` — playable review — human musical acceptance pending
+- E08: `E08 | Pat Martino / Impressions | Bm7-Cmaj7 Weave | Source-derived` — `output\etude_corpus\arpeggios\bm7_to_cmaj7_dorian.tg` — playable review — human musical acceptance pending
+- E09: `E09 | Pat Martino / Impressions | Melodic Minor Contrast | Reconstruction` — `output\etude_corpus\modal\a_melodic_minor_contrast.tg` — playable review — human musical acceptance pending
+- E10A: `E10A | Marbin / Happy Birthday | Quarter-Note Chord-Tone Outline | Source-derived` — `output\etude_corpus\form_navigation\e10a_happy_birthday_a.tg` — playable review — human musical acceptance pending
+- E10B: `E10B | Marbin / Happy Birthday | Eighth-Note Etude | Reconstruction` — `output\etude_corpus\form_navigation\e10b_happy_birthday_b.tg` — playable review — human musical acceptance pending
+- E10C: `E10C | Marbin / Happy Birthday | Melody-Rhythm Arpeggio Realization | Source-derived` — `output\etude_corpus\form_navigation\e10c_happy_birthday_c.tg` — playable review — human musical acceptance pending
+- E10D: `E10D | Marbin / Happy Birthday | Free-Practice Backing | Reconstruction` — `output\etude_corpus\form_navigation\e10d_happy_birthday_d.tg` — playable review — human musical acceptance pending
+- E11A: `E11A | Marbin / Lonesome Whistle | Quarter-Note Chord-Tone Outline | Source-derived` — `output\etude_corpus\form_navigation\e11a_lonesome_whistle_a.tg` — playable review — human musical acceptance pending
+- E11B: `E11B | Marbin / Lonesome Whistle | Eighth-Note Etude | Reconstruction` — `output\etude_corpus\form_navigation\e11b_lonesome_whistle_b.tg` — playable review — human musical acceptance pending
+- E11C: `E11C | Marbin / Lonesome Whistle | Melody-Rhythm Arpeggio Realization | Source-derived` — `output\etude_corpus\form_navigation\e11c_lonesome_whistle_c.tg` — playable review — human musical acceptance pending
+- E11D: `E11D | Marbin / Lonesome Whistle | Free-Practice Backing | Reconstruction` — `output\etude_corpus\form_navigation\e11d_lonesome_whistle_d.tg` — playable review — human musical acceptance pending
+- E12A: `E12A | Marbin / Hotel California | Quarter-Note Chord-Tone Outline | Source-derived` — `output\etude_corpus\form_navigation\e12a_hotel_california_a.tg` — playable review — human musical acceptance pending
+- E12B: `E12B | Marbin / Hotel California | Eighth-Note Etude | Reconstruction` — `output\etude_corpus\form_navigation\e12b_hotel_california_b.tg` — playable review — human musical acceptance pending
+- E12C: `E12C | Marbin / Hotel California | Melody-Rhythm Arpeggio Realization | Source-derived` — `output\etude_corpus\form_navigation\e12c_hotel_california_c.tg` — playable review — human musical acceptance pending
+- E12D: `E12D | Marbin / Hotel California | Free-Practice Backing | Reconstruction` — `output\etude_corpus\form_navigation\e12d_hotel_california_d.tg` — playable review — human musical acceptance pending
