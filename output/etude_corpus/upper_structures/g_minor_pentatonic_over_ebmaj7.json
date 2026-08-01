@@ -430,8 +430,23 @@
     }
   ],
   "source": {
-    "source": "p2, 00:11:29-00:13:53, image-0011",
+    "source": "p2-3, 00:11:29-00:13:53, image-0007 visible 00:13:40",
     "confidence": "high",
     "status": "pedagogical reconstruction"
+  },
+  "highlander_color_roles": {
+    "exercise_role": "Pink superimposition",
+    "superimposed_collection": "G minor pentatonic: G Bb C D F",
+    "underlying_chord": "Ebmaj7: Eb G Bb D",
+    "chord_tone_priority": {
+      "G": "3 — fixed chord-tone color",
+      "Bb": "5 — fixed chord-tone color",
+      "D": "maj7 — fixed chord-tone color"
+    },
+    "pink": ["F", "C"],
+    "split_pink_teal_when_active": {
+      "F": "9",
+      "C": "13"
+    }
   }
 }
